@@ -1,0 +1,4 @@
+Output stage:
+- use similar topology as in Rauenbühler Alpha Centauri amp: two triodes working in opposite polarity, cathodes at negative voltage, anodes biased close to 0 VDC. Output signal is the delta between the two anodes.
+- use active loads on the anodes instead of anode load resistors. Simple CCS or (maybe better) an Ale Moglia "Gyrator" / voltage controlled CCS
+- Advantage of the Moglia Gyrator CCS: it allows adjusting the DC idle voltage at the anodes. The Moglia Gyrator then fixes the current to the operating point corresponding to the chosen DC bias voltage, and the AC/audio signals are operating at this fixed current with variable audio/AC voltage. The adjustabililty of the DC anode voltage means that both triodes can be adjusted to the same DC anode potential, and hence the DC imbalance between the two triodes can be adjusted and fixed to 0 V.
