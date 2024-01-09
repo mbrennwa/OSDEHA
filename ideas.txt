@@ -1,3 +1,7 @@
+Overall gain of the amp should be close to 1000x (following what the Stax amps and the aftermarket amps do).
+Really?
+
+
 Output stage:
 - use similar topology as in Rauenbühler Alpha Centauri amp: two triodes working in opposite polarity, cathodes at negative voltage, anodes biased close to 0 VDC. Output signal is the delta between the two anodes.
 - use active loads on the anodes instead of anode load resistors. Simple CCS or (maybe better) an Ale Moglia "Gyrator" / voltage controlled CCS
@@ -6,7 +10,6 @@ Output stage:
 General construction
 - Design PCB(s) that hold(s) the whole amp (except the tubes and transformers). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
 
-
 Triode type for use in output stage
 - Needs to swing +/- 400 Vpk or so
 - Should be okay with high(er) voltage peaks beyond it's own active drive (reactance of the capacitive headphones!)
@@ -14,3 +17,9 @@ Triode type for use in output stage
 - Use something that is available (either new production or plenty old stock available)
 - 801(A) tubes seem about right (NOS available, Elrog makes 801A tubes)
 - Emissionlabs 20B tube maybe?
+
+Input stage
+- can be tube or FET or BJT
+- Some tubes, indirectly heated: use very linear tube! 6SN7 (gain=20), ECC88 (gain=33), D3A-triode (gain=77)
+- Some tubes, directly heated: 3C4/DL96 (gain=8, https://www.diyaudio.com/community/threads/designing-a-vacuum-tube-front-end-card-for-the-vfet-diy-amp.371158/page-9)
+- Shunt-cascode tube/BJT input+driver: high gain, low distortion! See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
