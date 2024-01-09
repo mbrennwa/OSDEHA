@@ -1,0 +1,16 @@
+Output stage:
+- use similar topology as in Rauenbühler Alpha Centauri amp: two triodes working in opposite polarity, cathodes at negative voltage, anodes biased close to 0 VDC. Output signal is the delta between the two anodes.
+- use active loads on the anodes instead of anode load resistors. Simple CCS or (maybe better) an Ale Moglia "Gyrator" / voltage controlled CCS
+- Advantage of the Moglia Gyrator CCS: it allows adjusting the DC idle voltage at the anodes. The Moglia Gyrator then fixes the current to the operating point corresponding to the chosen DC bias voltage, and the AC/audio signals are operating at this fixed current with variable audio/AC voltage. The adjustabililty of the DC anode voltage means that both triodes can be adjusted to the same DC anode potential, and hence the DC imbalance between the two triodes can be adjusted and fixed to 0 V.
+
+General construction
+- Design PCB(s) that hold(s) the whole amp (except the tubes and transformers). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
+
+
+Triode type for use in output stage
+- Needs to swing +/- 400 Vpk or so
+- Should be okay with high(er) voltage peaks beyond it's own active drive (reactance of the capacitive headphones!)
+- DC current bias 15 mA or more (to provide substantial headroom to drive the headphones)
+- Use something that is available (either new production or plenty old stock available)
+- 801(A) tubes seem about right (NOS available, Elrog makes 801A tubes)
+- Emissionlabs 20B tube maybe?
