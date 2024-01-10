@@ -1,3 +1,12 @@
+Overall idea:
+Design a high-quality amplifier for electrostatic headphones using directly heated triodes (DHT) in the output stage
+
+
+General construction
+- Design PCB(s) that hold(s) the whole amp (except the tubes and transformers). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
+- Use delay for HV turn on
+
+
 Input sensitivity, gain, and output voltage level?
 - Balanced input (from modern DACs): +/- 4 Vrms = +/- 5.7 Vpk = 11.3 Vpp
 - Typical sensitivity for estat headphones is 100 dB-SPL / 100 Vrms.
@@ -8,7 +17,12 @@ Input sensitivity, gain, and output voltage level?
 	typical Stax amp: gain=500...1000, max ouput voltage 300...470 Vrms
 	Stax T2 amp: gain=1000, max ouput voltage 630 Vrms
 	Blue Hawaii: max. output is 1600 Vpp = 800 Vpk = 566 Vrms
-	
+--> design target:
+- minimum AC output voltage: 600 Vrms / 850 Vpk / 1700 Vpp
+- input sensitivity: 4 Vrms / 5.66 Vpk / 11.2 Vpp (balanced input)
+- Gain at least 600/4 = 150 (or more)
+
+
 Ouput current needs, Class-A bias current:
 - Basic idea/concept to determine the current draw from estat (but the numbers seem a bit optimistic): https://www.head-case.org/forums/topic/12155-output-stage-current-requirements-for-electrostatic-headphone-amps/
 - capacitor (=estat): Q = C x U --> I = dQ/dt = C x dU/dt 
@@ -36,21 +50,23 @@ Output stage:
 - use active loads on the anodes instead of anode load resistors. Simple CCS or (maybe better) an Ale Moglia "Gyrator" / voltage controlled CCS
 - Advantage of the Moglia Gyrator CCS: it allows adjusting the DC idle voltage at the anodes. The Moglia Gyrator then fixes the current to the operating point corresponding to the chosen DC bias voltage, and the AC/audio signals are operating at this fixed current with variable audio/AC voltage. The adjustabililty of the DC anode voltage means that both triodes can be adjusted to the same DC anode potential, and hence the DC imbalance between the two triodes can be adjusted and fixed to 0 V.
 
-General construction
-- Design PCB(s) that hold(s) the whole amp (except the tubes and transformers). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
 
-Triode type for use in output stage
-- Needs to swing +/- 400 Vpk or so
-- Should be okay with high(er) voltage peaks beyond it's own active drive (reactance of the capacitive headphones!)
-- DC current bias 15 mA or more (to provide substantial headroom to drive the headphones)
+DHT Triode type for use in output stage
+- For 600 Vrms / 850 Vpk output: every tube needs to swing +/- 850/2 = 425 Vpk
+- Should be okay with slightly high(er) voltage peaks beyond it's own active drive (reactance of the capacitive headphones?)
+- DC current bias 20 mA or more (to provide substantial headroom to properly drive the headphones)
 - Use something that is available (either new production or plenty old stock available)
-- 801(A) tubes seem about right (NOS available, Elrog makes 801A tubes)
-- Emissionlabs 20B tube maybe?
+- 801(A) tubes seem about right (NOS available, Elrog makes 801A tubes). 801A gain is 8x, so the input/driver stage needs gain of at least 19x (and some more to provide for NFB maybe).
+- Emissionlabs 20B tube maybe? EML has whacky reputation, and there is no other manufactured that has similar specs -- is this future proof? 20B has gain of 20x, so input stage needs gain of at least 7.5 (and some more to provide for NFB maybe?).
+
 
 Input stage
 - can be tube or FET or BJT
-- Some tubes, indirectly heated: use very linear tube! 6SN7 (gain=20), ECC88 (gain=33), D3A-triode (gain=77)
+- Some tubes, indirectly heated: use very linear tube! 6SN7 (gain=20), ECC88 (gain=33), 6N30P (gain=14), 6N5P (gain=24), D3A-triode (gain=77)
 - Some tubes, directly heated: 3C4/DL96 (gain=8, https://www.diyaudio.com/community/threads/designing-a-vacuum-tube-front-end-card-for-the-vfet-diy-amp.371158/page-9)
-- Shunt-cascode / folded cascode tube/BJT input+driver: high gain, low distortion!
+- for 801 output tubes (gain=8): gain required for input tube is 19x --> 6N30P is too low (except maybe for folded cascode, see below)
+- for 20B output tubes (gain=20): gain required for input stage is 7.5x --> could work with 3C4/DL96 gain, but this tube would surely need a buffer/powerdrive FET.
+
+- Shunt-cascode / folded cascode tube/BJT input+driver (vertical load line on tube anode! great with 6E5P, not great with DHTs, see below): high gain, low distortion!
 	- See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
 	- Also, see here for a discussion why DHTs may not be ideal for this, while a 6E5p is great: https://www.bartola.co.uk/valves/2019/07/01/dht-folded-cascode-experiments/
