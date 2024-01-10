@@ -10,13 +10,18 @@ Input sensitivity, gain, and output voltage level?
 	Blue Hawaii: max. output is 1600 Vpp = 800 Vpk = 566 Vrms
 	
 Ouput current needs, Class-A bias current:
-- Ideas (but the numbers seem a bit optimistic): https://www.head-case.org/forums/topic/12155-output-stage-current-requirements-for-electrostatic-headphone-amps/
-- capacitor (=estat): C x U = Q --> C x dU/dt = dQ/dt = I
-- Rule of thumb (Bob Cordell, Designing Audio Power Ampliers): an amp that produces 40 Vpk output needs slew rate of 12.5 V/µs  to sustain a 50 kHz sine at full power.
+- Basic idea/concept to determine the current draw from estat (but the numbers seem a bit optimistic): https://www.head-case.org/forums/topic/12155-output-stage-current-requirements-for-electrostatic-headphone-amps/
+- capacitor (=estat): Q = C x U --> I = dQ/dt = C x dU/dt 
+- What is the required dU/dt (slew rate) value?
+	- Bob Cordell, Designing Audio Power Ampliers: an amp that produces 40 Vpk output needs slew rate of 12.5 V/µs  to sustain a 50 kHz sine at full power.
+	- Nelson Pass 1978 work: "highest slew rate he found with music signals was 1.5 volts/microsecond up to clipping levelsj" (see https://www.head-case.org/forums/topic/12155-output-stage-current-requirements-for-electrostatic-headphone-amps/)
+	- Nelson Pass, in a later interview: "...But given that you're on the 5V/µs rate, we ultimately settled on approximately 50V/µs as a speed beyond which was fine, but it became a minimal figure that we deal with in our designs." (this probably referred to a 100W amp driving an 8 Ohm speaker, see https://www.stereophile.com/content/nelson-pass-simple-sounds-better-page-4)
+	--> slew-rate numbers required for a 100 W amp driving an 8 Ohm speaker (i.e, 40 Vpk) range from 1.5...50 V/µs.
+	--> let's assume 15 V/µs for a 40 Vpk drive
 - RMS voltage of a typical estat amp is about 500 Vrms = approx 800 Vpk
---> target slew rate for estat amp = 12.5 V/µs / 40 Vpk x 800 Vpk = 250 V/µs
-- current needed to charge the estat capacitance the the required slew rate: I = C x dU/dt = 100 pF x 250 V/µs = 25 mA
-- for push-pull amp: each leg needs to provide 12.5 mA, so bias current needs to be more than 12.5 mA for Class-A
+--> target slew rate for estat amp: dU/dt = 15 V/µs / 40 Vpk x 800 Vpk = 300 V/µs
+--> current needed to charge the estat capacitance the the required slew rate: I = C x dU/dt = 100 pF x 300 V/µs = 30 mA
+--> for push-pull amp with 30 mA output: each leg needs to provide 15 mA, so the tubes in each leg must be biased to more than 15 mA for Class-A.
 
 
 HV bias:
