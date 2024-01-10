@@ -3,7 +3,7 @@ Input sensitivity, gain, and output voltage level?
 - Typical sensitivity for estat headphones is 100 dB-SPL / 100 Vrms.
 - Aim for 110...120 dB-SPL peak output without clipping
 --> Output voltage needed is 10...20 dB higher than 100 Vrms = 3.16...10 x 100 Vrms = 316...1000 Vrms = 447...1414 Vpk
-- Gain needs to be 316...1000 Vrms / 4 Vrms = 79...250
+- Gain needs to be 316...1000 Vrms / 4 Vrms = 79x...250x
 - For comparison:
 	typical Stax amp: gain=500...1000, max ouput voltage 300...470 Vrms
 	Stax T2 amp: gain=1000, max ouput voltage 630 Vrms
@@ -51,4 +51,6 @@ Input stage
 - can be tube or FET or BJT
 - Some tubes, indirectly heated: use very linear tube! 6SN7 (gain=20), ECC88 (gain=33), D3A-triode (gain=77)
 - Some tubes, directly heated: 3C4/DL96 (gain=8, https://www.diyaudio.com/community/threads/designing-a-vacuum-tube-front-end-card-for-the-vfet-diy-amp.371158/page-9)
-- Shunt-cascode tube/BJT input+driver: high gain, low distortion! See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
+- Shunt-cascode / folded cascode tube/BJT input+driver: high gain, low distortion!
+	- See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
+	- Also, see here for a discussion why DHTs may not be ideal for this, while a 6E5p is great: https://www.bartola.co.uk/valves/2019/07/01/dht-folded-cascode-experiments/
