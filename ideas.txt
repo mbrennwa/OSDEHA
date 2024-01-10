@@ -1,5 +1,29 @@
-Overall gain of the amp should be close to 1000x (following what the Stax amps and the aftermarket amps do).
-Really?
+Input sensitivity, gain, and output voltage level?
+- Balanced input (from modern DACs): +/- 4 Vrms = +/- 5.7 Vpk = 11.3 Vpp
+- Typical sensitivity for estat headphones is 100 dB-SPL / 100 Vrms.
+- Aim for 110...120 dB-SPL peak output without clipping
+--> Output voltage needed is 10...20 dB higher than 100 Vrms = 3.16...10 x 100 Vrms = 316...1000 Vrms = 447...1414 Vpk
+- Gain needs to be 316...1000 Vrms / 4 Vrms = 79...250
+- For comparison:
+	typical Stax amp: gain=500...1000, max ouput voltage 300...470 Vrms
+	Stax T2 amp: gain=1000, max ouput voltage 630 Vrms
+	Blue Hawaii: max. output is 1600 Vpp = 800 Vpk = 566 Vrms
+	
+Ouput current needs, Class-A bias current:
+- Ideas (but the numbers seem a bit optimistic): https://www.head-case.org/forums/topic/12155-output-stage-current-requirements-for-electrostatic-headphone-amps/
+- capacitor (=estat): C x U = Q --> C x dU/dt = dQ/dt = I
+- Rule of thumb (Bob Cordell, Designing Audio Power Ampliers): an amp that produces 40 Vpk output needs slew rate of 12.5 V/µs  to sustain a 50 kHz sine at full power.
+- RMS voltage of a typical estat amp is about 500 Vrms = approx 800 Vpk
+--> target slew rate for estat amp = 12.5 V/µs / 40 Vpk x 800 Vpk = 250 V/µs
+- current needed to charge the estat capacitance the the required slew rate: I = C x dU/dt = 100 pF x 250 V/µs = 25 mA
+- for push-pull amp: each leg needs to provide 12.5 mA, so bias current needs to be more than 12.5 mA for Class-A
+
+
+HV bias:
+- Stax PRO, Hifiman: 580 VDC
+- Stax not-PRO: 2?? VDC
+- Warwick Bravura: 1000 VDC
+
 
 
 Output stage:
