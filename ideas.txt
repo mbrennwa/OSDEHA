@@ -1,5 +1,12 @@
 Overall idea:
-Design a high-quality amplifier for electrostatic headphones using directly heated triodes (DHT) in the output stage
+Design a high-quality amplifier for electrostatic headphones using directly heated triodes (DHT) in the output stage.
+
+
+Design targets:
+- Use DHT tubes for output stage.
+- Priority is on quality of audio reproduction and electronic design rather than on low cost.
+- The finished amp should be small enough such that it fits on a desktop.
+- The design is intended for use in the DIY community! Avoid the use of unobtanium parts, provide full documentation in a public repository, add a license that allows any use of the design (including commercial) but requires re-publication of any modification or extensions.
 
 
 General construction
