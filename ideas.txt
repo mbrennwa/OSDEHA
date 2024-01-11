@@ -1,6 +1,9 @@
 Overall idea:
 Design a high-quality amplifier for electrostatic headphones using directly heated triodes (DHT) in the output stage.
 
+diyAudio thread:
+https://www.diyaudio.com/community/threads/open-source-dht-estat-headphone-amp-osdeha.407679
+
 
 Design targets:
 - Use DHT tubes for output stage.
