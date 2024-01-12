@@ -68,6 +68,7 @@ DHT Triode type for use in output stage
 - Use something that is available (either new production or plenty old stock available)
 - 801(A) tubes seem about right (NOS available, Elrog makes 801A tubes). 801A gain is 8x, so the input/driver stage needs gain of at least 19x (and some more to provide for NFB maybe).
 - Emissionlabs 20B tube maybe? EML has whacky reputation, and there is no other manufactured that has similar specs -- is this future proof? 20B has gain of 20x, so input stage needs gain of at least 7.5 (and some more to provide for NFB maybe?).
+- DOES NOT WORK: 841 tube has 30x gain, but: Vgrid=0 and Ia=20ma --> Vanode = 520 V --> Vanode_bias = 520 V + 425 V = 945 V bias just to allow the 425 V swing. That's A LOT! 925 V x 20 mA = 18.5, which is higher than the allowed plate dissipation Pa = 12 Watt
 
 
 Input stage
