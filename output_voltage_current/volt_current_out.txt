@@ -1,0 +1,11 @@
+% 13.1.2024, MB
+% output voltage and current measured with Rauenbühler Alpha Centauri
+% output voltage = 208 Vrms = 294 Vpk measured at anode of ONE tube. The other tube contributes the same voltage swing, but with opposite polarity
+% output current measured from voltage dop aross a 1000 Ohm resistor inserted between the amp output and the headphone connector.
+% frequency (Hz) , voltage drop (Vrms)
+100   0.043
+300   0.113
+1000  0.360
+3000  0.92
+10000 2.66
+30000 5.88
