@@ -58,7 +58,9 @@ HV bias:
 Output stage:
 - use similar topology as in Rauenbühler Alpha Centauri amp: two triodes working in opposite polarity, cathodes at negative voltage, anodes biased close to 0 VDC. Output signal is the delta between the two anodes.
 - use active loads on the anodes instead of anode load resistors. Simple CCS or (maybe better) an Ale Moglia "Gyrator" / voltage controlled CCS
+- use hybrid Mu follower? It's almost the same as a CCS load, but takes the output right from the source pin of the FET in the CCS. The audio signal current therefore does not pass the current-sensing resistor used to fix the current, and the CCS therefore keeps the current into the tube anode constant, while the audio signal current is taken from the FET source pin before it makes its way into the current sensing resistor. In other words, the tube anode sees a constant current, no matter how much current goes into the amplifier output from the FET source pin. Hence, the load line to the tube anode is perfectly flat.
 - Advantage of the Moglia Gyrator CCS: it allows adjusting the DC idle voltage at the anodes. The Moglia Gyrator then fixes the current to the operating point corresponding to the chosen DC bias voltage, and the AC/audio signals are operating at this fixed current with variable audio/AC voltage. The adjustabililty of the DC anode voltage means that both triodes can be adjusted to the same DC anode potential, and hence the DC imbalance between the two triodes can be adjusted and fixed to 0 V.
+- Two Moglia Gyrators set the DC voltage based on a small CCS voltage reference that is adjusted with a trimpot. The Moglia Gyrators used for the opposite polarity tubes could use the same voltage reference, so the DC voltage at both tubes would automatically be the same.
 
 
 DHT Triode type for use in output stage
