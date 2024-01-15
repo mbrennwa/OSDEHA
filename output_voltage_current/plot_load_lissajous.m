@@ -11,14 +11,14 @@
 % --> I = C x 2pi x f x U0 x cos(2pi f t)
 
 C  = 100e-12; % capacitance in Farads
-% Ra = 66E3;    % AC resistance of anode resistor/CCS in Ohms
-Ra = 10E6;    % AC resistance of anode resistor/CCS in Ohms
+Ra = 66E3;    % AC resistance of anode resistor/CCS in Ohms
+% Ra = 10E6;    % AC resistance of anode resistor/CCS in Ohms
 
-U0 = 300; % Voltage amplitude (Vpk)
+U0 = 225; % Voltage amplitude (Vpk)
 
 % DC bias point:
-Ubias = 400;
-Ibias = 20E-3;
+Ubias = 375-43+30;
+Ibias = 12E-3;
 
 
 ff = [1E3,3e3,1e4,3e4,1e5];
