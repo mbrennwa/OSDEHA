@@ -83,3 +83,8 @@ Input stage
 - Shunt-cascode / folded cascode tube/BJT input+driver (vertical load line on tube anode! great with 6E5P, not great with DHTs, see below): high gain, low distortion!
 	- See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
 	- Also, see here for a discussion why DHTs may not be ideal for this, while a 6E5p is great: https://www.bartola.co.uk/valves/2019/07/01/dht-folded-cascode-experiments/
+	
+	
+HV Power supply:
+- Take a look at Jan Diddnes T-Reg at https://diyaudiostore.com/collections/kits/products/linear-audio-t-reg
+- There is also a high voltage PSU delay by Jan Didden: https://diyaudiostore.com/collections/kits/products/high-voltage-delay-for-tube-amplifiers
