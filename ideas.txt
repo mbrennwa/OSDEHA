@@ -75,13 +75,15 @@ DHT Triode type for use in output stage
 
 Input stage
 - can be tube or FET or BJT
+- Ale Moglia THD benchmark: https://www.bartola.co.uk/valves/2012/06/17/thd-benchmark/
+- Pete Millett looked at some pentodes configured as triodes, measured gain and linearity (12HL7!!): http://www.pmillett.com/pentodes.htm
 - Some tubes, indirectly heated: use very linear tube! 6SN7 (gain=20), ECC88 (gain=33), 6N30P (gain=14), 6N5P (gain=24), D3A-triode (gain=77)
 - Some tubes, directly heated: 3C4/DL96 (gain=8, https://www.diyaudio.com/community/threads/designing-a-vacuum-tube-front-end-card-for-the-vfet-diy-amp.371158/page-9)
 - for 801 output tubes (gain=8): gain required for input tube is 19x --> 6N30P is too low (except maybe for folded cascode, see below)
 - for 20B output tubes (gain=20): gain required for input stage is 7.5x --> could work with 3C4/DL96 gain, but this tube would surely need a buffer/powerdrive FET.
-- Pete Millett looked at some pentodes configured as triodes, measured gain and linearity (12HL7!!): http://www.pmillett.com/pentodes.htm
 - Some interesting tubes: https://www.bartola.co.uk/valves/tag/6e6p-e/
 - 6E5P and 6E6P stuff: https://www.bartola.co.uk/valves/2013/02/18/6e5p6%d1%8d5%d0%bf-and-6e6p-e6%d1%8d6%d0%bf-e-in-triode-mode/
+- 6E6P: "Unfortunately the variance of the valve’s parameters is all over the place" https://www.bartola.co.uk/valves/2022/10/30/6e6p-dr-curves-6%d1%8d6%d0%bf-%d0%b4%d1%80/
 - More Moglia stuff on input/driver tubes: https://www.bartola.co.uk/valves/2018/04/01/driving-hard-part-i/
 - Shunt-cascode / folded cascode tube/BJT input+driver (vertical load line on tube anode! great with 6E5P, not great with DHTs, see below): high gain, low distortion!
 	- See https://www.bartola.co.uk/valves/2013/03/10/the-shunt-cascode-driver/
