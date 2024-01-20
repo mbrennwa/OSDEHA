@@ -13,7 +13,7 @@ Design targets:
 
 
 General construction
-- Design PCB(s) that hold(s) the whole amp (except the tubes and transformers). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
+- Design PCB(s) that hold(s) the whole amp (except the tubes and transformers, maybe also PSU can be on separate board to allow people to choose their own PSU). It may make sense to have separate PCBs for LEFT/RIGHT and PSU, but messing with different boards or flying leads for a contraption of many different 3rd party boards/units is ugly.
 - Use delay for HV turn on
 
 
@@ -92,6 +92,10 @@ HV Power supply:
 - Take a look at Jan Diddnes T-Reg at https://diyaudiostore.com/collections/kits/products/linear-audio-t-reg
   Jan Didden by PM on diyAudio: "if you have two isolated secondaries on your transformer (or two transformers), you can use two T-regs in series. Connect the output of one to ground and its ground becomes a negative voltage. Works fine but the two supplies should be totally independent with separate secondaries. Jan"
 - There is also a high voltage PSU delay by Jan Didden: https://diyaudiostore.com/collections/kits/products/high-voltage-delay-for-tube-amplifiers
+- Pete Millett HV PSU with time delay: http://www.pmillett.com/mec_power_supply_delay.html
+- SALAS SSHV2: https://www.diyaudio.com/community/threads/simplistic-mosfet-hv-shunt-regs.134801/
+- Maida HV PSU
+- ***** Moglia HV (stabilized on CCS voltage reference, but not regulated by feedback from output): https://www.bartola.co.uk/valves/2015/01/10/popping-the-shunt-voltage-regulators-clogs/#more-4301
 
 
 DHT filament supply:
