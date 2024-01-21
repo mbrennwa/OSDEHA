@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OSDEHA_AMP_symbol_library")(type "KiCad")(uri "${KIPRJMOD}/OSDEHA_AMP_symbol_library.kicad_sym")(options "")(descr ""))
+  (lib (name "OSDEHA_AMP")(type "KiCad")(uri "${KIPRJMOD}/OSDEHA_AMP.kicad_sym")(options "")(descr ""))
+  (lib (name "OSDEHA_AMPx")(type "KiCad")(uri "${KIPRJMOD}/OSDEHA_AMPx.kicad_sym")(options "")(descr ""))
+)
