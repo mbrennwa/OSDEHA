@@ -1,0 +1,24 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2810f3b8-dd9c-4106-a6a7-77d58bd2c868)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 148.59 73.66) (xy 148.59 78.74))
+    (stroke (width 0) (type default))
+    (uuid eb8bbe65-cc6a-480c-88b6-6c9daba11cf8)
+  )
+
+  (hierarchical_label "F+" (shape output) (at 147.32 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ba76e054-6750-4d28-a733-7c4548b80030)
+  )
+  (hierarchical_label "F-" (shape output) (at 147.32 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c36fc12c-6da4-4bd6-92e4-b321493f7624)
+  )
+)
