@@ -1189,6 +1189,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bb9b5ace-c8d7-4f30-93b4-acdebfb8d379)
   )
+  (text "801 Filament DC // floating!" (at 255.27 118.11 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c537537a-cc11-405e-a208-e40a871101f1)
+  )
   (text "COMMON FILAMENT PSU POSSIBLE FOR COLEMAN REGULATORS OF SEAPRATE FILAMENTS???"
     (at 267.97 138.43 0)
     (effects (font (size 2 2)) (justify right bottom))
@@ -1285,7 +1289,7 @@
   (symbol (lib_id "OSDEHA_AMP:801A") (at 158.75 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41e36b25-186d-429c-9906-e520abc7d16e)
-    (property "Reference" "U3" (at 165.1 90.17 0)
+    (property "Reference" "U1" (at 165.1 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "801A" (at 165.1 92.71 0)
@@ -1304,7 +1308,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1313,7 +1317,7 @@
   (symbol (lib_id "Device:R") (at 182.88 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42f34f8c-99aa-44ec-abe1-fd3c57e0c123)
-    (property "Reference" "R12" (at 181.61 97.79 0)
+    (property "Reference" "R10" (at 181.61 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 181.61 100.33 0)
@@ -1330,7 +1334,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1339,7 +1343,7 @@
   (symbol (lib_id "power:GND") (at 138.43 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45c8c798-fac5-4052-b05d-c33b08e89067)
-    (property "Reference" "#PWR06" (at 138.43 85.09 0)
+    (property "Reference" "#PWR05" (at 138.43 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 83.82 0)
@@ -1355,7 +1359,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1465,7 +1469,7 @@
   (symbol (lib_id "power:GND") (at 193.04 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d38d732-cb0a-42dc-9368-bdfebe02f2ac)
-    (property "Reference" "#PWR02" (at 193.04 43.18 0)
+    (property "Reference" "#PWR06" (at 193.04 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 41.91 0)
@@ -1481,7 +1485,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1490,7 +1494,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 260.35 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5234fd85-7595-4b95-9161-77969b587432)
-    (property "Reference" "J4" (at 261.62 119.38 0)
+    (property "Reference" "J3" (at 261.62 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PSU FILAMENT" (at 261.62 121.92 0)
@@ -1507,7 +1511,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1565,7 +1569,7 @@
   (symbol (lib_id "power:GND") (at 138.43 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 608493c9-418b-486d-bda5-83a1f0149f5c)
-    (property "Reference" "#PWR05" (at 138.43 62.23 0)
+    (property "Reference" "#PWR04" (at 138.43 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 60.96 0)
@@ -1581,7 +1585,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1694,7 +1698,7 @@
   (symbol (lib_id "Device:R") (at 212.09 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8277f99e-122b-4533-b2dc-484491a31f72)
-    (property "Reference" "R14" (at 209.55 62.23 90)
+    (property "Reference" "R11" (at 209.55 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 214.63 62.23 90)
@@ -1711,7 +1715,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R14") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2079,7 +2083,7 @@
   (symbol (lib_id "power:GND") (at 102.87 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea624832-a640-46c2-a091-3b0d212eb2e3)
-    (property "Reference" "#PWR04" (at 102.87 106.68 0)
+    (property "Reference" "#PWR03" (at 102.87 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 105.41 0)
@@ -2095,7 +2099,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2104,7 +2108,7 @@
   (symbol (lib_id "OSDEHA_AMP:801A") (at 198.12 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0458126-0ac8-4d7c-a10e-4bbdec9d81ab)
-    (property "Reference" "U1" (at 204.47 90.17 0)
+    (property "Reference" "U2" (at 204.47 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "801A" (at 204.47 92.71 0)
@@ -2123,7 +2127,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2132,7 +2136,7 @@
   (symbol (lib_id "Device:R") (at 212.09 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0b21462-b7fd-43fd-9f9f-b3bc02b02b7e)
-    (property "Reference" "R11" (at 209.55 69.85 90)
+    (property "Reference" "R12" (at 209.55 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 214.63 69.85 90)
@@ -2149,7 +2153,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2182,7 +2186,7 @@
   (symbol (lib_id "power:GND") (at 102.87 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fba5f81d-80fe-47ec-8932-bacac891ff90)
-    (property "Reference" "#PWR03" (at 102.87 83.82 0)
+    (property "Reference" "#PWR02" (at 102.87 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 82.55 0)
@@ -2198,7 +2202,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )

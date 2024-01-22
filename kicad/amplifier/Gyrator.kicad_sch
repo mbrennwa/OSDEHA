@@ -655,7 +655,7 @@
   (symbol (lib_id "Device:R") (at 80.01 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1106d323-5af5-4bbf-a068-f6cb1932d2e8)
-    (property "Reference" "R15" (at 80.01 77.47 90)
+    (property "Reference" "R13" (at 80.01 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7M" (at 80.01 82.55 90)
@@ -672,7 +672,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -681,7 +681,7 @@
   (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 156.21 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ece6166-0157-4e56-ac6c-522cebb7a2ec)
-    (property "Reference" "Q7" (at 161.29 78.74 0)
+    (property "Reference" "Q5" (at 161.29 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DN2540N5-G" (at 161.29 81.28 0)
@@ -699,7 +699,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q7") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -708,7 +708,7 @@
   (symbol (lib_id "Device:R") (at 138.43 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37067c2c-75b6-47ab-a689-94e7e88f4906)
-    (property "Reference" "R22" (at 138.43 77.47 90)
+    (property "Reference" "R16" (at 138.43 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7M" (at 138.43 82.55 90)
@@ -725,7 +725,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R22") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -734,7 +734,7 @@
   (symbol (lib_id "Device:R") (at 118.11 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b1f7723-6e2f-4f66-8def-22fb3ea7279d)
-    (property "Reference" "R19" (at 119.38 76.2 0)
+    (property "Reference" "R15" (at 119.38 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 119.38 78.74 0)
@@ -751,7 +751,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -760,7 +760,7 @@
   (symbol (lib_id "Device:R") (at 100.33 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a13743c-acd9-466c-8e88-e7fcaed883a3)
-    (property "Reference" "R16" (at 97.79 91.44 0)
+    (property "Reference" "R14" (at 97.79 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50" (at 97.79 93.98 0)
@@ -777,7 +777,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R16") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -812,7 +812,7 @@
   (symbol (lib_id "Device:R") (at 158.75 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 783919fe-c662-43d1-b937-a8683bebb4fe)
-    (property "Reference" "R23" (at 156.21 91.44 0)
+    (property "Reference" "R17" (at 156.21 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50" (at 156.21 93.98 0)
@@ -829,7 +829,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R23") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -864,7 +864,7 @@
   (symbol (lib_id "stax_ccs:10M90S") (at 161.29 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b69f3765-cc21-4a22-b11b-e4dc239f0983)
-    (property "Reference" "Q8" (at 154.94 68.58 0)
+    (property "Reference" "Q6" (at 154.94 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IXTP01N100D" (at 154.94 71.12 0)
@@ -882,7 +882,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q8") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -891,7 +891,7 @@
   (symbol (lib_id "stax_ccs:10M90S") (at 102.87 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb8cb4fc-8883-472a-9700-60957040e7c5)
-    (property "Reference" "Q3" (at 96.52 68.58 0)
+    (property "Reference" "Q4" (at 96.52 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IXTP01N100D" (at 96.52 71.12 0)
@@ -909,7 +909,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -918,7 +918,7 @@
   (symbol (lib_id "Device:R") (at 176.53 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca494744-63d6-4703-a890-3ee580ea5226)
-    (property "Reference" "R24" (at 177.8 76.2 0)
+    (property "Reference" "R18" (at 177.8 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 177.8 78.74 0)
@@ -935,7 +935,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R24") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -970,7 +970,7 @@
   (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 97.79 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56fb32d-96e8-4d68-a8a3-4fe9f03b8b9e)
-    (property "Reference" "Q4" (at 102.87 78.74 0)
+    (property "Reference" "Q3" (at 102.87 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DN2540N5-G" (at 102.87 81.28 0)
@@ -988,7 +988,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
