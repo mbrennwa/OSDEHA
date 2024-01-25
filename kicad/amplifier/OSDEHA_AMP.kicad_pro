@@ -491,6 +491,10 @@
     [
       "fe54dbd2-2e22-4b21-be19-75fe2d3aa842",
       "Dual_Gyrator1"
+    ],
+    [
+      "5a8a564a-b115-4fd7-a4c0-ab978d63878f",
+      "Dual_Filament_Gyrator"
     ]
   ],
   "text_variables": {}

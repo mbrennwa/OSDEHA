@@ -3621,6 +3621,23 @@
     )
   )
 
+  (sheet (at 201.93 209.55) (size 40.64 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5a8a564a-b115-4fd7-a4c0-ab978d63878f)
+    (property "Sheetname" "Dual_Filament_Gyrator" (at 201.93 208.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 201.93 245.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 247.65 161.29) (size 24.13 15.24)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
