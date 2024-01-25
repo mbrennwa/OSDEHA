@@ -3639,13 +3639,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 328d690d-7ab8-4740-ae51-bca0d2b448eb)
     )
-    (pin "+RAW_15VDC" passive (at 271.78 167.64 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5c77a924-654f-4bc5-b26f-3e1d40c7a45f)
-    )
     (pin "FIL1_OUT" passive (at 247.65 163.83 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9d909991-121a-443d-a55f-feedc4987e19)
+    )
+    (pin "+RAW_DC" passive (at 271.78 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5a66cd5d-d2e7-43c3-b546-57c5cd43d204)
     )
     (instances
       (project "OSDEHA_AMP"

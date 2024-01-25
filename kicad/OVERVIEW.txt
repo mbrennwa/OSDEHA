@@ -1,0 +1,12 @@
+OSDEHA PCBs / boards
+
+A complete set of OSDEHA boards consists of the following:
+
+2 x amplifier boards (including DHT filament CCS)
+1 x power supply board (HV supply, raw DHT filament supply, heater supply, HV power-on delay)
+1 x volume control board (different versions for different pots: Alps RK27, Khozmo, etc.)
+
+In addition:
+1 x mains transformer for raw DHT filament supply, heaters supply, and HV power-on delay with mains switch relay for HV transformer
+1 x mains transformer for HV supply
+
