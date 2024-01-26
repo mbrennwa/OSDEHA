@@ -482,19 +482,11 @@
     ],
     [
       "51668184-e52b-4b73-b0e2-641c1f96c6ef",
-      "Dual_Gyrator2"
+      "Dual_Gyrator"
     ],
     [
       "c1ba13e4-6fba-4c1a-9fa1-489c0cbbcd0f",
       "Filament_Supply"
-    ],
-    [
-      "fe54dbd2-2e22-4b21-be19-75fe2d3aa842",
-      "Dual_Gyrator1"
-    ],
-    [
-      "5a8a564a-b115-4fd7-a4c0-ab978d63878f",
-      "Dual_Filament_Gyrator"
     ]
   ],
   "text_variables": {}
