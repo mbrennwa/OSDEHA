@@ -828,6 +828,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e188e16-16a4-410a-bd51-d0bb31da82f9)
   )
+  (text "New attempt to make things easier:\nTake a look at the last schematic here:\nhttps://www.mvaudiolabs.com/tubes/the-taming-of-the-dht/\n\nThen split this up in a common raw-DC supply and ripple filter:\n- ripple filter DC+ output connects to GND (or B- in the OSDEHA)\n- one side of each DHT filament connects to GND (or B-) as well.\n- the other side of each filament connects to it's own CCS as shown on the website\n\nWhat about thermal drift? Adjustment of the heater current will take a bit of patience to get the desired filament voltage. Maybe an NTC/PTC connected to the base of the diff-amp BC550 will help. "
+    (at 20.32 62.23 0)
+    (effects (font (size 3 3) (thickness 0.3) bold) (justify left bottom))
+    (uuid 16c37182-7561-4024-aa30-a12b4acbec55)
+  )
   (text "CCS" (at 168.91 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7adbf676-ca00-4a8c-b8d5-691357597cf4)
@@ -845,7 +850,7 @@
     (uuid ced73264-392d-46c2-975c-1e9c3ccb051c)
   )
   (text "Inspired by Rod Coleman DHT Filament Regulator:\n(for discussion: https://wtfamps.com/2018/10/03/diy-dht-filament-strategies)\n- Filament driven by high-impedance source (CCS)\n- Gyrator for DC voltage smoothing\n\nPublished versions of Coleman DHT Filament regulator cannot be operated from same raw DC supply\nbecause the Gyrator and CCS sit on opposite ends of each filament,\nand one end of each filament is connected to B-, so the corresponding outputs of each regulator are connected to each other.\n\nAfter discussion with Rod Coleman (PM diyAudio), the CCS was moved to the same side as the gyrator.\nCCS must be the \"driver\" for the filament, so it sits between the filament and the gyrator.\n\nThe CCS uses an adjustable TL431 voltage reference that is compensated for temperature drifts.\nThe LM431 adjusts its voltage output such that its feedback (FB) pin sees 2.5 VDC.\n\nCircuit inspired by https://www.diyaudio.com/community/threads/need-help-diagnosing-issue-with-26-filament-supply.339899/"
-    (at 90.17 63.5 0)
+    (at 231.14 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e2d77198-e7dd-4bb2-a75a-36a4bcf1e471)
   )
