@@ -328,8 +328,12 @@
       ""
     ],
     [
-      "cf262cee-5881-47e9-8585-6167c3eae114",
-      "HV_PSU"
+      "ac7ca118-76ca-4c47-8cb7-c19bcb373afe",
+      "HV_STABI2"
+    ],
+    [
+      "f6fdfab6-bf9f-49de-ad92-24f09c821c13",
+      "HV_STABI1"
     ]
   ],
   "text_variables": {}
