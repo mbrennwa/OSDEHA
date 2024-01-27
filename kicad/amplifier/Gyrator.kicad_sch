@@ -610,7 +610,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08214ab6-06da-4b65-9470-8b4363808d20)
   )
-  (text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXT03N100D: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
+  (text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXTP3N100D2: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
     (at 36.83 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc504a3e-5296-4816-8207-5a46f7545cbe)
@@ -829,7 +829,7 @@
     (property "Reference" "Q8" (at 156.21 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IXT03N100D" (at 156.21 71.12 0)
+    (property "Value" "IXTP3N100D2" (at 156.21 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 162.56 84.455 0)
@@ -935,7 +935,7 @@
     (property "Reference" "Q6" (at 96.52 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IXT03N100D" (at 96.52 71.12 0)
+    (property "Value" "IXTP3N100D2" (at 96.52 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 102.87 84.455 0)

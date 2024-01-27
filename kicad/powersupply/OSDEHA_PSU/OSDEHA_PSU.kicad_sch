@@ -1,0 +1,37 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "HV PSU\nRAW-DC PSU FOR COLEMAN DHT FILAMENTS\nHEATER PSUE FOR INPUT TUBES\nESTAT BIAS VOLTAGE"
+    (at 60.96 31.75 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a3954a20-2dfd-48f0-ac97-a1b005b25de7)
+  )
+
+  (sheet (at 78.74 49.53) (size 31.75 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf262cee-5881-47e9-8585-6167c3eae114)
+    (property "Sheetname" "HV_PSU" (at 78.74 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 78.74 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "OSDEHA_PSU"
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
