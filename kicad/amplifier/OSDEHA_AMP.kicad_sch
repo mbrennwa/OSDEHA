@@ -549,10 +549,10 @@
       (property "Value" "E180F" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Valve:Valve_Mini_P" (at 0 0 0)
+      (property "Footprint" "OSDEHA_AMP:belton_noval-bside" (at -8.89 17.78 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://frank.pocnet.net/sheets/030/e/E180F.pdf" (at 0 0 0)
+      (property "Datasheet" "https://frank.pocnet.net/sheets/030/e/E180F.pdf" (at 0 20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
@@ -765,6 +765,10 @@
         (pin bidirectional line (at -2.54 -11.43 90) (length 3.302)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 7.62 -3.81 180) (length 2.54)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 0 10.16 270) (length 2.54)
           (name "A" (effects (font (size 1.27 1.27))))
@@ -2065,6 +2069,7 @@
     (pin "2" (uuid fd923a45-bad2-4c75-beaa-6592bd4e10a2))
     (pin "7" (uuid db2cc055-0336-489a-b01f-b15da8c64dbe))
     (pin "5" (uuid 77d7d6da-df41-46ed-9546-06e8415ab7a4))
+    (pin "6" (uuid e13a64f2-f8d4-4b6a-82d1-45d3ec48bfa6))
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
@@ -2232,6 +2237,7 @@
     (pin "1" (uuid d95c8dc5-144c-4e1e-b897-47834f83711b))
     (pin "3" (uuid 23d565be-3413-4652-9767-09e3e210c36a))
     (pin "5" (uuid b6bb46bc-003d-4462-bd87-2014622b293d))
+    (pin "6" (uuid 452c491c-1491-45bc-981f-a5251dedf7bb))
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
@@ -2570,6 +2576,7 @@
     (pin "2" (uuid d48931f6-5a1c-4564-bc12-e6bf434917db))
     (pin "7" (uuid 537b9a05-9bf3-49db-9ebc-f802ed4211f5))
     (pin "5" (uuid 77d7d6da-df41-46ed-9546-06e8415ab7a5))
+    (pin "6" (uuid 01f66bbe-a049-4deb-96ed-e55e08a97a4c))
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
@@ -2871,6 +2878,7 @@
     (pin "2" (uuid 3677d92f-ea82-4942-b736-25cbe0475f1d))
     (pin "7" (uuid 23bb781f-5045-4342-b158-62f9c1e8f499))
     (pin "5" (uuid 77d7d6da-df41-46ed-9546-06e8415ab7a6))
+    (pin "6" (uuid 1d63d36d-40c8-43c9-9790-c66d93cd7c6b))
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
