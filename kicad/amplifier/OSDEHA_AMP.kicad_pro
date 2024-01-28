@@ -483,6 +483,14 @@
     [
       "51668184-e52b-4b73-b0e2-641c1f96c6ef",
       "Dual_Gyrator"
+    ],
+    [
+      "964c5f27-279d-4094-beed-423757c37563",
+      "Buffer_CCS_load2"
+    ],
+    [
+      "117f0db4-f368-407f-8708-b67954482099",
+      "Buffer_CCS_load1"
     ]
   ],
   "text_variables": {}

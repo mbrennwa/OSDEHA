@@ -222,11 +222,11 @@
     (uuid 2387f4ab-a2b7-4abe-9ff0-c1d95d7f5bd1)
   )
 
-  (hierarchical_label "NEG" (shape input) (at 137.16 99.06 270) (fields_autoplaced)
+  (hierarchical_label "NEG" (shape passive) (at 137.16 99.06 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1810790f-c757-47c3-afb3-0f04c466cfdc)
   )
-  (hierarchical_label "POS" (shape input) (at 137.16 80.01 90) (fields_autoplaced)
+  (hierarchical_label "POS" (shape passive) (at 137.16 80.01 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b07bf7a8-14a0-47e5-979d-345b6fcf67b8)
   )
@@ -250,7 +250,7 @@
     (pin "2" (uuid c36e22ba-7ae8-4aa4-8006-04bae5c98f31))
     (instances
       (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/34823704-182b-403a-8091-ec789b8eb57b"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
           (reference "R28") (unit 1)
         )
       )
@@ -286,7 +286,7 @@
     (pin "2" (uuid 0725db84-f060-411d-b1f1-2dfc2011a9a7))
     (instances
       (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/34823704-182b-403a-8091-ec789b8eb57b"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
           (reference "Q9") (unit 1)
         )
       )
@@ -312,7 +312,7 @@
     (pin "2" (uuid fdc139e8-77e7-481f-9315-a5e7e162b0e6))
     (instances
       (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/34823704-182b-403a-8091-ec789b8eb57b"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
           (reference "R27") (unit 1)
         )
       )
