@@ -2036,7 +2036,7 @@
     (uuid fd0af8e3-464b-4905-be24-ff957c388ca9)
   )
 
-  (text "Heatsink: Fischer SK 139 (with mounting slots for screw nuts) 265L x 10H x 74W"
+  (text "Heatsink: Fischer SJ199 or SK 139 (with mounting slots for screw nuts) 265L x 10H x 74W"
     (at 297.18 48.26 0)
     (effects (font (size 3 3)) (justify right bottom))
     (uuid 2281be69-70a4-481d-8001-ef93359ab226)
