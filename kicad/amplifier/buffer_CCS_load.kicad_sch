@@ -234,7 +234,7 @@
   (symbol (lib_id "Device:R") (at 137.16 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02483c5f-461b-4a19-92a6-5444ffb40f2a)
-    (property "Reference" "R28" (at 134.62 93.98 90)
+    (property "Reference" "R30" (at 134.62 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 137.16 93.98 90)
@@ -251,10 +251,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R28") (unit 1)
+          (reference "R30") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R28") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -293,7 +293,7 @@
           (reference "Q9") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "Q9") (unit 1)
+          (reference "Q10") (unit 1)
         )
       )
     )
@@ -302,7 +302,7 @@
   (symbol (lib_id "Device:R") (at 129.54 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cec1f23f-f3af-46bd-8ae7-01df98b04aff)
-    (property "Reference" "R27" (at 127 88.9 90)
+    (property "Reference" "R29" (at 127 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 129.54 88.9 90)
@@ -319,10 +319,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R27") (unit 1)
+          (reference "R29") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R27") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
