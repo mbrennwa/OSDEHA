@@ -1397,8 +1397,6 @@
     (uuid f4c2bf20-8b30-4436-a8c5-2d7fe8f8e686)
   )
 
-  (no_connect (at 72.39 24.13) (uuid d893f0a4-b68c-4189-bbef-8cfb792841d0))
-
   (wire (pts (xy 306.07 119.38) (xy 306.07 121.92))
     (stroke (width 0) (type default))
     (uuid 07131929-7b49-446e-b417-f7f3169e5c72)
@@ -2900,7 +2898,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 161.29 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7810fa28-71dc-4253-9218-763a0c9cf815)
-    (property "Reference" "30k" (at 161.29 168.91 90)
+    (property "Reference" "30k1" (at 161.29 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 167.64 175.26 90)
@@ -2918,7 +2916,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "30k") (unit 1)
+          (reference "30k1") (unit 1)
         )
       )
     )
@@ -3473,7 +3471,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 187.96 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e318c2a7-855b-445f-a89b-4f26b52d31b7)
-    (property "Reference" "30k" (at 187.96 168.91 90)
+    (property "Reference" "30k2" (at 187.96 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 194.31 175.26 90)
@@ -3491,7 +3489,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "30k") (unit 1)
+          (reference "30k2") (unit 1)
         )
       )
     )
