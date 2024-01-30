@@ -221,7 +221,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2387f4ab-a2b7-4abe-9ff0-c1d95d7f5bd1)
   )
-  (text "HEATSINK" (at 139.7 81.28 0)
+  (text "HEATSINK" (at 139.7 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 589f15ea-f04c-4517-a66a-3f6a4c566d51)
   )

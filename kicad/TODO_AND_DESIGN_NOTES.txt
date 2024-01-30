@@ -15,6 +15,10 @@ Grounding:
 - Connection from PCB to chassis: separate wire, or via metal screw mount connecting to PCB?
 
 
+FETs:
+- Check for need of Zener protection diode(s). Some types have built-in Zeners, others dont.
+
+
 Amplifier board:
 - There will be two boards for Left and Right channels mounted to the heatsinks on the sides of the chassis.
 The boards will be rotated by 180 degrees. Connectors should therefore be on the PCB side on the far side from the heatsink, towards the inside of the chassis (not on the front/rear sides).
