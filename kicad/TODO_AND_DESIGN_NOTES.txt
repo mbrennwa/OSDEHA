@@ -3,6 +3,7 @@ To-Do list for the kicad projects:
 
 General:
 - Try to use same make/type of parts and footprints where suitable to make life easier with ordering parts and fitting them on the PCB.
+- Check correct pinout, especially with FETs and stuff. And double check! (Derived footprints may have different pinouts...)
 - Check for correct footprints. And double check.
 - Check for consistency of board connectors:
 	* same type of connectors on both ends
