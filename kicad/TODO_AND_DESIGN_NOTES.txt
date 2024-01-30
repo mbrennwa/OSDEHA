@@ -1,0 +1,25 @@
+To-Do list for the kicad projects:
+
+
+General:
+- Try to use same make/type of parts and footprints where suitable to make life easier with ordering parts and fitting them on the PCB.
+- Check for correct footprints. And double check.
+- Check for consistency of board connectors:
+	* same type of connectors on both ends
+	* consistency of pinout on both PCBs
+- Dimensions of boards should fit the chassis, and the different boards should fit next to each other and around the power tubes, mains transformers, volume control, etc.
+
+
+Grounding:
+- Connect circuit GND to Chassis/PE via ground-loop breaker on the PSU board.
+- Connection from PCB to chassis: separate wire, or via metal screw mount connecting to PCB?
+
+
+Amplifier board:
+- There will be two boards for Left and Right channels mounted to the heatsinks on the sides of the chassis.
+The boards will be rotated by 180 degrees. Connectors should therefore be on the PCB side on the far side from the heatsink, towards the inside of the chassis (not on the front/rear sides).
+
+
+Coleman DHT regulators:
+- Can the Coleman boards sit on the main amp boards piggy-back style?
+
