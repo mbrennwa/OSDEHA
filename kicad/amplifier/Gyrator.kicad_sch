@@ -893,7 +893,7 @@
   (symbol (lib_id "Device:C") (at 85.09 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a3dcc4c-b0f9-4b23-bd81-95b0863742ae)
-    (property "Reference" "C7" (at 81.28 91.44 0)
+    (property "Reference" "C5" (at 81.28 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n" (at 81.28 93.98 0)
@@ -910,7 +910,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -919,7 +919,7 @@
   (symbol (lib_id "Device:C") (at 144.78 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c35b8d5-cd6c-4147-afe8-594a2bba8b27)
-    (property "Reference" "C8" (at 140.97 91.44 0)
+    (property "Reference" "C6" (at 140.97 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n" (at 140.97 93.98 0)
@@ -936,7 +936,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
