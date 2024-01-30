@@ -1188,6 +1188,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4aea8c37-06d7-4b83-8d11-741f23a6bed3)
   )
+  (text "Filament, heater and buffer/bias supply turn on first\nB+ and B- turn on with delay"
+    (at 157.48 82.55 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 5c9ec926-9de2-4984-aada-a399b13b8356)
+  )
   (text "325 VAC" (at 60.96 78.74 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 63bd57ef-27d5-4400-815d-102ffeae1d94)

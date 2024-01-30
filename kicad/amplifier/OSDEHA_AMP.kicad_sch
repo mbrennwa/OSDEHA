@@ -2117,6 +2117,11 @@
     (uuid fd49df84-3b26-4218-bb34-ec5bebcfdab7)
   )
 
+  (text "Filament, heater and buffer/bias supply turn on first\nB+ and B- turn on with delay"
+    (at 358.14 151.13 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 201aaff3-e221-4508-90fc-0da995cf030e)
+  )
   (text "Heatsink: Fischer SJ199 or SK 139 (with mounting slots for screw nuts) 265L x 10H x 74W"
     (at 297.18 48.26 0)
     (effects (font (size 3 3)) (justify right bottom))
