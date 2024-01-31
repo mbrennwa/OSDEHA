@@ -276,7 +276,7 @@
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 139.7 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 134.62 97.79 0)
+    (property "Datasheet" "https://www.mouser.ch/ProductDetail/Microchip-Technology/DN2540N5-G?qs=F9TAcTrDwItjOowozNtDSg%3D%3D" (at 134.62 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "" (at 134.62 102.235 0)
