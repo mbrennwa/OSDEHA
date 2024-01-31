@@ -212,65 +212,6 @@
         )
       )
     )
-    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Polarized" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Polarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Polarized_0_1"
-        (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 2.286)
-            (xy -0.762 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.794)
-            (xy -1.27 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "C_Polarized_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -2490,6 +2431,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 198.12 166.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 12c8d63a-e823-4292-ac27-d5b47cd2cc08)
+    (property "Reference" "C6" (at 196.85 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "220n" (at 196.85 163.83 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4" (at 199.0852 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/ProductDetail/WIMA/MKP1J032205F00JSSD?qs=iPPgFPFs9PPo0Np10uW0Gw%3D%3D" (at 198.12 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid c0a08b7a-39a2-4806-9ff1-636cd1675175))
+    (pin "1" (uuid 1eddcc78-8769-4cc7-ae12-4fbe68becace))
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 96.52 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dec078c-cdd4-4c69-a54f-bc10a62f734e)
@@ -2563,32 +2530,6 @@
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
           (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 198.12 166.37 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2b0c6dcf-c2c8-4383-b5b0-504c01cd1265)
-    (property "Reference" "C7" (at 199.39 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47u 600 V" (at 193.04 163.83 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" (at 199.0852 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/ProductDetail/EPCOS-TDK/B43541B8476M000?qs=GG15fDrrStppcmQTIURitg%3D%3D" (at 198.12 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4749bc97-be2b-4678-88a9-64d94485dab9))
-    (pin "2" (uuid 460ff39f-3366-4bcd-8b86-a6b52ddb607e))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C7") (unit 1)
         )
       )
     )
@@ -2711,7 +2652,7 @@
   (symbol (lib_id "Device:R") (at 304.8 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 417aca82-3df4-413a-8ec6-a8689240d611)
-    (property "Reference" "R34" (at 302.26 163.83 90)
+    (property "Reference" "R22" (at 302.26 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 304.8 163.83 90)
@@ -2728,7 +2669,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R34") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2765,7 +2706,7 @@
   (symbol (lib_id "Device:R") (at 257.81 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 433752aa-def5-4bb3-8ac0-41c4f32bc39a)
-    (property "Reference" "R33" (at 255.27 163.83 90)
+    (property "Reference" "R21" (at 255.27 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 257.81 163.83 90)
@@ -2782,7 +2723,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R33") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3068,6 +3009,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 171.45 166.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6564be25-135f-4429-b924-bf5d816e1d00)
+    (property "Reference" "C3" (at 170.18 168.91 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "220n" (at 170.18 163.83 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4" (at 172.4152 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/ProductDetail/WIMA/MKP1J032205F00JSSD?qs=iPPgFPFs9PPo0Np10uW0Gw%3D%3D" (at 171.45 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid c6596ce8-fa13-4a8c-9afa-af19c7ffee6f))
+    (pin "1" (uuid 85d843a1-428b-4d8c-b778-d13f663090be))
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 184.15 173.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69cf4465-5f5b-40c3-93b3-e993fae2f225)
@@ -3235,7 +3202,7 @@
   (symbol (lib_id "Device:R") (at 330.2 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8277f99e-122b-4533-b2dc-484491a31f72)
-    (property "Reference" "R21" (at 327.66 119.38 90)
+    (property "Reference" "R23" (at 327.66 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 332.74 119.38 90)
@@ -3252,7 +3219,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R21") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -3383,7 +3350,7 @@
   (symbol (lib_id "Device:C") (at 175.26 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ef641cc-75d0-46bc-8048-43159e79d9a0)
-    (property "Reference" "C3" (at 177.8 118.11 90)
+    (property "Reference" "C4" (at 177.8 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 168.91 118.11 90)
@@ -3400,7 +3367,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3453,32 +3420,6 @@
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
           (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized") (at 171.45 166.37 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bf339bbd-7c9a-48d3-9369-c3b1112aaeef)
-    (property "Reference" "C8" (at 172.72 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47u 600 V" (at 166.37 163.83 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" (at 172.4152 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/ProductDetail/EPCOS-TDK/B43541B8476M000?qs=GG15fDrrStppcmQTIURitg%3D%3D" (at 171.45 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 544d6a93-04ce-4e4c-8710-e45df878a663))
-    (pin "2" (uuid 709e71e9-ee05-4683-a7a0-b3cbbfc81a46))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C8") (unit 1)
         )
       )
     )
@@ -3640,7 +3581,7 @@
   (symbol (lib_id "Device:C") (at 175.26 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd2aa789-ac1c-4e55-a552-ef1394b7bea7)
-    (property "Reference" "C4" (at 177.8 140.97 90)
+    (property "Reference" "C5" (at 177.8 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 168.91 140.97 90)
@@ -3657,7 +3598,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3938,7 +3879,7 @@
   (symbol (lib_id "Device:R") (at 330.2 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0b21462-b7fd-43fd-9f9f-b3bc02b02b7e)
-    (property "Reference" "R22" (at 327.66 127 90)
+    (property "Reference" "R24" (at 327.66 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 332.74 127 90)
@@ -3955,7 +3896,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R22") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
