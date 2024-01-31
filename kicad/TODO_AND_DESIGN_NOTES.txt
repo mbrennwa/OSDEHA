@@ -11,6 +11,18 @@ General:
 - Dimensions of boards should fit the chassis, and the different boards should fit next to each other and around the power tubes, mains transformers, volume control, etc.
 
 
+Connectors, sockets
+- Use Molex KK or MiniFit Jr (gold contacts would be nice, check voltage limits and other specs)
+- Molex MiniFit Jr:
+	https://www.mouser.ch/new/molex/molex-minifit-jr-connectors
+	Max voltage: 600 V
+	Max current: 13 A
+	no gold contacts available (?)
+- Molex KK:
+	https://www.mouser.ch/new/molex/molex-kk
+	
+
+
 Grounding:
 - Connect circuit GND to Chassis/PE via ground-loop breaker on the PSU board.
 - Connection from PCB to chassis: separate wire, or via metal screw mount connecting to PCB?
