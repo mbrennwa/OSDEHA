@@ -1048,7 +1048,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48b6846c-6a54-4440-ad3e-04023deb212f)
-    (property "Reference" "D14" (at 152.4 73.9775 90)
+    (property "Reference" "D13" (at 152.4 73.9775 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 152.4 76.5175 90)
@@ -1065,13 +1065,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D14") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D21") (unit 1)
+          (reference "D20") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D28") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -1080,7 +1080,7 @@
   (symbol (lib_id "Device:D_45deg") (at 58.42 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49a778c6-b970-439c-bd3a-ec9da0d28970)
-    (property "Reference" "D12" (at 59.69 68.58 90)
+    (property "Reference" "D11" (at 59.69 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 57.15 71.12 90)
@@ -1103,13 +1103,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D12") (unit 1)
+          (reference "D11") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D19") (unit 1)
+          (reference "D18") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D26") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -1118,7 +1118,7 @@
   (symbol (lib_id "Device:D_Zener") (at 165.1 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 545773f6-df6d-4664-9a07-05c3b4a821e9)
-    (property "Reference" "D15" (at 165.1 105.41 0)
+    (property "Reference" "D14" (at 165.1 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12V" (at 165.1 107.95 0)
@@ -1135,13 +1135,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D15") (unit 1)
+          (reference "D14") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D22") (unit 1)
+          (reference "D21") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D29") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
   (symbol (lib_id "Device:D_45deg") (at 53.34 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9f69c6-34b7-4967-a3d6-20514b01605f)
-    (property "Reference" "D9" (at 49.53 62.23 90)
+    (property "Reference" "D8" (at 49.53 62.23 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 44.45 59.69 90)
@@ -1331,13 +1331,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D16") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D23") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -1378,7 +1378,7 @@
   (symbol (lib_id "Device:D_45deg") (at 58.42 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad3245c3-b9f2-4b5b-b4af-e6970889241c)
-    (property "Reference" "D11" (at 60.96 62.23 0)
+    (property "Reference" "D10" (at 60.96 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STTH512FP" (at 62.23 59.69 0)
@@ -1401,13 +1401,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D11") (unit 1)
+          (reference "D10") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D18") (unit 1)
+          (reference "D17") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D25") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -1448,7 +1448,7 @@
   (symbol (lib_id "Device:D_45deg") (at 53.34 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdff3c7d-52d9-4198-92fd-31f8afc018ae)
-    (property "Reference" "D10" (at 50.8 68.58 0)
+    (property "Reference" "D9" (at 50.8 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STTH512FP" (at 49.53 71.12 0)
@@ -1471,13 +1471,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D17") (unit 1)
+          (reference "D16") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D24") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8e81d4e-e632-4977-946f-1d0d9e4d86fe)
-    (property "Reference" "D13" (at 152.4 63.8175 90)
+    (property "Reference" "D12" (at 152.4 63.8175 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 152.4 66.3575 90)
@@ -1577,13 +1577,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D13") (unit 1)
+          (reference "D12") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D20") (unit 1)
+          (reference "D19") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D27") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
