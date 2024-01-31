@@ -20,7 +20,8 @@ Connectors, sockets
 	no gold contacts available (?)
 - Molex KK:
 	https://www.mouser.ch/new/molex/molex-kk
-	
+	Series KK-396 max voltage/current: 600 V / 5 A
+	Series KK-254 max voltage: 250 V
 
 
 Grounding:
