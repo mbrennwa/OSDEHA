@@ -919,7 +919,7 @@
     (uuid ffe3160c-6052-4c73-ac08-1b2c8250af4f)
   )
 
-  (text "0.5 mA" (at 111.76 106.68 90)
+  (text "ca. 0.5 mA" (at 111.76 106.68 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8a19dc42-4ac9-430f-86be-3305cccf40bf)
   )
@@ -960,7 +960,7 @@
   (symbol (lib_id "Device:R") (at 101.6 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2823a30d-b49a-47b7-a781-8eb0059dc7a3)
-    (property "Reference" "R11" (at 101.6 69.85 90)
+    (property "Reference" "R28" (at 101.6 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 101.6 72.39 90)
@@ -976,14 +976,14 @@
     (pin "2" (uuid 7179ef6f-6f0b-4681-a8c6-c4897460b2ee))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R11") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R18") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R25") (unit 1)
+          (reference "R28") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R20") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -992,7 +992,7 @@
   (symbol (lib_id "Device:R") (at 172.72 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cc7ab92-83fc-47eb-a251-077d51662f9a)
-    (property "Reference" "R17" (at 175.26 97.79 90)
+    (property "Reference" "R34" (at 175.26 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 172.72 97.79 90)
@@ -1008,14 +1008,14 @@
     (pin "2" (uuid 25c2c96d-5cda-4d07-8ca3-87b0e698a9da))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R17") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R24") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R31") (unit 1)
+          (reference "R34") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R26") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1024,7 +1024,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48b6846c-6a54-4440-ad3e-04023deb212f)
-    (property "Reference" "D13" (at 152.4 73.9775 90)
+    (property "Reference" "D27" (at 152.4 73.9775 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 152.4 76.5175 90)
@@ -1040,14 +1040,14 @@
     (pin "2" (uuid b60c0123-d466-4a38-8966-998c9d0e74f9))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D13") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D20") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D27") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D20") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -1056,7 +1056,7 @@
   (symbol (lib_id "Device:D_45deg") (at 40.64 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49a778c6-b970-439c-bd3a-ec9da0d28970)
-    (property "Reference" "D11" (at 41.91 68.58 90)
+    (property "Reference" "D25" (at 41.91 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 39.37 71.12 90)
@@ -1078,46 +1078,46 @@
     (pin "2" (uuid badbb8f0-c1a1-4a55-b1c8-0981609ad741))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D11") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D18") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D25") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D18") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D11") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:D_Zener") (at 165.1 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 545773f6-df6d-4664-9a07-05c3b4a821e9)
-    (property "Reference" "D14" (at 165.1 105.41 0)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4a8bf012-ff0c-49a1-ba91-7ad6d076ea72)
+    (property "Reference" "D5" (at 165.1 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "12V" (at 165.1 107.95 0)
+    (property "Value" "12 V" (at 165.1 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 165.1 102.87 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 165.1 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 165.1 102.87 0)
+    (property "Datasheet" "https://www.mouser.ch/ProductDetail/Diotec-Semiconductor/ZY12?qs=OlC7AqGiEDmUzxSswkqDYw%3D%3D" (at 165.1 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 628f67a4-b135-48d9-95e3-ce79b027b6be))
-    (pin "2" (uuid e62681b0-40db-414a-ac55-98b324e942a6))
+    (pin "1" (uuid 60e7ed2d-fc28-42e2-b4c5-b17fd45a472b))
+    (pin "2" (uuid e46a7644-c09c-4f94-8852-c8a69284362d))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D14") (unit 1)
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D5") (unit 1)
         )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D21") (unit 1)
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D29") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "D28") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -1126,7 +1126,7 @@
   (symbol (lib_id "Device:R") (at 139.7 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5522dd93-5941-465f-8f2c-63b2a7e7936c)
-    (property "Reference" "R14" (at 137.16 68.58 90)
+    (property "Reference" "R31" (at 137.16 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "680" (at 139.7 68.58 90)
@@ -1142,14 +1142,14 @@
     (pin "2" (uuid 1738d92c-406e-449e-b5ed-70c453d2baad))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R14") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R21") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R28") (unit 1)
+          (reference "R31") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R23") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1158,7 +1158,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 115.57 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7757bf12-ab74-4206-934b-52de5d7b37ed)
-    (property "Reference" "Q3" (at 109.22 60.96 0)
+    (property "Reference" "Q13" (at 109.22 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LND150" (at 109.22 63.5 0)
@@ -1184,14 +1184,14 @@
     (pin "1" (uuid 902b4970-b482-48ff-8f6d-124ef4fa8306))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "Q3") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "Q8") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "Q13") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q8") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -1200,7 +1200,7 @@
   (symbol (lib_id "Simulation_SPICE:PNP") (at 137.16 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ae292c4-fcc9-476e-8d2a-d3ec9f6fe1a5)
-    (property "Reference" "Q4" (at 142.24 91.44 0)
+    (property "Reference" "Q14" (at 142.24 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZTX560 " (at 142.24 93.98 0)
@@ -1226,14 +1226,14 @@
     (pin "2" (uuid 9c3ceac8-e701-4614-8e23-a3e8a5fc9db7))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "Q4") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "Q9") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "Q14") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q9") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -1242,7 +1242,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 170.18 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d76b314-a54d-4632-a688-62f98d9adbdc)
-    (property "Reference" "Q6" (at 176.53 86.36 0)
+    (property "Reference" "Q16" (at 176.53 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STF5NK100Z" (at 176.53 88.9 0)
@@ -1268,14 +1268,14 @@
     (pin "1" (uuid 1fe7fdfb-1c06-4735-983b-9e480f757ccd))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "Q6") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "Q11") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "Q16") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q11") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -1284,7 +1284,7 @@
   (symbol (lib_id "Device:D_45deg") (at 35.56 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9f69c6-34b7-4967-a3d6-20514b01605f)
-    (property "Reference" "D8" (at 31.75 62.23 90)
+    (property "Reference" "D22" (at 31.75 62.23 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 26.67 59.69 90)
@@ -1306,14 +1306,14 @@
     (pin "2" (uuid 7f795417-b4d8-4db6-92f9-109e09dcaa01))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D8") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D15") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D22") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D15") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1322,7 +1322,7 @@
   (symbol (lib_id "Device:R") (at 124.46 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa0d89a-43b2-4d65-9e0c-5839ca5269f5)
-    (property "Reference" "R13" (at 124.46 59.69 90)
+    (property "Reference" "R30" (at 124.46 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 124.46 62.23 90)
@@ -1338,14 +1338,14 @@
     (pin "2" (uuid 3ec3f525-4fc2-42c8-b852-923539c488ba))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R13") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R20") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R27") (unit 1)
+          (reference "R30") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R22") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1354,7 +1354,7 @@
   (symbol (lib_id "Device:D_45deg") (at 40.64 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad3245c3-b9f2-4b5b-b4af-e6970889241c)
-    (property "Reference" "D10" (at 43.18 62.23 0)
+    (property "Reference" "D24" (at 43.18 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STTH512FP" (at 44.45 59.69 0)
@@ -1376,14 +1376,14 @@
     (pin "2" (uuid f94b4567-c9c1-432d-bbea-30b2073257e4))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D10") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D17") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D24") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D17") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1392,7 +1392,7 @@
   (symbol (lib_id "Device:R") (at 77.47 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b82904f5-8dcb-4f94-bcc3-821dcb2fb3d6)
-    (property "Reference" "R32" (at 80.01 64.77 90)
+    (property "Reference" "R27" (at 80.01 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470k" (at 77.47 64.77 90)
@@ -1408,14 +1408,14 @@
     (pin "2" (uuid 49cf15e4-9ab5-47be-9052-72e39c8537bd))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R32") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R33") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R34") (unit 1)
+          (reference "R27") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R19") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1424,7 +1424,7 @@
   (symbol (lib_id "Device:D_45deg") (at 35.56 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdff3c7d-52d9-4198-92fd-31f8afc018ae)
-    (property "Reference" "D9" (at 33.02 68.58 0)
+    (property "Reference" "D23" (at 33.02 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STTH512FP" (at 31.75 71.12 0)
@@ -1446,14 +1446,14 @@
     (pin "2" (uuid 856602d1-2f5f-47cc-8d11-320755543beb))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D9") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D16") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D23") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D16") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1462,7 +1462,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 110.49 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb448a9b-e259-4e1f-9e72-e30c9ba6d97d)
-    (property "Reference" "Q2" (at 116.84 71.12 0)
+    (property "Reference" "Q12" (at 116.84 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LND150" (at 116.84 73.66 0)
@@ -1488,14 +1488,14 @@
     (pin "1" (uuid 1a922fab-81d6-470d-be15-d64742ef51fc))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "Q2") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "Q7") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "Q12") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q7") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "Device:R") (at 148.59 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf8279b1-08ea-4668-bdf5-4c4fb3df51a1)
-    (property "Reference" "R15" (at 146.05 102.87 90)
+    (property "Reference" "R32" (at 146.05 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180k 2W" (at 148.59 102.87 90)
@@ -1520,14 +1520,14 @@
     (pin "2" (uuid 9cbcc7d4-5d15-4e06-9596-e6d35b9db16c))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R15") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R22") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R29") (unit 1)
+          (reference "R32") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R24") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8e81d4e-e632-4977-946f-1d0d9e4d86fe)
-    (property "Reference" "D12" (at 152.4 63.8175 90)
+    (property "Reference" "D26" (at 152.4 63.8175 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 152.4 66.3575 90)
@@ -1552,14 +1552,14 @@
     (pin "2" (uuid c1d0d63b-c406-4bb8-8523-b2ed6403b17a))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "D12") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "D19") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "D26") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "D19") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1568,7 +1568,7 @@
   (symbol (lib_id "Device:R") (at 113.03 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e470328c-ef02-46b2-83a2-25b5e7e44806)
-    (property "Reference" "R12" (at 110.49 88.9 90)
+    (property "Reference" "R29" (at 110.49 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 113.03 88.9 90)
@@ -1584,14 +1584,14 @@
     (pin "2" (uuid 1dfb46e7-9bf5-4efc-8597-16cc7f6fe993))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R12") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R19") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R26") (unit 1)
+          (reference "R29") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R21") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1600,7 +1600,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 113.03 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e65b74db-a15f-42de-b036-9359f6ee9357)
-    (property "Reference" "RV1" (at 110.49 81.28 90)
+    (property "Reference" "RV3" (at 110.49 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 113.03 81.28 90)
@@ -1617,14 +1617,14 @@
     (pin "3" (uuid 6dc2651f-746e-407f-a9e7-5c97261ec529))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "RV1") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "RV2") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "RV3") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "RV2") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "RV1") (unit 1)
         )
       )
     )
@@ -1633,7 +1633,7 @@
   (symbol (lib_id "Device:C") (at 97.79 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7942fba-affa-4815-9c22-a1e6a9e47522)
-    (property "Reference" "C7" (at 101.6 101.6 0)
+    (property "Reference" "C11" (at 101.6 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 101.6 104.14 0)
@@ -1649,14 +1649,14 @@
     (pin "2" (uuid 7a3d4c86-d940-4e15-ab4f-f24b01c39646))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "C7") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "C9") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "C11") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "C10") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
   (symbol (lib_id "Simulation_SPICE:PNP") (at 142.24 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7b7cea5-5a72-442b-804c-0f44dfac9918)
-    (property "Reference" "Q5" (at 137.16 81.28 0)
+    (property "Reference" "Q15" (at 137.16 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZTX560 " (at 137.16 83.82 0)
@@ -1691,14 +1691,14 @@
     (pin "2" (uuid 4dbfc157-6613-4576-86ba-0a29e6d578be))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "Q5") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "Q10") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
           (reference "Q15") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q10") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -1707,7 +1707,7 @@
   (symbol (lib_id "Device:R") (at 161.29 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffd443f7-d543-47c4-b3c3-85ca34b5b5da)
-    (property "Reference" "R16" (at 161.29 85.09 90)
+    (property "Reference" "R33" (at 161.29 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 161.29 87.63 90)
@@ -1723,14 +1723,14 @@
     (pin "2" (uuid 1462050b-21c1-4533-bcdd-442fb4a33a8c))
     (instances
       (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/ac7ca118-76ca-4c47-8cb7-c19bcb373afe"
-          (reference "R16") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/f6fdfab6-bf9f-49de-ad92-24f09c821c13"
-          (reference "R23") (unit 1)
-        )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/1bddec79-a3a8-4460-9700-3dc237832f6f"
-          (reference "R30") (unit 1)
+          (reference "R33") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "R25") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/67b387d9-86ee-4ea1-ba53-21388aeb4a7e"
+          (reference "R17") (unit 1)
         )
       )
     )
