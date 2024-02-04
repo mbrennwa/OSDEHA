@@ -6,7 +6,7 @@
     (property "Value" "6E5P" (at 8.89 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Valve:Valve_Mini_P" (at 17.78 -11.43 0)
+    (property "Footprint" "OSDEHA_AMP:belton_noval-bside" (at 17.78 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 26.67 -15.24 0)
@@ -19,9 +19,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "single tetrode" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "VALVE*MINI*P*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "6E5P_0_1"

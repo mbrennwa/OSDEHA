@@ -1888,7 +1888,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 255 0 15 1)) (justify left bottom))
     (uuid 303654a0-587e-43ba-8893-e4f70a5ee0f6)
   )
-  (text "B+ and B-: +/- 440 VDC, 2 x 60 mA\nGrid driver: -550 VDC, 2 x 20 mA"
+  (text "B+ and B-: +/- 440 VDC, 2 x 88 mA\nGrid driver: -550 VDC, 2 x 20 mA"
     (at 74.93 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a1027c2-e923-478a-999d-8854df2d6613)
