@@ -2228,7 +2228,7 @@
   (symbol (lib_id "OSDEHA_AMP:6E5P") (at 96.52 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c0563a4-c0e5-4fb6-a618-b9eaf805973b)
-    (property "Reference" "U5" (at 105.41 132.08 0)
+    (property "Reference" "U1" (at 105.41 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6E5P" (at 105.41 134.62 0)
@@ -2250,7 +2250,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2399,7 +2399,7 @@
   (symbol (lib_id "OSDEHA_AMP:6E5P") (at 129.54 220.98 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2717e8ad-f404-466c-ab0e-e49b341e702f)
-    (property "Reference" "U6" (at 135.89 220.345 0)
+    (property "Reference" "U2" (at 135.89 220.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6E5P" (at 135.89 222.885 0)
@@ -2421,7 +2421,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U6") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -2773,7 +2773,7 @@
   (symbol (lib_id "Device:R") (at 129.54 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52aa991e-472f-4235-b5f1-0dfe1af6b06a)
-    (property "Reference" "R10" (at 127 95.25 90)
+    (property "Reference" "R9" (at 127 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13k 8W" (at 132.08 95.25 90)
@@ -2790,7 +2790,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3036,7 +3036,7 @@
   (symbol (lib_id "OSDEHA_AMP:6E5P") (at 129.54 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 709a0b8b-ec3a-43ea-8500-532236421b3d)
-    (property "Reference" "U6" (at 138.43 132.08 0)
+    (property "Reference" "U2" (at 138.43 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6E5P" (at 138.43 134.62 0)
@@ -3058,7 +3058,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U6") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3067,7 +3067,7 @@
   (symbol (lib_id "Device:D_Zener") (at 228.6 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 714e8f14-207f-482d-996f-070380a1e025)
-    (property "Reference" "D6" (at 226.06 128.27 0)
+    (property "Reference" "D3" (at 226.06 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15V" (at 229.87 128.27 0)
@@ -3087,7 +3087,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3123,7 +3123,7 @@
   (symbol (lib_id "Device:R") (at 330.2 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8277f99e-122b-4533-b2dc-484491a31f72)
-    (property "Reference" "R23" (at 327.66 119.38 90)
+    (property "Reference" "R21" (at 327.66 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 332.74 119.38 90)
@@ -3140,7 +3140,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R23") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3257,7 +3257,7 @@
   (symbol (lib_id "Device:R") (at 132.08 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2d2e9d9-9d71-4f9c-ae16-100d28ac66b9)
-    (property "Reference" "R9" (at 132.08 176.53 90)
+    (property "Reference" "R10" (at 132.08 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "??" (at 132.08 181.61 0)
@@ -3274,7 +3274,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3465,7 +3465,7 @@
   (symbol (lib_id "Device:D_Zener") (at 236.22 148.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd80b141-d1f7-4b5c-9f64-e2ec57575326)
-    (property "Reference" "D9" (at 238.76 151.13 0)
+    (property "Reference" "D6" (at 238.76 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15V" (at 234.95 151.13 0)
@@ -3485,7 +3485,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "D9") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3546,7 +3546,7 @@
   (symbol (lib_id "Device:D_Zener") (at 236.22 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d71ee1e3-1c14-48c2-b18a-a9272e502db1)
-    (property "Reference" "D7" (at 238.76 128.27 0)
+    (property "Reference" "D5" (at 238.76 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15V" (at 234.95 128.27 0)
@@ -3566,7 +3566,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3792,7 +3792,7 @@
   (symbol (lib_id "Device:R") (at 330.2 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0b21462-b7fd-43fd-9f9f-b3bc02b02b7e)
-    (property "Reference" "R24" (at 327.66 127 90)
+    (property "Reference" "R22" (at 327.66 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 332.74 127 90)
@@ -3809,7 +3809,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R24") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3818,7 +3818,7 @@
   (symbol (lib_id "OSDEHA_AMP:6E5P") (at 96.52 220.98 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f210807b-b33e-4d27-8d61-133a49df4f28)
-    (property "Reference" "U5" (at 102.87 220.345 0)
+    (property "Reference" "U1" (at 102.87 220.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6E5P" (at 102.87 222.885 0)
@@ -3840,7 +3840,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "U5") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -3875,7 +3875,7 @@
   (symbol (lib_id "Device:D_Zener") (at 228.6 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6bd1bb4-cf99-40fc-bdcd-ce2e4110bbc7)
-    (property "Reference" "D8" (at 226.06 151.13 0)
+    (property "Reference" "D4" (at 226.06 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15V" (at 229.87 151.13 0)
@@ -3895,7 +3895,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "D8") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3928,7 +3928,7 @@
   (symbol (lib_id "Device:D_Zener") (at 111.76 167.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8964239-e78d-495f-8a08-010997f5e6a0)
-    (property "Reference" "D10" (at 114.3 170.18 0)
+    (property "Reference" "D2" (at 114.3 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15V" (at 110.49 170.18 0)
@@ -3948,7 +3948,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "D10") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3957,7 +3957,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 237.49 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff7816f0-60d8-45db-a468-3e189ae7affa)
-    (property "Reference" "Q11" (at 242.57 142.24 0)
+    (property "Reference" "Q4" (at 242.57 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STF3LN80K5" (at 242.57 144.78 0)
@@ -3978,7 +3978,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "Q11") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )

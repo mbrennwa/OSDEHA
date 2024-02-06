@@ -326,7 +326,7 @@
   (symbol (lib_id "Device:R") (at 137.16 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02483c5f-461b-4a19-92a6-5444ffb40f2a)
-    (property "Reference" "R32" (at 134.62 97.79 90)
+    (property "Reference" "R34" (at 134.62 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 137.16 97.79 90)
@@ -343,10 +343,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R32") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R34") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -355,7 +355,7 @@
   (symbol (lib_id "Device:R") (at 121.92 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74bdfc90-47bf-4cad-9b92-b8c81b968e2e)
-    (property "Reference" "R21" (at 120.015 95.885 90)
+    (property "Reference" "R33" (at 120.015 95.885 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "300" (at 121.92 97.79 90)
@@ -372,10 +372,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R21") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R31") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
