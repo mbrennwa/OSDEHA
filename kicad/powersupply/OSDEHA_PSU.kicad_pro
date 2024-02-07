@@ -346,6 +346,14 @@
     [
       "4254f3fa-5a7d-4f6e-8fcc-41d75b752000",
       "HV_STABI3"
+    ],
+    [
+      "727c75f6-edc2-4fc0-8e3e-14cbc2040e98",
+      "COLEMAN_RAW_DC_LEFT"
+    ],
+    [
+      "5494a183-e083-4795-ba51-682672d147b4",
+      "COLEMAN_RAW_DC_RIGHT"
     ]
   ],
   "text_variables": {}
