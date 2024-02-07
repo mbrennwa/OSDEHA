@@ -1991,11 +1991,6 @@
     (uuid fd49df84-3b26-4218-bb34-ec5bebcfdab7)
   )
 
-  (text "Filament, heater and buffer/bias supply turn on first\nB+ and B- turn on with delay"
-    (at 358.14 151.13 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 201aaff3-e221-4508-90fc-0da995cf030e)
-  )
   (text "Heatsink: Fischer SJ199 or SK 139 (with mounting slots for screw nuts) 265L x 10H x 74W"
     (at 297.18 48.26 0)
     (effects (font (size 3 3)) (justify right bottom))
@@ -2044,11 +2039,6 @@
   (text "20 mA" (at 275.59 109.22 90)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6373f712-1b06-4b04-993b-e71b88e447be)
-  )
-  (text "Film/foil caps: Wima MKP4 (they tend to be smaller than MKP10)"
-    (at 297.18 59.69 0)
-    (effects (font (size 3 3) (thickness 0.6) bold (color 255 0 13 1)) (justify right bottom))
-    (uuid 64f3af81-7422-40f0-a5cc-26cbf7ca3b1c)
   )
   (text "3 V" (at 99.06 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2099,7 +2089,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c3307dca-3200-4ab1-8381-2f9ddfa270c9)
   )
-  (text "Coleman DHT filament DC regulators, floating" (at 389.89 173.99 0)
+  (text "Coleman DHT filament DC regulators, floating" (at 391.16 173.99 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c537537a-cc11-405e-a208-e40a871101f1)
   )
