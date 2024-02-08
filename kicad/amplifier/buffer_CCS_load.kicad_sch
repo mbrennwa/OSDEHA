@@ -305,7 +305,7 @@
     (uuid b94e42e6-9fbc-4493-a9de-6aae526efa62)
   )
 
-  (text "10 mA CCS" (at 143.51 95.25 0)
+  (text "10 mA CCS" (at 128.27 71.12 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2387f4ab-a2b7-4abe-9ff0-c1d95d7f5bd1)
   )
@@ -326,7 +326,7 @@
   (symbol (lib_id "Device:R") (at 137.16 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02483c5f-461b-4a19-92a6-5444ffb40f2a)
-    (property "Reference" "R34" (at 134.62 97.79 90)
+    (property "Reference" "R36" (at 134.62 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150" (at 137.16 97.79 90)
@@ -343,10 +343,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R34") (unit 1)
+          (reference "R36") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R36") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -355,8 +355,8 @@
   (symbol (lib_id "Device:R") (at 121.92 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74bdfc90-47bf-4cad-9b92-b8c81b968e2e)
-    (property "Reference" "R33" (at 120.015 95.885 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "R35" (at 119.38 97.79 90)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "300" (at 121.92 97.79 90)
       (effects (font (size 1.27 1.27)))
@@ -372,10 +372,10 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
-          (reference "R33") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
-          (reference "R35") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -417,10 +417,10 @@
   (symbol (lib_id "Device:D_Zener") (at 125.73 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcb6d651-f9fe-4738-9f0d-ce40003956f8)
-    (property "Reference" "D11" (at 123.19 92.71 0)
+    (property "Reference" "D11" (at 125.73 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "15V" (at 127 92.71 0)
+    (property "Value" "15V" (at 125.73 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 125.73 90.17 0)
@@ -449,10 +449,10 @@
   (symbol (lib_id "Device:D_Zener") (at 133.35 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d51eecff-eb28-423c-8778-a5944dce0fa0)
-    (property "Reference" "D12" (at 135.89 92.71 0)
+    (property "Reference" "D12" (at 133.35 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "15V" (at 132.08 92.71 0)
+    (property "Value" "15V" (at 132.08 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 133.35 90.17 0)
