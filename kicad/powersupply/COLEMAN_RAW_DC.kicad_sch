@@ -292,6 +292,11 @@
     (uuid ef3f9383-ad0d-4ee7-8daf-9c0c9dbf08d0)
   )
 
+  (text "Raw DC supply for Coleman DHT filament regulator" (at 72.39 53.34 0)
+    (effects (font (size 2 2) (thickness 0.508) bold) (justify left bottom))
+    (uuid 6dc06b7c-5873-4c61-8599-5c6e54a98986)
+  )
+
   (hierarchical_label "RAWDC+" (shape passive) (at 140.97 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0d2c4b3f-f2e7-49d9-9584-bc923c36542c)
