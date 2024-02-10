@@ -1354,6 +1354,10 @@
     (stroke (width 0) (type default))
     (uuid 0ae43427-a5a8-4c05-bbc1-588d46eaa430)
   )
+  (wire (pts (xy 184.15 168.91) (xy 184.15 170.18))
+    (stroke (width 0) (type default))
+    (uuid 0e1c33bc-81d3-4594-9717-f6d8afdc7fff)
+  )
   (wire (pts (xy 85.09 143.51) (xy 85.09 146.05))
     (stroke (width 0) (type default))
     (uuid 0e2035b4-9019-4b7e-8eef-052e6fd39ac9)
@@ -1514,10 +1518,6 @@
     (stroke (width 0) (type default))
     (uuid 4e1dee99-6c35-4752-8c92-ca3e529c8002)
   )
-  (wire (pts (xy 191.77 168.91) (xy 191.77 170.18))
-    (stroke (width 0) (type default))
-    (uuid 4e3ec0b4-dc26-4e78-8b63-6fc55089e6fa)
-  )
   (wire (pts (xy 177.8 185.42) (xy 184.15 185.42))
     (stroke (width 0) (type default))
     (uuid 4e64f413-57f2-4d47-8103-8e127afb8a4b)
@@ -1621,6 +1621,10 @@
   (wire (pts (xy 292.1 148.59) (xy 292.1 125.73))
     (stroke (width 0) (type default))
     (uuid 7aa0f95a-8711-4130-b4ff-fef30bab656f)
+  )
+  (wire (pts (xy 191.77 168.91) (xy 191.77 170.18))
+    (stroke (width 0) (type default))
+    (uuid 7ada94fe-08b7-489a-94f8-d591e9876a38)
   )
   (wire (pts (xy 151.13 177.8) (xy 151.13 185.42))
     (stroke (width 0) (type default))
@@ -1821,10 +1825,6 @@
   (wire (pts (xy 99.06 217.17) (xy 132.08 217.17))
     (stroke (width 0) (type default))
     (uuid c89cd215-506b-4c22-b025-99aa5d68821b)
-  )
-  (wire (pts (xy 184.15 168.91) (xy 184.15 170.18))
-    (stroke (width 0) (type default))
-    (uuid c9156d67-284e-4c40-969a-618bf1cc8eba)
   )
   (wire (pts (xy 137.16 128.27) (xy 137.16 119.38))
     (stroke (width 0) (type default))
@@ -2069,11 +2069,11 @@
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 8fce737b-5dfd-48fe-8918-fda464696fed)
   )
-  (text "-480V" (at 241.3 129.54 0)
+  (text "ca. -480V" (at 241.3 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 944a4dfe-69a6-4bb6-a6ba-2949b954f6ef)
   )
-  (text "ca. -483 V" (at 185.42 119.38 0)
+  (text "ca. -477 V" (at 185.42 119.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95d7e444-f7f7-41bf-abc2-1f2f90d4bde6)
   )
@@ -2311,6 +2311,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 191.77 173.99 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0f862399-a0c4-4396-a6b1-44085cef5acd)
+    (property "Reference" "R20" (at 194.31 173.99 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "25k" (at 191.77 173.99 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 193.548 173.99 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 191.77 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b583788-a42c-4575-b9bc-43c21f2906e1))
+    (pin "2" (uuid aaa11973-82db-4a8f-b5de-f1e23a1a20a6))
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 113.03 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10eee5b0-f9da-4527-a01b-d47c5aaa4461)
@@ -2511,6 +2537,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 184.15 173.99 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 40498012-7901-484f-a1ca-d07ef4c5b2f3)
+    (property "Reference" "R17" (at 181.61 173.99 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "47k" (at 184.15 173.99 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 185.928 173.99 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.15 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a699389e-a889-41b8-826a-2f3411bdc80c))
+    (pin "2" (uuid 3e317b4d-ea1e-438f-924b-8d7e75edc02d))
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 378.46 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 415f25f2-124b-44de-bf8d-e8a1ed5504d0)
@@ -2568,7 +2620,7 @@
   (symbol (lib_id "Device:R") (at 220.98 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4994bbd3-ba04-43b1-bcf6-04619915b30c)
-    (property "Reference" "R19" (at 222.25 118.11 90)
+    (property "Reference" "R21" (at 222.25 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 222.25 120.65 90)
@@ -2585,7 +2637,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R19") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2594,7 +2646,7 @@
   (symbol (lib_id "Device:R") (at 261.62 148.59 90) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 49e4cee7-9cc8-48e2-bb1c-d53e6eab868a)
-    (property "Reference" "R21" (at 261.62 146.05 90)
+    (property "Reference" "R23" (at 261.62 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 261.62 148.59 90)
@@ -2611,7 +2663,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R21") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -2623,7 +2675,7 @@
     (property "Reference" "R12" (at 154.94 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "25k" (at 157.48 173.99 90)
+    (property "Value" "47k" (at 157.48 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 159.258 173.99 90)
@@ -2695,7 +2747,7 @@
   (symbol (lib_id "Device:R") (at 177.8 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e0df18d-59b4-4494-be02-eb37ef98cee9)
-    (property "Reference" "R15" (at 175.26 173.99 90)
+    (property "Reference" "R16" (at 175.26 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 177.8 173.99 90)
@@ -2712,7 +2764,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2747,10 +2799,10 @@
   (symbol (lib_id "Device:R") (at 165.1 173.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 564a821d-984b-488d-9c91-660b6b4817d8)
-    (property "Reference" "R14" (at 167.64 173.99 90)
+    (property "Reference" "R15" (at 167.64 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "47k" (at 165.1 173.99 90)
+    (property "Value" "25k" (at 165.1 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 166.878 173.99 90)
@@ -2764,7 +2816,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2797,7 +2849,7 @@
   (symbol (lib_id "Device:R") (at 220.98 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63d5b3b0-ea4c-42d6-8747-d57dcd829809)
-    (property "Reference" "R20" (at 222.25 140.97 90)
+    (property "Reference" "R22" (at 222.25 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 222.25 143.51 90)
@@ -2814,7 +2866,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R20") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2873,32 +2925,6 @@
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
           (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 184.15 173.99 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 69cf4465-5f5b-40c3-93b3-e993fae2f225)
-    (property "Reference" "R16" (at 181.61 173.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "25k" (at 184.15 173.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 185.928 173.99 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 184.15 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef1d179f-5640-4444-875c-dea02e37b137))
-    (pin "2" (uuid 7733479e-72d3-4107-b18a-824adf76935a))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R16") (unit 1)
         )
       )
     )
@@ -3048,10 +3074,10 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 161.29 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7810fa28-71dc-4253-9218-763a0c9cf815)
-    (property "Reference" "30k1" (at 161.29 168.91 90)
+    (property "Reference" "R14" (at 157.48 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 167.64 175.26 90)
+    (property "Value" "20k" (at 161.29 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 161.29 168.91 0)
@@ -3060,13 +3086,16 @@
     (property "Datasheet" "~" (at 161.29 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "3296W-1-203" (at 161.29 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 77307141-b9cd-4bc4-8d1d-9480551e1a3f))
     (pin "1" (uuid aeb24f8d-af4c-4bac-8fcc-ff7a14e5c079))
     (pin "3" (uuid 6ce11ed6-7313-4220-bc06-96b6b2059e3d))
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "30k1") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3075,7 +3104,7 @@
   (symbol (lib_id "Device:R") (at 358.14 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8277f99e-122b-4533-b2dc-484491a31f72)
-    (property "Reference" "R23" (at 355.6 119.38 90)
+    (property "Reference" "R25" (at 355.6 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 360.68 119.38 90)
@@ -3092,7 +3121,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R23") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3177,6 +3206,36 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Potentiometer") (at 187.96 168.91 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a7d7d0dd-d482-4b49-aa70-71c686f42f41)
+    (property "Reference" "R19" (at 184.15 166.37 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "20k" (at 187.96 168.91 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 187.96 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 187.96 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "3296W-1-203" (at 187.96 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid fcba5bbe-698e-4ab4-bb24-deedae344eda))
+    (pin "1" (uuid 23b349c4-8a26-461f-9a97-abeabcdb0b1e))
+    (pin "3" (uuid 15a2469e-10b4-4d8b-85c2-1c2df91a1a0c))
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 175.26 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa55e2af-382a-4a94-8c4f-51fa2a2f246a)
@@ -3206,36 +3265,10 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 191.77 173.99 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c1c5060f-909b-484d-aa54-ad1a41b8e76f)
-    (property "Reference" "R18" (at 194.31 173.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "47k" (at 191.77 173.99 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 193.548 173.99 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 191.77 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 86a3c8de-7548-4e92-b72c-3ce37f9eed5e))
-    (pin "2" (uuid ba5d4560-9dbf-4dfc-85b3-79ac46671575))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 308.61 148.59 90) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid c27b5ff4-062a-427e-85b7-5fdaac96e1a0)
-    (property "Reference" "R22" (at 308.61 146.05 90)
+    (property "Reference" "R24" (at 308.61 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 308.61 148.59 90)
@@ -3252,7 +3285,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R22") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3633,33 +3666,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 187.96 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e318c2a7-855b-445f-a89b-4f26b52d31b7)
-    (property "Reference" "30k2" (at 187.96 168.91 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 194.31 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 187.96 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 187.96 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 626e9385-e3a3-497f-8d97-f706e8abfe91))
-    (pin "1" (uuid a6c9cfd5-39b6-427c-a65f-ee32db1c29ed))
-    (pin "3" (uuid 8abb2118-d90b-45d8-9b15-1622c7adb1a5))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "30k2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 118.11 152.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3318eb0-23e5-4319-8a63-21754d38f691)
@@ -3693,7 +3699,7 @@
   (symbol (lib_id "Device:R") (at 187.96 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e33b7b3c-f136-44c8-a459-fde793e82341)
-    (property "Reference" "R17" (at 185.42 152.4 90)
+    (property "Reference" "R18" (at 185.42 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 187.96 152.4 90)
@@ -3710,7 +3716,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3747,7 +3753,7 @@
   (symbol (lib_id "Device:R") (at 358.14 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0b21462-b7fd-43fd-9f9f-b3bc02b02b7e)
-    (property "Reference" "R24" (at 355.6 127 90)
+    (property "Reference" "R26" (at 355.6 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 360.68 127 90)
@@ -3764,7 +3770,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R24") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
