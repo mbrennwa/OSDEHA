@@ -2521,7 +2521,7 @@
   (symbol (lib_id "Device:R") (at 361.95 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19226c1e-55d5-4eda-9dc6-ca98ca2c87fd)
-    (property "Reference" "R43" (at 364.49 78.74 90)
+    (property "Reference" "R29" (at 364.49 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 361.95 78.74 90)
@@ -2541,7 +2541,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R43") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 356.87 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2470e0b2-087d-49d2-b7ca-c7017a1da538)
-    (property "Reference" "C9" (at 356.87 81.28 0)
+    (property "Reference" "C7" (at 356.87 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "51u " (at 355.6 72.39 0)
@@ -2599,7 +2599,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3060,7 +3060,7 @@
   (symbol (lib_id "Device:R") (at 342.9 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a0a7524-bdcf-4e20-b09d-770c8b50ba0b)
-    (property "Reference" "R42" (at 345.44 78.74 90)
+    (property "Reference" "R26" (at 345.44 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 342.9 78.74 90)
@@ -3080,7 +3080,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R42") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3115,7 +3115,7 @@
   (symbol (lib_id "Device:C") (at 171.45 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6564be25-135f-4429-b924-bf5d816e1d00)
-    (property "Reference" "C3" (at 170.18 163.83 0)
+    (property "Reference" "C1" (at 170.18 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n 630 V" (at 176.53 160.02 0)
@@ -3135,7 +3135,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3346,7 +3346,7 @@
   (symbol (lib_id "Device:R") (at 358.14 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8277f99e-122b-4533-b2dc-484491a31f72)
-    (property "Reference" "R25" (at 355.6 119.38 90)
+    (property "Reference" "R27" (at 355.6 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 360.68 119.38 90)
@@ -3363,7 +3363,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R25") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3423,7 +3423,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 337.82 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9caf31dc-b46d-433d-a17a-59c41b36db2a)
-    (property "Reference" "C2" (at 337.82 81.28 0)
+    (property "Reference" "C6" (at 337.82 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "51u " (at 336.55 72.39 0)
@@ -3443,7 +3443,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3510,7 +3510,7 @@
   (symbol (lib_id "Device:C") (at 175.26 143.51 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa55e2af-382a-4a94-8c4f-51fa2a2f246a)
-    (property "Reference" "C5" (at 177.8 144.78 90)
+    (property "Reference" "C3" (at 177.8 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n 1 kV" (at 168.91 139.7 90)
@@ -3530,7 +3530,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C5") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3565,7 +3565,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 318.77 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3025ebb-7fdd-47ad-89a0-aaba77673c30)
-    (property "Reference" "C1" (at 318.77 81.28 0)
+    (property "Reference" "C5" (at 318.77 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "51u " (at 322.58 72.39 0)
@@ -3585,7 +3585,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3594,7 +3594,7 @@
   (symbol (lib_id "Device:C") (at 198.12 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c338c77e-4e4c-4812-9799-556bc70d038d)
-    (property "Reference" "C6" (at 196.85 163.83 0)
+    (property "Reference" "C4" (at 196.85 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n 630 V" (at 203.2 160.02 0)
@@ -3614,7 +3614,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C6") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3805,7 +3805,7 @@
   (symbol (lib_id "Device:R") (at 323.85 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d33026c3-9f65-47f0-9deb-b6e3a905fd20)
-    (property "Reference" "R41" (at 326.39 78.74 90)
+    (property "Reference" "R25" (at 326.39 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 323.85 78.74 90)
@@ -3825,7 +3825,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R41") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -4053,7 +4053,7 @@
   (symbol (lib_id "Device:R") (at 358.14 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0b21462-b7fd-43fd-9f9f-b3bc02b02b7e)
-    (property "Reference" "R26" (at 355.6 127 90)
+    (property "Reference" "R28" (at 355.6 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 360.68 127 90)
@@ -4070,7 +4070,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "R26") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4220,7 +4220,7 @@
   (symbol (lib_id "Device:C") (at 175.26 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9cf5ab5-5e17-4700-b8b8-311375b24519)
-    (property "Reference" "C4" (at 177.8 121.92 90)
+    (property "Reference" "C2" (at 177.8 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n 1 kV" (at 168.91 116.84 90)
@@ -4240,7 +4240,7 @@
     (instances
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-          (reference "C4") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
