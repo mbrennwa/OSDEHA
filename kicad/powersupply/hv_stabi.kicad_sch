@@ -1754,7 +1754,7 @@
     (property "Reference" "R23" (at 71.12 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "500k" (at 68.58 66.04 90)
+    (property "Value" "1M" (at 68.58 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 70.358 66.04 90)
