@@ -1223,7 +1223,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b2a9b0e3-3cc6-4592-81b3-11a0f7c953a4)
   )
-  (text "High-voltage DC supply" (at 59.69 43.18 0)
+  (text "OSDEHA High-voltage DC supply, draft 120224, not tested, mbrennwa@diyAudio"
+    (at 29.21 45.72 0)
     (effects (font (size 2 2) (thickness 0.508) bold) (justify left bottom))
     (uuid cf1bbf61-4f54-42fc-b37e-a74a1eda19e7)
   )
