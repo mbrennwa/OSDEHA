@@ -102,3 +102,15 @@ HV Power supply:
 
 DHT filament supply:
 - Rod Coleman. https://lyrima.co.uk/pdf/AN-DHT-V7-2.pdf
+- For 801 / 10Y / VT25 tubes: 7.5 V @ 1.25 A each
+- Coleman reg needs 10.1...11.2 VDC input from raw DC supply
+- Duncan PSUD2 model with C-R+R-C filter:
+	- Rectifier = 4 x 1N5822
+	- C = 15'000 uF
+	- R = 0.22 Ohm
+	- Assume 4.5 A transformer with approx. 45-50 VA, which has estimated primary source resistance of 80 Ohm
+	- reflected secondary source resistance = 0.136 Ohm
+	- Current draw per channel = 2 x 1.25 A (2 x 801 tube)
+	--> PSUD2 calculator shows 10.2 VDC output with +/- 0.1 V ripple for a secondary voltage of 10.0 VAC(rms), so voltage is always 10.1 V or higher (as needed for Coleman reg.)
+	--> Allow AC mains to be 5% lower than nominal, so nominal secondary AC voltage must be at least 10.0/0.95 = 10.5 VAC(rms)
+	==> Transformer secondary specificiation (per channel): 10.5 VAC / 4.5 A
