@@ -3189,7 +3189,7 @@
     (property "Value" "12k 7W" (at 132.08 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" (at 132.08 180.848 90)
+    (property "Footprint" "Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm" (at 132.08 180.848 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf" (at 132.08 179.07 0)
@@ -3466,6 +3466,30 @@
       (project "OSDEHA_AMP"
         (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 36.83 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9ad6eb41-e5e0-43dc-9be8-ca8958d08ae3)
+    (property "Reference" "H5" (at 39.37 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VENTILATION" (at 39.37 52.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_5mm" (at 36.83 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "OSDEHA_AMP"
+        (path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+          (reference "H5") (unit 1)
         )
       )
     )
