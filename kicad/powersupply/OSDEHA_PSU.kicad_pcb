@@ -530,7 +530,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 06159451-9e59-4996-9fdb-56da67b9b354)
-    (at -29.21 174.59 -90)
+    (at -146.064501 158.75 -90)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "ZTX560")
@@ -2987,7 +2987,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 1849034f-3aa8-49bd-bea1-576c15d64cc8)
-    (at 92.345 14.22)
+    (at 22.86 219.71)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -3650,7 +3650,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp 255cd00f-d7b6-466c-b8f7-1cf3eb2d056a)
-    (at 19.685 226.66 180)
+    (at -97.169501 210.82 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0004 example for new part number: 26-60-4040, 4 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0851")
@@ -4130,7 +4130,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 327e76bf-dd2a-4dca-b329-84e137214a45)
-    (at -29.845 228.565)
+    (at -146.699501 212.725)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP ")
@@ -4201,7 +4201,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 335b7352-86ce-42d8-94b4-49219a951db6)
-    (at -29.21 168.875 -90)
+    (at -146.064501 153.035 -90)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "ZTX560")
@@ -4258,7 +4258,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 3441cac2-e58e-4140-bf0e-e3526a5e93af)
-    (at 92.345 61.66)
+    (at 241.3 72.39)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128")
@@ -5102,7 +5102,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 45cb9960-5a64-4438-bfd0-16133dae2bde)
-    (at 92.345 49.8)
+    (at 241.935 26.67)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -5278,7 +5278,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 4934e43d-12d8-4a72-ab13-1bdfddfc3cba)
-    (at -37.465 197.81 180)
+    (at -154.319501 181.97 180)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "LND150N3-G")
@@ -5528,7 +5528,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (layer "F.Cu")
     (tstamp 575c86de-2d27-4588-90de-e8adf2956386)
-    (at -49.53 182.845 -90)
+    (at -166.384501 167.005 -90)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (property "MPN" "3296W-1-102")
@@ -5934,7 +5934,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tstamp 5af2f8b5-1b89-4535-a213-2fd805461be7)
-    (at -37.465 172.685 -90)
+    (at -154.319501 156.845 -90)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "MPN" "WP7113ID ")
@@ -5991,7 +5991,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 5ca6ed05-9ae9-4929-a273-a5cd0fbef916)
-    (at 110.755 164.3)
+    (at 110.49 166.37)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -6427,7 +6427,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 64c5429b-a226-403d-9811-e63a4f946f59)
-    (at -40.005 193.64)
+    (at -156.859501 177.8)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "LND150N3-G")
@@ -6993,7 +6993,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp 723df35c-ccab-4588-af3e-bc7da0dc95c3)
-    (at 65.514002 26.26)
+    (at 38.895 74.295)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALH82A471DL550 ")
@@ -8148,7 +8148,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 724f725b-af3e-4f48-8714-ad7f6b85c8f1)
-    (at 102.575 68.32)
+    (at 24.765 123.19)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55787K00")
@@ -8272,7 +8272,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" (layer "F.Cu")
     (tstamp 77ab9b64-12f5-440b-8e67-48c794ca9dc8)
-    (at 0.635 153.635 -90)
+    (at -116.219501 137.795 -90)
     (descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
     (tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
     (property "MPN" "PR03000201803JAC00 ")
@@ -8511,7 +8511,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp 7af875bf-89a3-43b9-9818-449cfaebd7d9)
-    (at -20.305499 196.815)
+    (at -137.16 180.975)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALC70A221DE630 ")
@@ -9666,7 +9666,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 7d0fcaf3-7ffc-4be4-890c-042adbd91503)
-    (at -43.815 194.275 180)
+    (at -160.669501 178.435 180)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY15")
@@ -9753,7 +9753,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 8340db02-d6a5-478d-8534-38b3f23339e9)
-    (at -29.845 220.31)
+    (at -146.699501 204.47)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -9824,7 +9824,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 83828ccf-d154-4acb-96b7-aff5fe712c05)
-    (at 92.345 26.08)
+    (at 56.515 220.345)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -9933,7 +9933,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 84697074-e700-4ec1-8cf4-06d63110fcaf)
-    (at -43.18 172.05 180)
+    (at -160.034501 156.21 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K5000")
@@ -10905,7 +10905,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 87ca7c6e-0be4-4eaf-ad4f-43cb43e601f2)
-    (at -37.465 147.285 90)
+    (at -154.319501 131.445 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K0000")
@@ -11570,7 +11570,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 94b181fe-148d-464b-a2e5-48407289e83c)
-    (at -43.18 168.24 180)
+    (at -160.034501 152.4 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55976K00")
@@ -11887,7 +11887,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 9b10c742-46f7-4e68-b400-3be329b10806)
-    (at -38.735 203.8 180)
+    (at -155.589501 187.96 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K0000")
@@ -12243,7 +12243,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 9e8c9a50-2b9b-49cb-b281-dca6a2e18ad8)
-    (at -29.21 165.7 180)
+    (at -146.064501 149.86 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551M0000")
@@ -13582,7 +13582,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp ad6a02f9-e0e1-44c1-8402-0c04f77a3f53)
-    (at -37.465 157.445)
+    (at -154.319501 141.605)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY12")
@@ -13873,7 +13873,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp b27c50c5-bae1-4056-aa18-d57241f15422)
-    (at -5.715 220.295)
+    (at -122.569501 204.455)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -14015,7 +14015,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp b3ad4adb-831a-4fae-b41e-e6c450b7183a)
-    (at -43.18 179.035 -90)
+    (at -160.034501 163.195 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K0000")
@@ -15346,7 +15346,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp bccfd03c-2b7d-49e5-af21-ccf506918369)
-    (at -5.715 228.565)
+    (at -122.569501 212.725)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -15589,7 +15589,7 @@
 
   (footprint "Relay_THT:Relay_DPST_Schrack-RT2-FormA_RM5mm" (layer "F.Cu")
     (tstamp c756be1c-7667-42e4-b5f5-9d2dcdaf16ff)
-    (at 117.635 99.87)
+    (at 39.37 194.31 -90)
     (descr "Relay DPST Schrack-RT2 RM5mm 16A 250V AC Form A http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT2_reflow&DocType=DS&DocLang=EN")
     (tags "Relay DPST Schrack-RT2 RM5mm 16A 250V AC Relay")
     (property "MPN" "9-1393243-6")
@@ -15599,15 +15599,15 @@
     (property "ki_keywords" "Dual Pole Relay DPST NO")
     (path "/5a6095ef-08b7-48a8-9608-80bf8c2e39f0")
     (attr through_hole)
-    (fp_text reference "K1" (at 12.5 -11.5) (layer "F.SilkS")
+    (fp_text reference "K1" (at 12.5 -11.5 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 32372387-79aa-4dba-bca7-721d5aebb04a)
     )
-    (fp_text value "Relay_DPST-NO" (at 12.192 4.25) (layer "F.Fab")
+    (fp_text value "Relay_DPST-NO" (at 12.192 4.25 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 368e3cee-26f5-43ba-98ec-bfd00dd00b0e)
     )
-    (fp_text user "${REFERENCE}" (at 12.065 -3.81 180) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 12.065 -3.81 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 65bd6045-e38a-468e-8a10-c1c43784e05c)
     )
@@ -15663,15 +15663,15 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 22c2ddda-c3eb-467d-86ba-e37e1f721b01))
     (fp_line (start 26.65 2.6) (end 26.65 -10.1)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 929cc29e-25e1-4439-9504-87cde59944c6))
-    (pad "11" thru_hole oval (at 20.3 0 180) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp c372c51b-4d18-4e98-90f9-208c231dd446))
-    (pad "14" thru_hole oval (at 25.34 0 180) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask")
+    (pad "11" thru_hole oval (at 20.3 0 90) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp c372c51b-4d18-4e98-90f9-208c231dd446))
+    (pad "14" thru_hole oval (at 25.34 0 90) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 62 "Net-(J1-Pin_2)") (pintype "passive") (tstamp 283e56da-915e-4f08-a377-ddf951df1d69))
-    (pad "21" thru_hole oval (at 20.3 -7.5 180) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 6b43422c-30db-401e-a949-4d0884e5c542))
-    (pad "24" thru_hole oval (at 25.34 -7.5 180) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask")
+    (pad "21" thru_hole oval (at 20.3 -7.5 90) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 6b43422c-30db-401e-a949-4d0884e5c542))
+    (pad "24" thru_hole oval (at 25.34 -7.5 90) (size 2 3) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 63 "Net-(J2-Pin_2)") (pintype "passive") (tstamp 47800c6c-16ee-493a-a76c-a50278197378))
-    (pad "A1" thru_hole rect (at 0 0 180) (size 3 2) (drill 1.3) (layers "*.Cu" "*.Mask")
+    (pad "A1" thru_hole rect (at 0 0 90) (size 3 2) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pintype "passive") (tstamp cb8f8be9-ae72-4cfa-a4e0-bcda76ee1ead))
-    (pad "A2" thru_hole oval (at 0 -7.5 180) (size 3 2) (drill 1.3) (layers "*.Cu" "*.Mask")
+    (pad "A2" thru_hole oval (at 0 -7.5 90) (size 3 2) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 29 "Net-(D5-K)") (pintype "passive") (tstamp ac18410f-4fe4-467d-b061-59a079194f63))
     (model "${KICAD6_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPST_Schrack-RT2-FormA_RM5mm.wrl"
       (offset (xyz 0 0 0))
@@ -15753,7 +15753,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp c8f3a470-daf7-47f4-96c9-29b1cd2dd335)
-    (at -23.495 175.225)
+    (at -140.349501 159.385)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55680R00")
@@ -15992,7 +15992,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp d0bc3a0d-a1b2-412f-9040-3381516259f8)
-    (at -12.7 225.39 180)
+    (at -129.554501 209.55 180)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -16101,7 +16101,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp d182a1cd-5fa4-4738-8ff4-bb54134863d9)
-    (at -31.75 153 90)
+    (at -148.604501 137.16 90)
     (descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
     (tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
     (property "MPN" "PR03000203309JAC00 ")
@@ -16605,7 +16605,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tstamp de638d35-d958-4bd4-8b11-b3d11ec0ede9)
-    (at -37.465 179.035 -90)
+    (at -154.319501 163.195 -90)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "MPN" "WP7113ID ")
@@ -17042,7 +17042,7 @@
     (property "ki_keywords" "resistor variable")
     (path "/24b6b111-beaa-4b8c-8049-83aba6ae29d6")
     (attr through_hole)
-    (fp_text reference "RV1" (at -106.725 -38.85) (layer "F.SilkS")
+    (fp_text reference "RV1" (at -2.29 -3.68) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e1c7cb95-93c3-44c2-be56-d137782eb1c9)
     )
@@ -17186,7 +17186,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp ed944446-517c-4115-8533-9fc2718a9e98)
-    (at 65.514002 62.81)
+    (at -26.67 180.34)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALH82A471DL550 ")
@@ -18341,7 +18341,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp eecefb66-6192-4cc7-ab42-1997dea69428)
-    (at -37.465 132.355)
+    (at -154.319501 116.515)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "MPN" "STF5NK100Z ")
@@ -18413,7 +18413,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp efc2b941-ea7d-4a80-9deb-6e154d76bf53)
-    (at 19.835 213.325 180)
+    (at -97.019501 197.485 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0004 example for new part number: 26-60-4040, 4 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0851")
@@ -18534,7 +18534,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4" (layer "F.Cu")
     (tstamp f1c460ae-6d20-4746-86ee-4affc4e3384c)
-    (at 110.295 131.72)
+    (at -35.895 148.59)
     (descr "C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
     (tags "C Rect series Radial pin pitch 37.50mm  length 41.5mm width 20mm Capacitor")
     (property "MPN" "MKP4J044707G00KSSD")
@@ -18702,7 +18702,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp f2fe6d1a-e405-4dec-ba82-4309e880264a)
-    (at -43.815 198.085 180)
+    (at -160.669501 182.245 180)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY15")
@@ -18947,7 +18947,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4" (layer "F.Cu")
     (tstamp ff46f320-2d57-45bc-8e49-62f1523d381c)
-    (at -15.24 131.41 -90)
+    (at -132.094501 115.57 -90)
     (descr "C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
     (tags "C Rect series Radial pin pitch 37.50mm  length 41.5mm width 20mm Capacitor")
     (property "MPN" "MKP4J044707G00KSSD")
