@@ -2704,7 +2704,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00801928-9968-4608-a831-ccfb96030327)
-    (property "Reference" "J14" (at 219.71 241.3 0)
+    (property "Reference" "J11" (at 219.71 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HEATERS-RIGHT" (at 219.71 243.84 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J14") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2797,7 +2797,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 345.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05facdbe-ad3f-4d5a-a3fb-9a6635efcd80)
-    (property "Reference" "J9" (at 219.71 346.71 0)
+    (property "Reference" "J14" (at 219.71 346.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COLEMANREG-RIGHT-1" (at 223.52 346.71 0)
@@ -2817,7 +2817,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J9") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -3018,7 +3018,7 @@
   (symbol (lib_id "Device:R") (at 189.23 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20c7ccb8-f391-46c6-913f-17f43bd1d3db)
-    (property "Reference" "R11" (at 193.04 57.15 0)
+    (property "Reference" "R12" (at 193.04 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 189.23 57.15 90)
@@ -3038,7 +3038,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3135,7 +3135,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 326.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24cffed8-1fdf-420f-9dfd-bae19781b837)
-    (property "Reference" "J7" (at 219.71 327.66 0)
+    (property "Reference" "J12" (at 219.71 327.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COLEMANREG-LEFT-1" (at 223.52 327.66 0)
@@ -3155,7 +3155,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J7") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -3302,7 +3302,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 335.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bbc6048-37a8-407d-be8f-566182deef5e)
-    (property "Reference" "J8" (at 219.71 336.55 0)
+    (property "Reference" "J13" (at 219.71 336.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COLEMANREG-LEFT-2" (at 223.52 336.55 0)
@@ -3322,7 +3322,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J8") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -3390,7 +3390,7 @@
   (symbol (lib_id "Device:R") (at 120.65 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46c06718-58bf-423d-97b7-5961f647e490)
-    (property "Reference" "R6" (at 123.19 237.49 0)
+    (property "Reference" "R7" (at 123.19 237.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.91k" (at 120.65 237.49 90)
@@ -3410,7 +3410,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3559,7 +3559,7 @@
   (symbol (lib_id "Device:R") (at 137.16 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4feedeb5-7ffa-4e16-9389-7a7a85beab28)
-    (property "Reference" "R7" (at 140.97 163.83 0)
+    (property "Reference" "R9" (at 140.97 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 137.16 163.83 90)
@@ -3579,7 +3579,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3588,7 +3588,7 @@
   (symbol (lib_id "Device:R") (at 96.52 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56851e61-8dda-4e21-901a-b247e9d2579c)
-    (property "Reference" "R43" (at 93.98 228.6 0)
+    (property "Reference" "R4" (at 93.98 228.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 96.52 232.41 90)
@@ -3608,7 +3608,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R43") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3646,7 +3646,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 105.41 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65399abf-f11e-4f6c-a3cb-4c912bbec2a8)
-    (property "Reference" "C4" (at 106.68 119.38 90)
+    (property "Reference" "C3" (at 106.68 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u 630 VDC" (at 109.22 130.81 0)
@@ -3666,7 +3666,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3675,7 +3675,7 @@
   (symbol (lib_id "Device:R") (at 318.77 219.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 658bdd74-2d15-4fa0-8053-36a61ab1369d)
-    (property "Reference" "R14" (at 328.93 219.71 90)
+    (property "Reference" "R15" (at 328.93 219.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100 5 W" (at 332.74 219.71 90)
@@ -3695,7 +3695,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3733,7 +3733,7 @@
   (symbol (lib_id "Diode:1N4004") (at 119.38 176.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a0d5404-6ced-4f26-9d36-8960c7dd1025)
-    (property "Reference" "D5" (at 121.92 175.26 90)
+    (property "Reference" "D6" (at 121.92 175.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4004" (at 121.92 177.8 90)
@@ -3753,7 +3753,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "D5") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3762,7 +3762,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 106.68 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f29f146-b0d7-455b-882d-d7db3cb5f4c4)
-    (property "Reference" "C1" (at 107.95 229.87 0)
+    (property "Reference" "C4" (at 107.95 229.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10000u 25 V" (at 101.6 234.95 0)
@@ -3782,7 +3782,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3899,7 +3899,7 @@
   (symbol (lib_id "Device:R") (at 200.66 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ec26ebb-6982-4902-895e-fb2b7c80de8a)
-    (property "Reference" "R12" (at 204.47 57.15 0)
+    (property "Reference" "R13" (at 204.47 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 200.66 57.15 90)
@@ -3919,7 +3919,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3928,7 +3928,7 @@
   (symbol (lib_id "Device:R") (at 148.59 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 864ab412-0024-4b29-9f09-f3c39859ed3a)
-    (property "Reference" "R10" (at 148.59 67.31 90)
+    (property "Reference" "R11" (at 148.59 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 148.59 64.77 90)
@@ -3948,7 +3948,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3957,7 +3957,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 218.44 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8664c1f9-39ba-4d45-a0a4-2eb0fa26331e)
-    (property "Reference" "J12" (at 219.71 118.11 0)
+    (property "Reference" "J9" (at 219.71 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HV-R" (at 219.71 120.65 0)
@@ -3979,7 +3979,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J12") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3988,7 +3988,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 354.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8695121d-9f5a-4d19-a2f3-d88fc5c662d8)
-    (property "Reference" "J10" (at 219.71 355.6 0)
+    (property "Reference" "J15" (at 219.71 355.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "COLEMANREG-RIGHT-2" (at 223.52 355.6 0)
@@ -4008,7 +4008,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J10") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -4046,7 +4046,7 @@
   (symbol (lib_id "Device:R") (at 207.01 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cbc880d-c089-4956-8706-f54ef62b4566)
-    (property "Reference" "R13" (at 207.01 50.8 90)
+    (property "Reference" "R14" (at 207.01 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7M" (at 207.01 53.34 90)
@@ -4066,7 +4066,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4125,7 +4125,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 987e3240-37db-4764-897e-008ad39c8445)
-    (property "Reference" "J15" (at 219.71 54.61 0)
+    (property "Reference" "J7" (at 219.71 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Stator bias" (at 219.71 57.15 0)
@@ -4145,7 +4145,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J15") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4154,7 +4154,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9891ba55-5aab-47b7-8a9f-40e264d67770)
-    (property "Reference" "J13" (at 219.71 222.25 0)
+    (property "Reference" "J10" (at 219.71 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HEATERS-LEFT" (at 219.71 224.79 0)
@@ -4174,7 +4174,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J13") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -4346,7 +4346,7 @@
   (symbol (lib_id "Device:R") (at 142.24 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5ddacf4-d001-4f1a-bb19-49b725656ad1)
-    (property "Reference" "R9" (at 142.24 152.4 0)
+    (property "Reference" "R10" (at 142.24 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k" (at 142.24 156.21 90)
@@ -4366,7 +4366,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4429,7 +4429,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 105.41 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3c69189-1b40-49fc-aeef-1a0efdf65bab)
-    (property "Reference" "C2" (at 105.41 90.17 0)
+    (property "Reference" "C1" (at 105.41 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470u 550 VDC" (at 107.95 92.71 0)
@@ -4449,7 +4449,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4458,7 +4458,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 218.44 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c045b507-b565-4544-9496-ee83a90022c2)
-    (property "Reference" "J11" (at 219.71 85.09 0)
+    (property "Reference" "J8" (at 219.71 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HV-L" (at 219.71 87.63 0)
@@ -4480,7 +4480,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J11") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4489,7 +4489,7 @@
   (symbol (lib_id "Device:R") (at 107.95 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1a757bb-7762-49d0-a7d2-e31892b3062f)
-    (property "Reference" "R5" (at 111.76 60.96 0)
+    (property "Reference" "R6" (at 111.76 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "787k" (at 107.95 60.96 90)
@@ -4509,7 +4509,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4656,7 +4656,7 @@
   (symbol (lib_id "Device:R") (at 102.87 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d95385dc-e752-4b96-9349-fac687ac4e18)
-    (property "Reference" "R4" (at 102.87 55.88 90)
+    (property "Reference" "R5" (at 102.87 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 102.87 53.34 90)
@@ -4676,7 +4676,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4710,7 +4710,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 105.41 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db37fe39-6435-4e4c-b80c-06509fe2933c)
-    (property "Reference" "C3" (at 105.41 109.22 0)
+    (property "Reference" "C2" (at 105.41 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470u 550 VDC" (at 107.95 111.76 0)
@@ -4730,7 +4730,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4826,7 +4826,7 @@
   (symbol (lib_name "1N4007_1") (lib_id "Diode:1N4007") (at 113.03 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8bb5a72-9ff7-42c4-9384-bf17f145c8c3)
-    (property "Reference" "D6" (at 113.03 50.8 0)
+    (property "Reference" "D5" (at 113.03 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4007" (at 113.03 55.88 0)
@@ -4846,7 +4846,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
