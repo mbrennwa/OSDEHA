@@ -404,7 +404,7 @@
   (symbol (lib_id "Device:R") (at 130.81 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c23f2f0-cecc-4f46-b631-b6f94356cf12)
-    (property "Reference" "R39" (at 130.81 85.09 90)
+    (property "Reference" "R36" (at 130.81 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22 3 W" (at 130.81 90.17 90)
@@ -424,10 +424,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/727c75f6-edc2-4fc0-8e3e-14cbc2040e98"
-          (reference "R39") (unit 1)
+          (reference "R36") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/5494a183-e083-4795-ba51-682672d147b4"
-          (reference "R42") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -564,7 +564,7 @@
   (symbol (lib_id "Device:R") (at 106.68 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d293ab15-cbaa-4365-a640-db1aab65938a)
-    (property "Reference" "R37" (at 104.14 71.12 0)
+    (property "Reference" "R34" (at 104.14 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 106.68 74.93 90)
@@ -584,10 +584,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/727c75f6-edc2-4fc0-8e3e-14cbc2040e98"
-          (reference "R37") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/5494a183-e083-4795-ba51-682672d147b4"
-          (reference "R40") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -596,7 +596,7 @@
   (symbol (lib_id "Device:R") (at 130.81 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da6c4699-8d88-4ff6-8419-261fbced8ffe)
-    (property "Reference" "R38" (at 130.81 59.69 90)
+    (property "Reference" "R35" (at 130.81 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22 3 W" (at 130.81 64.77 90)
@@ -616,10 +616,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/727c75f6-edc2-4fc0-8e3e-14cbc2040e98"
-          (reference "R38") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/5494a183-e083-4795-ba51-682672d147b4"
-          (reference "R41") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )

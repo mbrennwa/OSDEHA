@@ -385,32 +385,29 @@
         )
       )
     )
-    (symbol "OSDEHA_PSU:STF5NK100Z" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q6" (at 6.35 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+    (symbol "Simulation_SPICE:NMOS" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "Q16" (at 10.16 6.35 90)
+        (effects (font (size 1.27 1.27)) (justify right))
       )
-      (property "Value" "STF5NK100Z" (at 6.35 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "NTHL1000N170M1 " (at 7.62 6.35 90)
+        (effects (font (size 1.27 1.27)) (justify right))
       )
-      (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 5.08 -2.54 0)
+      (property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical" (at 5.08 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.mouser.ch/ProductDetail/STMicroelectronics/STF5NK100Z?qs=RC432zO33OqRhp47vKDzww%3D%3D" (at 0 12.7 0)
+      (property "Datasheet" "https://www.mouser.ch/datasheet/2/308/1/NTHL1000N170M1_D-3150250.pdf" (at 0 -12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Device" "" (at 0 17.145 0)
+      (property "MPN" "NTHL1000N170M1 " (at 0 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Type" "VDMOS" (at 0 19.05 0)
+      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Sim.Pins" "1=D 2=G 3=S" (at 0 15.24 0)
+      (property "ki_description" "N-MOSFET transistor, drain/source/gate" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-MOSFET transistor, GDS" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "STF5NK100Z_0_1"
+      (symbol "NMOS_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -521,7 +518,7 @@
           (fill (type outline))
         )
       )
-      (symbol "STF5NK100Z_1_1"
+      (symbol "NMOS_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -749,10 +746,6 @@
     (stroke (width 0) (type default))
     (uuid 6d702865-b613-4a5d-85fd-41a7f57035d7)
   )
-  (wire (pts (xy 113.03 77.47) (xy 113.03 85.09))
-    (stroke (width 0) (type default))
-    (uuid 6ff37511-eeee-47e7-ab33-b00c081d370a)
-  )
   (wire (pts (xy 74.93 74.93) (xy 74.93 111.76))
     (stroke (width 0) (type default))
     (uuid 767f0bf9-0e08-4d6f-bc80-fdfc76602cb7)
@@ -952,6 +945,42 @@
     (uuid fc3ec079-fadc-450e-9be8-0abbb6910e18)
   )
 
+  (symbol (lib_id "Simulation_SPICE:NMOS") (at 138.43 59.69 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 080ae546-e777-40f9-b085-d6ca59143fc0)
+    (property "Reference" "Q15" (at 132.08 49.53 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "NTHL1000N170M1 " (at 132.08 52.07 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical" (at 135.89 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/308/1/NTHL1000N170M1_D-3150250.pdf" (at 151.13 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "NTHL1000N170M1 " (at 138.43 59.69 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid bef8ba16-004f-4752-b5ef-8c30d7e77c78))
+    (pin "1" (uuid 71b9e6c5-d130-4d65-b379-3b5fcd1f362e))
+    (pin "3" (uuid 1aec378a-53f2-43ae-8ac9-18e2029b829b))
+    (instances
+      (project "OSDEHA_PSU"
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
+          (reference "Q15") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+          (reference "Q16") (unit 1)
+        )
+        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
+          (reference "Q17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_BJT:BC550") (at 144.78 72.39 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1848d642-02e0-489f-bcee-2d4d2fa1211e)
@@ -976,46 +1005,10 @@
           (reference "Q6") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q12") (unit 1)
+          (reference "Q10") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "Q18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "OSDEHA_PSU:STF5NK100Z") (at 138.43 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 40d0a692-0f75-4563-a653-ca722cb744e2)
-    (property "Reference" "Q11" (at 132.08 49.53 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "NTHL1000N170M1 " (at 132.08 52.07 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical" (at 140.97 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/308/1/NTHL1000N170M1_D-3150250.pdf" (at 125.73 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "NTHL1000N170M1" (at 138.43 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid a4e0cf20-5fb3-4f12-8f2a-2b72f54a5897))
-    (pin "3" (uuid c38700e6-b68a-4303-a431-381d1e5face8))
-    (pin "1" (uuid 599939db-3f16-4f14-b056-4e9d881645a9))
-    (instances
-      (project "OSDEHA_PSU"
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q11") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "Q5") (unit 1)
-        )
-        (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "Q17") (unit 1)
+          (reference "Q14") (unit 1)
         )
       )
     )
@@ -1083,10 +1076,10 @@
           (reference "Q3") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q9") (unit 1)
+          (reference "Q7") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "Q15") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -1119,10 +1112,10 @@
           (reference "Q4") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q10") (unit 1)
+          (reference "Q8") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "Q16") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -1154,10 +1147,10 @@
           (reference "R21") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R28") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R35") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1201,7 +1194,7 @@
   (symbol (lib_id "Device:R") (at 124.46 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa0d89a-43b2-4d65-9e0c-5839ca5269f5)
-    (property "Reference" "R26" (at 124.46 59.69 90)
+    (property "Reference" "R25" (at 124.46 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 124.46 62.23 90)
@@ -1221,10 +1214,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R26") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R33") (unit 1)
+          (reference "R31") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
           (reference "R19") (unit 1)
@@ -1259,10 +1252,10 @@
           (reference "R17") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R31") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1306,7 +1299,7 @@
   (symbol (lib_id "Device:R") (at 68.58 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b82904f5-8dcb-4f94-bcc3-821dcb2fb3d6)
-    (property "Reference" "R23" (at 71.12 66.04 90)
+    (property "Reference" "R22" (at 71.12 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 68.58 66.04 90)
@@ -1326,10 +1319,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R30") (unit 1)
+          (reference "R28") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
           (reference "R16") (unit 1)
@@ -1376,7 +1369,7 @@
   (symbol (lib_id "Device:R") (at 113.03 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e470328c-ef02-46b2-83a2-25b5e7e44806)
-    (property "Reference" "R25" (at 110.49 88.9 90)
+    (property "Reference" "R24" (at 110.49 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 113.03 88.9 90)
@@ -1396,10 +1389,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R25") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R32") (unit 1)
+          (reference "R30") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
           (reference "R18") (unit 1)
@@ -1482,7 +1475,7 @@
   (symbol (lib_id "Device:R") (at 138.43 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffd443f7-d543-47c4-b3c3-85ca34b5b5da)
-    (property "Reference" "R27" (at 135.89 68.58 90)
+    (property "Reference" "R26" (at 135.89 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 138.43 68.58 90)
@@ -1502,10 +1495,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R27") (unit 1)
+          (reference "R26") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-          (reference "R34") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
           (reference "R20") (unit 1)
