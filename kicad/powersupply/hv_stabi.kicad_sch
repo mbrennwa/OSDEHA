@@ -944,7 +944,7 @@
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 138.43 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 080ae546-e777-40f9-b085-d6ca59143fc0)
-    (property "Reference" "Q5" (at 132.08 49.53 90)
+    (property "Reference" "Q9" (at 132.08 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "NTHL1000N170M1 " (at 132.08 52.07 90)
@@ -965,10 +965,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "Q5") (unit 1)
+          (reference "Q9") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q9") (unit 1)
+          (reference "Q5") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "Q13") (unit 1)
@@ -980,7 +980,7 @@
   (symbol (lib_id "Transistor_BJT:BC550") (at 144.78 72.39 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1848d642-02e0-489f-bcee-2d4d2fa1211e)
-    (property "Reference" "Q6" (at 144.78 82.55 90)
+    (property "Reference" "Q10" (at 144.78 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BC550" (at 144.78 80.01 90)
@@ -998,10 +998,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "Q6") (unit 1)
+          (reference "Q10") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q10") (unit 1)
+          (reference "Q6") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "Q14") (unit 1)
@@ -1013,7 +1013,7 @@
   (symbol (lib_id "Device:D_45deg") (at 48.26 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49a778c6-b970-439c-bd3a-ec9da0d28970)
-    (property "Reference" "D19" (at 50.8 69.85 90)
+    (property "Reference" "D15" (at 50.8 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 49.53 72.39 90)
@@ -1033,13 +1033,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "D19") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "D23") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "D15") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "OSDEHA_PSU:LND150") (at 110.49 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dd84b13-46f9-4a8e-aa21-fbaee8b92377)
-    (property "Reference" "Q3" (at 119.38 71.12 0)
+    (property "Reference" "Q7" (at 119.38 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LND150" (at 119.38 73.66 0)
@@ -1069,10 +1069,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "Q3") (unit 1)
+          (reference "Q7") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q7") (unit 1)
+          (reference "Q3") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "Q11") (unit 1)
@@ -1084,7 +1084,7 @@
   (symbol (lib_id "OSDEHA_PSU:LND150") (at 115.57 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e2026ea-bf90-49f9-b129-b4a6c8fd077e)
-    (property "Reference" "Q4" (at 106.68 60.96 0)
+    (property "Reference" "Q8" (at 106.68 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LND150" (at 106.68 63.5 0)
@@ -1105,10 +1105,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "Q4") (unit 1)
+          (reference "Q8") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "Q8") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "Q12") (unit 1)
@@ -1120,7 +1120,7 @@
   (symbol (lib_id "Device:R") (at 101.6 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b57fde3-4a89-4c28-934e-5191abd26442)
-    (property "Reference" "R17" (at 101.6 74.93 90)
+    (property "Reference" "R23" (at 101.6 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 101.6 72.39 90)
@@ -1140,10 +1140,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R17") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R23") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R29") (unit 1)
@@ -1155,7 +1155,7 @@
   (symbol (lib_id "Device:R") (at 149.86 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c7a25a8-8eea-4600-a8e7-511e9bde8487)
-    (property "Reference" "R21" (at 149.86 54.61 90)
+    (property "Reference" "R27" (at 149.86 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2" (at 149.86 57.15 90)
@@ -1175,10 +1175,10 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R21") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R27") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R33") (unit 1)
@@ -1190,7 +1190,7 @@
   (symbol (lib_id "Device:D_45deg") (at 43.18 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9f69c6-34b7-4967-a3d6-20514b01605f)
-    (property "Reference" "D16" (at 40.64 63.5 90)
+    (property "Reference" "D12" (at 40.64 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STTH512FP" (at 41.91 60.96 90)
@@ -1210,13 +1210,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "D16") (unit 1)
+          (reference "D12") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "D20") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "D12") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -1225,7 +1225,7 @@
   (symbol (lib_id "Device:R") (at 124.46 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fa0d89a-43b2-4d65-9e0c-5839ca5269f5)
-    (property "Reference" "R25" (at 124.46 59.69 90)
+    (property "Reference" "R19" (at 124.46 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 124.46 62.23 90)
@@ -1245,13 +1245,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R25") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R31") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R19") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1260,7 +1260,7 @@
   (symbol (lib_id "Device:D_45deg") (at 48.26 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad3245c3-b9f2-4b5b-b4af-e6970889241c)
-    (property "Reference" "D18" (at 50.8 63.5 0)
+    (property "Reference" "D14" (at 50.8 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "STTH512FP" (at 49.53 60.96 0)
@@ -1280,13 +1280,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "D18") (unit 1)
+          (reference "D14") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "D22") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "D14") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -1295,7 +1295,7 @@
   (symbol (lib_id "Device:R") (at 68.58 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b82904f5-8dcb-4f94-bcc3-821dcb2fb3d6)
-    (property "Reference" "R22" (at 71.12 66.04 90)
+    (property "Reference" "R16" (at 71.12 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 68.58 66.04 90)
@@ -1315,13 +1315,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R22") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R28") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R16") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1330,7 +1330,7 @@
   (symbol (lib_id "Device:D_45deg") (at 43.18 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdff3c7d-52d9-4198-92fd-31f8afc018ae)
-    (property "Reference" "D17" (at 40.64 69.85 0)
+    (property "Reference" "D13" (at 40.64 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STTH512FP" (at 41.91 72.39 0)
@@ -1350,13 +1350,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "D17") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "D21") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "D13") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -1365,7 +1365,7 @@
   (symbol (lib_id "Device:R") (at 113.03 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e470328c-ef02-46b2-83a2-25b5e7e44806)
-    (property "Reference" "R24" (at 110.49 88.9 90)
+    (property "Reference" "R18" (at 110.49 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 113.03 88.9 90)
@@ -1385,13 +1385,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R24") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R30") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R18") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1400,7 +1400,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 113.03 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e65b74db-a15f-42de-b036-9359f6ee9357)
-    (property "Reference" "RV3" (at 110.49 81.28 90)
+    (property "Reference" "RV2" (at 110.49 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 113.03 81.28 90)
@@ -1421,13 +1421,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "RV3") (unit 1)
+          (reference "RV2") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "RV4") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "RV2") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -1436,7 +1436,7 @@
   (symbol (lib_id "Device:C") (at 93.98 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7942fba-affa-4815-9c22-a1e6a9e47522)
-    (property "Reference" "C13" (at 90.17 100.33 0)
+    (property "Reference" "C12" (at 90.17 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u 630 V" (at 90.17 102.87 0)
@@ -1456,13 +1456,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "C14") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "C12") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1471,7 +1471,7 @@
   (symbol (lib_id "Device:R") (at 138.43 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffd443f7-d543-47c4-b3c3-85ca34b5b5da)
-    (property "Reference" "R26" (at 135.89 68.58 90)
+    (property "Reference" "R20" (at 135.89 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "300" (at 138.43 68.58 90)
@@ -1491,13 +1491,13 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-          (reference "R26") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
           (reference "R32") (unit 1)
         )
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-          (reference "R20") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
