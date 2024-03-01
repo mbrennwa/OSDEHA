@@ -340,7 +340,7 @@
   (symbol (lib_id "Diode:1N5822") (at 91.44 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08b2e073-0ca8-460d-a2d8-90cf024373e3)
-    (property "Reference" "D27" (at 93.98 80.9625 90)
+    (property "Reference" "D4" (at 93.98 80.9625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5822" (at 93.98 83.5025 90)
@@ -358,12 +358,12 @@
     (pin "2" (uuid 51d15e5e-df31-4174-bf25-99a9804b5e46))
     (pin "1" (uuid e9dac817-3076-4bb2-9643-466444ccaff0))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "D27") (unit 1)
+          (reference "D4") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "D27") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -372,7 +372,7 @@
   (symbol (lib_id "Diode:1N5822") (at 76.2 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15b63934-0a8a-470c-bfb4-cd160614440a)
-    (property "Reference" "D25" (at 78.74 80.9625 90)
+    (property "Reference" "D2" (at 78.74 80.9625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5822" (at 78.74 83.5025 90)
@@ -390,12 +390,12 @@
     (pin "2" (uuid 21353ea9-c807-427b-9861-4fdd3500e209))
     (pin "1" (uuid f4a47c45-d100-4178-bc50-d95c63390777))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "D25") (unit 1)
+          (reference "D2") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "D25") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -404,7 +404,7 @@
   (symbol (lib_id "Device:R") (at 130.81 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c23f2f0-cecc-4f46-b631-b6f94356cf12)
-    (property "Reference" "R36" (at 130.81 85.09 90)
+    (property "Reference" "R3" (at 130.81 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22 3 W" (at 130.81 90.17 90)
@@ -422,12 +422,12 @@
     (pin "1" (uuid b822a4ca-29b6-4e06-aa30-3817faba7a3e))
     (pin "2" (uuid 496f41ea-2a20-4ff0-9da9-229e1fd4aae1))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "R36") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "R36") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -436,7 +436,7 @@
   (symbol (lib_id "Diode:1N5822") (at 91.44 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85322dec-cff8-4f39-a7fc-86d7d30c24a1)
-    (property "Reference" "D26" (at 93.98 65.7225 90)
+    (property "Reference" "D3" (at 93.98 65.7225 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5822" (at 93.98 68.2625 90)
@@ -454,12 +454,12 @@
     (pin "2" (uuid a5f8ff35-44ea-4922-9ba3-1dfdd78347c2))
     (pin "1" (uuid 118fcaa4-4859-4e65-ba8a-df9e614bf8a6))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "D26") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "D26") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -468,7 +468,7 @@
   (symbol (lib_id "Diode:1N5822") (at 76.2 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87305d43-49bf-47a7-91a5-090fc72a985d)
-    (property "Reference" "D24" (at 78.74 65.7225 90)
+    (property "Reference" "D1" (at 78.74 65.7225 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5822" (at 78.74 68.2625 90)
@@ -486,12 +486,12 @@
     (pin "2" (uuid 70723c59-ffd8-4f54-89b9-feaf2fcc26b5))
     (pin "1" (uuid 12f2750c-803d-4f24-b2c2-5d275dd991cf))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "D24") (unit 1)
+          (reference "D1") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "D24") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -500,7 +500,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 121.92 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb0894cf-f9ae-485d-a766-b5e369b1e944)
-    (property "Reference" "C15" (at 123.19 72.39 0)
+    (property "Reference" "C1" (at 123.19 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15000u 25 V" (at 114.3 77.47 0)
@@ -518,12 +518,12 @@
     (pin "1" (uuid 5ea67c56-0a2e-4ecd-ad47-f72dd6554d5b))
     (pin "2" (uuid b6360420-4481-474f-9003-f38fb513e0b0))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "C15") (unit 1)
+          (reference "C1") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "C15") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -532,7 +532,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 139.7 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce4d8ef8-cf0b-4e5c-bec7-8d915994b50e)
-    (property "Reference" "C16" (at 140.97 72.39 0)
+    (property "Reference" "C2" (at 140.97 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15000u 25 V" (at 132.08 77.47 0)
@@ -550,12 +550,12 @@
     (pin "1" (uuid 70eb19bd-7d3e-41b6-bd41-1f034c1ce44a))
     (pin "2" (uuid d8ecb449-15b3-4093-a4d9-bf216119e87c))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "C16") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "C16") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -564,7 +564,7 @@
   (symbol (lib_id "Device:R") (at 106.68 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d293ab15-cbaa-4365-a640-db1aab65938a)
-    (property "Reference" "R34" (at 104.14 71.12 0)
+    (property "Reference" "R1" (at 104.14 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 106.68 74.93 90)
@@ -582,12 +582,12 @@
     (pin "1" (uuid b26ed545-dc01-4a83-aa93-d23955ebbebc))
     (pin "2" (uuid 6a615001-aabc-42ec-92dc-b0297f8c821a))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "R34") (unit 1)
+          (reference "R1") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "R34") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -596,7 +596,7 @@
   (symbol (lib_id "Device:R") (at 130.81 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da6c4699-8d88-4ff6-8419-261fbced8ffe)
-    (property "Reference" "R35" (at 130.81 59.69 90)
+    (property "Reference" "R2" (at 130.81 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.22 3 W" (at 130.81 64.77 90)
@@ -614,12 +614,12 @@
     (pin "1" (uuid 9e27e612-c7c5-4011-afa6-22742fd7f0de))
     (pin "2" (uuid 44b7abe1-16f7-4cc0-b592-73d199f5acbd))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
-          (reference "R35") (unit 1)
+          (reference "R2") (unit 1)
         )
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470/a7689cda-8b81-433b-9126-0f3438ec2ce2"
-          (reference "R35") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )

@@ -2592,7 +2592,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00801928-9968-4608-a831-ccfb96030327)
-    (property "Reference" "J11" (at 219.71 241.3 0)
+    (property "Reference" "J9" (at 219.71 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HEATERS-RIGHT" (at 219.71 243.84 0)
@@ -2612,7 +2612,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J11") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3700,7 +3700,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 218.44 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8664c1f9-39ba-4d45-a0a4-2eb0fa26331e)
-    (property "Reference" "J9" (at 219.71 118.11 0)
+    (property "Reference" "J7" (at 219.71 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HV-R" (at 219.71 120.65 0)
@@ -3722,7 +3722,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J9") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -3839,7 +3839,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 987e3240-37db-4764-897e-008ad39c8445)
-    (property "Reference" "J7" (at 219.71 54.61 0)
+    (property "Reference" "J5" (at 219.71 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Stator bias" (at 219.71 57.15 0)
@@ -3859,7 +3859,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J7") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3868,7 +3868,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 218.44 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9891ba55-5aab-47b7-8a9f-40e264d67770)
-    (property "Reference" "J10" (at 219.71 222.25 0)
+    (property "Reference" "J8" (at 219.71 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HEATERS-LEFT" (at 219.71 224.79 0)
@@ -3888,7 +3888,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J10") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4172,7 +4172,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 218.44 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c045b507-b565-4544-9496-ee83a90022c2)
-    (property "Reference" "J8" (at 219.71 85.09 0)
+    (property "Reference" "J6" (at 219.71 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HV-L" (at 219.71 87.63 0)
@@ -4194,7 +4194,7 @@
     (instances
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )

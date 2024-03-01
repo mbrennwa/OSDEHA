@@ -275,7 +275,7 @@
     (pin "1" (uuid 79f8cb9f-d087-4092-abe4-1daa4be547bf))
     (pin "2" (uuid 4405ffae-663c-4b59-962f-cf76e8a4248b))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J6") (unit 1)
         )
@@ -304,7 +304,7 @@
     (pin "2" (uuid 2f9741b2-99e4-4b1c-9b20-8a4b9c4d1186))
     (pin "1" (uuid 1e1853be-4722-4d4f-bbc7-30070049cdca))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J2") (unit 1)
         )
@@ -333,7 +333,7 @@
     (pin "1" (uuid 6e9b38b5-d18b-4218-938a-026072083793))
     (pin "2" (uuid bf3e191a-2a90-4e39-98ba-e41e2774a8f8))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J5") (unit 1)
         )
@@ -362,7 +362,7 @@
     (pin "1" (uuid 9d50e708-5284-45fa-bf25-2abd1fcda9d9))
     (pin "2" (uuid 30758e57-b48a-4e9e-bf03-f9e3fcf54323))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J3") (unit 1)
         )
@@ -391,7 +391,7 @@
     (pin "2" (uuid 2fc18283-b246-4845-a7ad-b3b96c8ab5b0))
     (pin "1" (uuid 6ba27db4-59ec-410d-91fb-501ffb3db6c7))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J1") (unit 1)
         )
@@ -420,7 +420,7 @@
     (pin "1" (uuid f94e0146-ec1f-4e1b-be87-d2a1ad6e0104))
     (pin "2" (uuid 4bef581a-b2ca-42bf-a105-653af0903c64))
     (instances
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470"
           (reference "J4") (unit 1)
         )
@@ -458,7 +458,7 @@
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661" (page "5"))
       )
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470" (page "2"))
       )
     )
@@ -494,7 +494,7 @@
       (project "OSDEHA_PSU"
         (path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661" (page "6"))
       )
-      (project "powersupply_colemanreg"
+      (project "OSDEHA_powersupply_colemanreg"
         (path "/6a766a35-7f7e-4680-bf64-1ed131aec470" (page "3"))
       )
     )
