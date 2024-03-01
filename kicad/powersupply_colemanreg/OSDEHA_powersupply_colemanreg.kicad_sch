@@ -243,7 +243,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4f21e40f-d68a-49cb-9705-d899bd712690)
   )
-  (text "Each channel has two Coleman DHT filament regulators, which share a common raw DW supply.\nRaw DC supplies must be floating! The DHT regs are referenced to the respective B- rail on the amplifier boards.\nRaw DC supplies must use separate AC windings!"
+  (text "Each channel has two Coleman DHT filament regulators, which share a common raw DC supply.\nRaw DC supplies must be floating! The DHT regs are referenced to the respective B- rail on the amplifier boards.\nRaw DC supplies must use separate AC windings!"
     (at 38.1 53.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 870de760-208a-4184-8a5b-e8e2cf79cfd5)
