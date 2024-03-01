@@ -2814,7 +2814,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/07cab639-6104-4ef3-96fb-8f542ff121d2")
     (attr exclude_from_pos_files)
-    (fp_text reference "CHASSIS1" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "CHASSIS1" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42e81df2-1fe5-444f-85a8-e23338e6d313)
     )
@@ -3928,7 +3928,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 3441cac2-e58e-4140-bf0e-e3526a5e93af)
-    (at 241.3 72.39)
+    (at 247.523 28.067)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128")
@@ -5359,7 +5359,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 594e765d-bb4a-40cb-b059-d3a2e9b6b50e)
-    (at 250.444 101.219)
+    (at 256.667 56.896)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -5513,7 +5513,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 5ca6ed05-9ae9-4929-a273-a5cd0fbef916)
-    (at 227.838 89.535)
+    (at 234.061 45.212)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -5600,7 +5600,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 5ce5d009-955e-418c-a919-575e1e0e7833)
-    (at 201.315 93.71)
+    (at 207.538 49.387)
     (descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
     (tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
     (property "MPN" "CPF3R22000GNB14 ")
@@ -5942,7 +5942,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/072249a7-b64b-455d-8330-456ce091b7f5")
     (attr exclude_from_pos_files)
-    (fp_text reference "H2" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "H2" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbd566f5-5116-4b7d-9d56-6a05eec09040)
     )
@@ -5963,7 +5963,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 6c4b01f7-588f-425e-a532-522a3c2c8d24)
-    (at 211.582 109.22)
+    (at 217.805 64.897)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -10447,7 +10447,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp 8df5e751-2349-48cc-a43c-fec196db95a1)
-    (at 249.682 138.557 90)
+    (at 255.905 94.234 90)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -11183,7 +11183,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tstamp 9e5f88f1-3be4-41c3-ab77-3fbef3d9171c)
-    (at 146.939 170.942)
+    (at 147.574 170.688)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (property "Sheetfile" "OSDEHA_PSU.kicad_sch")
@@ -11192,7 +11192,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/a35e7624-f1a4-4b25-ae30-a5b98103884c")
     (attr exclude_from_pos_files)
-    (fp_text reference "H3" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "H3" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c790006a-1172-4fdd-a104-bdd5df9da29e)
     )
@@ -12323,7 +12323,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp aad793b2-7401-4425-a81e-2f4320ec0373)
-    (at 256.667 136.017 -90)
+    (at 262.89 91.694 -90)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -12540,7 +12540,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/49e36282-bdd5-4240-ac72-9ba4c8301db5")
     (attr exclude_from_pos_files)
-    (fp_text reference "H1" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "H1" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63f4afca-f6a2-4a21-b792-f69d2c1868eb)
     )
@@ -15390,7 +15390,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tstamp e8c29f9b-0752-4f67-96df-cd75c559d491)
-    (at 250.444 96.969)
+    (at 256.667 52.646)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "MPN" "1N5822")
@@ -17256,6 +17256,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (gr_text "CHASSIS\nEARTH" (at -60.833 223.139) (layer "F.SilkS") (tstamp 97526b39-ea65-400c-95d9-185448df7430)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
 
 )
