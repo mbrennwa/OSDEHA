@@ -6108,6 +6108,9 @@
 
   (gr_rect (start 66.294 49.593) (end 256.413 121.221)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a56c52b8-ddfd-4855-8e7b-2c542f877ae7))
+  (gr_text "OSDEHA\nmbrennwa@diyAudio" (at 139.827 119.253) (layer "F.SilkS") (tstamp 62694c89-0d0f-4fe3-837e-f0933082ce01)
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+  )
 
   (segment (start 168.148 68) (end 168.148 75.023) (width 2) (layer "B.Cu") (net 1) (tstamp 6f29f820-1f34-484a-a7f9-f048f636dbfc))
   (segment (start 178.562 85.437) (end 168.275 75.15) (width 2) (layer "B.Cu") (net 1) (tstamp 778165d9-7dfc-4da5-8359-41f8a0c19214))
