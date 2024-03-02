@@ -11,3 +11,18 @@ Mains transformers:
 1 x mains transformer for filament / heaters supply_
 	- 1 winding for heaters of input tubes (regulated DC, common for both channels=
 	- 2 windings for raw DC supply to Coleman DHT filament regs (each channel has 1 x raw DC supply for 2 x Coleman regs)
+	
+	
+1 x Mains transformer for HV supply
+toroidal, “Audio” grade with shields beween windings
+Primariy: 2 x 115 VAC
+Secondary-1: 325 VAC / 220 mA
+Secondary-2: 325 VAC / 220 mA
+Secondary-3: 415 VAC / 75 mA
+
+1 x Mains transformer for heaters and DHT filaments
+toroidal, “Audio” grade with shields beween windings
+Primariy: 2 x 115 VAC
+Secondary-1: 9 VAC / 4.5 A
+Secondary-2: 9.5 VAC / 4.5 A
+Secondary-3: 9.5 VAC / 4.5 A
