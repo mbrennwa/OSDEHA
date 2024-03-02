@@ -142,7 +142,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 000756a8-66b8-41b9-a8e9-1af49ee0d27e)
-    (at 250.317 65.659 90)
+    (at 245.237 -95.96625 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55100K00")
@@ -152,7 +152,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/7ec26ebb-6982-4902-895e-fb2b7c80de8a")
     (attr through_hole)
-    (fp_text reference "R13" (at 1.27 -2.37 90) (layer "F.SilkS")
+    (fp_text reference "R13" (at 1.016 -2.413 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8ecaa92d-7a9e-4f73-91b9-c8d43ddfaf31)
     )
@@ -193,7 +193,7 @@
 
   (footprint "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm" (layer "F.Cu")
     (tstamp 000770b2-9051-4c67-9e14-b7e7c232c22c)
-    (at 44.958 91.675 90)
+    (at 20.955 -69.234 90)
     (descr "Diotec 32x5.6x17mm rectifier package, 7.5mm/10mm pitch, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700.pdf")
     (tags "Diotec rectifier diode bridge")
     (property "MPN" "GBJ3510_T0_00601 ")
@@ -268,7 +268,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 02d765f8-cefd-4b60-b085-8b3704bfb438)
-    (at 219.075 59.309 -90)
+    (at 75.184 -99.822 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K5000")
@@ -402,7 +402,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 0d27be58-b3c1-4ff3-b6f3-ae25a4297149)
-    (at 263.711 86.868)
+    (at 258.631 -74.75725)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "MPN" "IXCP10M90S")
@@ -475,7 +475,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp 0d2d0c52-6588-4b8e-9291-f8820f3bb88a)
-    (at 112.649 93.232501 -90)
+    (at 204.343 -64.389 -90)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALH82A471DL550 ")
@@ -1630,7 +1630,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 0e5780a5-f88f-4003-a0f5-81a26399f626)
-    (at 270.451 80.01 180)
+    (at 265.371 -81.61525 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF553K0000")
@@ -1764,7 +1764,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal" (layer "F.Cu")
     (tstamp 0ff3e930-40e5-4b7e-bf20-88ce99a32c63)
-    (at 34.798 122.682 90)
+    (at 10.795 -38.227 90)
     (descr "Resistor, Axial_DIN0918 series, Axial, Horizontal, pin pitch=22.86mm, 4W, length*diameter=18*9mm^2")
     (tags "Resistor Axial_DIN0918 series Axial Horizontal pin pitch 22.86mm 4W length 18mm diameter 9mm")
     (property "MPN" "AC05AT0001000JAC00 ")
@@ -1888,7 +1888,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad" (layer "F.Cu")
     (tstamp 11673a84-f589-483f-b925-494e536ac916)
-    (at 34.925 132.969)
+    (at 10.922 -27.94)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "OSDEHA_PSU.kicad_sch")
@@ -1919,7 +1919,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp 1641baaa-09ef-40fc-92c8-18b217576047)
-    (at 80.137 117.348 180)
+    (at 54.905 -43.688 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0849")
@@ -1929,15 +1929,15 @@
     (property "ki_keywords" "connector")
     (path "/9891ba55-5aab-47b7-8a9f-40e264d67770")
     (attr through_hole)
-    (fp_text reference "J8" (at 1.98 -6.31 180) (layer "F.SilkS")
+    (fp_text reference "J8" (at 1.98 -6.31) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f6036f47-62ef-408c-b5f6-6a50e4104bea)
     )
-    (fp_text value "HEATERS-LEFT" (at 1.98 6.1 180) (layer "F.Fab")
+    (fp_text value "HEATERS-LEFT" (at 1.98 6.1) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d635293a-3ee7-46b8-9148-5e99a9fefccc)
     )
-    (fp_text user "${REFERENCE}" (at 1.98 -4.41 180) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.98 -4.41) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd1cdc38-5cc2-4653-a2a8-0b6edf91aedb)
     )
@@ -2200,7 +2200,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 1a7dd76f-259e-45bd-9dfb-94fb4e9f8d4b)
-    (at 265.826 99.711 90)
+    (at 260.746 -61.91425 90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY200")
@@ -2287,7 +2287,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (layer "F.Cu")
     (tstamp 1e806deb-41a2-4bdd-9317-a0c6c42f819e)
-    (at 254.494 118.458)
+    (at 249.414 -43.16725)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 9mm Capacitor")
     (property "MPN" "MKP4O131004J00KSSD")
@@ -2413,7 +2413,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4" (layer "F.Cu")
     (tstamp 1eead701-fecb-41b8-b9c4-ca9584175303)
-    (at 34.671 71.3 -90)
+    (at 10.668 -89.609 -90)
     (descr "C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*8.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
     (tags "C Rect series Radial pin pitch 22.50mm  length 26.5mm width 8.5mm Capacitor")
     (property "MPN" "F881DH104M300L ")
@@ -2543,7 +2543,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 27939023-c89c-4ac1-931f-3a7bc6001ff9)
-    (at 250.317 75.692 90)
+    (at 245.237 -85.93325 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55100K00")
@@ -2553,7 +2553,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/20c7ccb8-f391-46c6-913f-17f43bd1d3db")
     (attr through_hole)
-    (fp_text reference "R12" (at 1.27 -2.37 90) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0.762 -2.286 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11f37903-aa89-4eaa-9be8-b4fb8ad14b98)
     )
@@ -2594,7 +2594,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 28b5110a-5989-4356-b13e-ba2f6c985090)
-    (at 68.89 134.239 90)
+    (at 44.097666 -31.75 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "SBT1845-3G")
@@ -2604,7 +2604,7 @@
     (property "ki_keywords" "Diode")
     (path "/cc8cb9c5-ac3c-409e-9fb4-8e177cf90d44")
     (attr through_hole)
-    (fp_text reference "D2" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D2" (at -3.429 -0.945 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dcc2707-a6f0-4553-a7a6-2d99c398627f)
     )
@@ -2652,9 +2652,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 40a9f3db-5f0e-4616-a9b3-28301fd4d717))
     (fp_line (start 7.54 1.25) (end 7.54 -3.15)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a9967c2d-4faa-4fd9-b0ba-fdfbe19666c8))
-    (pad "1" thru_hole rect (at 0 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 69b09227-f22b-417f-ace6-1d5dbb8bc5dc))
-    (pad "2" thru_hole oval (at 5.08 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 5.08 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 21 "Net-(D2-A)") (pinfunction "A") (pintype "passive") (tstamp b1abe6cd-78bb-42db-9ceb-0fe6cca6fcc0))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -2803,7 +2803,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 36b58ef0-d503-4e44-bbe5-bb4aa9fa74e1)
-    (at 259.969 135.597 90)
+    (at 254.889 -26.02825 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF554M7000")
@@ -2870,7 +2870,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 3c5c2825-13c4-4abf-a56b-7893ee7ef9a6)
-    (at 226.293 77.343 90)
+    (at 82.402 -81.788 90)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "LND150N3-G")
@@ -2927,7 +2927,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-126-3_Vertical" (layer "F.Cu")
     (tstamp 3ce291be-a9cf-42cd-8c43-02893f7fd62e)
-    (at 67.189 70.485 -90)
+    (at 43.186 -90.424 -90)
     (descr "TO-126-3, Vertical, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf")
     (tags "TO-126-3 Vertical RM 2.54mm")
     (property "MPN" "BD138")
@@ -3081,7 +3081,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/8a700a98-b42d-48e6-9de9-2ba90c34a5f4/e7942fba-affa-4815-9c22-a1e6a9e47522")
     (attr through_hole)
-    (fp_text reference "C12" (at 18.75 -11.25 90) (layer "F.SilkS")
+    (fp_text reference "C12" (at 179.659 -35.253 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 705daeb7-caf4-4222-8b6a-408544971fb9)
     )
@@ -3201,7 +3201,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (layer "F.Cu")
     (tstamp 409ce3b6-a020-488b-b76d-c642fa86ba6b)
-    (at 78.359 107.635113 90)
+    (at 53.285 -53.245 90)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (property "MPN" "860160372003 ")
@@ -3211,7 +3211,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/22bebadf-1ed3-49b2-bf94-1a5caf670cfd")
     (attr through_hole)
-    (fp_text reference "C8" (at 3.368113 -3.75 180) (layer "F.SilkS")
+    (fp_text reference "C8" (at 3.368113 -3.75) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b43304bb-d4fc-4a8b-bce9-18b1cad170b0)
     )
@@ -3484,7 +3484,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 45cb9960-5a64-4438-bfd0-16133dae2bde)
-    (at 81.656 132.004)
+    (at 57.531 -28.81)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -3593,7 +3593,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 46c3bb79-cd38-4497-922b-12228cf14f65)
-    (at 62.865 91.059 90)
+    (at 38.862 -69.85 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF553K3000")
@@ -3660,7 +3660,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (layer "F.Cu")
     (tstamp 4c8fff61-293c-4b6a-85eb-72aef213ba55)
-    (at 254.501 62.484)
+    (at 249.421 -99.14125)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 9mm Capacitor")
     (property "MPN" "MKP4O131004J00KSSD")
@@ -3786,7 +3786,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 50b9454e-40c4-42ed-9059-6df1d11a26cf)
-    (at 237.617 76.581 90)
+    (at 93.726 -82.55 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K0000")
@@ -3920,7 +3920,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (layer "F.Cu")
     (tstamp 575c86de-2d27-4588-90de-e8adf2956386)
-    (at 220.091 76.073)
+    (at 76.2 -83.058)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (property "MPN" "3296W-1-102")
@@ -4038,7 +4038,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 59233d07-281a-458e-bf23-710bff80a136)
-    (at 254.351 99.711 90)
+    (at 249.271 -61.91425 90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "1N4007")
@@ -4192,7 +4192,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92" (layer "F.Cu")
     (tstamp 5db3fef7-0e81-4a8a-816b-7664f39f96db)
-    (at 230.378 74.803 -90)
+    (at 86.487 -84.328 -90)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "MPN" "LND150N3-G")
@@ -4249,7 +4249,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp 60712628-2f22-49b5-814e-989b6b93b9a8)
-    (at 269.084 131.037 180)
+    (at 264.004 -30.58825 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0849")
@@ -4492,7 +4492,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 6b7a744a-257d-470b-bdd2-51beaa1f2e99)
-    (at 220.543 128.778 -90)
+    (at 74.874 -31.866499 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -4502,7 +4502,7 @@
     (property "ki_keywords" "Diode")
     (path "/4254f3fa-5a7d-4f6e-8fcc-41d75b752000/ad3245c3-b9f2-4b5b-b4af-e6970889241c")
     (attr through_hole)
-    (fp_text reference "D22" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D22" (at -3.508 -1.029667 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 705c1647-c544-41af-8337-6398f111e0eb)
     )
@@ -4563,7 +4563,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tstamp 6c36f992-c85c-4ca5-b4e9-3c0626c76202)
-    (at 254 133.197)
+    (at 248.92 -28.42825)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (property "Sheetfile" "OSDEHA_PSU.kicad_sch")
@@ -4660,7 +4660,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 6e5a48d0-1cb7-4043-aae8-10724fe5ad44)
-    (at 262.001 92.091 -90)
+    (at 256.921 -69.53425 -90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY200")
@@ -4747,7 +4747,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 6f44a9d8-4916-45a0-b141-b9dce89591f9)
-    (at 248.666 117.221 -90)
+    (at 105.156 -42.591 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551M0000")
@@ -4798,7 +4798,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (layer "F.Cu")
     (tstamp 6ff96748-b08d-4caf-8b7c-ec9f12fbb8eb)
-    (at 254.494 108.458)
+    (at 249.414 -53.16725)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 9mm Capacitor")
     (property "MPN" "MKP4O131004J00KSSD")
@@ -4857,7 +4857,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp 723df35c-ccab-4588-af3e-bc7da0dc95c3)
-    (at 171.6405 93.232501 -90)
+    (at 152.019 -63.881 -90)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALH82A471DL550 ")
@@ -6136,7 +6136,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 77adb7f2-a448-4467-b0b7-a3155354dd76)
-    (at 234.005 128.778 -90)
+    (at 86.388667 -31.866499 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP ")
@@ -6146,7 +6146,7 @@
     (property "ki_keywords" "Diode")
     (path "/4254f3fa-5a7d-4f6e-8fcc-41d75b752000/8f9f69c6-34b7-4967-a3d6-20514b01605f")
     (attr through_hole)
-    (fp_text reference "D20" (at 2.718 -3.122 90) (layer "F.SilkS")
+    (fp_text reference "D20" (at -3.508 -0.945 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0dbb6f26-2782-4204-a24a-37230d7061ea)
     )
@@ -6207,7 +6207,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 7861744e-3415-4753-95bc-5a2e6f6dcd86)
-    (at 59.055 67.564 -90)
+    (at 35.052 -93.345 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K9100")
@@ -6274,7 +6274,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp 7af875bf-89a3-43b9-9818-449cfaebd7d9)
-    (at 53.30663 109.22)
+    (at 29.30363 -51.689)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor")
     (property "MPN" "ALC80A103BB025 ")
@@ -7288,7 +7288,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 84697074-e700-4ec1-8cf4-06d63110fcaf)
-    (at 242.443 76.581 90)
+    (at 98.552 -82.55 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF552R0000")
@@ -7537,7 +7537,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 8a704ebb-2862-42ea-aa0a-8f6f2cf50ecb)
-    (at 215.575 133.858 90)
+    (at 69.116667 -31.866499 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -7547,7 +7547,7 @@
     (property "ki_keywords" "Diode")
     (path "/4254f3fa-5a7d-4f6e-8fcc-41d75b752000/49a778c6-b970-439c-bd3a-ec9da0d28970")
     (attr through_hole)
-    (fp_text reference "D23" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D23" (at -3.508 -0.945 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dd8e7dd-bedd-4d21-9b65-93d41645be95)
     )
@@ -7595,9 +7595,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ad52a50f-8304-4aae-9b12-afa68450a5e1))
     (fp_line (start 7.54 1.25) (end 7.54 -3.15)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c9ee593e-3135-428c-b3ab-ce4d96b2055e))
-    (pad "1" thru_hole rect (at 0 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 31 "/HV_STABI3/AC2") (pinfunction "K") (pintype "passive") (tstamp 859aec4f-4fae-4e2f-9bdc-c5bfaa30a40d))
-    (pad "2" thru_hole oval (at 5.08 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 5.08 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 7 "/HV_STABI3/DC-") (pinfunction "A") (pintype "passive") (tstamp cec69912-9213-4d8c-9e6c-0034277121f7))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -7608,7 +7608,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp 8bec5782-1398-4c90-8a66-93860b49bb91)
-    (at 229.037 133.858 90)
+    (at 80.631333 -31.866499 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "STTH512FP")
@@ -7618,7 +7618,7 @@
     (property "ki_keywords" "Diode")
     (path "/4254f3fa-5a7d-4f6e-8fcc-41d75b752000/bdff3c7d-52d9-4198-92fd-31f8afc018ae")
     (attr through_hole)
-    (fp_text reference "D21" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D21" (at -3.508 -0.860334 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b6ed8fbc-9783-4dec-a664-1f87da8d4955)
     )
@@ -7666,9 +7666,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e6c09900-1d4a-4aad-a780-cae8b952ae16))
     (fp_line (start 7.54 1.25) (end 7.54 -3.15)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e7f8a608-0d59-482d-92d9-e5b122430d40))
-    (pad "1" thru_hole rect (at 0 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 30 "/HV_STABI3/AC1") (pinfunction "K") (pintype "passive") (tstamp 364163cb-6f68-4778-a84c-63c6991d3a7f))
-    (pad "2" thru_hole oval (at 5.08 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 5.08 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 7 "/HV_STABI3/DC-") (pinfunction "A") (pintype "passive") (tstamp 96859027-9364-4df8-95fb-b861e139dc7e))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -7679,7 +7679,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-92_Inline" (layer "F.Cu")
     (tstamp 8c0f7d17-3db1-4ab9-b415-42d4e522ef8c)
-    (at 240.538 60.939)
+    (at 96.647 -98.192)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (property "Sheetfile" "hv_stabi.kicad_sch")
@@ -7735,7 +7735,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 8ca9ae8c-361a-4efd-85df-cecf7f418523)
-    (at 60.325 62.357)
+    (at 36.322 -98.552)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "MPN" "LM1085IT-ADJ/NOPB")
@@ -7808,7 +7808,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp 8ed055ce-299c-4677-9d9e-7c17c900369a)
-    (at 269.651 92.091 -90)
+    (at 264.571 -69.53425 -90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "ZY180")
@@ -7895,7 +7895,7 @@
 
   (footprint "Package_DIP:DIP-8_W7.62mm" (layer "F.Cu")
     (tstamp 936273dd-e45b-4801-80ba-33897be8f004)
-    (at 59.299 90.16 180)
+    (at 35.296 -70.749 180)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (property "MPN" "NE555P")
@@ -7972,7 +7972,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 94b181fe-148d-464b-a2e5-48407289e83c)
-    (at 214.757 69.469 90)
+    (at 70.866 -89.662 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55976K00")
@@ -8090,7 +8090,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 96158880-57fe-4ef7-a007-369aa7eff72f)
-    (at 67.183 80.899 -90)
+    (at 43.18 -80.01 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF552K0000")
@@ -8226,7 +8226,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (layer "F.Cu")
     (tstamp 9966eae1-19c6-4dda-bbc5-0df8a6a420a0)
-    (at 254.501 72.484)
+    (at 249.421 -89.14125)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*9mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 9mm Capacitor")
     (property "MPN" "MKP4O131004J00KSSD")
@@ -8285,7 +8285,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp 9c3301ac-bd6d-4082-8416-925b791943f1)
-    (at 194.876 131.064)
+    (at 124.991 -33.147 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0004 example for new part number: 26-60-4040, 4 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0851")
@@ -8295,7 +8295,7 @@
     (property "ki_keywords" "connector")
     (path "/8664c1f9-39ba-4d45-a0a4-2eb0fa26331e")
     (attr through_hole)
-    (fp_text reference "J7" (at 5.94 -6.31) (layer "F.SilkS")
+    (fp_text reference "J7" (at -3.331 -0.508) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42ab2ac0-ee01-46a7-be60-055a00f4afb0)
     )
@@ -8389,13 +8389,13 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7d75b05c-800f-404a-8aa9-9e7f777172b4))
     (fp_line (start 13.79 3.895) (end 11.885 3.895)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5936a5cb-9426-4819-bbb3-8676f269c4a1))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
+    (pad "1" thru_hole roundrect (at 0 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
       (net 29 "/HV_STABI1/DC+") (pinfunction "Pin_1") (pintype "passive") (tstamp c5f22a75-7213-491d-9e37-78abde2d9c1e))
-    (pad "2" thru_hole oval (at 3.96 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 3.96 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 30c90f1f-901b-43bb-9065-bb95175ebbc6))
-    (pad "3" thru_hole oval (at 7.92 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "3" thru_hole oval (at 7.92 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 5 "/HV_STABI2/DC-") (pinfunction "Pin_3") (pintype "passive") (tstamp 0e4b127c-98bb-4ba4-9af7-38b6c3700cac))
-    (pad "4" thru_hole oval (at 11.88 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "4" thru_hole oval (at 11.88 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 7 "/HV_STABI3/DC-") (pinfunction "Pin_4") (pintype "passive") (tstamp 8b4484eb-a7bc-4de0-a6af-9d653af65a8b))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -8406,7 +8406,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tstamp 9e5f88f1-3be4-41c3-ab77-3fbef3d9171c)
-    (at 253.111 84.582)
+    (at 248.031 -77.04325)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (property "Sheetfile" "OSDEHA_PSU.kicad_sch")
@@ -8436,7 +8436,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 9e8c9a50-2b9b-49cb-b281-dca6a2e18ad8)
-    (at 223.647 70.739)
+    (at 79.756 -88.392)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF551K0000")
@@ -8641,7 +8641,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp acc03811-ee85-4804-9589-9298031cf75e)
-    (at 89.841 117.37 180)
+    (at 64.625 -43.688 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0849")
@@ -8651,15 +8651,15 @@
     (property "ki_keywords" "connector")
     (path "/00801928-9968-4608-a831-ccfb96030327")
     (attr through_hole)
-    (fp_text reference "J9" (at 1.98 -6.31 180) (layer "F.SilkS")
+    (fp_text reference "J9" (at 1.98 -6.31) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c8823f78-a5c6-426b-adbb-f7a66a1a8580)
     )
-    (fp_text value "HEATERS-RIGHT" (at 1.98 6.1 180) (layer "F.Fab")
+    (fp_text value "HEATERS-RIGHT" (at 1.98 6.1) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1aba5f2-bf0f-4263-aa57-53d6e416b17a)
     )
-    (fp_text user "${REFERENCE}" (at 1.98 -4.41 180) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.98 -4.41) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 09962c12-9dcd-4758-90d6-aa615f8c9db4)
     )
@@ -8746,7 +8746,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
     (tstamp adb3ede9-2d6f-405d-8518-28fb28c474ef)
-    (at 35.052 61.849)
+    (at 11.049 -99.06)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (property "Sheetfile" "OSDEHA_PSU.kicad_sch")
@@ -8776,7 +8776,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (layer "F.Cu")
     (tstamp ae284abd-c588-4a30-95d0-457b1caa3426)
-    (at 258.176 92.091 -90)
+    (at 253.096 -69.53425 -90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (property "MPN" "1N4007")
@@ -8863,7 +8863,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp b2fd497b-a9b3-4a03-ba05-eae725979db7)
-    (at 55.354 134.239 90)
+    (at 32.583 -31.75 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "SBT1845-3G")
@@ -8873,7 +8873,7 @@
     (property "ki_keywords" "Diode")
     (path "/47d52731-247e-4959-8454-eb238aa82d16")
     (attr through_hole)
-    (fp_text reference "D4" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D4" (at -3.429 -0.818 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a2a7861-3fe3-4002-afd4-5a9da71e60d5)
     )
@@ -8921,9 +8921,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 108dcd17-a2db-4c56-bdaf-7773525f5fea))
     (fp_line (start 7.54 1.25) (end 7.54 -3.15)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp dd450268-b62d-4342-b9d0-93436826994a))
-    (pad "1" thru_hole rect (at 0 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 1 "Net-(D3-K)") (pinfunction "K") (pintype "passive") (tstamp 529dd059-c21e-4d6c-93db-9389e7c2872e))
-    (pad "2" thru_hole oval (at 5.08 0 90) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 5.08 0 270) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 21 "Net-(D2-A)") (pinfunction "A") (pintype "passive") (tstamp 761f8ce6-a478-464c-84a9-6a73f1b018d5))
     (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -8934,7 +8934,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp b3ad4adb-831a-4fae-b41e-e6c450b7183a)
-    (at 233.807 66.675 180)
+    (at 89.916 -92.456 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55300R00")
@@ -9001,7 +9001,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp b5317388-c41d-406f-9893-d0f456e826a0)
-    (at 60.396 129.159 -90)
+    (at 38.340333 -31.75 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "SBT1845-3G")
@@ -9011,7 +9011,7 @@
     (property "ki_keywords" "Diode")
     (path "/afd4f540-a698-4783-85a7-c6c70548aec4")
     (attr through_hole)
-    (fp_text reference "D3" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D3" (at -3.429 -0.818 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14f58ef3-d302-4aae-bb69-4289d56d242d)
     )
@@ -9190,7 +9190,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp baf5eaaf-7af7-4e16-8975-c7c03b3070fa)
-    (at 62.865 77.724 90)
+    (at 38.862 -83.185 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "MPN" "CMF55470R00")
@@ -9324,7 +9324,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-247-3_Vertical" (layer "F.Cu")
     (tstamp c22607c0-a088-437a-9662-678f621d94f7)
-    (at 224.674 59.944)
+    (at 80.783 -99.187)
     (descr "TO-247-3, Vertical, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html")
     (tags "TO-247-3 Vertical RM 5.45mm")
     (property "MPN" "NTHL1000N170M1 ")
@@ -9334,7 +9334,7 @@
     (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation")
     (path "/4254f3fa-5a7d-4f6e-8fcc-41d75b752000/080ae546-e777-40f9-b085-d6ca59143fc0")
     (attr through_hole)
-    (fp_text reference "Q13" (at 5.45 -3.45) (layer "F.SilkS")
+    (fp_text reference "Q13" (at 9.895 3.602) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e1e16c0-f51f-4724-a0a0-9face5723143)
     )
@@ -9393,7 +9393,7 @@
 
   (footprint "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm" (layer "F.Cu")
     (tstamp c756be1c-7667-42e4-b5f5-9d2dcdaf16ff)
-    (at 137.788 109.875 -90)
+    (at 174.177 -47.837 -90)
     (descr "Relay DPDT Schrack-RT2 RM5mm 16A 250V AC Form C http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT2_reflow&DocType=DS&DocLang=EN")
     (tags "Relay DPDT Schrack-RT2 RM5mm 16A 250V AC Relay")
     (property "MPN" "RT424006")
@@ -9563,7 +9563,7 @@
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp d0bc3a0d-a1b2-412f-9040-3381516259f8)
-    (at 246.634 130.937 180)
+    (at 99.154667 -29.786499 180)
     (descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
     (property "MPN" "1729128 ")
@@ -9796,7 +9796,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (layer "F.Cu")
     (tstamp dca55750-a618-4f46-b118-efae67d4f813)
-    (at 87.376 107.664 90)
+    (at 62.285 -53.245 90)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (property "MPN" "860160372003 ")
@@ -9806,7 +9806,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/3f259a6c-450c-4ae6-88fa-9ab46764e10c")
     (attr through_hole)
-    (fp_text reference "C7" (at 3.524 -3.302 180) (layer "F.SilkS")
+    (fp_text reference "C7" (at 3.524 -3.302) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0cccbc53-f6af-484d-8532-1ad4c9ea720b)
     )
@@ -10289,7 +10289,7 @@
 
   (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (layer "F.Cu")
     (tstamp ec626c28-3215-4783-9a12-50673ba7e2c0)
-    (at 53.086 70.612 90)
+    (at 29.083 -90.297 90)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (property "MPN" "3296W-1-105")
@@ -10356,7 +10356,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" (layer "F.Cu")
     (tstamp ed944446-517c-4115-8533-9fc2718a9e98)
-    (at 230.632 93.232501 -90)
+    (at 86.741 -65.898499 -90)
     (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
     (tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
     (property "MPN" "ALC70A221DE630 ")
@@ -11570,7 +11570,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-2_Vertical" (layer "F.Cu")
     (tstamp f86a9c54-163f-436c-9bb8-1e3c59c3afa5)
-    (at 73.858 129.159 -90)
+    (at 49.855 -31.75 -90)
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (property "MPN" "SBT1845-3G")
@@ -11580,7 +11580,7 @@
     (property "ki_keywords" "Diode")
     (path "/a5aaef18-12ee-4073-bd4a-a9f001a39a6a")
     (attr through_hole)
-    (fp_text reference "D1" (at 2.54 -4.27 90) (layer "F.SilkS")
+    (fp_text reference "D1" (at -3.429 -0.945 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e13b2fe5-7d49-40b0-b37a-e2d067a6f4d0)
     )
@@ -11641,7 +11641,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" (layer "F.Cu")
     (tstamp f8d71e5e-8dc1-4b2b-947e-ca6a728aaada)
-    (at 194.847 118.596)
+    (at 124.991 -44.958 180)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0004 example for new part number: 26-60-4040, 4 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 vertical")
     (property "MPN" "41791-0851")
@@ -11651,7 +11651,7 @@
     (property "ki_keywords" "connector")
     (path "/c045b507-b565-4544-9496-ee83a90022c2")
     (attr through_hole)
-    (fp_text reference "J6" (at 5.94 -6.31) (layer "F.SilkS")
+    (fp_text reference "J6" (at -3.36 -0.508) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b7962b55-9b57-4b60-8022-8e097913465f)
     )
@@ -11745,13 +11745,13 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 75e5097b-5c42-4fda-8f09-dc02cb66c681))
     (fp_line (start 13.79 3.895) (end 11.885 3.895)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp dcb6a55f-ead8-4b32-b9ce-d2eaf37fd1a7))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
+    (pad "1" thru_hole roundrect (at 0 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
       (net 29 "/HV_STABI1/DC+") (pinfunction "Pin_1") (pintype "passive") (tstamp ed00cec2-b6a8-497c-b706-a6eafbaf6c35))
-    (pad "2" thru_hole oval (at 3.96 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 3.96 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp ca71a50f-59ec-49a4-b82c-80df9cd90f67))
-    (pad "3" thru_hole oval (at 7.92 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "3" thru_hole oval (at 7.92 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 5 "/HV_STABI2/DC-") (pinfunction "Pin_3") (pintype "passive") (tstamp 2ee57389-e68c-4e67-9799-1b8e12137674))
-    (pad "4" thru_hole oval (at 11.88 0) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "4" thru_hole oval (at 11.88 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 7 "/HV_STABI3/DC-") (pinfunction "Pin_4") (pintype "passive") (tstamp d425b5e1-3fe7-4e75-96a4-081d9a297da5))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -11833,7 +11833,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4" (layer "F.Cu")
     (tstamp ff46f320-2d57-45bc-8e49-62f1523d381c)
-    (at 201.295 60.371 -90)
+    (at 57.404 -98.76 -90)
     (descr "C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
     (tags "C Rect series Radial pin pitch 37.50mm  length 41.5mm width 20mm Capacitor")
     (property "MPN" "MKP4J044707G00KSSD")
@@ -11890,58 +11890,36 @@
     )
   )
 
-  (gr_text "OSDEHA\nmbrennwa@diyAudio" (at 226.441 124.333) (layer "F.SilkS") (tstamp 4aab2945-d65c-45bb-8f94-b422cbeae50c)
+  (gr_text "OSDEHA\nmbrennwa@diyAudio" (at 146.431 -117.729) (layer "F.SilkS") (tstamp 4aab2945-d65c-45bb-8f94-b422cbeae50c)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
   )
-  (gr_text "CHASSIS\nEARTH" (at 39.37 134.874) (layer "F.SilkS") (tstamp 97526b39-ea65-400c-95d9-185448df7430)
+  (gr_text "CHASSIS\nEARTH" (at 15.367 -26.035) (layer "F.SilkS") (tstamp 97526b39-ea65-400c-95d9-185448df7430)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
 
-  (segment (start 230.124 59.944) (end 230.124 70.972) (width 2) (layer "B.Cu") (net 6) (tstamp 29b9d8c3-0579-45e4-82a0-c5f7c3117e4b))
-  (segment (start 228.145 74.803) (end 228.272 74.676) (width 0.25) (layer "B.Cu") (net 6) (tstamp 4cecbe44-7707-4f80-94d4-c63d78e82498))
-  (segment (start 230.124 70.972) (end 228.272 72.824) (width 2) (layer "B.Cu") (net 6) (tstamp 5b05fe60-ce23-4af6-bc75-58d61591100a))
-  (segment (start 226.293 74.803) (end 228.145 74.803) (width 1) (layer "B.Cu") (net 6) (tstamp 87192657-359b-4e69-a3ae-a57ef2360059))
-  (segment (start 228.272 74.676) (end 228.272 90.872501) (width 2) (layer "B.Cu") (net 6) (tstamp 8eca9289-3c65-4984-9f5f-756be82af480))
-  (segment (start 228.272 90.872501) (end 230.632 93.232501) (width 2) (layer "B.Cu") (net 6) (tstamp d0c33ae8-c347-4a54-9a44-24b682a8c1f3))
-  (segment (start 228.272 74.676) (end 228.272 72.824) (width 2) (layer "B.Cu") (net 6) (tstamp e605777c-d8f5-418d-934d-1d673bf88228))
-  (segment (start 215.268501 118.596) (end 230.632 103.232501) (width 0.25) (layer "F.Cu") (net 7) (tstamp 03697bd8-f3cd-4e5c-af62-53ff00b0b16e))
   (segment (start 206.727 118.596) (end 215.268501 118.596) (width 0.25) (layer "F.Cu") (net 7) (tstamp 1a693426-98de-41de-9ad1-934d60465a0c))
   (segment (start 201.295 97.871) (end 225.270499 97.871) (width 0.25) (layer "F.Cu") (net 7) (tstamp 7239fccd-a173-4ba2-89bb-3939e48eb11c))
   (segment (start 201.295 97.871) (end 201.295 82.931) (width 0.25) (layer "F.Cu") (net 7) (tstamp 7aadf1b5-1cbb-4bd1-9c66-eb924947b9af))
   (segment (start 201.295 82.931) (end 214.757 69.469) (width 0.25) (layer "F.Cu") (net 7) (tstamp 92e615c4-0824-4658-9fa7-98811c19dd50))
-  (segment (start 225.270499 97.871) (end 230.632 103.232501) (width 0.25) (layer "F.Cu") (net 7) (tstamp f8d6f7aa-ed0f-4f8f-be7b-9f16222874a3))
   (segment (start 201.313499 103.232501) (end 201.295 103.251) (width 0.25) (layer "B.Cu") (net 7) (tstamp 530c99f8-0c9d-4a39-bf0f-b414799dcdc1))
-  (segment (start 213.695 60.371) (end 214.757 59.309) (width 0.25) (layer "F.Cu") (net 18) (tstamp 23be5df8-63d5-45fe-9239-797eebaff374))
-  (segment (start 233.807 66.675) (end 237.363 66.675) (width 0.25) (layer "F.Cu") (net 18) (tstamp 38762274-8362-4a4c-a49c-8538cbedd2c8))
-  (segment (start 237.617 63.86) (end 240.538 60.939) (width 0.25) (layer "F.Cu") (net 18) (tstamp 47809fdb-e30b-4e23-bd69-f9503c31bd05))
-  (segment (start 219.075 59.309) (end 226.441 66.675) (width 0.25) (layer "F.Cu") (net 18) (tstamp 5fdafe6b-7a52-4f9b-8951-d819ad763f95))
-  (segment (start 226.441 66.675) (end 233.807 66.675) (width 0.25) (layer "F.Cu") (net 18) (tstamp 917ff90c-6116-4846-b1e3-97f6fbdce442))
-  (segment (start 214.757 59.309) (end 219.075 59.309) (width 0.25) (layer "F.Cu") (net 18) (tstamp a8e2b67b-7f3a-4f54-8839-b7e89001f530))
-  (segment (start 237.363 66.675) (end 237.617 66.421) (width 0.25) (layer "F.Cu") (net 18) (tstamp aa120d42-8b2a-4eb5-97b0-0f049f7f6247))
-  (segment (start 237.617 66.421) (end 237.617 63.86) (width 0.25) (layer "F.Cu") (net 18) (tstamp bd1c083a-0a3d-4f38-a5ea-1644b75789b3))
   (segment (start 201.295 60.371) (end 213.695 60.371) (width 0.25) (layer "F.Cu") (net 18) (tstamp dce758b1-f1d0-461a-ac3f-0d0c1099482f))
-  (segment (start 232.156 76.581) (end 231.648 76.073) (width 0.25) (layer "F.Cu") (net 43) (tstamp 57b9c853-dd04-47e8-a16b-a58069e6cac4))
-  (segment (start 237.617 76.581) (end 232.156 76.581) (width 0.25) (layer "F.Cu") (net 43) (tstamp 6398aaba-665e-470f-9a8a-fb6b2a38ee4e))
-  (segment (start 220.091 76.073) (end 222.336 78.318) (width 0.25) (layer "F.Cu") (net 45) (tstamp 43cd1697-624d-47a3-8c27-06d41ae42f10))
-  (segment (start 222.336 78.318) (end 227.763 78.318) (width 0.25) (layer "F.Cu") (net 45) (tstamp b253849d-23d6-4de3-8b4f-95ff13ede70e))
-  (segment (start 230.378 75.703) (end 230.378 74.803) (width 0.25) (layer "F.Cu") (net 45) (tstamp df5d0d09-5e85-4974-8ea2-0b2d7e95ba5d))
-  (segment (start 227.763 78.318) (end 230.378 75.703) (width 0.25) (layer "F.Cu") (net 45) (tstamp eef14d77-602a-4cd6-a169-08005193ca47))
-  (segment (start 225.023 76.073) (end 225.023 72.115) (width 0.25) (layer "F.Cu") (net 57) (tstamp 90984f2e-f02c-4dd1-af06-c2ceb6ac11cf))
-  (segment (start 225.023 72.115) (end 223.647 70.739) (width 0.25) (layer "F.Cu") (net 57) (tstamp be2eac3c-09cf-4b4e-8d09-a1b7cc3ad746))
-  (segment (start 235.654 59.864) (end 241.733 59.864) (width 0.25) (layer "F.Cu") (net 59) (tstamp 0838b028-9671-4f6e-b9f0-ed3ecbd4a0e6))
-  (segment (start 241.733 59.864) (end 241.808 59.939) (width 0.25) (layer "F.Cu") (net 59) (tstamp 0b85fd7c-9f24-4c77-bae2-5191ca48f632))
-  (segment (start 241.808 65.786) (end 242.443 66.421) (width 0.25) (layer "F.Cu") (net 59) (tstamp 9c98717c-d363-46f9-904c-597a369d2bc4))
-  (segment (start 241.808 59.939) (end 241.808 60.939) (width 0.25) (layer "F.Cu") (net 59) (tstamp 9f62cc14-6d35-4aed-8dd1-dc8bdb68068c))
-  (segment (start 241.808 60.939) (end 241.808 65.786) (width 0.25) (layer "F.Cu") (net 59) (tstamp b44aaf29-39db-45d1-86b3-4448485beb24))
-  (segment (start 235.574 59.944) (end 235.654 59.864) (width 0.25) (layer "F.Cu") (net 59) (tstamp ea6cb907-957f-458d-b621-f6933ae946c0))
-  (segment (start 219.075 74.549) (end 217.551 76.073) (width 0.25) (layer "F.Cu") (net 62) (tstamp 1e165f65-3054-4cb0-aef7-732635101455))
-  (segment (start 219.075 69.469) (end 219.075 74.549) (width 0.25) (layer "F.Cu") (net 62) (tstamp 4ed25fe7-84ee-49d4-aa9c-35ab19daa1d4))
-  (segment (start 217.551 76.073) (end 215.011 76.073) (width 0.25) (layer "F.Cu") (net 62) (tstamp a63abcdd-1fc6-4002-95b6-7e77210137cc))
 
   (group "" (id 0bde583d-cd19-4aea-901a-e285ae0c5dad)
     (members
       1e806deb-41a2-4bdd-9317-a0c6c42f819e
       6ff96748-b08d-4caf-8b7c-ec9f12fbb8eb
+    )
+  )
+  (group "" (id 0efb4b46-12aa-48aa-ad87-88fc29cadc89)
+    (members
+      1641baaa-09ef-40fc-92c8-18b217576047
+      acc03811-ee85-4804-9589-9298031cf75e
+    )
+  )
+  (group "" (id 25c68c2a-6e4c-4bf5-aae3-282a85c80dc7)
+    (members
+      9c3301ac-bd6d-4082-8416-925b791943f1
+      f8d71e5e-8dc1-4b2b-947e-ca6a728aaada
     )
   )
   (group "" (id 3c1a38a1-5816-49a4-bd6f-cc6796f1d039)
@@ -11957,6 +11935,39 @@
     (members
       4c8fff61-293c-4b6a-85eb-72aef213ba55
       9966eae1-19c6-4dda-bbc5-0df8a6a420a0
+    )
+  )
+  (group "" (id 52b9275f-4608-4f5b-af87-10b0a29ae2c0)
+    (members
+      28b5110a-5989-4356-b13e-ba2f6c985090
+      45cb9960-5a64-4438-bfd0-16133dae2bde
+      b2fd497b-a9b3-4a03-ba05-eae725979db7
+      b5317388-c41d-406f-9893-d0f456e826a0
+      f86a9c54-163f-436c-9bb8-1e3c59c3afa5
+    )
+  )
+  (group "" (id c83badb9-629c-40b9-a828-b150f9dcb573)
+    (members
+      6b7a744a-257d-470b-bdd2-51beaa1f2e99
+      77adb7f2-a448-4467-b0b7-a3155354dd76
+      8a704ebb-2862-42ea-aa0a-8f6f2cf50ecb
+      8bec5782-1398-4c90-8a66-93860b49bb91
+      d0bc3a0d-a1b2-412f-9040-3381516259f8
+    )
+  )
+  (group "" (id fefffc12-85e6-4a5c-8d7d-0d13de69ff5b)
+    (members
+      000756a8-66b8-41b9-a8e9-1af49ee0d27e
+      0bde583d-cd19-4aea-901a-e285ae0c5dad
+      0d27be58-b3c1-4ff3-b6f3-ae25a4297149
+      0e5780a5-f88f-4003-a0f5-81a26399f626
+      27939023-c89c-4ac1-931f-3a7bc6001ff9
+      36b58ef0-d503-4e44-bbe5-bb4aa9fa74e1
+      3c1a38a1-5816-49a4-bd6f-cc6796f1d039
+      45f4ce39-c58a-4f2d-9952-42cbd15506a6
+      60712628-2f22-49b5-814e-989b6b93b9a8
+      6c36f992-c85c-4ca5-b4e9-3c0626c76202
+      9e5f88f1-3be4-41c3-ab77-3fbef3d9171c
     )
   )
 )
