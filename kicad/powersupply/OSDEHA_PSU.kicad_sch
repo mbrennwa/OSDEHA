@@ -3706,7 +3706,7 @@
     (property "Value" "3k" (at 148.59 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 148.59 62.992 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 148.59 62.992 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/doc?31018" (at 148.59 64.77 0)
