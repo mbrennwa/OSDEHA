@@ -3145,7 +3145,7 @@
     (property "Datasheet" "https://www.we-online.com/catalog/datasheet/860160372003.pdf" (at 137.16 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "860160372003 " (at 137.16 232.41 90)
+    (property "MPN" "860160372003" (at 137.16 232.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c195c95e-eba6-4593-bbe0-a788be92b6a1))
