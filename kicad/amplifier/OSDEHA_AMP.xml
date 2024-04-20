@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mbrennwa/Audio/OSDEHA.git/kicad/amplifier/OSDEHA_AMP.kicad_sch</source>
+    <date>Thu 28 Mar 2024 10:32:38 CET</date>
+    <tool>Eeschema 7.0.11+b1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OSDEHA Amplifier</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OSDEHA_AMP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Gyrator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Buffer_CCS_load2/" tstamps="/964c5f27-279d-4094-beed-423757c37563/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>buffer_CCS_load.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Buffer_CCS_load1/" tstamps="/117f0db4-f368-407f-8708-b67954482099/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>buffer_CCS_load.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6564be25-135f-4429-b924-bf5d816e1d00</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470n 1 kV</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP1J034706B00JYSD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP1J034706B00JYSD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9cf5ab5-5e17-4700-b8b8-311375b24519</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470n 1 kV</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP1J034706B00JYSD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP1J034706B00JYSD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa55e2af-382a-4a94-8c4f-51fa2a2f246a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c338c77e-4e4c-4812-9799-556bc70d038d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a44d8eb7-c2b2-4750-a069-1ea77937ee44</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aad89c54-452b-466b-8a6c-4aac1e00fdb1</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d00a176-0d49-4968-96e2-a529754414be</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>714e8f14-207f-482d-996f-070380a1e025</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6bd1bb4-cf99-40fc-bdcd-ce2e4110bbc7</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d71ee1e3-1c14-48c2-b18a-a9272e502db1</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd80b141-d1f7-4b5c-9f64-e2ec57575326</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7225b0dc-3969-4ee1-bc3e-c3a8a7882aaa</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30151c80-1965-403d-843f-08adfdd6ebef</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fef3501-3909-4260-9434-ffb77fd809b7</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad39bcf6-8308-4910-98eb-013892f13a37</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>INPUT</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910849?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0849</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="41791-0849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff6b0ed-c232-4fa2-95f8-c022d631baf2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HEATERS DC</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910849?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0849</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="41791-0849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e6b6dcd-bbba-439d-9a07-7912404ab733</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PSU HV</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910851?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0851</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="MPN" value="41791-0851"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e9d74a3-8d98-40d6-b0cc-f341dc2229da</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>OUTPUT</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910849?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0849</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="41791-0849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c93d96c6-481d-4660-bc6c-2cd53bb57a3d</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DHT FIL2</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910849?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0849</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="41791-0849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>415f25f2-124b-44de-bf8d-e8a1ed5504d0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>DHT FIL1</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/en-us/products/part-detail/417910849?display=pdf</datasheet>
+      <fields>
+        <field name="MPN">41791-0849</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="41791-0849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5234fd85-7595-4b95-9161-77969b587432</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DN2540N5-G</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf</datasheet>
+      <fields>
+        <field name="MPN">DN2540N5-G</field>
+      </fields>
+      <libsource lib="Transistor_FET_Other" part="DN2540N5-G" description="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="MPN" value="DN2540N5-G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="N-Channel Depletion-Mode MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10eee5b0-f9da-4527-a01b-d47c5aaa4461</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DN2540N5-G</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf</datasheet>
+      <fields>
+        <field name="MPN">DN2540N5-G</field>
+      </fields>
+      <libsource lib="Transistor_FET_Other" part="DN2540N5-G" description="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="MPN" value="DN2540N5-G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="N-Channel Depletion-Mode MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3318eb0-23e5-4319-8a63-21754d38f691</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>STF3LN80K5</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf</datasheet>
+      <fields>
+        <field name="MPN">STF3LN80K5</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="STF3LN80K5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd36f530-bb7c-4ec4-b35b-4fef7cf53e51</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>STF3LN80K5</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf</datasheet>
+      <fields>
+        <field name="MPN">STF3LN80K5</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="STF3LN80K5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff7816f0-60d8-45db-a468-3e189ae7affa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>500k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">    CMF55500K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="    CMF55500K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0d6110f-d38f-461e-a26c-f983c91edca7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551K0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551K0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>292008f1-8301-4b1e-8651-da9307b78411</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>500k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">    CMF55500K00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="    CMF55500K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df442860-61ae-4cf4-9a65-4e369ae5b87c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>27.4k 5W</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/303/res_80-3082561.pdf</datasheet>
+      <fields>
+        <field name="MPN">85F27K4 </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="85F27K4 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dec078c-cdd4-4c69-a54f-bc10a62f734e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89409733-9b61-4ddc-a7e1-7bdd402c4063</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>75</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF5575R000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF5575R000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d6272c3-c291-4ab4-bf57-e275b0090dab</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551K0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551K0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27cd5be9-5fb8-4632-af0f-a2dea737560d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f473e319-014e-49d6-a7a4-67892641b408</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>27.4k 5W</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/303/res_80-3082561.pdf</datasheet>
+      <fields>
+        <field name="MPN">85F27K4 </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="85F27K4 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08434925-ba79-4b84-9a3f-968d9f59ddea</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>12k 7W</value>
+      <footprint>Resistor_THT:R_Radial_Power_L16.1mm_W9.0mm_P7.37mm</footprint>
+      <datasheet>https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf</datasheet>
+      <fields>
+        <field name="MPN">AC07000001202JAC00 </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="AC07000001202JAC00 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68793ebe-07d0-4689-b354-29e2f9878925</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7075516b-519f-42fb-af6f-b6f734513ba9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF5547K000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF5547K000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cb31e53-00f9-47b6-a7c9-a7775e2fc294</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cef720dd-e1bd-4921-aa61-8e9b7f48234d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>20k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/54/3296-776415.pdf</datasheet>
+      <fields>
+        <field name="MPN">3296W-1-203</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="MPN" value="3296W-1-203"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7810fa28-71dc-4253-9218-763a0c9cf815</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>25k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF5525K000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF5525K000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>564a821d-984b-488d-9c91-660b6b4817d8</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e0df18d-59b4-4494-be02-eb37ef98cee9</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF5547K000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF5547K000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40498012-7901-484f-a1ca-d07ef4c5b2f3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e33b7b3c-f136-44c8-a459-fde793e82341</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>20k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/54/3296-776415.pdf</datasheet>
+      <fields>
+        <field name="MPN">3296W-1-203</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="MPN" value="3296W-1-203"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7d7d0dd-d482-4b49-aa70-71c686f42f41</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>25k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF5525K000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF5525K000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f862399-a0c4-4396-a6b1-44085cef5acd</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551K0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551K0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4994bbd3-ba04-43b1-bcf6-04619915b30c</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551K0000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551K0000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63d5b3b0-ea4c-42d6-8747-d57dcd829809</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>113e1997-6990-47c4-849f-66a20e1f6103</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e050d2b-a6e2-48c2-b27e-3b5801a86eca</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0ac31d6-616d-4336-89fa-0af06b51e82b</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44a9c181-9873-4332-a2c2-ecc7f8e8f517</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b34eea-3e2b-42ae-8791-60fb16cda23e</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb9eb98-b8e9-46da-a7d0-c09d9798a9d5</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0e66827-c71f-4601-9d6f-9ca232b879e4</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>1.27k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551k2700</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551k2700"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>deff3c94-44ae-42c5-9293-9f6e83a86d1e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>OSDEHA_AMP:SWITCH_2POLE_ON_ON</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/418/1/NG_CD_2267078_A_2267078_c.dwg-689385.pdf</datasheet>
+      <fields>
+        <field name="MPN">TMD1T5B2M2RE </field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="MPN" value="TMD1T5B2M2RE "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f6f57dc-f6af-4087-bfd8-0c265be7de6d 09ef5296-571c-4840-b6b1-bf168d4e23ed</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>6E5P</value>
+      <footprint>OSDEHA_AMP:belton_noval-bside</footprint>
+      <libsource lib="OSDEHA_AMP" part="6E5P" description="single tetrode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="single tetrode"/>
+      <property name="ki_keywords" value="tetrode valve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f210807b-b33e-4d27-8d61-133a49df4f28 0c0563a4-c0e5-4fb6-a618-b9eaf805973b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>6E5P</value>
+      <footprint>OSDEHA_AMP:belton_noval-bside</footprint>
+      <libsource lib="OSDEHA_AMP" part="6E5P" description="single tetrode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="single tetrode"/>
+      <property name="ki_keywords" value="tetrode valve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>709a0b8b-ec3a-43ea-8500-532236421b3d 2717e8ad-f404-466c-ab0e-e49b341e702f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>801A</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical</footprint>
+      <datasheet>http://www.r-type.org/pdfs/801A.pdf</datasheet>
+      <libsource lib="OSDEHA_AMP" part="801A" description="single triode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="single triode"/>
+      <property name="ki_keywords" value="triode valve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41e36b25-186d-429c-9906-e520abc7d16e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>801A</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical</footprint>
+      <datasheet>http://www.r-type.org/pdfs/801A.pdf</datasheet>
+      <libsource lib="OSDEHA_AMP" part="801A" description="single triode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSDEHA_AMP.kicad_sch"/>
+      <property name="ki_description" value="single triode"/>
+      <property name="ki_keywords" value="triode valve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0458126-0ac8-4d7c-a10e-4bbdec9d81ab</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>75af7187-214d-4d7e-8b8b-7e099d8eafac</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>220n 630 V</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf</datasheet>
+      <fields>
+        <field name="MPN">MKP4J032204J00KSSD </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="MKP4J032204J00KSSD "/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>12e351b6-5ac4-4d73-927e-3325afe07a7c</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>c6c0f7fe-6b86-4917-a125-f347a70ed98c</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>77f699cd-4c44-4c28-8f5d-ac32638b4468</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>e6aee985-6220-4dfd-88a3-99df0321581f</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>15V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/zy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">ZY15</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="ZY15"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>eaa0da9f-2daa-43c0-a8ec-063a418306e2</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>AOT1N60</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://aosmd.com/res/data_sheets/AOT1N60.pdf</datasheet>
+      <fields>
+        <field name="MPN">AOT1N60</field>
+      </fields>
+      <libsource lib="Transistor_FET_Other" part="DN2540N5-G" description="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="MPN" value="AOT1N60"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="N-Channel Depletion-Mode MOSFET"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>e56fb32d-96e8-4d68-a8a3-4fe9f03b8b9e</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IXTP3N100D2</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/media-3323664.pdf</datasheet>
+      <fields>
+        <field name="MPN">IXTP3N100D2</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="IXTP3N100D2"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>2a3c19f2-c898-498a-b1a8-4ae913218a73</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>AOT1N60</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://aosmd.com/res/data_sheets/AOT1N60.pdf</datasheet>
+      <fields>
+        <field name="MPN">AOT1N60</field>
+      </fields>
+      <libsource lib="Transistor_FET_Other" part="DN2540N5-G" description="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="MPN" value="AOT1N60"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="N-Channel Depletion-Mode MOSFET"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>5627b9ab-d893-403a-88d9-677ace52756a</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>IXTP3N100D2</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/240/media-3323664.pdf</datasheet>
+      <fields>
+        <field name="MPN">IXTP3N100D2</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="IXTP3N100D2"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>82b046c3-fa6b-4b2b-91c1-d5c5eb14e662</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>946ba9d1-c229-4486-97d3-6b85dea12940</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>31bdcc37-a175-4f8c-ae21-05a8a2f0405d</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>1106d323-5af5-4bbf-a068-f6cb1932d2e8</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55470R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55470R00"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>5a13743c-acd9-466c-8e88-e7fcaed883a3</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>3b1f7723-6e2f-4f66-8def-22fb3ea7279d</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>9f57520c-ad5d-4e76-b959-e71c8d39e869</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>12fec269-9e4c-4f86-b65d-8f7bb5d31af3</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1.5M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF551M5000</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF551M5000"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>d7ebb648-578e-41d9-9199-3d55f9b51710</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55470R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55470R00"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>52b70f49-b4ac-46cc-9cf7-ce44688f5c05</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value="Dual_Gyrator"/>
+      <property name="Sheetfile" value="Gyrator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual_Gyrator/" tstamps="/51668184-e52b-4b73-b0e2-641c1f96c6ef/"/>
+      <tstamps>0dfb0b6d-dd0d-4499-b779-67205a3ca2e8</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>DN2540</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/268/DN2540_B060313-965103.pdf</datasheet>
+      <fields>
+        <field name="MPN">DN2540N5-G</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="DN2540N5-G"/>
+      <property name="Sheetname" value="Buffer_CCS_load2"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/Buffer_CCS_load2/" tstamps="/964c5f27-279d-4094-beed-423757c37563/"/>
+      <tstamps>a3a393a6-3c57-4c9c-b2ef-bc89d73f134f</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value="Buffer_CCS_load2"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buffer_CCS_load2/" tstamps="/964c5f27-279d-4094-beed-423757c37563/"/>
+      <tstamps>74bdfc90-47bf-4cad-9b92-b8c81b968e2e</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55150R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55150R00"/>
+      <property name="Sheetname" value="Buffer_CCS_load2"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buffer_CCS_load2/" tstamps="/964c5f27-279d-4094-beed-423757c37563/"/>
+      <tstamps>02483c5f-461b-4a19-92a6-5444ffb40f2a</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>DN2540</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/268/DN2540_B060313-965103.pdf</datasheet>
+      <fields>
+        <field name="MPN">DN2540N5-G</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="MPN" value="DN2540N5-G"/>
+      <property name="Sheetname" value="Buffer_CCS_load1"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/Buffer_CCS_load1/" tstamps="/117f0db4-f368-407f-8708-b67954482099/"/>
+      <tstamps>a3a393a6-3c57-4c9c-b2ef-bc89d73f134f</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55300R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55300R00"/>
+      <property name="Sheetname" value="Buffer_CCS_load1"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buffer_CCS_load1/" tstamps="/117f0db4-f368-407f-8708-b67954482099/"/>
+      <tstamps>74bdfc90-47bf-4cad-9b92-b8c81b968e2e</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/doc?31018</datasheet>
+      <fields>
+        <field name="MPN">CMF55150R00</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CMF55150R00"/>
+      <property name="Sheetname" value="Buffer_CCS_load1"/>
+      <property name="Sheetfile" value="buffer_CCS_load.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Buffer_CCS_load1/" tstamps="/117f0db4-f368-407f-8708-b67954482099/"/>
+      <tstamps>02483c5f-461b-4a19-92a6-5444ffb40f2a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="OSDEHA_AMP" part="6E5P">
+      <description>single tetrode</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6E5P</field>
+        <field name="Footprint">OSDEHA_AMP:belton_noval-bside</field>
+      </fields>
+      <pins>
+        <pin num="1" name="F1" type="power_in"/>
+        <pin num="2" name="A" type="output"/>
+        <pin num="3" name="nc" type="no_connect"/>
+        <pin num="4" name="K" type="bidirectional"/>
+        <pin num="5" name="G2" type="input"/>
+        <pin num="6" name="F2" type="power_in"/>
+        <pin num="7" name="nc" type="no_connect"/>
+        <pin num="8" name="G1" type="input"/>
+        <pin num="9" name="K" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSDEHA_AMP" part="801A">
+      <description>single triode</description>
+      <docs>http://www.r-type.org/pdfs/801A.pdf</docs>
+      <footprints>
+        <fp>VALVE*MINI*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">801A</field>
+        <field name="Footprint">Valve:Valve_Mini_P</field>
+        <field name="Datasheet">http://www.r-type.org/pdfs/801A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="F+" type="bidirectional"/>
+        <pin num="2" name="A" type="output"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="F-" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="NMOS">
+      <description>N-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET_Other" part="DN2540N5-G">
+      <description>150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DN2540N5-G</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>/usr/share/kicad/symbols//Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET_Other">
+      <uri>/usr/share/kicad/symbols//Transistor_FET_Other.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Buffer_CCS_load1/NEG">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="F+" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="F+" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Buffer_CCS_load1/POS">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="3" name="/Buffer_CCS_load2/POS">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="4" name="/Dual_Gyrator/+HV">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/Dual_Gyrator/ANODE1">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="6" name="/Dual_Gyrator/ANODE2">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="7" name="/Dual_Gyrator/MU_OUT1">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="/Dual_Gyrator/MU_OUT2">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D7-K)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D9-K)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="F1" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="F1" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="F2" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="F2" pintype="power_in"/>
+    </net>
+    <net code="26" name="Net-(J3-Pin_4)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J4-Pin_1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J5-Pin_1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="F-" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="F-" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(Q1-D)">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q1-S)">
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q2-D)">
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="K" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="K" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q5-D)">
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q6-G)">
+      <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q7-D)">
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q8-G)">
+      <node ref="Q8" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q9-G)">
+      <node ref="Q9" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q9-S)">
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q10-G)">
+      <node ref="Q10" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q10-S)">
+      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R14-Pad3)">
+      <node ref="R14" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(R19-Pad3)">
+      <node ref="R19" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(R45-Pad2)">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(R48-Pad2)">
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(SW1A-B)">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(SW1B-B)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(U1A-A)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A" pintype="output"/>
+      <node ref="U1" pin="5" pinfunction="G2" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(U1A-G1)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="G1" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(U2A-A)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="G2" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(U2A-G1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="G1" pintype="input"/>
+    </net>
+    <net code="65" name="unconnected-(U1A-K-Pad4)">
+      <node ref="U1" pin="4" pinfunction="K" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1B-nc-Pad3)">
+      <node ref="U1" pin="3" pinfunction="nc" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1B-nc-Pad7)">
+      <node ref="U1" pin="7" pinfunction="nc" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U2A-K-Pad4)">
+      <node ref="U2" pin="4" pinfunction="K" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U2B-nc-Pad3)">
+      <node ref="U2" pin="3" pinfunction="nc" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U2B-nc-Pad7)">
+      <node ref="U2" pin="7" pinfunction="nc" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
