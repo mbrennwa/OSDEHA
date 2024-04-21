@@ -425,7 +425,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*Bridge*32.0x5.6x17.0mm*P10.0mm*P7.5mm*")
 		(path "/a1bdea66-cd3a-4af1-b923-215eb69db958")
+		(sheetname "Root")
+		(sheetfile "OSDEHA_PSU.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.8 -3.1)
@@ -689,7 +692,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "be31b48b-da82-4c30-af28-0510a4afacad")
@@ -736,7 +739,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551K5000"
+		(property "MPN" "CMF551K0000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11765,7 +11768,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "78db8e74-ac4e-4da7-9b51-53780a1c48e4")
@@ -11812,7 +11815,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551K5000"
+		(property "MPN" "CMF551K0000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18277,7 +18280,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "97fd5d17-8dce-4897-80ad-3a013b826e3f")
@@ -18324,7 +18327,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551K5000"
+		(property "MPN" "CMF551K0000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27115,7 +27118,7 @@
 				)
 			)
 		)
-		(property "Value" "787k"
+		(property "Value" "866k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "26c4a06a-4627-4841-a97f-e76d811e7e7d")
@@ -27162,7 +27165,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55787K00"
+		(property "MPN" "CMF55866K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36129,7 +36132,7 @@
 				)
 			)
 		)
-		(property "Value" "976k"
+		(property "Value" "1.1M"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "f83e4103-ba32-4314-a9c6-9d049af32e75")
@@ -36176,7 +36179,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55976K00"
+		(property "MPN" "CMF551M1000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38670,7 +38673,7 @@
 				)
 			)
 		)
-		(property "Value" "787k"
+		(property "Value" "866k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "da5122d6-973e-4a8e-9f95-8e03971e0c40")
@@ -38717,7 +38720,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55787K00"
+		(property "MPN" "CMF55866K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43528,6 +43531,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "d4c5efc9-a8e9-4466-ae66-420e4c7d7948")
+		(at 158 141)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H4"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "bd73620a-a042-4d2c-9892-19976de99cc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "218e01f2-2a81-4a91-a5d3-b92ce9c0cdb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43c6698a-0469-4c6e-b0ea-d1ae6da92fdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e950a79c-f6c9-4a43-bfe3-78d02670e162")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f4d7e9a-c1c2-4e3b-93ef-d48a7da01f98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e4c66087-c20c-4917-b608-a6f32bc515b4")
+		(sheetname "Root")
+		(sheetfile "OSDEHA_PSU.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "1ea97757-e84a-455e-a20b-762f9c807e54")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "24a2aef0-5a21-4933-8167-c53e80ed6a33")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b087fdca-1ebb-4b62-920a-022d9cebe0eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5a754151-2fef-48c3-98b9-897ad96642aa")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -56033,12 +56146,12 @@
 		(uuid "093f2195-86d1-4e0d-841b-e287001851d6")
 	)
 	(segment
-		(start 200.399 149.332501)
-		(end 195.509701 149.332501)
+		(start 158.907499 148.092501)
+		(end 158.539 148.092501)
 		(width 2)
 		(layer "B.Cu")
 		(net 27)
-		(uuid "2050105e-170b-4f75-a220-990cf6f44564")
+		(uuid "0976213d-5db7-449f-8158-cc4a97642095")
 	)
 	(segment
 		(start 159.216333 148.092501)
@@ -56049,36 +56162,36 @@
 		(uuid "27341b5c-88a7-46d9-a637-4edceee376cb")
 	)
 	(segment
+		(start 200.399 149.332501)
+		(end 195.509701 149.332501)
+		(width 2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "448377f2-ae4c-4156-a5b9-21b98b47b65b")
+	)
+	(segment
+		(start 188.0616 141.8844)
+		(end 165.1156 141.8844)
+		(width 2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "5353411c-ad1c-44cf-b377-1c348d5876ce")
+	)
+	(segment
+		(start 165.1156 141.8844)
+		(end 158.907499 148.092501)
+		(width 2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "d8ff1bad-3f93-4c7b-a40d-50e7a99ea4d6")
+	)
+	(segment
 		(start 195.509701 149.332501)
 		(end 188.0616 141.8844)
 		(width 2)
 		(layer "B.Cu")
 		(net 27)
-		(uuid "2d845af6-e3ef-42e3-9d01-cb3f887c1eb7")
-	)
-	(segment
-		(start 158.539 146.007)
-		(end 158.539 148.092501)
-		(width 2)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "6c0fe533-b9f9-43b7-b14f-9562f3a2d250")
-	)
-	(segment
-		(start 188.0616 141.8844)
-		(end 162.6616 141.8844)
-		(width 2)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "7125c1da-61e8-49b0-872f-489da3e81799")
-	)
-	(segment
-		(start 162.6616 141.8844)
-		(end 158.539 146.007)
-		(width 2)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "78b89412-9afc-480a-ad41-3cc4d81df28c")
+		(uuid "e0bf0f84-fdc3-4d1f-bbb1-13226397885d")
 	)
 	(segment
 		(start 231.387333 148.092501)
@@ -56217,36 +56330,20 @@
 		(uuid "2b350373-9dce-4978-9e12-ba885903525e")
 	)
 	(segment
-		(start 151.919901 137.2616)
-		(end 150.72 138.461501)
-		(width 2)
-		(layer "B.Cu")
-		(net 29)
-		(uuid "2fc2eb6f-6881-452b-980c-dd79250db5f4")
-	)
-	(segment
 		(start 233.2228 106.3752)
 		(end 227.9904 106.3752)
 		(width 2)
 		(layer "B.Cu")
 		(net 29)
-		(uuid "3342cc3a-78e1-4fcc-8baf-0d3c2df89591")
+		(uuid "52c7338f-1020-4a7f-951c-e128485899df")
 	)
 	(segment
 		(start 221.5896 125.8824)
-		(end 210.2104 137.2616)
+		(end 212.472 135)
 		(width 2)
 		(layer "B.Cu")
 		(net 29)
-		(uuid "382b8c3e-a4dd-4056-946c-3c4de0222159")
-	)
-	(segment
-		(start 221.5896 112.776)
-		(end 221.5896 125.8824)
-		(width 2)
-		(layer "B.Cu")
-		(net 29)
-		(uuid "5cabd894-bf6d-4a9a-879d-d15418547f2f")
+		(uuid "5d67100b-47c8-4e62-9d6c-feb06091be33")
 	)
 	(segment
 		(start 150.72 138.461501)
@@ -56257,12 +56354,20 @@
 		(uuid "61b032e9-f2f8-4ac2-8ad9-1965d5f7d239")
 	)
 	(segment
-		(start 210.2104 137.2616)
-		(end 151.919901 137.2616)
+		(start 154.181501 135)
+		(end 150.72 138.461501)
 		(width 2)
 		(layer "B.Cu")
 		(net 29)
-		(uuid "db953b76-cb77-403b-a9aa-8be7fce49e92")
+		(uuid "793e592d-be88-48c2-b73f-7b35d40ce7bf")
+	)
+	(segment
+		(start 212.472 135)
+		(end 154.181501 135)
+		(width 2)
+		(layer "B.Cu")
+		(net 29)
+		(uuid "9e44348a-d4cf-4c6b-ba5d-6bbf7297c7f6")
 	)
 	(segment
 		(start 227.9904 106.3752)
@@ -56270,7 +56375,15 @@
 		(width 2)
 		(layer "B.Cu")
 		(net 29)
-		(uuid "fe781b65-f991-4b67-9259-e40a1d0a23a1")
+		(uuid "d3069cce-b45e-4609-9e22-84a8cbfb19e0")
+	)
+	(segment
+		(start 221.5896 112.776)
+		(end 221.5896 125.8824)
+		(width 2)
+		(layer "B.Cu")
+		(net 29)
+		(uuid "df9d6308-928d-458e-9eef-673e927793fa")
 	)
 	(segment
 		(start 116.375 153.172501)
