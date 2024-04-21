@@ -1,0 +1,6 @@
+2024-04-20
+- Built and tested heater supply for input stage tubes + relay for HV delay. Needed to reverse one of the rectifier diodes. Seems to work ok, but still need to test htr supply with proper load.
+- Built negative bias + buffer HV supply. Needed to attach part of the GND plane to GND (was not connected on PCB).
+
+2024-04-21
+- Tested neg. bias + buffer HV supply. Needed to adjust some of the resistor values in the CCS for voltage reference. Works ok, also under load of up to 120 mA.
