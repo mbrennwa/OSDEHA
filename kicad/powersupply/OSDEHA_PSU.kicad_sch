@@ -7616,7 +7616,7 @@
 				)
 			)
 		)
-		(property "Value" "787k"
+		(property "Value" "866k"
 			(at 93.98 87.63 90)
 			(effects
 				(font
@@ -7651,7 +7651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55787K00"
+		(property "MPN" "CMF55866K00"
 			(at 93.98 87.63 90)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				)
 			)
 		)
-		(property "Value" "787k"
+		(property "Value" "866k"
 			(at 93.98 106.68 90)
 			(effects
 				(font
@@ -8183,7 +8183,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55787K00"
+		(property "MPN" "CMF55866K00"
 			(at 93.98 106.68 90)
 			(effects
 				(font
