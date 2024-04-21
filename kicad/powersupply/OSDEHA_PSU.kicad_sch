@@ -8766,7 +8766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "976k"
+		(property "Value" "1.1M"
 			(at 93.98 125.73 90)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55976K00"
+		(property "MPN" "CMF551M1000"
 			(at 93.98 125.73 90)
 			(effects
 				(font
