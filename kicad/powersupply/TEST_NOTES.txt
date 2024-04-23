@@ -5,3 +5,12 @@
 2024-04-21
 - Tested neg. bias + buffer HV supply. Needed to adjust some of the resistor values in the CCS for voltage reference. Works ok, also under load of up to 120 mA.
 - Built B+ and B- supplies. Did not yet test them.
+
+
+
+TODO
+- Test ground loop breaker
+- test delay for B+ and B-
+- test B+ and B-
+- Build and test stator bias supply
+- build full PSU with transformers and IEC socket on a board/base for further testing
