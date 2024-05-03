@@ -2029,20 +2029,6 @@
 		)
 		(uuid "ff786cea-c826-45e6-8075-63d504cfd8e0")
 	)
-	(text "LND150 CCS R-set value 147 Ohm for 3 mA?"
-		(exclude_from_sim no)
-		(at 151.13 137.16 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 24 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2922f39b-d1d9-4ac8-9b3f-12609b7cbd40")
-	)
 	(text "HEATSINK"
 		(exclude_from_sim no)
 		(at 132.08 48.26 0)
@@ -2064,20 +2050,6 @@
 			(justify left bottom)
 		)
 		(uuid "8a19dc42-4ac9-430f-86be-3305cccf40bf")
-	)
-	(text "ZTX560\nPINOUT?"
-		(exclude_from_sim no)
-		(at 132.08 137.16 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 24 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a88ab2ff-885f-4056-ba84-5e211a987827")
 	)
 	(text "Current\nlimiter"
 		(exclude_from_sim no)
