@@ -16556,7 +16556,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at -2.54 0.0508 0)
+			(at 1.3772 -2.4376 0)
 			(layer "F.SilkS")
 			(uuid "d6ad93ee-9667-452f-8b7d-4d5c317eb752")
 			(effects

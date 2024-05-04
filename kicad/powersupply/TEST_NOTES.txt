@@ -10,8 +10,11 @@
 - Tested delay switch for B+ and B- supply. Works.
 - Tested B+ and B- supply (without load). Works. Adjusted to +/-440 VDC out.
 
+2024-05-04
+- Tested PSU board using the Toroidy mains transformers (instead of DC input from bench PSU as before). Works.
+- Built stator HV bias. Tested by loading it with a 4.7 uF capacitor for a few seconds, then meansured the voltage across the cap using a DVM. Voltage drops due to internal resistance of DVM, but first reading was above 500 VDC, so it seems to work ok.
+
 TODO
 - Test ground loop breaker
 - test time-delay adjust range for B+ / B- relay
-- Build and test stator bias supply
 - build full PSU with transformers and IEC socket on a board/base for further testing
