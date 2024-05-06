@@ -10,3 +10,20 @@ There are several open hardware licenses available, each with its own specific t
 
 These licenses vary in their specific terms and conditions, including requirements for attribution, redistribution, and compatibility with other licenses. It's important to carefully review the terms of each license and choose the one that best aligns with your goals for sharing your hardware design while protecting your rights as a creator.
 
+-----------------
+
+"Open source" and "open hardware" are related concepts but they refer to different types of creations and the principles behind them.
+
+Open Source:
+
+    Open source typically refers to software where the source code is made available to the public, allowing anyone to view, modify, and distribute it.
+    Open source software is often developed in a collaborative manner, with contributions from a community of developers.
+    Open source licenses, such as the GPL or MIT License, govern how the software can be used, modified, and distributed while preserving certain freedoms for users.
+
+Open Hardware:
+
+    Open hardware refers to physical objects, such as electronic circuits, mechanical designs, or other hardware components, where the design files and specifications are made available to the public.
+    Open hardware allows anyone to study, modify, manufacture, and distribute the hardware design.
+    Open hardware projects often share their designs using licenses specifically tailored for hardware, such as the CERN Open Hardware License (OHL) or the TAPR Open Hardware License.
+
+In summary, while open source primarily applies to software and focuses on the availability of source code, open hardware extends this concept to physical objects, allowing for transparency, collaboration, and freedom to use and modify hardware designs.
