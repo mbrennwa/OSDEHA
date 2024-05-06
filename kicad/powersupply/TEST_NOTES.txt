@@ -14,6 +14,10 @@
 - Tested PSU board using the Toroidy mains transformers (instead of DC input from bench PSU as before). Works.
 - Built stator HV bias. Tested by loading it with a 4.7 uF capacitor for a few seconds, then meansured the voltage across the cap using a DVM. Voltage drops due to internal resistance of DVM, but first reading was above 500 VDC, so it seems to work ok.
 
+2024-05-04
+- Moved PSU board to prototype chassis with IEC inlet and mains switch for easier and safer work
+- Tested ground loop breaker. Works as expected.
+
 TODO
 - Test ground loop breaker
 - test time-delay adjust range for B+ / B- relay
