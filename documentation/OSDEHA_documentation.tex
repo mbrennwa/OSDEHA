@@ -1,7 +1,7 @@
 \input{doc_preamble}
 
 
-\title{Open Source Directly-Heated Triode Electrostatic Headphone Amplifier (OSDEHA)}
+\title{The Open-Source Directly-Heated Triode Electrostatic Headphone Amplifier (OSDEHA)}
 \author{Matthias Brennwald}
 \date{Document version \today}
 
@@ -9,8 +9,37 @@
 
 \twocolumn[\maketitle]
 
+\begin{strip}
+\emph{Warning: This DIY project involves high voltage. Individuals utilizing the information provided must possess expert knowledge, adhere to stringent safety precautions, and accept all risks associated with electrical work. The authors and contributors of this project expressly disclaim any liability for injuries or damages arising from the use or misuse of this information.}
+\end{strip}
+
 \section{Overview}
-This document is under construction.
+
+THIS DOCUMENT IS UNDER CONSTRUCTION
+
+Electrostatic headphones operate on audio signals characterized by high voltage and low current. This is the domain of vacuum tubes, making them the most suitable drivers for e-stats.  While there exist a number of tube amplifiers for e-stat headphones, many of these designs do not utilize directly-heated triodes (DHTs), which are known for their enhanced linearity and renowned for their exquisite sound quality.\par
+
+This documentation describes the OSDEHA, which implements the following design goals:
+\begin{itemize}
+\item Use DHT tubes for output stage.
+\item The audio output is taken directly from the anodes of the DHT output tubes. No transformer or capacitors to transfer the power to the headphones.
+\item The amplifier input takes balanced input at signal levels of modern audio sources (mostly DACs these days).
+\item Focus on quality of audio reproduction and electronic design, not on low cost.
+\item The amplifier should be reasonably compact.
+\end{itemize}
+
+\section{License information}
+Copyright Matthias Brennwald 2024.                                                    
+
+The OSDEHA is Open Hardware and is licensed under the CERN-OHL-S v2 or any later version.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (\url{https://ohwr.org/cern_ohl_s_v2.txt}).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: \url{https://github.com/mbrennwa/OSDEHA}
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the OSDEHA or other products you make using this source.            
 
 
 % \bibliography{MB_Literatur}
