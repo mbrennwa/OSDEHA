@@ -1,4 +1,5 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
+
 \usepackage[left=0.8in,right=0.8in,top=1in,bottom=1in]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{microtype} \hyphenpenalty=750
@@ -6,13 +7,14 @@
 \usepackage{epstopdf} \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \usepackage[applemac]{inputenc}
 \usepackage{booktabs}
-\usepackage{fancyhdr} \pagestyle{fancy} \chead{\hifibau} \cfoot{\thepage}
+% \usepackage{fancyhdr} \pagestyle{fancy} \chead{\hifibau} \cfoot{\thepage}
 % \usepackage[english,ngerman]{babel}
 \usepackage{siunitx}
-\usepackage[colorlinks]{hyperref}
+% \usepackage[colorlinks]{hyperref}
+\usepackage{hyperref}
 \usepackage{caption} \captionsetup{labelfont={sf,bf}, size=footnotesize}
 
-\usepackage{cuted}
+% \usepackage{cuted}
 
 % set format of document title
 \usepackage{titling}
@@ -37,7 +39,7 @@
 
 \sisetup{detect-all} % tell siunitx to detect font stuff
  
-\setlength{\columnsep}{0.75cm} 
+% \setlength{\columnsep}{0.75cm} 
 
 \graphicspath{{figures/}}
 
