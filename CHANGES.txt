@@ -1,0 +1,3 @@
+This file is meant to list any changes made to the original OSDEHA project.
+
+Anyone modifying the design should provide brief information about the modifications, including the date they were made. Information about the design should be added but never removed from that file.
