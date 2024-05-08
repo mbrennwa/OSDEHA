@@ -138,8 +138,8 @@
 	(net 17 "/Dual_Gyrator/MU_OUT2")
 	(net 18 "Net-(J2-Pin_1)")
 	(net 19 "GND")
-	(net 20 "/Dual_Gyrator/+HV")
-	(net 21 "/Buffer_CCS_load1/NEG")
+	(net 20 "/B-")
+	(net 21 "/B+")
 	(net 22 "Net-(J4-Pin_1)")
 	(net 23 "Net-(J4-Pin_2)")
 	(net 24 "Net-(J5-Pin_1)")
@@ -163,7 +163,7 @@
 	(net 42 "Net-(U2A-G1)")
 	(net 43 "Net-(SW1B-B)")
 	(net 44 "Net-(SW1A-B)")
-	(net 45 "Net-(J3-Pin_4)")
+	(net 45 "/B2-")
 	(net 46 "Net-(Q9-S)")
 	(net 47 "Net-(Q10-G)")
 	(net 48 "Net-(Q10-S)")
@@ -229,7 +229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -241,7 +241,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -265,6 +265,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/1106d323-5af5-4bbf-a068-f6cb1932d2e8")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -512,7 +513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -524,7 +525,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -548,7 +549,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/df442860-61ae-4cf4-9a65-4e369ae5b87c")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -794,7 +797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -806,7 +809,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -831,6 +834,7 @@
 			)
 		)
 		(path "/dd36f530-bb7c-4ec4-b35b-4fef7cf53e51")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1109,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1121,7 +1125,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1145,6 +1149,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/eaa0da9f-2daa-43c0-a8ec-063a418306e2")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -1476,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/54/3296-776415.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1488,7 +1493,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1512,7 +1517,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/a7d7d0dd-d482-4b49-aa70-71c686f42f41")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1762,7 +1769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1774,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1798,7 +1805,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e0ac31d6-616d-4336-89fa-0af06b51e82b")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1966,7 +1975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1978,7 +1987,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2002,7 +2011,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/aad89c54-452b-466b-8a6c-4aac1e00fdb1")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2152,7 +2163,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "0c902649-6bc4-466d-a5b9-f4e109c76ae0")
 		)
@@ -2208,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2220,7 +2231,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2244,6 +2255,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/77f699cd-4c44-4c28-8f5d-ac32638b4468")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -2575,7 +2587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2587,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2611,7 +2623,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7e050d2b-a6e2-48c2-b27e-3b5801a86eca")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2779,7 +2793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2791,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2815,7 +2829,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/27cd5be9-5fb8-4632-af0f-a2dea737560d")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3061,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/268/DN2540_B060313-965103.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3073,7 +3089,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3377,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3389,7 +3405,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3413,6 +3429,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/117f0db4-f368-407f-8708-b67954482099/02483c5f-461b-4a19-92a6-5444ffb40f2a")
 		(sheetname "Buffer_CCS_load1")
 		(sheetfile "buffer_CCS_load.kicad_sch")
@@ -3594,7 +3611,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "c2054bf6-0b4a-40ff-b5eb-33c5d98f432d")
 		)
@@ -3660,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3672,7 +3689,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3696,7 +3713,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4e0df18d-59b4-4494-be02-eb37ef98cee9")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3886,7 +3905,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pintype "passive")
 			(uuid "e177c084-795f-4d47-993e-025a1c9c87c7")
 		)
@@ -3943,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3955,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3979,7 +3998,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6e6b6dcd-bbba-439d-9a07-7912404ab733")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4418,7 +4439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4430,7 +4451,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4655,7 +4676,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "5f9ab5ab-d3ad-4e5c-9e02-ee3c7b7a51ff")
@@ -4734,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4746,7 +4767,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4770,6 +4791,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/964c5f27-279d-4094-beed-423757c37563/74bdfc90-47bf-4cad-9b92-b8c81b968e2e")
 		(sheetname "Buffer_CCS_load2")
 		(sheetfile "buffer_CCS_load.kicad_sch")
@@ -4961,7 +4983,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "52ec5bb8-ff41-4ef0-abc6-b8d791393e8c")
 		)
@@ -5029,7 +5051,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5041,7 +5063,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/30151c80-1965-403d-843f-08adfdd6ebef")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -5126,7 +5150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5138,7 +5162,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5162,7 +5186,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0d6272c3-c291-4ab4-bf57-e275b0090dab")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5408,7 +5434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5420,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5444,6 +5470,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/117f0db4-f368-407f-8708-b67954482099/74bdfc90-47bf-4cad-9b92-b8c81b968e2e")
 		(sheetname "Buffer_CCS_load1")
 		(sheetfile "buffer_CCS_load.kicad_sch")
@@ -5635,7 +5662,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "8bf4c297-6a00-4b15-93af-8148aa304fe9")
 		)
@@ -5691,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5703,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5727,7 +5754,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4994bbd3-ba04-43b1-bcf6-04619915b30c")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5973,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5985,7 +6014,7 @@
 				)
 			)
 		)
-		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6009,6 +6038,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/e56fb32d-96e8-4d68-a8a3-4fe9f03b8b9e")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -6289,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6301,7 +6331,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6325,7 +6355,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/6564be25-135f-4429-b924-bf5d816e1d00")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6475,7 +6507,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "815866d0-034c-42c3-9f00-b06c02a62756")
 		)
@@ -6531,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6543,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6567,6 +6599,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/946ba9d1-c229-4486-97d3-6b85dea12940")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -6814,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/303/res_80-3082561.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6826,7 +6859,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6850,7 +6883,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/08434925-ba79-4b84-9a3f-968d9f59ddea")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7040,7 +7075,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pintype "passive")
 			(uuid "82ed3ab2-fc7e-4ca6-a0cc-3fa7679a8106")
 		)
@@ -7096,7 +7131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7108,7 +7143,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7132,7 +7167,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e2b34eea-3e2b-42ae-8791-60fb16cda23e")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7300,7 +7337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/1/NG_CD_2267078_A_2267078_c.dwg-689385.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7312,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7336,7 +7373,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SW*DPDT*")
 		(path "/2f6f57dc-f6af-4087-bfd8-0c265be7de6d")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(fp_line
 			(start -1.66 -4.97)
@@ -7658,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7670,7 +7709,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7694,7 +7733,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e33b7b3c-f136-44c8-a459-fde793e82341")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7940,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7952,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7976,7 +8017,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a0e66827-c71f-4601-9d6f-9ca232b879e4")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8144,7 +8187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8156,7 +8199,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8180,7 +8223,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/44a9c181-9873-4332-a2c2-ecc7f8e8f517")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8360,7 +8405,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8372,7 +8417,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/ad39bcf6-8308-4910-98eb-013892f13a37")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -8469,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8481,7 +8528,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/7225b0dc-3969-4ee1-bc3e-c3a8a7882aaa")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -8567,7 +8616,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8579,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8603,6 +8652,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/5627b9ab-d893-403a-88d9-677ace52756a")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -8883,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8895,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8919,7 +8969,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/cd80b141-d1f7-4b5c-9f64-e2ec57575326")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9249,7 +9301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9261,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9285,7 +9337,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a44d8eb7-c2b2-4750-a069-1ea77937ee44")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9435,7 +9489,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pintype "passive")
 			(uuid "bb37d6ac-8067-43d2-a6d1-ed32a1f4bccd")
 		)
@@ -9491,7 +9545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9503,7 +9557,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9527,7 +9581,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/deff3c94-44ae-42c5-9293-9f6e83a86d1e")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9695,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9707,7 +9763,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9731,7 +9787,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/63d5b3b0-ea4c-42d6-8747-d57dcd829809")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9977,7 +10035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9989,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10013,6 +10071,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/5a13743c-acd9-466c-8e88-e7fcaed883a3")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -10260,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10272,7 +10331,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10296,6 +10355,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/52b70f49-b4ac-46cc-9cf7-ce44688f5c05")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -10543,7 +10603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10555,7 +10615,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10579,7 +10639,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/113e1997-6990-47c4-849f-66a20e1f6103")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10724,7 +10786,7 @@
 				)
 			)
 		)
-		(property "Value" "DN2540N5-G"
+		(property "Value" "DN2540"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
 			(uuid "7002cf76-a24f-4a1f-9f02-c3b6d77e9cd9")
@@ -10747,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10759,7 +10821,7 @@
 				)
 			)
 		)
-		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10783,7 +10845,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/10eee5b0-f9da-4527-a01b-d47c5aaa4461")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11062,7 +11126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11074,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11098,6 +11162,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/c6c0f7fe-6b86-4917-a125-f347a70ed98c")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -11441,7 +11506,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11453,7 +11518,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/9fef3501-3909-4260-9434-ffb77fd809b7")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11538,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11550,7 +11617,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11574,6 +11641,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/9f57520c-ad5d-4e76-b959-e71c8d39e869")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -11821,7 +11889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11833,7 +11901,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11857,6 +11925,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/3b1f7723-6e2f-4f66-8def-22fb3ea7279d")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -12104,7 +12173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12116,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12140,6 +12209,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/12fec269-9e4c-4f86-b65d-8f7bb5d31af3")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -12399,7 +12469,7 @@
 				)
 			)
 		)
-		(property "Description" "single tetrode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12412,6 +12482,8 @@
 			)
 		)
 		(path "/f210807b-b33e-4d27-8d61-133a49df4f28")
+		(sheetname "Root")
+		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -12610,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/54/3296-776415.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12622,7 +12694,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12646,7 +12718,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/7810fa28-71dc-4253-9218-763a0c9cf815")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12897,7 +12971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910851?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12909,7 +12983,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12933,7 +13007,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9e9d74a3-8d98-40d6-b0cc-f341dc2229da")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13364,7 +13440,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.07911392405)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "5a6dfeb6-93f1-41b3-99d0-5d165314a6b9")
@@ -13386,7 +13462,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "074a2492-7f5e-4b01-8617-82b041010bca")
@@ -13397,7 +13473,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "141bba42-09a2-4ad0-abf2-176a893af139")
@@ -13454,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13466,7 +13542,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13490,7 +13566,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/aa55e2af-382a-4a94-8c4f-51fa2a2f246a")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13697,7 +13775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13709,7 +13787,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13733,7 +13811,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5234fd85-7595-4b95-9161-77969b587432")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14115,7 +14195,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "3105e64c-3ce3-4d10-9305-d8ee654e42e2")
@@ -14172,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14184,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14208,6 +14288,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/e6aee985-6220-4dfd-88a3-99df0321581f")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -14539,7 +14620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14551,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14575,7 +14656,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0f862399-a0c4-4396-a6b1-44085cef5acd")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14755,7 +14838,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "846d00ca-7627-4809-91df-8231828f3be3")
 		)
@@ -14821,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14833,7 +14916,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14857,6 +14940,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/75af7187-214d-4d7e-8b8b-7e099d8eafac")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -15064,7 +15148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/303/res_80-3082561.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15076,7 +15160,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15100,7 +15184,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1dec078c-cdd4-4c69-a54f-bc10a62f734e")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15290,7 +15376,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pintype "passive")
 			(uuid "66efb530-7d27-4509-8aa9-0e63346a2de7")
 		)
@@ -15358,7 +15444,7 @@
 				)
 			)
 		)
-		(property "Description" "single tetrode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15371,6 +15457,8 @@
 			)
 		)
 		(path "/709a0b8b-ec3a-43ea-8500-532236421b3d")
+		(sheetname "Root")
+		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -15569,7 +15657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/268/DN2540_B060313-965103.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15581,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15886,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15898,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15922,7 +16010,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cff6b0ed-c232-4fa2-95f8-c022d631baf2")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16361,7 +16451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16373,7 +16463,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16397,7 +16487,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/714e8f14-207f-482d-996f-070380a1e025")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16727,7 +16819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16739,7 +16831,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16964,7 +17056,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/Dual_Gyrator/+HV")
+			(net 21 "/B+")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "33e3ed29-6dfe-43cf-ab43-fd9c8168d201")
@@ -17044,7 +17136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.r-type.org/pdfs/801A.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17056,7 +17148,7 @@
 				)
 			)
 		)
-		(property "Description" "single triode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17068,7 +17160,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "VALVE*MINI*P*")
 		(path "/41e36b25-186d-429c-9906-e520abc7d16e")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -17499,7 +17593,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.07911392405)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pinfunction "F+")
 			(pintype "bidirectional")
 			(uuid "34c25eee-e656-4d1b-b3cf-11f62fd8a350")
@@ -17589,7 +17683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17601,7 +17695,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17625,6 +17719,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/d7ebb648-578e-41d9-9199-3d55f9b51710")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -17872,7 +17967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17884,7 +17979,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17908,7 +18003,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f473e319-014e-49d6-a7a4-67892641b408")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18154,7 +18251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18166,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18190,7 +18287,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3fb9eb98-b8e9-46da-a7d0-c09d9798a9d5")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18358,7 +18457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18370,7 +18469,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18394,7 +18493,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/89409733-9b61-4ddc-a7e1-7bdd402c4063")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18640,7 +18741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18652,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18676,6 +18777,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/0dfb0b6d-dd0d-4499-b779-67205a3ca2e8")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -18923,7 +19025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18935,7 +19037,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18959,7 +19061,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8d00a176-0d49-4968-96e2-a529754414be")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -19109,7 +19213,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pintype "passive")
 			(uuid "46fd642c-01f2-40a6-b557-37890b786720")
 		)
@@ -19165,7 +19269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19177,7 +19281,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19201,7 +19305,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d71ee1e3-1c14-48c2-b18a-a9272e502db1")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -19532,7 +19638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.r-type.org/pdfs/801A.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19544,7 +19650,7 @@
 				)
 			)
 		)
-		(property "Description" "single triode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19556,7 +19662,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "VALVE*MINI*P*")
 		(path "/f0458126-0ac8-4d7c-a10e-4bbdec9d81ab")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -19987,7 +20095,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.07911392405)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pinfunction "F+")
 			(pintype "bidirectional")
 			(uuid "5ef1b841-12a7-4ed4-b457-e39c9e4ae603")
@@ -20077,7 +20185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20089,7 +20197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20113,7 +20221,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f9cf5ab5-5e17-4700-b8b8-311375b24519")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -20319,7 +20429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20331,7 +20441,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20355,7 +20465,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/564a821d-984b-488d-9c91-660b6b4817d8")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -20535,7 +20647,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "c75b4f4b-6fa7-4ed2-bc4f-174f4c298248")
 		)
@@ -20601,7 +20713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20613,7 +20725,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20637,6 +20749,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/964c5f27-279d-4094-beed-423757c37563/02483c5f-461b-4a19-92a6-5444ffb40f2a")
 		(sheetname "Buffer_CCS_load2")
 		(sheetfile "buffer_CCS_load.kicad_sch")
@@ -20818,7 +20931,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "b8641a2e-c67a-43f8-b8d2-fe2768f13c65")
 		)
@@ -20884,7 +20997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20896,7 +21009,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20921,6 +21034,7 @@
 			)
 		)
 		(path "/ff7816f0-60d8-45db-a468-3e189ae7affa")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -21199,7 +21313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21211,7 +21325,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21235,7 +21349,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4cb31e53-00f9-47b6-a7c9-a7775e2fc294")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -21415,7 +21531,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pintype "passive")
 			(uuid "30711571-82d6-4b3f-88d4-e8f32c794bc5")
 		)
@@ -21481,7 +21597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21493,7 +21609,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21517,7 +21633,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/40498012-7901-484f-a1ca-d07ef4c5b2f3")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -21697,7 +21815,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pintype "passive")
 			(uuid "e57eacf1-6d83-48c5-a0e8-542707c534e0")
 		)
@@ -21763,7 +21881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21775,7 +21893,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21787,7 +21905,7 @@
 				)
 			)
 		)
-		(property "MPN" "    CMF55500K00"
+		(property "MPN" " CMF55500K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21799,7 +21917,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e0d6110f-d38f-461e-a26c-f983c91edca7")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22045,7 +22165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22057,7 +22177,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22081,7 +22201,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f6bd1bb4-cf99-40fc-bdcd-ce2e4110bbc7")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22411,7 +22533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22423,7 +22545,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22447,7 +22569,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/292008f1-8301-4b1e-8651-da9307b78411")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22693,7 +22817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28730/ac_ac-at_ac-ni.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22705,7 +22829,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22729,7 +22853,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/68793ebe-07d0-4689-b354-29e2f9878925")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22919,7 +23045,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "b89b2dd4-0f2b-48d7-999a-37f1b504e0a3")
 		)
@@ -22975,7 +23101,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22987,7 +23113,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23011,6 +23137,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/12e351b6-5ac4-4d73-927e-3325afe07a7c")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -23218,7 +23345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23230,7 +23357,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23254,7 +23381,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c338c77e-4e4c-4812-9799-556bc70d038d")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -23404,7 +23533,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pintype "passive")
 			(uuid "e675fb7a-238c-45d9-8266-520c4255e3fb")
 		)
@@ -23460,7 +23589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23472,7 +23601,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23496,7 +23625,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cef720dd-e1bd-4921-aa61-8e9b7f48234d")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -23742,7 +23873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23754,7 +23885,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23778,7 +23909,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7075516b-519f-42fb-af6f-b6f734513ba9")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -23968,7 +24101,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(J3-Pin_4)")
+			(net 45 "/B2-")
 			(pintype "passive")
 			(uuid "c64fd465-4e69-456e-8e0b-d3acc5e10c11")
 		)
@@ -24024,7 +24157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24036,7 +24169,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24060,6 +24193,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/51668184-e52b-4b73-b0e2-641c1f96c6ef/31bdcc37-a175-4f8c-ae21-05a8a2f0405d")
 		(sheetname "Dual_Gyrator")
 		(sheetfile "Gyrator.kicad_sch")
@@ -24308,7 +24442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24320,7 +24454,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24344,7 +24478,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c93d96c6-481d-4660-bc6c-2cd53bb57a3d")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -24760,7 +24896,7 @@
 				)
 			)
 		)
-		(property "Value" "DN2540N5-G"
+		(property "Value" "DN2540"
 			(at 2.54 2.5 0)
 			(layer "F.Fab")
 			(uuid "4764b6f6-16fb-49c4-b7ad-917aa7695852")
@@ -24783,7 +24919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24795,7 +24931,7 @@
 				)
 			)
 		)
-		(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24819,7 +24955,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?220*")
 		(path "/e3318eb0-23e5-4319-8a63-21754d38f691")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -25099,7 +25237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25111,7 +25249,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25135,7 +25273,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/415f25f2-124b-44de-bf8d-e8a1ed5504d0")
+		(sheetname "Root")
 		(sheetfile "OSDEHA_AMP.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -25517,7 +25657,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/Buffer_CCS_load1/NEG")
+			(net 20 "/B-")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "a3c8ae66-fe8b-4c1c-8e5b-60d25610827a")
@@ -26704,211 +26844,11 @@
 		(uuid "ab1a19c4-20d8-49c2-bb88-11c23ba3c714")
 	)
 	(segment
-		(start 192.4304 56.7436)
-		(end 196.024 53.15)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "0c456ae6-e572-4e83-be72-6395f0d7651c")
-	)
-	(segment
-		(start 218.8464 70.358)
-		(end 225.171 70.358)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "2f2efe90-69cf-44f9-9df4-18d9f67e4a8a")
-	)
-	(segment
-		(start 234.790056 74.422)
-		(end 248.206 87.837944)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "36d72b27-8e3c-4d83-b9e9-d3be13675ff8")
-	)
-	(segment
-		(start 121.9396 62.3824)
-		(end 192.4304 62.3824)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "3b1980b6-f41a-4b58-9e75-45a0e12ee935")
-	)
-	(segment
-		(start 248.206 87.837944)
-		(end 248.206 89.535)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "3b5d86ae-9c6e-4bf0-a439-915b3209223d")
-	)
-	(segment
-		(start 196.024 53.15)
-		(end 200.2475 53.15)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "43b8cb13-9654-4792-9b12-d902197729d9")
-	)
-	(segment
-		(start 225.05 70.237)
-		(end 225.171 70.358)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "46935615-0ebe-4d38-a6f1-6f8b2528db04")
-	)
-	(segment
-		(start 225.171 55.245)
-		(end 227.266 53.15)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "6cbaa047-4e56-4d59-a0d6-f899c11673c9")
-	)
-	(segment
-		(start 225.05 55.366)
-		(end 225.171 55.245)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "6fab2d9b-54e9-4257-a4a4-7d1ab4a28e7d")
-	)
-	(segment
-		(start 225.05 70.237)
-		(end 225.05 55.366)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "717ddf1d-0760-47f7-b73e-11a3a46c54ba")
-	)
-	(segment
-		(start 88.7164 66.1416)
-		(end 109.1536 66.1416)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "8d989e73-9e99-4bda-a123-b4cdeb541e9b")
-	)
-	(segment
-		(start 192.4304 68.1228)
-		(end 199.6948 75.3872)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "94b186f2-9b3a-4d45-994b-67a2cfdf9d76")
-	)
-	(segment
-		(start 113.667 70.655)
-		(end 121.9396 62.3824)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "9a7ad596-95bf-41f1-b06e-72f6ab6800ae")
-	)
-	(segment
-		(start 84.203 70.655)
-		(end 88.7164 66.1416)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "a2558e6e-916f-4ed1-ad26-2179896f7dd2")
-	)
-	(segment
-		(start 227.584 74.422)
-		(end 234.790056 74.422)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "ade86d88-8c84-437d-a08f-d1ca98e17ae7")
-	)
-	(segment
-		(start 225.171 72.009)
-		(end 227.584 74.422)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "c2802a1d-5c74-4c8e-83a8-3e550bd99c02")
-	)
-	(segment
-		(start 213.8172 75.3872)
-		(end 218.8464 70.358)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "ced48d53-1204-4066-bd7f-fa15bb973e06")
-	)
-	(segment
-		(start 227.266 53.15)
-		(end 230.378 53.15)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "e6672580-299b-433e-be97-89b6f75920e0")
-	)
-	(segment
-		(start 225.171 70.358)
-		(end 225.171 72.009)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "ee5eccdb-98d8-4be1-a65c-16b9eb397c19")
-	)
-	(segment
-		(start 192.4304 56.7436)
-		(end 192.4304 68.1228)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "efdb9f54-8f12-4a24-a742-3e746cc05ae9")
-	)
-	(segment
-		(start 109.1536 66.1416)
-		(end 113.667 70.655)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "f4f7ed42-e31b-4054-8bd7-590bf72222cd")
-	)
-	(segment
-		(start 199.6948 75.3872)
-		(end 213.8172 75.3872)
-		(width 2)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "f6a35557-8954-4129-9ffd-245143d85f03")
-	)
-	(segment
-		(start 241.525 114.83)
-		(end 241.525 102.975)
-		(width 2)
-		(layer "B.Cu")
-		(net 20)
-		(uuid "4829abd0-32a7-41df-a965-3882ed98a5c9")
-	)
-	(segment
-		(start 241.525 102.975)
-		(end 248.206 96.294)
-		(width 2)
-		(layer "B.Cu")
-		(net 20)
-		(uuid "5e05c346-6f2e-40ca-a6bc-007e202cea27")
-	)
-	(segment
-		(start 248.206 96.294)
-		(end 248.206 89.535)
-		(width 2)
-		(layer "B.Cu")
-		(net 20)
-		(uuid "cfc7cedd-6499-4e22-91de-c1aa9e13c1f5")
-	)
-	(segment
 		(start 197.9168 108.38935)
 		(end 199.30625 109.7788)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "03a63d7e-6208-4e3a-a2fe-66f7419df23a")
 	)
 	(segment
@@ -26916,7 +26856,7 @@
 		(end 197.9168 108.38935)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "3487bc11-964d-4faa-9ebf-de8ba5f16196")
 	)
 	(segment
@@ -26924,7 +26864,7 @@
 		(end 231.6638 109.7788)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "6f533f4c-0b4f-4a02-9705-cb4cc0d25032")
 	)
 	(segment
@@ -26932,7 +26872,7 @@
 		(end 233.605 111.72)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "73b4cb03-6efd-49d0-82a6-068d807dfade")
 	)
 	(segment
@@ -26940,7 +26880,7 @@
 		(end 221.506925 114.83)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "8f72b4ac-bfbc-4670-826a-a0ed120212ec")
 	)
 	(segment
@@ -26948,7 +26888,7 @@
 		(end 199.30625 109.7788)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "974ccb35-1254-4825-abf8-1df7cd0d81a6")
 	)
 	(segment
@@ -26956,7 +26896,7 @@
 		(end 199.271925 109.813125)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "b2cab860-ab24-4fea-a8f4-da7a17ca511c")
 	)
 	(segment
@@ -26964,7 +26904,7 @@
 		(end 223.8248 109.7788)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "c0e13431-f361-48ec-85b2-8223758e1dc9")
 	)
 	(segment
@@ -26972,7 +26912,7 @@
 		(end 222.5092 109.7788)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "c34537bd-e26c-4968-873f-465e80256001")
 	)
 	(segment
@@ -26980,7 +26920,7 @@
 		(end 155.741925 105.116075)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "e204bd31-ec34-49fe-b964-df1621639b09")
 	)
 	(segment
@@ -26988,7 +26928,7 @@
 		(end 155.741925 114.83)
 		(width 2)
 		(layer "F.Cu")
-		(net 21)
+		(net 20)
 		(uuid "e812f189-b239-44c0-8cce-c62716a0feba")
 	)
 	(via
@@ -26996,7 +26936,7 @@
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "246652a9-897c-4132-b1e3-fb0bd4b949a9")
 	)
 	(via
@@ -27004,7 +26944,7 @@
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "fcb907f4-4689-4d23-8cb7-18a3e8b4c0bc")
 	)
 	(segment
@@ -27012,7 +26952,7 @@
 		(end 193.04 85.09)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "1d5a35b6-4f39-448f-8dec-765f1fa6dcd9")
 	)
 	(segment
@@ -27020,7 +26960,7 @@
 		(end 193.555 77.65)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "254fc1c5-2caf-4072-9aaa-65c415ed3b1e")
 	)
 	(segment
@@ -27028,7 +26968,7 @@
 		(end 186.69 68.072)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "25fc2a6a-ddf3-4552-b4fe-04ebfa33b559")
 	)
 	(segment
@@ -27036,7 +26976,7 @@
 		(end 152.665 71.95)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "2a2de455-76d0-44e7-9fd2-2c3360dfbf4a")
 	)
 	(segment
@@ -27044,7 +26984,7 @@
 		(end 186.69 68.072)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "31f0669e-50d2-41b6-8609-2632db0b664b")
 	)
 	(segment
@@ -27052,7 +26992,7 @@
 		(end 192.1764 79.0286)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "34614263-a986-49d3-ac7f-19ed72bda0fb")
 	)
 	(segment
@@ -27060,7 +27000,7 @@
 		(end 177.6984 120.0912)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "361a5772-19b7-42a9-a2c2-e75f6b438dd8")
 	)
 	(segment
@@ -27068,7 +27008,7 @@
 		(end 161.798 99.06)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "3d49d4ef-14aa-4f46-8eee-6699327553a4")
 	)
 	(segment
@@ -27076,7 +27016,7 @@
 		(end 157.893125 120.0912)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "4044ff35-5115-4759-b965-e74403314bf6")
 	)
 	(segment
@@ -27084,7 +27024,7 @@
 		(end 151.892 68.072)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "424cdf5d-c489-4afc-ad3b-5dddb5a19111")
 	)
 	(segment
@@ -27092,7 +27032,7 @@
 		(end 117.985 62.8162)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "4a9d4427-6f57-42fe-9ba2-8c39da7434eb")
 	)
 	(segment
@@ -27100,7 +27040,7 @@
 		(end 151.892 71.177)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "4d744572-fa88-48dd-9ed8-178ab2b66bac")
 	)
 	(segment
@@ -27108,7 +27048,7 @@
 		(end 143.6116 71.2724)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "63ad4d58-fc12-4c5b-a50f-73941e41bee8")
 	)
 	(segment
@@ -27116,7 +27056,7 @@
 		(end 117.985 55.88)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "6b593fee-394e-47b7-aa7d-4cd092c10a84")
 	)
 	(segment
@@ -27124,7 +27064,7 @@
 		(end 155.741925 117.94)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "7543f2b7-3454-42be-924f-304b09ffa8c6")
 	)
 	(segment
@@ -27132,7 +27072,7 @@
 		(end 199.271925 114.83)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "7fe94b55-c708-48b3-accb-32470788d847")
 	)
 	(segment
@@ -27140,7 +27080,7 @@
 		(end 192.1764 84.2264)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "822e588c-b65f-40b5-967c-0bc66eb843fa")
 	)
 	(segment
@@ -27148,7 +27088,7 @@
 		(end 177.6984 120.0912)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "83c55721-9666-42ea-9ff9-4024e1047ea4")
 	)
 	(segment
@@ -27156,7 +27096,7 @@
 		(end 158.75 102.108)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "9e272ce5-0766-4afb-a7c7-6364247537fe")
 	)
 	(segment
@@ -27164,7 +27104,7 @@
 		(end 158.365 77.65)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "a22e9c61-c788-48e5-b431-faff22f05610")
 	)
 	(segment
@@ -27172,7 +27112,7 @@
 		(end 158.365 77.65)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "b31bb609-4213-453b-b37d-0a164b1839b0")
 	)
 	(segment
@@ -27180,7 +27120,7 @@
 		(end 236.8155 89.535)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "bdf4c89d-27fb-46d8-a1d7-6e415708a5d0")
 	)
 	(segment
@@ -27188,7 +27128,7 @@
 		(end 161.798 88.9)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "bee0504b-98d9-4b85-a440-3e606a59b002")
 	)
 	(segment
@@ -27196,7 +27136,7 @@
 		(end 193.04 89.916)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "c22330f6-ed7a-4d68-af89-c6f86aef6cc0")
 	)
 	(segment
@@ -27204,7 +27144,7 @@
 		(end 236.8155 95.6705)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "caa635a2-5d31-485f-a6c4-66a5bbe9938b")
 	)
 	(segment
@@ -27212,7 +27152,7 @@
 		(end 233.605 98.881)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "ceb87ddc-9d17-4d75-8bd0-392839a827b0")
 	)
 	(segment
@@ -27220,7 +27160,7 @@
 		(end 194.010725 120.0912)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "e07f3ffa-7135-4f31-b20e-23000d1820d0")
 	)
 	(segment
@@ -27228,7 +27168,7 @@
 		(end 186.69 70.785)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "e70348f3-e63a-41c1-a978-be33fec97e3e")
 	)
 	(segment
@@ -27236,7 +27176,7 @@
 		(end 161.798 89.154)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "eb99a7f4-0ac0-4bfe-8e32-b54f9eae7266")
 	)
 	(segment
@@ -27244,7 +27184,7 @@
 		(end 126.4412 71.2724)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "f150e7d3-350b-49bc-9c59-05d1b460eef6")
 	)
 	(segment
@@ -27252,7 +27192,7 @@
 		(end 157.988 78.027)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "f22d9c29-f84d-46a7-a97d-10ac91e9e469")
 	)
 	(segment
@@ -27260,7 +27200,7 @@
 		(end 177.701925 120.087675)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "f8493b80-1a44-4b78-8508-7c5be7263af0")
 	)
 	(segment
@@ -27268,8 +27208,208 @@
 		(end 197.9168 94.7928)
 		(width 2)
 		(layer "B.Cu")
-		(net 21)
+		(net 20)
 		(uuid "f9094774-d295-453d-a296-1eac0ea5ccff")
+	)
+	(segment
+		(start 192.4304 56.7436)
+		(end 196.024 53.15)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "0c456ae6-e572-4e83-be72-6395f0d7651c")
+	)
+	(segment
+		(start 218.8464 70.358)
+		(end 225.171 70.358)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "2f2efe90-69cf-44f9-9df4-18d9f67e4a8a")
+	)
+	(segment
+		(start 234.790056 74.422)
+		(end 248.206 87.837944)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "36d72b27-8e3c-4d83-b9e9-d3be13675ff8")
+	)
+	(segment
+		(start 121.9396 62.3824)
+		(end 192.4304 62.3824)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "3b1980b6-f41a-4b58-9e75-45a0e12ee935")
+	)
+	(segment
+		(start 248.206 87.837944)
+		(end 248.206 89.535)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "3b5d86ae-9c6e-4bf0-a439-915b3209223d")
+	)
+	(segment
+		(start 196.024 53.15)
+		(end 200.2475 53.15)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "43b8cb13-9654-4792-9b12-d902197729d9")
+	)
+	(segment
+		(start 225.05 70.237)
+		(end 225.171 70.358)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "46935615-0ebe-4d38-a6f1-6f8b2528db04")
+	)
+	(segment
+		(start 225.171 55.245)
+		(end 227.266 53.15)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "6cbaa047-4e56-4d59-a0d6-f899c11673c9")
+	)
+	(segment
+		(start 225.05 55.366)
+		(end 225.171 55.245)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "6fab2d9b-54e9-4257-a4a4-7d1ab4a28e7d")
+	)
+	(segment
+		(start 225.05 70.237)
+		(end 225.05 55.366)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "717ddf1d-0760-47f7-b73e-11a3a46c54ba")
+	)
+	(segment
+		(start 88.7164 66.1416)
+		(end 109.1536 66.1416)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "8d989e73-9e99-4bda-a123-b4cdeb541e9b")
+	)
+	(segment
+		(start 192.4304 68.1228)
+		(end 199.6948 75.3872)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "94b186f2-9b3a-4d45-994b-67a2cfdf9d76")
+	)
+	(segment
+		(start 113.667 70.655)
+		(end 121.9396 62.3824)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "9a7ad596-95bf-41f1-b06e-72f6ab6800ae")
+	)
+	(segment
+		(start 84.203 70.655)
+		(end 88.7164 66.1416)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "a2558e6e-916f-4ed1-ad26-2179896f7dd2")
+	)
+	(segment
+		(start 227.584 74.422)
+		(end 234.790056 74.422)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "ade86d88-8c84-437d-a08f-d1ca98e17ae7")
+	)
+	(segment
+		(start 225.171 72.009)
+		(end 227.584 74.422)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "c2802a1d-5c74-4c8e-83a8-3e550bd99c02")
+	)
+	(segment
+		(start 213.8172 75.3872)
+		(end 218.8464 70.358)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "ced48d53-1204-4066-bd7f-fa15bb973e06")
+	)
+	(segment
+		(start 227.266 53.15)
+		(end 230.378 53.15)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "e6672580-299b-433e-be97-89b6f75920e0")
+	)
+	(segment
+		(start 225.171 70.358)
+		(end 225.171 72.009)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "ee5eccdb-98d8-4be1-a65c-16b9eb397c19")
+	)
+	(segment
+		(start 192.4304 56.7436)
+		(end 192.4304 68.1228)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "efdb9f54-8f12-4a24-a742-3e746cc05ae9")
+	)
+	(segment
+		(start 109.1536 66.1416)
+		(end 113.667 70.655)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "f4f7ed42-e31b-4054-8bd7-590bf72222cd")
+	)
+	(segment
+		(start 199.6948 75.3872)
+		(end 213.8172 75.3872)
+		(width 2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "f6a35557-8954-4129-9ffd-245143d85f03")
+	)
+	(segment
+		(start 241.525 114.83)
+		(end 241.525 102.975)
+		(width 2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "4829abd0-32a7-41df-a965-3882ed98a5c9")
+	)
+	(segment
+		(start 241.525 102.975)
+		(end 248.206 96.294)
+		(width 2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "5e05c346-6f2e-40ca-a6bc-007e202cea27")
+	)
+	(segment
+		(start 248.206 96.294)
+		(end 248.206 89.535)
+		(width 2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "cfc7cedd-6499-4e22-91de-c1aa9e13c1f5")
 	)
 	(segment
 		(start 203.7588 109.8296)

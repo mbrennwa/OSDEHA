@@ -1,1253 +1,3079 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid c8a8b971-4edc-4010-b79d-64746f5969cf)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D_Zener" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Zener diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_Zener_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-            (xy -0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "D_Zener_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Simulation_SPICE:NMOS" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "NMOS" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 0 -12.7 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Device" "NMOS" (at 0 -17.145 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Type" "VDMOS" (at 0 -19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=D 2=G 3=S" (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "N-MOSFET transistor, drain/source/gate" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "NMOS_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 0.762 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy 2.032 0.381)
-            (xy 2.032 -0.381)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "NMOS_1_1"
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Transistor_FET_Other:DN2540N5-G" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "DN2540N5-G" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 0 -14.605 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf" (at 0 -12.065 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "N-Channel Depletion-Mode MOSFET" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO?220*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DN2540N5-G_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 0.762 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy 2.032 0.381)
-            (xy 2.032 -0.381)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0.508)
-            (xy 2.921 0.381)
-            (xy 3.683 0.381)
-            (xy 3.81 0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 2.921 -0.254)
-            (xy 3.683 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "DN2540N5-G_1_1"
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 158.75 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 09f60f2f-6701-4e0f-be4a-0b3daa2073f0)
-  )
-  (junction (at 173.99 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 1245fcb2-0fea-41ae-b925-0e2880994a94)
-  )
-  (junction (at 118.11 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 1e198c02-224a-4c3a-a7de-606aa26420ec)
-  )
-  (junction (at 158.75 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 2fcc4fcb-732d-49c0-9f27-f6723eae63e0)
-  )
-  (junction (at 191.77 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 59f51e9e-ae50-41ea-984b-41d7c0dbf512)
-  )
-  (junction (at 59.69 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 8892e99b-e132-41c6-b8d2-a6f4edd74aa2)
-  )
-  (junction (at 85.09 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid b9bec7f7-280e-4abc-8648-1e7991742334)
-  )
-  (junction (at 100.33 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid d5a38754-364a-4274-8b39-3df4a2ee93f1)
-  )
-  (junction (at 173.99 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid d7bf8123-60bd-494a-8c99-a0c626f065b4)
-  )
-  (junction (at 100.33 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid dcbe1c6a-faaf-451d-80dc-81edb7327362)
-  )
-  (junction (at 85.09 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid f61a0ddb-501a-4908-ad5b-88b04d627b62)
-  )
-  (junction (at 100.33 50.8) (diameter 0) (color 0 0 0 0)
-    (uuid f9adb205-f266-4615-aedd-99754d06db84)
-  )
-
-  (wire (pts (xy 173.99 50.8) (xy 173.99 64.77))
-    (stroke (width 0) (type default))
-    (uuid 02489d8d-1ebb-4f17-b63e-73d984eabb46)
-  )
-  (wire (pts (xy 173.99 96.52) (xy 173.99 100.33))
-    (stroke (width 0) (type default))
-    (uuid 172885c4-261f-4d97-9719-0900e5c16f35)
-  )
-  (wire (pts (xy 118.11 85.09) (xy 118.11 104.14))
-    (stroke (width 0) (type default))
-    (uuid 1e89aa3c-1e89-4b65-be1b-c4d611b95a80)
-  )
-  (wire (pts (xy 158.75 100.33) (xy 173.99 100.33))
-    (stroke (width 0) (type default))
-    (uuid 21fe225b-cf52-48d0-9560-063856948088)
-  )
-  (wire (pts (xy 130.81 80.01) (xy 129.54 80.01))
-    (stroke (width 0) (type default))
-    (uuid 255d1250-940e-4cab-8225-c425ae313eda)
-  )
-  (wire (pts (xy 59.69 60.96) (xy 59.69 80.01))
-    (stroke (width 0) (type default))
-    (uuid 27854ce5-35ed-48d8-baaf-c2445ad40406)
-  )
-  (wire (pts (xy 118.11 69.85) (xy 118.11 85.09))
-    (stroke (width 0) (type default))
-    (uuid 295d78ea-94f3-46d1-89c6-bc7df65b607d)
-  )
-  (wire (pts (xy 59.69 80.01) (xy 59.69 102.87))
-    (stroke (width 0) (type default))
-    (uuid 36a3f376-9d28-4cd4-ade3-c92be08d4bc3)
-  )
-  (wire (pts (xy 118.11 85.09) (xy 100.33 85.09))
-    (stroke (width 0) (type default))
-    (uuid 39b68906-7060-4f3f-9278-30300e2f0a75)
-  )
-  (wire (pts (xy 100.33 50.8) (xy 100.33 64.77))
-    (stroke (width 0) (type default))
-    (uuid 3a794548-38cf-40f4-8c05-f779e7b79319)
-  )
-  (wire (pts (xy 85.09 96.52) (xy 85.09 100.33))
-    (stroke (width 0) (type default))
-    (uuid 3bc71fd6-bd5b-4172-9223-f5af850515ab)
-  )
-  (wire (pts (xy 191.77 69.85) (xy 189.23 69.85))
-    (stroke (width 0) (type default))
-    (uuid 4e440ce3-d523-4a18-a38a-3aaf83519d94)
-  )
-  (wire (pts (xy 129.54 80.01) (xy 129.54 60.96))
-    (stroke (width 0) (type default))
-    (uuid 57fea057-dd86-4147-8c36-20c1e553918a)
-  )
-  (wire (pts (xy 191.77 85.09) (xy 173.99 85.09))
-    (stroke (width 0) (type default))
-    (uuid 59f60739-b218-4492-97d3-ae3fd2b85b48)
-  )
-  (wire (pts (xy 85.09 80.01) (xy 85.09 85.09))
-    (stroke (width 0) (type default))
-    (uuid 5efd90b3-7f3d-44ca-8301-d4ce13726d18)
-  )
-  (wire (pts (xy 100.33 100.33) (xy 100.33 104.14))
-    (stroke (width 0) (type default))
-    (uuid 670ab1a6-6f8d-4d8a-b78b-a7cc347a0f18)
-  )
-  (wire (pts (xy 85.09 100.33) (xy 100.33 100.33))
-    (stroke (width 0) (type default))
-    (uuid 79dd3b92-c9ec-498f-acc6-2473060d1e22)
-  )
-  (wire (pts (xy 129.54 60.96) (xy 59.69 60.96))
-    (stroke (width 0) (type default))
-    (uuid 805e4ec1-59a5-4c70-954b-3d654afb8c51)
-  )
-  (wire (pts (xy 100.33 46.99) (xy 100.33 50.8))
-    (stroke (width 0) (type default))
-    (uuid 81cb139d-5299-4f8b-8947-bb46a0079d74)
-  )
-  (wire (pts (xy 85.09 85.09) (xy 85.09 88.9))
-    (stroke (width 0) (type default))
-    (uuid 8abb8749-a2fb-4103-825f-2c4caebea904)
-  )
-  (wire (pts (xy 100.33 96.52) (xy 100.33 100.33))
-    (stroke (width 0) (type default))
-    (uuid 9a35868f-a66c-4639-89b8-b3b169e57c5e)
-  )
-  (wire (pts (xy 158.75 80.01) (xy 166.37 80.01))
-    (stroke (width 0) (type default))
-    (uuid a3a0a42a-b759-440c-a7e6-8901a13e7645)
-  )
-  (wire (pts (xy 173.99 85.09) (xy 173.99 88.9))
-    (stroke (width 0) (type default))
-    (uuid a4b88f0d-2f60-4531-9342-849d00553280)
-  )
-  (wire (pts (xy 118.11 69.85) (xy 115.57 69.85))
-    (stroke (width 0) (type default))
-    (uuid b5776104-2e48-434b-a8e8-587e94d8a131)
-  )
-  (wire (pts (xy 158.75 96.52) (xy 158.75 100.33))
-    (stroke (width 0) (type default))
-    (uuid b5f68ee2-cd74-4e97-a0db-05920ed9e6d4)
-  )
-  (wire (pts (xy 153.67 80.01) (xy 158.75 80.01))
-    (stroke (width 0) (type default))
-    (uuid b9467335-04da-487b-b240-38bb9cbc396c)
-  )
-  (wire (pts (xy 158.75 80.01) (xy 158.75 85.09))
-    (stroke (width 0) (type default))
-    (uuid ba153162-9907-41f9-abbd-8b0d5de7c841)
-  )
-  (wire (pts (xy 191.77 85.09) (xy 191.77 104.14))
-    (stroke (width 0) (type default))
-    (uuid be8f35ab-874d-4f28-89b2-18d31d9aa839)
-  )
-  (wire (pts (xy 82.55 80.01) (xy 85.09 80.01))
-    (stroke (width 0) (type default))
-    (uuid bec63a8f-31fc-44f7-b52d-3a8d65abcab9)
-  )
-  (wire (pts (xy 158.75 85.09) (xy 158.75 88.9))
-    (stroke (width 0) (type default))
-    (uuid d56c1b30-96a1-497d-8da7-6ede4f3ab31c)
-  )
-  (wire (pts (xy 100.33 85.09) (xy 100.33 88.9))
-    (stroke (width 0) (type default))
-    (uuid e4ce4229-f1b1-4380-ae7e-d72ec203f0e0)
-  )
-  (wire (pts (xy 100.33 50.8) (xy 173.99 50.8))
-    (stroke (width 0) (type default))
-    (uuid e63a1a04-8a8d-4485-840e-470e758a9377)
-  )
-  (wire (pts (xy 173.99 100.33) (xy 173.99 104.14))
-    (stroke (width 0) (type default))
-    (uuid e6f25342-db89-4ded-b4d6-9711693906e9)
-  )
-  (wire (pts (xy 85.09 80.01) (xy 92.71 80.01))
-    (stroke (width 0) (type default))
-    (uuid f314a7c0-9823-4fff-8673-5003226914bb)
-  )
-  (wire (pts (xy 191.77 69.85) (xy 191.77 85.09))
-    (stroke (width 0) (type default))
-    (uuid f8423f2b-3b39-4b17-b5c5-4eea999e5af9)
-  )
-
-  (text "Hybrid Mu Follower // CCS load\nhttps://www.diyaudio.com/community/attachments/the-underappreciated-hybrid-mu-follower-pdf.543695/\nhttps://www.bartola.co.uk/valves/dht-pre-amplifier/01a-preamp-gen2/\nhttp://www.valvewizard.co.uk/mufollower.html\nhttps://www.diyaudio.com/community/threads/how-calculate-the-rmu-resistor-in-an-hybrid-mu-follower.384775/\n\nDetails on choice of transistor types and Mu-resistor:\nhttps://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/page-6\n\nSee also Alan Kimmel paper on Mu stage"
-    (at 36.83 25.4 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 08214ab6-06da-4b65-9470-8b4363808d20)
-  )
-  (text "HEATSINK" (at 96.52 67.31 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5de701a6-fc5b-4e6f-acd3-f7cdd766657d)
-  )
-  (text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXTP3N100D2: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
-    (at 36.83 33.02 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cc504a3e-5296-4816-8207-5a46f7545cbe)
-  )
-  (text "HEATSINK" (at 170.18 67.31 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid fc1f0fb9-1b03-4b7e-8dd7-8cb305bdc459)
-  )
-
-  (hierarchical_label "VREF" (shape passive) (at 59.69 102.87 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1c1b35af-1edc-44a8-a151-65714964dd08)
-  )
-  (hierarchical_label "ANODE2" (shape passive) (at 173.99 104.14 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b21a1019-19d5-46a6-9cec-666f438f16aa)
-  )
-  (hierarchical_label "+HV" (shape passive) (at 100.33 46.99 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c2adbe50-cfb9-4dc9-9131-24326667f926)
-  )
-  (hierarchical_label "MU_OUT2" (shape passive) (at 191.77 104.14 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d9c72730-b147-4344-b427-dea34d702bc7)
-  )
-  (hierarchical_label "MU_OUT1" (shape passive) (at 118.11 104.14 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid dc1a096b-d618-4586-9688-e6f239507153)
-  )
-  (hierarchical_label "ANODE1" (shape passive) (at 100.33 104.14 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e94c319f-ad8f-4968-88bd-8bbde1e0f720)
-  )
-
-  (symbol (lib_id "Device:R") (at 185.42 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0dfb0b6d-dd0d-4499-b779-67205a3ca2e8)
-    (property "Reference" "R39" (at 185.42 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "300" (at 185.42 69.85 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 185.42 71.628 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 185.42 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF55300R00" (at 185.42 69.85 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 202d2fa0-ee6b-49fb-ad46-73a973764a7c))
-    (pin "2" (uuid f755eb16-29bf-42ee-9a14-87bd1a4ba23c))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R39") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 78.74 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1106d323-5af5-4bbf-a068-f6cb1932d2e8)
-    (property "Reference" "R32" (at 78.74 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 78.74 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 78.74 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 78.74 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 78.74 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid eff6b710-9fcc-4f6d-a2dc-9a6a1cd9079c))
-    (pin "1" (uuid 77fa3610-05d3-440a-a508-7498bc88ea1d))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 158.75 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 12e351b6-5ac4-4d73-927e-3325afe07a7c)
-    (property "Reference" "C9" (at 162.56 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "220n 630 V" (at 154.94 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (at 159.7152 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" (at 158.75 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MKP4J032204J00KSSD " (at 158.75 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid c1545666-6bc4-4203-973f-975b8b045100))
-    (pin "1" (uuid 7050de3a-b1c6-4233-bd60-899c77460208))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 142.24 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 12fec269-9e4c-4f86-b65d-8f7bb5d31af3)
-    (property "Reference" "R36" (at 142.24 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 142.24 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 142.24 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 142.24 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 142.24 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 4287945d-7659-4ae7-84d2-edd8377d1131))
-    (pin "1" (uuid 699b0a96-3327-4173-9495-5440f7aaa4fb))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Simulation_SPICE:NMOS") (at 102.87 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2a3c19f2-c898-498a-b1a8-4ae913218a73)
-    (property "Reference" "Q6" (at 96.52 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "IXTP3N100D2" (at 96.52 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 97.79 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf" (at 102.87 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "IXTP3N100D2" (at 102.87 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid f47bfc2a-5d7e-44bb-99d1-ec37399a0ca5))
-    (pin "1" (uuid 5508311d-bfa3-4d23-8134-e16ca97923b8))
-    (pin "3" (uuid cc2c9973-022b-4c95-b2d9-6f9d14ed16ae))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 71.12 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 31bdcc37-a175-4f8c-ae21-05a8a2f0405d)
-    (property "Reference" "R31" (at 71.12 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 71.12 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 71.12 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 71.12 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 71.12 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 0483435a-d8f7-444d-8e88-ab0c2c5348d8))
-    (pin "1" (uuid f7a62876-a908-411f-8754-9ea9db4702aa))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 111.76 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3b1f7723-6e2f-4f66-8def-22fb3ea7279d)
-    (property "Reference" "R34" (at 111.76 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "300" (at 111.76 69.85 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 111.76 71.628 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 111.76 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF55300R00" (at 111.76 69.85 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e2692787-b1da-45a6-a107-372381afd984))
-    (pin "2" (uuid b03da9d1-1ae0-4b2e-8b6b-36bee6a00fcf))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R34") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 173.99 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 52b70f49-b4ac-46cc-9cf7-ce44688f5c05)
-    (property "Reference" "R38" (at 171.45 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470" (at 173.99 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 172.212 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 173.99 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF55470R00" (at 173.99 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7f7cf78-9bb7-4d49-9f04-006c80f123b7))
-    (pin "2" (uuid 99363466-bceb-4097-9ee0-1927f7c1c220))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 171.45 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5627b9ab-d893-403a-88d9-677ace52756a)
-    (property "Reference" "Q7" (at 176.53 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "AOT1N60" (at 176.53 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 171.45 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf" (at 171.45 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "AOT1N60" (at 171.45 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6c925d54-b20b-412d-8dfa-4bae369763a0))
-    (pin "1" (uuid 0d9e3dde-4c14-4ac4-940f-2039e4acbc67))
-    (pin "3" (uuid 0f73ec98-01a5-4a36-a76f-822fcbbdb169))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 100.33 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5a13743c-acd9-466c-8e88-e7fcaed883a3)
-    (property "Reference" "R33" (at 97.79 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470" (at 100.33 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 98.552 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 100.33 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF55470R00" (at 100.33 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ceddc131-09da-483d-918e-66b70d4db82e))
-    (pin "2" (uuid 12b5ad50-6c13-4487-b2aa-1509315d208e))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R33") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 85.09 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 75af7187-214d-4d7e-8b8b-7e099d8eafac)
-    (property "Reference" "C8" (at 88.9 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "220n 630 V" (at 81.28 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3" (at 86.0552 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf" (at 85.09 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MKP4J032204J00KSSD " (at 85.09 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 5cec0991-1c5e-4df0-ae92-b147b1d2f279))
-    (pin "1" (uuid 5e1c163e-7915-48f1-a975-85af5692048f))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 96.52 85.09 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 77f699cd-4c44-4c28-8f5d-ac32638b4468)
-    (property "Reference" "D8" (at 96.52 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15V" (at 95.25 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 96.52 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf" (at 96.52 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "ZY15" (at 96.52 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 0d060049-4251-4de1-b11d-73f0257df0d4))
-    (pin "1" (uuid fdfba91b-66a9-4afc-b7cd-63c2345e0ea3))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Simulation_SPICE:NMOS") (at 176.53 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 82b046c3-fa6b-4b2b-91c1-d5c5eb14e662)
-    (property "Reference" "Q8" (at 170.18 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "IXTP3N100D2" (at 170.18 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 171.45 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf" (at 176.53 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "IXTP3N100D2" (at 176.53 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 8b6a43c9-6bfc-448f-8a3a-c44fd8bb1e72))
-    (pin "1" (uuid f7279499-82f8-469d-b405-1bdbba58be24))
-    (pin "3" (uuid eb284602-839e-48b6-9abf-8a78a563e1b0))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 63.5 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 946ba9d1-c229-4486-97d3-6b85dea12940)
-    (property "Reference" "R30" (at 63.5 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 63.5 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 63.5 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 63.5 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 63.5 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid f52484a7-6b1a-45ab-8e6b-4b83f0043a79))
-    (pin "1" (uuid 74784488-8fd4-4457-9e83-cee8ab78349a))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 134.62 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9f57520c-ad5d-4e76-b959-e71c8d39e869)
-    (property "Reference" "R35" (at 134.62 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 134.62 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 134.62 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 134.62 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 134.62 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e33ff073-b219-44b1-8f43-cad65c8f9628))
-    (pin "1" (uuid f736c543-14c5-4203-aaf5-9ba347cee026))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R35") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 88.9 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c6c0f7fe-6b86-4917-a125-f347a70ed98c)
-    (property "Reference" "D7" (at 88.9 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15V" (at 88.9 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 88.9 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf" (at 88.9 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "ZY15" (at 88.9 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 1863e423-1ea5-4d6c-9672-ac0f66658ea0))
-    (pin "1" (uuid fce8e8a1-65b9-415b-bd04-a6d24cae50e1))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 149.86 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d7ebb648-578e-41d9-9199-3d55f9b51710)
-    (property "Reference" "R37" (at 149.86 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5M" (at 149.86 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 149.86 78.232 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/doc?31018" (at 149.86 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CMF551M5000" (at 149.86 80.01 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 9e95efd2-fbce-4e8a-8eda-535399ae1fbc))
-    (pin "1" (uuid 67073788-dd1d-4a8b-9676-e9426308ecfb))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "R37") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Transistor_FET_Other:DN2540N5-G") (at 97.79 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e56fb32d-96e8-4d68-a8a3-4fe9f03b8b9e)
-    (property "Reference" "Q5" (at 102.87 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "AOT1N60" (at 102.87 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 97.79 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf" (at 97.79 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "AOT1N60" (at 97.79 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 0da1962e-1fe3-476a-80f6-3de8d20c2594))
-    (pin "1" (uuid 78aff268-bcb5-4c59-b864-b506433342bb))
-    (pin "3" (uuid 4e72f692-5adf-400f-bfa0-57d036e2736a))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "Q5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 162.56 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e6aee985-6220-4dfd-88a3-99df0321581f)
-    (property "Reference" "D9" (at 162.56 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15V" (at 162.56 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 162.56 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf" (at 162.56 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "ZY15" (at 162.56 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 5b2b5bcb-c7e3-4d73-a87f-37042b5d6440))
-    (pin "1" (uuid 133c2c38-fa2e-4b27-8585-2acef50abd9d))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 170.18 85.09 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eaa0da9f-2daa-43c0-a8ec-063a418306e2)
-    (property "Reference" "D10" (at 170.18 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15V" (at 168.91 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" (at 170.18 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf" (at 170.18 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "ZY15" (at 170.18 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid cd7c884a-bbd0-4e0f-9194-06ba2bee8c48))
-    (pin "1" (uuid 0c6a7f74-14aa-4f37-85ad-12ae7a5c0dca))
-    (instances
-      (project "OSDEHA_AMP"
-        (path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-          (reference "D10") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c8a8b971-4edc-4010-b79d-64746f5969cf")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET_Other:DN2540N5-G"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DN2540N5-G"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+				(at 0 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Depletion-Mode MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DN2540N5-G_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DN2540N5-G_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 158.75 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09f60f2f-6701-4e0f-be4a-0b3daa2073f0")
+	)
+	(junction
+		(at 173.99 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1245fcb2-0fea-41ae-b925-0e2880994a94")
+	)
+	(junction
+		(at 118.11 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e198c02-224a-4c3a-a7de-606aa26420ec")
+	)
+	(junction
+		(at 158.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fcc4fcb-732d-49c0-9f27-f6723eae63e0")
+	)
+	(junction
+		(at 191.77 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f51e9e-ae50-41ea-984b-41d7c0dbf512")
+	)
+	(junction
+		(at 59.69 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8892e99b-e132-41c6-b8d2-a6f4edd74aa2")
+	)
+	(junction
+		(at 85.09 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9bec7f7-280e-4abc-8648-1e7991742334")
+	)
+	(junction
+		(at 100.33 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a38754-364a-4274-8b39-3df4a2ee93f1")
+	)
+	(junction
+		(at 173.99 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7bf8123-60bd-494a-8c99-a0c626f065b4")
+	)
+	(junction
+		(at 100.33 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbe1c6a-faaf-451d-80dc-81edb7327362")
+	)
+	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61a0ddb-501a-4908-ad5b-88b04d627b62")
+	)
+	(junction
+		(at 100.33 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9adb205-f266-4615-aedd-99754d06db84")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 173.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02489d8d-1ebb-4f17-b63e-73d984eabb46")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172885c4-261f-4d97-9719-0900e5c16f35")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e89aa3c-1e89-4b65-be1b-c4d611b95a80")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fe225b-cf52-48d0-9560-063856948088")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255d1250-940e-4cab-8225-c425ae313eda")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27854ce5-35ed-48d8-baaf-c2445ad40406")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 118.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295d78ea-94f3-46d1-89c6-bc7df65b607d")
+	)
+	(wire
+		(pts
+			(xy 59.69 80.01) (xy 59.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a3f376-9d28-4cd4-ade3-c92be08d4bc3")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b68906-7060-4f3f-9278-30300e2f0a75")
+	)
+	(wire
+		(pts
+			(xy 100.33 50.8) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a794548-38cf-40f4-8c05-f779e7b79319")
+	)
+	(wire
+		(pts
+			(xy 85.09 96.52) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc71fd6-bd5b-4172-9223-f5af850515ab")
+	)
+	(wire
+		(pts
+			(xy 191.77 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e440ce3-d523-4a18-a38a-3aaf83519d94")
+	)
+	(wire
+		(pts
+			(xy 129.54 80.01) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fea057-dd86-4147-8c36-20c1e553918a")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f60739-b218-4492-97d3-ae3fd2b85b48")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efd90b3-7f3d-44ca-8301-d4ce13726d18")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670ab1a6-6f8d-4d8a-b78b-a7cc347a0f18")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dd3b92-c9ec-498f-acc6-2473060d1e22")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805e4ec1-59a5-4c70-954b-3d654afb8c51")
+	)
+	(wire
+		(pts
+			(xy 100.33 46.99) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cb139d-5299-4f8b-8947-bb46a0079d74")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abb8749-a2fb-4103-825f-2c4caebea904")
+	)
+	(wire
+		(pts
+			(xy 100.33 96.52) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a35868f-a66c-4639-89b8-b3b169e57c5e")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a0a42a-b759-440c-a7e6-8901a13e7645")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b88f0d-2f60-4531-9342-849d00553280")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5776104-2e48-434b-a8e8-587e94d8a131")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f68ee2-cd74-4e97-a0db-05920ed9e6d4")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9467335-04da-487b-b240-38bb9cbc396c")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba153162-9907-41f9-abbd-8b0d5de7c841")
+	)
+	(wire
+		(pts
+			(xy 191.77 85.09) (xy 191.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8f35ab-874d-4f28-89b2-18d31d9aa839")
+	)
+	(wire
+		(pts
+			(xy 82.55 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec63a8f-31fc-44f7-b52d-3a8d65abcab9")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56c1b30-96a1-497d-8da7-6ede4f3ab31c")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ce4229-f1b1-4380-ae7e-d72ec203f0e0")
+	)
+	(wire
+		(pts
+			(xy 100.33 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63a1a04-8a8d-4485-840e-470e758a9377")
+	)
+	(wire
+		(pts
+			(xy 173.99 100.33) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f25342-db89-4ded-b4d6-9711693906e9")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f314a7c0-9823-4fff-8673-5003226914bb")
+	)
+	(wire
+		(pts
+			(xy 191.77 69.85) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8423f2b-3b39-4b17-b5c5-4eea999e5af9")
+	)
+	(text "Hybrid Mu Follower // CCS load\nhttps://www.diyaudio.com/community/attachments/the-underappreciated-hybrid-mu-follower-pdf.543695/\nhttps://www.bartola.co.uk/valves/dht-pre-amplifier/01a-preamp-gen2/\nhttp://www.valvewizard.co.uk/mufollower.html\nhttps://www.diyaudio.com/community/threads/how-calculate-the-rmu-resistor-in-an-hybrid-mu-follower.384775/\n\nDetails on choice of transistor types and Mu-resistor:\nhttps://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/page-6\n\nSee also Alan Kimmel paper on Mu stage"
+		(exclude_from_sim no)
+		(at 36.83 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08214ab6-06da-4b65-9470-8b4363808d20")
+	)
+	(text "HEATSINK"
+		(exclude_from_sim no)
+		(at 96.52 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5de701a6-fc5b-4e6f-acd3-f7cdd766657d")
+	)
+	(text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXTP3N100D2: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
+		(exclude_from_sim no)
+		(at 36.83 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc504a3e-5296-4816-8207-5a46f7545cbe")
+	)
+	(text "HEATSINK"
+		(exclude_from_sim no)
+		(at 170.18 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc1f0fb9-1b03-4b7e-8dd7-8cb305bdc459")
+	)
+	(hierarchical_label "VREF"
+		(shape passive)
+		(at 59.69 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c1b35af-1edc-44a8-a151-65714964dd08")
+	)
+	(hierarchical_label "ANODE2"
+		(shape passive)
+		(at 173.99 104.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b21a1019-19d5-46a6-9cec-666f438f16aa")
+	)
+	(hierarchical_label "+HV"
+		(shape passive)
+		(at 100.33 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2adbe50-cfb9-4dc9-9131-24326667f926")
+	)
+	(hierarchical_label "MU_OUT2"
+		(shape passive)
+		(at 191.77 104.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9c72730-b147-4344-b427-dea34d702bc7")
+	)
+	(hierarchical_label "MU_OUT1"
+		(shape passive)
+		(at 118.11 104.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc1a096b-d618-4586-9688-e6f239507153")
+	)
+	(hierarchical_label "ANODE1"
+		(shape passive)
+		(at 100.33 104.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e94c319f-ad8f-4968-88bd-8bbde1e0f720")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dfb0b6d-dd0d-4499-b779-67205a3ca2e8")
+		(property "Reference" "R39"
+			(at 185.42 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 185.42 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55300R00"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "202d2fa0-ee6b-49fb-ad46-73a973764a7c")
+		)
+		(pin "2"
+			(uuid "f755eb16-29bf-42ee-9a14-87bd1a4ba23c")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1106d323-5af5-4bbf-a068-f6cb1932d2e8")
+		(property "Reference" "R32"
+			(at 78.74 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 78.74 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 78.74 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 78.74 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eff6b710-9fcc-4f6d-a2dc-9a6a1cd9079c")
+		)
+		(pin "1"
+			(uuid "77fa3610-05d3-440a-a508-7498bc88ea1d")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12e351b6-5ac4-4d73-927e-3325afe07a7c")
+		(property "Reference" "C9"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220n 630 V"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+			(at 159.7152 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MKP4J032204J00KSSD "
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1545666-6bc4-4203-973f-975b8b045100")
+		)
+		(pin "1"
+			(uuid "7050de3a-b1c6-4233-bd60-899c77460208")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12fec269-9e4c-4f86-b65d-8f7bb5d31af3")
+		(property "Reference" "R36"
+			(at 142.24 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 142.24 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 142.24 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 142.24 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4287945d-7659-4ae7-84d2-edd8377d1131")
+		)
+		(pin "1"
+			(uuid "699b0a96-3327-4173-9495-5440f7aaa4fb")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 102.87 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a3c19f2-c898-498a-b1a8-4ae913218a73")
+		(property "Reference" "Q6"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXTP3N100D2"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IXTP3N100D2"
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f47bfc2a-5d7e-44bb-99d1-ec37399a0ca5")
+		)
+		(pin "1"
+			(uuid "5508311d-bfa3-4d23-8134-e16ca97923b8")
+		)
+		(pin "3"
+			(uuid "cc2c9973-022b-4c95-b2d9-6f9d14ed16ae")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31bdcc37-a175-4f8c-ae21-05a8a2f0405d")
+		(property "Reference" "R31"
+			(at 71.12 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 71.12 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 71.12 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 71.12 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0483435a-d8f7-444d-8e88-ab0c2c5348d8")
+		)
+		(pin "1"
+			(uuid "f7a62876-a908-411f-8754-9ea9db4702aa")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b1f7723-6e2f-4f66-8def-22fb3ea7279d")
+		(property "Reference" "R34"
+			(at 111.76 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 111.76 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 111.76 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55300R00"
+			(at 111.76 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2692787-b1da-45a6-a107-372381afd984")
+		)
+		(pin "2"
+			(uuid "b03da9d1-1ae0-4b2e-8b6b-36bee6a00fcf")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52b70f49-b4ac-46cc-9cf7-ce44688f5c05")
+		(property "Reference" "R38"
+			(at 171.45 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 173.99 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 172.212 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55470R00"
+			(at 173.99 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f7cf78-9bb7-4d49-9f04-006c80f123b7")
+		)
+		(pin "2"
+			(uuid "99363466-bceb-4097-9ee0-1927f7c1c220")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
+		(at 171.45 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5627b9ab-d893-403a-88d9-677ace52756a")
+		(property "Reference" "Q7"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOT1N60"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 171.45 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf"
+			(at 171.45 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AOT1N60"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c925d54-b20b-412d-8dfa-4bae369763a0")
+		)
+		(pin "1"
+			(uuid "0d9e3dde-4c14-4ac4-940f-2039e4acbc67")
+		)
+		(pin "3"
+			(uuid "0f73ec98-01a5-4a36-a76f-822fcbbdb169")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a13743c-acd9-466c-8e88-e7fcaed883a3")
+		(property "Reference" "R33"
+			(at 97.79 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 98.552 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55470R00"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceddc131-09da-483d-918e-66b70d4db82e")
+		)
+		(pin "2"
+			(uuid "12b5ad50-6c13-4487-b2aa-1509315d208e")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75af7187-214d-4d7e-8b8b-7e099d8eafac")
+		(property "Reference" "C8"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220n 630 V"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+			(at 86.0552 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/440/e_WIMA_MKP_4-1139861.pdf"
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MKP4J032204J00KSSD "
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cec0991-1c5e-4df0-ae92-b147b1d2f279")
+		)
+		(pin "1"
+			(uuid "5e1c163e-7915-48f1-a975-85af5692048f")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 96.52 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77f699cd-4c44-4c28-8f5d-ac32638b4468")
+		(property "Reference" "D8"
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15V"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZY15"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d060049-4251-4de1-b11d-73f0257df0d4")
+		)
+		(pin "1"
+			(uuid "fdfba91b-66a9-4afc-b7cd-63c2345e0ea3")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 176.53 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b046c3-fa6b-4b2b-91c1-d5c5eb14e662")
+		(property "Reference" "Q8"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXTP3N100D2"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/240/media-3323664.pdf"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IXTP3N100D2"
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b6a43c9-6bfc-448f-8a3a-c44fd8bb1e72")
+		)
+		(pin "1"
+			(uuid "f7279499-82f8-469d-b405-1bdbba58be24")
+		)
+		(pin "3"
+			(uuid "eb284602-839e-48b6-9abf-8a78a563e1b0")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "946ba9d1-c229-4486-97d3-6b85dea12940")
+		(property "Reference" "R30"
+			(at 63.5 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 63.5 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f52484a7-6b1a-45ab-8e6b-4b83f0043a79")
+		)
+		(pin "1"
+			(uuid "74784488-8fd4-4457-9e83-cee8ab78349a")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f57520c-ad5d-4e76-b959-e71c8d39e869")
+		(property "Reference" "R35"
+			(at 134.62 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 134.62 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 134.62 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 134.62 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e33ff073-b219-44b1-8f43-cad65c8f9628")
+		)
+		(pin "1"
+			(uuid "f736c543-14c5-4203-aaf5-9ba347cee026")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 88.9 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6c0f7fe-6b86-4917-a125-f347a70ed98c")
+		(property "Reference" "D7"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15V"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZY15"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1863e423-1ea5-4d6c-9672-ac0f66658ea0")
+		)
+		(pin "1"
+			(uuid "fce8e8a1-65b9-415b-bd04-a6d24cae50e1")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ebb648-578e-41d9-9199-3d55f9b51710")
+		(property "Reference" "R37"
+			(at 149.86 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5M"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 149.86 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF551M5000"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e95efd2-fbce-4e8a-8eda-535399ae1fbc")
+		)
+		(pin "1"
+			(uuid "67073788-dd1d-4a8b-9676-e9426308ecfb")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
+		(at 97.79 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e56fb32d-96e8-4d68-a8a3-4fe9f03b8b9e")
+		(property "Reference" "Q5"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AOT1N60"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 97.79 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://aosmd.com/res/data_sheets/AOT1N60.pdf"
+			(at 97.79 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AOT1N60"
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0da1962e-1fe3-476a-80f6-3de8d20c2594")
+		)
+		(pin "1"
+			(uuid "78aff268-bcb5-4c59-b864-b506433342bb")
+		)
+		(pin "3"
+			(uuid "4e72f692-5adf-400f-bfa0-57d036e2736a")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 162.56 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6aee985-6220-4dfd-88a3-99df0321581f")
+		(property "Reference" "D9"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15V"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZY15"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b2b5bcb-c7e3-4d73-a87f-37042b5d6440")
+		)
+		(pin "1"
+			(uuid "133c2c38-fa2e-4b27-8585-2acef50abd9d")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 170.18 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaa0da9f-2daa-43c0-a8ec-063a418306e2")
+		(property "Reference" "D10"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15V"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/zy1.pdf"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZY15"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd7c884a-bbd0-4e0f-9194-06ba2bee8c48")
+		)
+		(pin "1"
+			(uuid "0c6a7f74-14aa-4f37-85ad-12ae7a5c0dca")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

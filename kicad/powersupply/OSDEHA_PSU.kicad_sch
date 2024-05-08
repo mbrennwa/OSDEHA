@@ -6315,6 +6315,236 @@
 		)
 		(uuid "fc5210f4-a284-4898-a84b-50d4cce26420")
 	)
+	(label "ACHTR"
+		(at 43.18 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08291ba9-d650-46cf-bc62-58c9154d94c1")
+	)
+	(label "ACB-"
+		(at 43.18 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "153ab191-bc93-4823-9d39-17f259076c44")
+	)
+	(label "GND"
+		(at 213.36 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40a6c14c-fdc4-424c-9a4e-14f8e9ec4a1c")
+	)
+	(label "BIAS"
+		(at 213.36 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "410cdf83-a917-4932-a8dd-0ba5032d65be")
+	)
+	(label "H"
+		(at 213.36 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49988bbf-3fe0-450a-883c-6dd0cbd86b9d")
+	)
+	(label "B+"
+		(at 213.36 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fa2ea40-a79b-4890-9fcc-10b25e4bedaf")
+	)
+	(label "ACB+"
+		(at 43.18 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "513d2efe-7430-4b5f-a175-6869c3ccb36f")
+	)
+	(label "GND"
+		(at 213.36 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52077fe2-8418-4cfe-9100-a793eb29a2a2")
+	)
+	(label "Pin_1"
+		(at 213.36 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fdf7c56-d246-4c83-be70-9a40e4a56810")
+	)
+	(label "ACB-"
+		(at 43.18 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65bd1c66-aeda-4ab8-8832-b4fb45dfd5a0")
+	)
+	(label "ACB2-"
+		(at 43.18 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90e9b3b4-cfb3-47c1-b818-2c9b03765577")
+	)
+	(label "B+"
+		(at 213.36 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "918e70b8-d167-425b-87a3-b188ecb2da7d")
+	)
+	(label "B-"
+		(at 213.36 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a81870bb-04d3-4a14-9b16-1143c5a77ffc")
+	)
+	(label "ACB+"
+		(at 43.18 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55c013d-8085-4bfc-b1e9-68c5c685c8e8")
+	)
+	(label "ACB2-"
+		(at 43.18 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7cba2ed-10e6-4b8b-96f6-1de1fa163bd4")
+	)
+	(label "GND"
+		(at 213.36 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bba2cce1-4617-49c8-969d-6b717ca7ffd6")
+	)
+	(label "BIAS"
+		(at 213.36 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c461044a-9811-4cd4-ad30-374e3cc86dec")
+	)
+	(label "ACHTR"
+		(at 43.18 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc96df74-21bf-4e4f-baad-7cf6699382e5")
+	)
+	(label "B-"
+		(at 213.36 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e01b65e4-916b-40da-bf32-cbf678f39da5")
+	)
+	(label "B2-"
+		(at 213.36 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed91586f-d2d7-4f08-af4c-c49cc8c1241e")
+	)
+	(label "B2-"
+		(at 213.36 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edc9423b-68ac-496f-ade4-4056a158ce79")
+	)
+	(label "GND"
+		(at 213.36 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1e681f0-570e-424f-a826-749d3ce40453")
+	)
+	(label "H"
+		(at 213.36 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8d9bc72-c70c-413b-b1b7-0b25ee26686b")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 218.44 241.3 0)
