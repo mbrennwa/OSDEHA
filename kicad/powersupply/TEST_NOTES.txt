@@ -19,6 +19,5 @@
 - Tested ground loop breaker. Works as expected.
 
 TODO
-- Test ground loop breaker
 - test time-delay adjust range for B+ / B- relay
 - build full PSU with transformers and IEC socket on a board/base for further testing
