@@ -5,6 +5,168 @@
 	(uuid "9adf613f-7ec8-4a26-80b3-43e9387871b7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1N4007_1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1635,6 +1797,12 @@
 		(uuid "ce2a87e7-792c-4fc0-8a24-c2d75c444823")
 	)
 	(junction
+		(at 156.21 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a876bf-dafb-469c-89da-dc93c2282df2")
+	)
+	(junction
 		(at 74.93 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1657,12 +1825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed27135-8038-40bc-8631-8410e20e598b")
-	)
-	(junction
-		(at 156.21 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef64bab7-8955-42b0-8f8f-66a186909cbe")
 	)
 	(junction
 		(at 93.98 111.76)
@@ -1838,6 +2000,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 57.15) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2f385f-c876-4fc1-80c4-af2f3b731772")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 116.84 85.09)
 		)
 		(stroke
@@ -1915,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "890959da-bb39-4504-8815-5c62a8e6fc28")
-	)
-	(wire
-		(pts
-			(xy 156.21 57.15) (xy 166.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922250e3-f193-4db0-a0e2-7d2155604c3c")
 	)
 	(wire
 		(pts
@@ -2035,6 +2197,16 @@
 			(type default)
 		)
 		(uuid "c2f0533d-9573-4f01-982c-9be1963aabd2")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 166.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a8942f-e1de-461c-96f6-6783e51a6756")
 	)
 	(wire
 		(pts
@@ -2501,6 +2673,91 @@
 				)
 				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1N4007_1")
+		(lib_id "Diode:1N4007")
+		(at 161.29 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38dfe94a-2473-42df-971a-236a93941ea9")
+		(property "Reference" "D27"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
+			(at 161.29 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4001.pdf"
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4007"
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c1afb27-2974-4408-96d6-8a13a9bfa4f3")
+		)
+		(pin "1"
+			(uuid "29b2bd82-0d44-4cb8-a8ba-90ede0d9fd9c")
+		)
+		(instances
+			(project "OSDEHA_PSU"
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
+					(reference "D29")
 					(unit 1)
 				)
 			)
