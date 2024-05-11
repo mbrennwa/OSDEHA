@@ -1,0 +1,6 @@
+2024-05-11
+- Build input stage
+- Operating points around tubes are as expected (11 mA Ic, 3.1 V-cathode)
+- Measured gain = 30.1 dB = 32x
+- Captured harmonic and IM distortion spectra at output voltages of 1.0, 3.16, 10, and 31.6 Vrms. Looks ok.
+
