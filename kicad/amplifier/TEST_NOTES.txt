@@ -1,6 +1,10 @@
 2024-05-11
-- Build input stage
-- Operating points around tubes are as expected (11 mA Ic, 3.1 V-cathode)
+- Built amplifier input stage. Picked random 6E5P tubes from the box (no matching etc.)
+- Operating points around tubes are as expected (measured: 11 mA Ic, 3.1 V-cathode)
 - Measured gain = 30.1 dB = 32x
 - Captured harmonic and IM distortion spectra at output voltages of 1.0, 3.16, 10, and 31.6 Vrms. Looks ok.
 
+TO DO
+- Build and test buffer stage
+- Build and test Coleman DHT filament supplies
+- Build and test output stage
