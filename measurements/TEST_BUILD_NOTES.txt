@@ -29,6 +29,7 @@
 	Measured gain = 30.1 dB = 32x
 	Captured harmonic and IM distortion spectra at output voltages of 1.0, 3.16, 10, and 31.6 Vrms. Looks ok.
 - Replaced 6E5P tubes with a nicely matched pair to check for improvements in circuit balance and distortion spectra
+	Operating points are very symmetric (Va = 153 V and 154 V), distortion spectra are cleaner (sometimes a by a lot)
 
 
 TO DO
