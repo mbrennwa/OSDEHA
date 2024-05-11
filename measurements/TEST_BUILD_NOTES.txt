@@ -30,10 +30,23 @@
 	Captured harmonic and IM distortion spectra at output voltages of 1.0, 3.16, 10, and 31.6 Vrms. Looks ok.
 - Replaced 6E5P tubes with a nicely matched pair to check for improvements in circuit balance and distortion spectra
 	Operating points are very symmetric (Va = 153 V and 154 V), distortion spectra are cleaner (sometimes a by a lot)
+- Comparison of harmonic distortion with unmatched / matched 6E5P input tubes:
+	V-out (Vrms)	matched		2nd (dB)	3rd (dB)
+	1.0		no		-92		--
+	1.0		yes		--		--
+	3.16		no		-85		-91
+	3.16		yes		-91		-110
+	10		no		-76		-86
+	10		yes		-83		-91
+	31.6		no		-64		-94
+	31.6		yes		-79		-91
+
+	--> 2nd is always considerably lower with matched tubes, 3rd is sometimes lower.
 
 
 TO DO
+- Improve PSU tolerance to shorts and similar mishaps. So far the the output FET tends to blow up every time something nasty happens.
 - Build and test amp buffer stage
 - Build and test Coleman DHT filament supplies
 - Build and test amp output stage
-- test PSU time-delay adjust range for B+ / B- relay
+- test PSU time-delay adjust range for B+ / B- relay. Maybe increase turn-on delay time a bit to allow for more warm up of the input-stage tubes?
