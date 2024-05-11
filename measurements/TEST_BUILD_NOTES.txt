@@ -23,5 +23,16 @@
 - Tested PSU in proto chassis (ok)
 - Measured stator BIAS using a very high value resistor (approx 10 G Ohm) in series with the DVM (internal resistance approx. 10 M Ohm). The 10 GOhm resistor effectively reduces the load on the BIAS supply. Calibrated the DVM readings from other PSU outputs. Result: BIAS = 575 VDC (that's less than 1% off from the target!). Perfect.
 
-TODO
-- test time-delay adjust range for B+ / B- relay
+2024-05-11
+- Built amplifier input stage. Picked random 6E5P tubes from the box (no matching etc.):
+	Operating points around tubes are as expected (measured: 11 mA Ic, 3.1 V-cathode, Va = 152 V and 142 V)
+	Measured gain = 30.1 dB = 32x
+	Captured harmonic and IM distortion spectra at output voltages of 1.0, 3.16, 10, and 31.6 Vrms. Looks ok.
+- Replaced 6E5P tubes with a nicely matched pair to check for improvements in circuit balance and distortion spectra
+
+
+TO DO
+- Build and test amp buffer stage
+- Build and test Coleman DHT filament supplies
+- Build and test amp output stage
+- test PSU time-delay adjust range for B+ / B- relay
