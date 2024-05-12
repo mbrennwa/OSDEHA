@@ -1,3 +1,5 @@
+Build and test log
+
 2024-04-20
 - Built and tested heater supply for input stage tubes + relay for HV delay. Needed to reverse one of the rectifier diodes. Seems to work ok, but still need to test htr supply with proper load.
 - Built negative bias + buffer HV supply. Needed to attach part of the GND plane to GND (was not connected on PCB).
@@ -43,10 +45,19 @@
 
 	--> 2nd is always considerably lower with matched tubes, 3rd is sometimes lower.
 
+2024-05-12
+- Built and tested 4 x Coleman DHT Filament Regulators.
 
-TO DO
+
+
+*** TO DO ***
 - Improve PSU tolerance to shorts and similar mishaps. So far the the output FET tends to blow up every time something nasty happens.
-- Build and test amp buffer stage
-- Build and test Coleman DHT filament supplies
+- Link pairs of Coleman DHT Regs using solid wires between boards.
+- Design PCB for raw DC supply for Coleman Regs. Note on wiring (each channel): common DHT cathodes <--> common Coleman-NEG-pins (both boards linked by solid wire) <--> NEG pin of DC raw supply
 - Build and test amp output stage
+- Tweak and finalize amp PCB, order next version and build/test amp. Add HV psu caps to amp board?
 - test PSU time-delay adjust range for B+ / B- relay. Maybe increase turn-on delay time a bit to allow for more warm up of the input-stage tubes?
+- design chassis, mechanical construction
+- choose/decide on volume pot
+- for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
+
