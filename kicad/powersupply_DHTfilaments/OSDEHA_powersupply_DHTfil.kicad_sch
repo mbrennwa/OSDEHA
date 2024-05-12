@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 156.21 60.96)
+			(xy 149.86 60.96) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 156.21 72.39)
+			(xy 149.86 72.39) (xy 171.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -489,17 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 63.5) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b459872a-ac61-4be5-8038-60af6fb2dcca")
-	)
-	(wire
-		(pts
-			(xy 149.86 80.01) (xy 156.21 80.01)
+			(xy 149.86 80.01) (xy 171.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -509,13 +499,33 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 156.21 91.44)
+			(xy 171.45 72.39) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf76585a-e4ec-4fba-b825-c478ec624fec")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 171.45 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfe92964-c514-47c0-86d5-926052107034")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9fe049-790a-4cd5-9d64-0b8456495baa")
 	)
 	(wire
 		(pts
@@ -527,19 +537,9 @@
 		)
 		(uuid "d81d378e-5360-4c21-923d-ad41194ce858")
 	)
-	(wire
-		(pts
-			(xy 156.21 82.55) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe67f61-720f-4ba9-a551-1a0536da5b9e")
-	)
 	(text "2 x Coleman DHT Reg, left channel\n10.5 V / 2 x 1.25 A / floating"
 		(exclude_from_sim no)
-		(at 162.56 68.58 0)
+		(at 177.8 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -561,7 +561,7 @@
 	)
 	(text "2 x Coleman DHT Reg, right channel\n10.5 V / 2 x 1.25 A / floating"
 		(exclude_from_sim no)
-		(at 162.56 87.63 0)
+		(at 177.8 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -580,6 +580,46 @@
 			(justify left bottom)
 		)
 		(uuid "d2e0add7-ffab-44be-ac3f-4dd905a1cd60")
+	)
+	(label "RAWDC_R-"
+		(at 171.45 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c10fb4f-191c-4341-a950-58de4726c482")
+	)
+	(label "RAWDC_R+"
+		(at 171.45 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71112173-0921-4a91-9882-f39f3b5b3f6b")
+	)
+	(label "RAWDC_L-"
+		(at 171.45 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1ba8503-d388-47d8-989b-d39ed78cdac6")
+	)
+	(label "RAWDC_L+"
+		(at 171.45 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5567dd6-2b39-4ad6-b65e-c510beebe1cc")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -790,7 +830,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 161.29 80.01 0)
+		(at 176.53 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -798,7 +838,7 @@
 		(dnp no)
 		(uuid "885172ed-d156-45d1-869d-27b3539f5ef6")
 		(property "Reference" "J5"
-			(at 162.56 81.28 0)
+			(at 177.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +847,7 @@
 			)
 		)
 		(property "Value" "2 x COLEMANREG-RIGHT"
-			(at 166.37 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +856,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 161.29 80.01 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +865,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
-			(at 161.29 80.01 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +874,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 80.01 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +883,7 @@
 			)
 		)
 		(property "MPN" "41791-0849"
-			(at 161.29 80.01 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +908,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 161.29 60.96 0)
+		(at 176.53 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -876,7 +916,7 @@
 		(dnp no)
 		(uuid "8afd88b7-6a8f-48ac-8fc8-d353303d2d1d")
 		(property "Reference" "J3"
-			(at 162.56 62.23 0)
+			(at 177.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +925,7 @@
 			)
 		)
 		(property "Value" "2 x COLEMANREG-LEFT"
-			(at 166.37 62.23 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +934,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 161.29 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
-			(at 161.29 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +961,7 @@
 			)
 		)
 		(property "MPN" "41791-0849"
-			(at 161.29 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
