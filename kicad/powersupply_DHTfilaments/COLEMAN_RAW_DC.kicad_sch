@@ -902,7 +902,7 @@
 			(uuid "e9dac817-3076-4bb2-9643-466444ccaff0")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "D4")
 					(unit 1)
@@ -985,7 +985,7 @@
 			(uuid "f4a47c45-d100-4178-bc50-d95c63390777")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "D2")
 					(unit 1)
@@ -1022,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P5.08mm_Vertical"
 			(at 130.81 89.408 90)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 			(uuid "496f41ea-2a20-4ff0-9da9-229e1fd4aae1")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "R3")
 					(unit 1)
@@ -1148,7 +1148,7 @@
 			(uuid "118fcaa4-4859-4e65-ba8a-df9e614bf8a6")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "D3")
 					(unit 1)
@@ -1231,7 +1231,7 @@
 			(uuid "12f2750c-803d-4f24-b2c2-5d275dd991cf")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "D1")
 					(unit 1)
@@ -1313,7 +1313,7 @@
 			(uuid "b6360420-4481-474f-9003-f38fb513e0b0")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "C1")
 					(unit 1)
@@ -1395,7 +1395,7 @@
 			(uuid "d8ecb449-15b3-4093-a4d9-bf216119e87c")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "C2")
 					(unit 1)
@@ -1432,7 +1432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 104.902 74.93 90)
 			(effects
 				(font
@@ -1475,7 +1475,7 @@
 			(uuid "6a615001-aabc-42ec-92dc-b0297f8c821a")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "R1")
 					(unit 1)
@@ -1512,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P5.08mm_Vertical"
 			(at 130.81 64.008 90)
 			(effects
 				(font
@@ -1555,7 +1555,7 @@
 			(uuid "44b7abe1-16f7-4cc0-b592-73d199f5acbd")
 		)
 		(instances
-			(project "OSDEHA_powersupply_colemanreg"
+			(project "OSDEHA_powersupply_DHTfil"
 				(path "/6a766a35-7f7e-4680-bf64-1ed131aec470/5c8de33b-0aec-4bd3-8a06-d4311bc9100c"
 					(reference "R2")
 					(unit 1)
