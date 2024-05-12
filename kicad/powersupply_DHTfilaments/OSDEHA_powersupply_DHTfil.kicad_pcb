@@ -95,7 +95,7 @@
 	(footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0af47b4b-5fda-4e55-9b2f-5c524818ae1d")
-		(at 188.5 63.434629 -90)
+		(at 188.5 73.54 -90)
 		(descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-396 vertical")
 		(property "Reference" "J3"
@@ -109,7 +109,7 @@
 				)
 			)
 		)
-		(property "Value" "COLEMANREG-LEFT-1"
+		(property "Value" "2 x COLEMANREG-LEFT"
 			(at 1.98 6.1 90)
 			(layer "F.Fab")
 			(uuid "f0e9f1b7-f3b9-405b-bb6d-8c559dcbb744")
@@ -946,7 +946,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 5 -13.75 270)
+			(at 5 -13.75 -90)
 			(layer "F.SilkS")
 			(uuid "15b77dfb-8ce6-4cfa-9ac0-7611c5e63e36")
 			(effects
@@ -957,7 +957,7 @@
 			)
 		)
 		(property "Value" "15000u 25 V"
-			(at 5 13.75 270)
+			(at 5 13.75 -90)
 			(layer "F.Fab")
 			(uuid "fb8fe143-d9da-4e7b-a564-17a985ea2439")
 			(effects
@@ -5375,7 +5375,7 @@
 			(uuid "d22e54ab-ae9b-43d7-bedd-24ca11d577a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 270)
+			(at 5 0 -90)
 			(layer "F.Fab")
 			(uuid "3b0c6e41-89e2-4a30-b2ed-145b11438ca3")
 			(effects
@@ -6000,7 +6000,7 @@
 		(descr "Resistor, Axial_DIN0614 series, Axial, Vertical, pin pitch=5.08mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Vertical pin pitch 5.08mm 1.5W length 14.3mm diameter 5.7mm")
 		(property "Reference" "R5"
-			(at 2.54 -3.97 270)
+			(at 2.54 -3.97 -90)
 			(layer "F.SilkS")
 			(uuid "949e4ae3-faed-41c5-af34-f67bbb3f4711")
 			(effects
@@ -6011,7 +6011,7 @@
 			)
 		)
 		(property "Value" "0.22 3 W"
-			(at 2.54 3.97 270)
+			(at 2.54 3.97 -90)
 			(layer "F.Fab")
 			(uuid "64541de4-839a-4655-86b3-beffec4dbb66")
 			(effects
@@ -6158,7 +6158,7 @@
 			(uuid "c6cc477a-6693-4d85-ad13-918cf3dad8ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.97 270)
+			(at 2.54 -3.97 -90)
 			(layer "F.Fab")
 			(uuid "0beeaab3-4d34-41f8-b490-c2c1bff269f7")
 			(effects
@@ -6189,484 +6189,6 @@
 			(uuid "895df5b7-3178-452b-911d-81dfda7c85b2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0614_L14.3mm_D5.7mm_P5.08mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-		(layer "F.Cu")
-		(uuid "4e6e6400-d845-42cc-b0b3-2c0d33d9dff3")
-		(at 188.5 93.764629 -90)
-		(descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
-		(tags "connector Molex KK-396 vertical")
-		(property "Reference" "J6"
-			(at 1.98 -6.31 90)
-			(layer "F.SilkS")
-			(uuid "8aa1c397-faf4-4b08-a336-66b79addcd4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "COLEMANREG-RIGHT-2"
-			(at 1.98 6.1 90)
-			(layer "F.Fab")
-			(uuid "acd2c4f0-83c8-45bc-bb5c-f938e1137794")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7a109e9-02b8-49a9-bf2e-ded44847375d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9937c16-4b79-4075-acba-4f20aa1d3ba1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53657957-b563-48b1-8d17-348f82db03ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "41791-0849"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9bfba58-bd0d-4333-883b-5c52dee3560e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/070fc7e0-884f-47c9-b122-1caeb77f3a4d")
-		(sheetname "Root")
-		(sheetfile "OSDEHA_powersupply_DHTfil.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -0.115 5.01)
-			(end -0.115 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d3affb4b-5593-43ad-ac89-85a22a373fbf")
-		)
-		(fp_line
-			(start 0 5.01)
-			(end 0 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bad2203e-b047-4e32-a9e3-dc540f51c1af")
-		)
-		(fp_line
-			(start 4.075 5.01)
-			(end -0.115 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a4a40c7d-f22c-4bf1-97a8-49b26f590cf5")
-		)
-		(fp_line
-			(start 0 4.01)
-			(end 3.96 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "22a85dab-2cc6-4f64-86e0-5cea82b28ee4")
-		)
-		(fp_line
-			(start 0 4.01)
-			(end 0 2.34)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c947d9e1-45cf-4104-bac6-f8d02a0f1b87")
-		)
-		(fp_line
-			(start 3.96 4.01)
-			(end 3.96 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "49352720-e649-49f1-9e16-86dc88f71501")
-		)
-		(fp_line
-			(start -2.02 4.005)
-			(end -2.02 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2518cd24-cb99-4650-929f-fbedcd39a9f5")
-		)
-		(fp_line
-			(start -0.115 4.005)
-			(end -2.02 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4b21d35b-7c61-4b86-8dc9-2f19ce62ae70")
-		)
-		(fp_line
-			(start 4.075 4.005)
-			(end 4.075 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59e8b84b-8568-4297-a9d5-4338c1a7b420")
-		)
-		(fp_line
-			(start 5.98 4.005)
-			(end 4.075 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc6898e1-fab9-415e-810e-ddccc6225ddf")
-		)
-		(fp_line
-			(start 0 2.34)
-			(end 3.96 2.34)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4e1137d3-b0f1-4e0e-939a-61f1fda3fe75")
-		)
-		(fp_line
-			(start 3.96 2.34)
-			(end 3.96 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "744a05cf-0e01-4320-9fe4-dfc711c83847")
-		)
-		(fp_line
-			(start -2.31 -2)
-			(end -2.31 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e9bd4bc-bead-4eb2-944d-5921b93eac59")
-		)
-		(fp_line
-			(start -0.8 -4.62)
-			(end 0.8 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d3a12554-5a9c-4d75-b2b8-f112b110ff6e")
-		)
-		(fp_line
-			(start 0.8 -4.62)
-			(end 0.8 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c395f1c1-7b4a-4aa6-912d-80bf98b7ca2a")
-		)
-		(fp_line
-			(start 3.16 -4.62)
-			(end 4.76 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b711ff9e-afd6-40a4-8164-884c992378f7")
-		)
-		(fp_line
-			(start 4.76 -4.62)
-			(end 4.76 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "240350f7-b304-4406-b5a8-b61aa070bab5")
-		)
-		(fp_line
-			(start -2.02 -5.22)
-			(end 5.98 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "706f63cc-525f-4ce7-acc0-7d47ddb42d98")
-		)
-		(fp_line
-			(start -0.8 -5.22)
-			(end -0.8 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "73adb29b-7a62-4675-a401-d6c08fef6a0b")
-		)
-		(fp_line
-			(start 3.16 -5.22)
-			(end 3.16 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9224360-ae04-499c-b897-f5cd7d9fbe3f")
-		)
-		(fp_line
-			(start 5.98 -5.22)
-			(end 5.98 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a8f6f49-f062-43b9-b029-a7cc94af5f12")
-		)
-		(fp_line
-			(start -2.41 5.4)
-			(end 6.37 5.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a9685324-140f-4f38-b5af-eac12c0bf004")
-		)
-		(fp_line
-			(start 6.37 5.4)
-			(end 6.37 -5.61)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "24856994-eb4c-4360-8244-f8750e73b38c")
-		)
-		(fp_line
-			(start -2.41 -5.61)
-			(end -2.41 5.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3bc2084a-fba7-44ba-92de-37c6b6066bd2")
-		)
-		(fp_line
-			(start 6.37 -5.61)
-			(end -2.41 -5.61)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "551553ad-aced-4fd9-ad63-c733f909b901")
-		)
-		(fp_line
-			(start -0.005 4.9)
-			(end -0.005 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8c6e3e17-f84d-4bf5-96ab-32fffd2ce3a4")
-		)
-		(fp_line
-			(start 3.965 4.9)
-			(end -0.005 4.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f6ffb211-73f2-4189-bae1-d4d2eb914fa4")
-		)
-		(fp_line
-			(start -1.91 3.895)
-			(end -1.91 -5.11)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "911c9998-bc1f-4b4e-9f15-a2cde5a6ac89")
-		)
-		(fp_line
-			(start -0.005 3.895)
-			(end -1.91 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5f3b5c29-6790-438f-9e3f-50624c62d1b3")
-		)
-		(fp_line
-			(start 3.965 3.895)
-			(end 3.965 4.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3c90331e-5013-4e35-9532-c23710700e6b")
-		)
-		(fp_line
-			(start 5.87 3.895)
-			(end 3.965 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "037597e9-2961-4739-aaf8-6ebea1d71e72")
-		)
-		(fp_line
-			(start -1.202893 0)
-			(end -1.91 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9ec002d0-3ecf-4af6-8032-e3bca955b0ec")
-		)
-		(fp_line
-			(start -1.91 -0.5)
-			(end -1.202893 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4b447f99-e93c-4c80-b7b0-533005ff0b6f")
-		)
-		(fp_line
-			(start -1.91 -5.11)
-			(end 5.87 -5.11)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6e044dbe-0201-47a3-b84b-698906b1af72")
-		)
-		(fp_line
-			(start 5.87 -5.11)
-			(end 5.87 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9c05461e-ade8-48c2-88a6-2f29baeda23c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.98 -4.41 90)
-			(layer "F.Fab")
-			(uuid "7bc74723-a02e-48b5-ab65-02a0c52016ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0 270)
-			(size 3.16 4.1)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.079114)
-			(net 7 "/COLEMAN_RAW_DC_RIGHT/RAWDC+")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "ca554d12-b347-4222-a570-afebf0e8467f")
-		)
-		(pad "2" thru_hole oval
-			(at 3.96 0 270)
-			(size 3.16 4.1)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 8 "/COLEMAN_RAW_DC_RIGHT/RAWDC-")
-			(pinfunction "Pin_2")
-			(pintype "passive")
-			(uuid "6a3ed7c2-673c-494e-8001-7d6f7d204d0f")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7381,7 +6903,7 @@
 				)
 			)
 		)
-		(property "Value" "COLEMANREG-RIGHT-1"
+		(property "Value" "2 x COLEMANREG-RIGHT"
 			(at 1.98 6.1 90)
 			(layer "F.Fab")
 			(uuid "12a1af79-5cd3-4943-b6b8-e98602684679")
@@ -7849,7 +7371,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 1.27 -2.37 270)
+			(at 1.27 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "b2ebec30-ac5a-49ec-8f49-ed753faca596")
 			(effects
@@ -7860,7 +7382,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 1.27 2.37 270)
+			(at 1.27 2.37 -90)
 			(layer "F.Fab")
 			(uuid "01676c53-7814-4a9f-9afc-6979ffdd7829")
 			(effects
@@ -8007,7 +7529,7 @@
 			(uuid "dbd1273f-5007-4b53-8d47-27d9287a29a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.37 270)
+			(at 1.27 -2.37 -90)
 			(layer "F.Fab")
 			(uuid "0c3ef8a1-ca52-4eee-8fe3-0b601d14dde5")
 			(effects
@@ -8276,7 +7798,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 2.54 -6.26 270)
+			(at 2.54 -6.26 -90)
 			(layer "F.SilkS")
 			(uuid "13149596-d5a7-44d9-8603-a32f622bbde1")
 			(effects
@@ -8287,7 +7809,7 @@
 			)
 		)
 		(property "Value" "10.5 VAC / 4.5 A"
-			(at 2.54 5.66 270)
+			(at 2.54 5.66 -90)
 			(layer "F.Fab")
 			(uuid "2fdf6395-fbf8-4eef-831e-cc56ab8e2bcd")
 			(effects
@@ -8730,7 +8252,7 @@
 			(uuid "c137e709-5c90-48dc-a988-44b8546464d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.2 270)
+			(at 2.54 3.2 -90)
 			(layer "F.Fab")
 			(uuid "a4a4c898-e627-47fb-831a-b0255d07918c")
 			(effects
@@ -8781,7 +8303,7 @@
 		(descr "Resistor, Axial_DIN0614 series, Axial, Vertical, pin pitch=5.08mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Vertical pin pitch 5.08mm 1.5W length 14.3mm diameter 5.7mm")
 		(property "Reference" "R2"
-			(at 2.54 -3.97 270)
+			(at 2.54 -3.97 -90)
 			(layer "F.SilkS")
 			(uuid "b72967bd-2946-4ed9-bd72-f75fc6e3ead1")
 			(effects
@@ -8792,7 +8314,7 @@
 			)
 		)
 		(property "Value" "0.22 3 W"
-			(at 2.54 3.97 270)
+			(at 2.54 3.97 -90)
 			(layer "F.Fab")
 			(uuid "70c93560-6f94-42c0-ae96-5f19599470f7")
 			(effects
@@ -8939,7 +8461,7 @@
 			(uuid "2c19c144-8c53-46ef-bad4-67d67ddf492d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.97 270)
+			(at 2.54 -3.97 -90)
 			(layer "F.Fab")
 			(uuid "95399366-fb49-4479-9c1f-e22bd3692f8b")
 			(effects
@@ -8988,7 +8510,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J1"
-			(at 2.54 -6.26 270)
+			(at 2.54 -6.26 -90)
 			(layer "F.SilkS")
 			(uuid "536d36ed-2f60-4356-9541-9697621002d7")
 			(effects
@@ -8999,7 +8521,7 @@
 			)
 		)
 		(property "Value" "10.5 VAC / 4.5 A"
-			(at 2.54 5.66 270)
+			(at 2.54 5.66 -90)
 			(layer "F.Fab")
 			(uuid "db82971f-14c1-46d1-a747-1ea257affbcd")
 			(effects
@@ -9442,7 +8964,7 @@
 			(uuid "6d32e144-6088-4169-b7ea-e2d3f3997636")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.2 270)
+			(at 2.54 3.2 -90)
 			(layer "F.Fab")
 			(uuid "79436a0a-9ec2-4445-a3ce-364754b06b96")
 			(effects
@@ -9844,484 +9366,6 @@
 			(uuid "158b5c78-127e-4bf5-adfd-edc64d8c9629")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-		(layer "F.Cu")
-		(uuid "c5c05e86-300e-4215-a1e7-1a5795fd0097")
-		(at 188.5 73.264629 -90)
-		(descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0002 example for new part number: 26-60-4020, 2 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
-		(tags "connector Molex KK-396 vertical")
-		(property "Reference" "J4"
-			(at 1.98 -6.31 90)
-			(layer "F.SilkS")
-			(uuid "12d47341-319f-4cc7-bf6f-3c01ffb59cab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "COLEMANREG-LEFT-2"
-			(at 1.98 6.1 90)
-			(layer "F.Fab")
-			(uuid "1b764289-4947-40a9-a350-e24e94a30c42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccbdbbe3-1551-4e41-bc85-d551e746357a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "367c5adb-0f34-4814-afa7-0ea349cb1f7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f798114-15f7-40bd-a2b2-9da45b05546c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "41791-0849"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7f07ccf-6679-401f-a4f5-4983a5358f21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f98c3df0-2e84-4117-bf83-3047a5b689b8")
-		(sheetname "Root")
-		(sheetfile "OSDEHA_powersupply_DHTfil.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -0.115 5.01)
-			(end -0.115 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a009006f-be90-46cc-b205-2f2a4187ca00")
-		)
-		(fp_line
-			(start 0 5.01)
-			(end 0 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4efee918-a48d-4c04-96c2-a8dfc961c470")
-		)
-		(fp_line
-			(start 4.075 5.01)
-			(end -0.115 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2395d552-0d25-463a-ac2c-47d3b0414379")
-		)
-		(fp_line
-			(start 0 4.01)
-			(end 3.96 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bed3c285-c824-4af2-a74e-2e0308fcd8ec")
-		)
-		(fp_line
-			(start 0 4.01)
-			(end 0 2.34)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "00a9807e-3f63-47b6-929d-034e9c7fff5d")
-		)
-		(fp_line
-			(start 3.96 4.01)
-			(end 3.96 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "90938f2e-6ac8-4e5e-8ac8-12488c273bc0")
-		)
-		(fp_line
-			(start -2.02 4.005)
-			(end -2.02 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4893c086-641b-4ec3-a911-cc4ad40bbaeb")
-		)
-		(fp_line
-			(start -0.115 4.005)
-			(end -2.02 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fbef6492-095d-4ce3-ae78-b641132867e8")
-		)
-		(fp_line
-			(start 4.075 4.005)
-			(end 4.075 5.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "13ca80e3-ed2b-4d5d-9882-e65c79c2091a")
-		)
-		(fp_line
-			(start 5.98 4.005)
-			(end 4.075 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6979e402-5965-4134-b10f-0e0bab355876")
-		)
-		(fp_line
-			(start 0 2.34)
-			(end 3.96 2.34)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d82a418c-f1dc-41ae-8b39-ff2aaf6d748e")
-		)
-		(fp_line
-			(start 3.96 2.34)
-			(end 3.96 4.01)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c9482c72-d8d2-4f0d-8cc6-0cb8991c9429")
-		)
-		(fp_line
-			(start -2.31 -2)
-			(end -2.31 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "00133e1b-c636-4944-8eb0-4d8316e335ad")
-		)
-		(fp_line
-			(start -0.8 -4.62)
-			(end 0.8 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc875217-ad62-46b1-afd9-2d4239ebca1f")
-		)
-		(fp_line
-			(start 0.8 -4.62)
-			(end 0.8 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "067e907b-e298-4bcb-bb3c-1f7beeaaa138")
-		)
-		(fp_line
-			(start 3.16 -4.62)
-			(end 4.76 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bb2f1f48-2702-4b7e-bd6f-151a321305e9")
-		)
-		(fp_line
-			(start 4.76 -4.62)
-			(end 4.76 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "87e5aac1-eaaf-4410-acb2-93f095892ceb")
-		)
-		(fp_line
-			(start -2.02 -5.22)
-			(end 5.98 -5.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9e2b43a-b427-43c8-abbd-4036f67d99e1")
-		)
-		(fp_line
-			(start -0.8 -5.22)
-			(end -0.8 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eb98e356-1dba-4d51-bb0d-c970d78bf9c1")
-		)
-		(fp_line
-			(start 3.16 -5.22)
-			(end 3.16 -4.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a69fa86-fb9d-404c-bce5-b52e11650d5b")
-		)
-		(fp_line
-			(start 5.98 -5.22)
-			(end 5.98 4.005)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "394c8830-66e3-44d2-a0e1-df37953c9ea3")
-		)
-		(fp_line
-			(start -2.41 5.4)
-			(end 6.37 5.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0f20d291-9604-48ce-ab09-b4eca9a89a6c")
-		)
-		(fp_line
-			(start 6.37 5.4)
-			(end 6.37 -5.61)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bf354d12-42d6-4b0e-84df-5c20fd3d5465")
-		)
-		(fp_line
-			(start -2.41 -5.61)
-			(end -2.41 5.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "45527d36-aecc-499e-a45c-c6952af10559")
-		)
-		(fp_line
-			(start 6.37 -5.61)
-			(end -2.41 -5.61)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1df392fa-1f62-4d02-9709-6017e4312bab")
-		)
-		(fp_line
-			(start -0.005 4.9)
-			(end -0.005 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "270a6b36-b377-4d86-b7cc-efb9305c00cd")
-		)
-		(fp_line
-			(start 3.965 4.9)
-			(end -0.005 4.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d632702e-ce07-4576-8ef0-82612315d83c")
-		)
-		(fp_line
-			(start -1.91 3.895)
-			(end -1.91 -5.11)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6bf7a036-353e-463f-968b-9dd9edf0669f")
-		)
-		(fp_line
-			(start -0.005 3.895)
-			(end -1.91 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cfe9714b-9048-4c47-8be4-85a4a82e6476")
-		)
-		(fp_line
-			(start 3.965 3.895)
-			(end 3.965 4.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "68a1fbe9-127f-4c40-9a11-c5602f91cdce")
-		)
-		(fp_line
-			(start 5.87 3.895)
-			(end 3.965 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6aed70f8-d416-4430-b535-eb6445423507")
-		)
-		(fp_line
-			(start -1.202893 0)
-			(end -1.91 0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4c1b163d-a811-4811-b95c-72d739a8d89f")
-		)
-		(fp_line
-			(start -1.91 -0.5)
-			(end -1.202893 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8961a038-2256-440c-8393-1da638dd6dae")
-		)
-		(fp_line
-			(start -1.91 -5.11)
-			(end 5.87 -5.11)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5c45b50e-880c-4b22-8b2d-8e02548aa9c8")
-		)
-		(fp_line
-			(start 5.87 -5.11)
-			(end 5.87 3.895)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0134a162-38d7-437e-b5c8-b706509c492e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.98 -4.41 90)
-			(layer "F.Fab")
-			(uuid "76224e74-3342-4aac-8e4a-37c873a32084")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at 0 0 270)
-			(size 3.16 4.1)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.079114)
-			(net 4 "/COLEMAN_RAW_DC_LEFT/RAWDC+")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "ce552ca5-2e28-4bc7-89a1-44ab4afad22e")
-		)
-		(pad "2" thru_hole oval
-			(at 3.96 0 270)
-			(size 3.16 4.1)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 3 "/COLEMAN_RAW_DC_LEFT/RAWDC-")
-			(pinfunction "Pin_2")
-			(pintype "passive")
-			(uuid "797242f1-75fc-4234-ac49-010c32504db0")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11764,7 +10808,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 5 -13.75 270)
+			(at 5 -13.75 -90)
 			(layer "F.SilkS")
 			(uuid "a0dcf84b-7cb8-4b56-b3f8-bb59dfaa507c")
 			(effects
@@ -11775,7 +10819,7 @@
 			)
 		)
 		(property "Value" "15000u 25 V"
-			(at 5 13.75 270)
+			(at 5 13.75 -90)
 			(layer "F.Fab")
 			(uuid "83c13666-4832-452b-b8ae-acb237dcb893")
 			(effects
@@ -16193,7 +15237,7 @@
 			(uuid "a8f523bc-627d-4c57-bed8-1fea89588504")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 270)
+			(at 5 0 -90)
 			(layer "F.Fab")
 			(uuid "2ffc7bb1-c3bf-462f-bf59-7ddfa6c1c689")
 			(effects
@@ -16242,7 +15286,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 5 -13.75 270)
+			(at 5 -13.75 -90)
 			(layer "F.SilkS")
 			(uuid "2b034b2c-d15a-4428-aa57-6735dc66712c")
 			(effects
@@ -16253,7 +15297,7 @@
 			)
 		)
 		(property "Value" "15000u 25 V"
-			(at 5 13.75 270)
+			(at 5 13.75 -90)
 			(layer "F.Fab")
 			(uuid "d5e4b71c-8514-4382-aecc-c05691a0e7f7")
 			(effects
@@ -20671,7 +19715,7 @@
 			(uuid "4de97e99-3b21-43dc-8284-2c21eeb334a2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 270)
+			(at 5 0 -90)
 			(layer "F.Fab")
 			(uuid "d2d31a59-70dc-436a-9fb4-1cae082bf1db")
 			(effects
@@ -21089,7 +20133,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 5 -13.75 270)
+			(at 5 -13.75 -90)
 			(layer "F.SilkS")
 			(uuid "58cd9ad6-7bf4-4d7d-bb20-a1708edc4be7")
 			(effects
@@ -21100,7 +20144,7 @@
 			)
 		)
 		(property "Value" "15000u 25 V"
-			(at 5 13.75 270)
+			(at 5 13.75 -90)
 			(layer "F.Fab")
 			(uuid "016a6b2b-67b1-4eae-93ec-8018c4d3570d")
 			(effects
@@ -25518,7 +24562,7 @@
 			(uuid "0cb5faf0-855a-4adc-9012-a23462c97b3b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5 0 270)
+			(at 5 0 -90)
 			(layer "F.Fab")
 			(uuid "dd00d9cf-a3aa-45c9-acf7-dfac590c8d97")
 			(effects
