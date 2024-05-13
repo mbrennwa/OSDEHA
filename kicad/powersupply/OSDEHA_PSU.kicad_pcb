@@ -46938,7 +46938,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "2M"
 			(at -2.54 3.67 90)
 			(layer "F.Fab")
 			(uuid "95e46eae-14a6-434f-af46-b32cc6ae2242")
@@ -46985,7 +46985,7 @@
 				)
 			)
 		)
-		(property "MPN" "3296W-1-105"
+		(property "MPN" "3296W-1-205"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

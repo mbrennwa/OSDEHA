@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "2M"
 			(at 148.59 194.31 90)
 			(effects
 				(font
@@ -7472,7 +7472,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "3296W-1-105"
+		(property "MPN" "3296W-1-205"
 			(at 148.59 194.31 90)
 			(effects
 				(font
