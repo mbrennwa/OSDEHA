@@ -1731,16 +1731,16 @@
 		(uuid "1c35c7a6-5294-44f3-8625-d3040e57a63b")
 	)
 	(junction
+		(at 165.1 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd32438-4d2a-4458-b8ac-ea9cb1eefc9a")
+	)
+	(junction
 		(at 45.72 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "443afed9-c790-44eb-9f82-3fd58139d556")
-	)
-	(junction
-		(at 138.43 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "558115ff-589b-4cf4-b6b3-41193759ec69")
 	)
 	(junction
 		(at 113.03 111.76)
@@ -1759,6 +1759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "976cfe79-85e8-4a8e-bc5a-4fd9bb5c7cb6")
+	)
+	(junction
+		(at 138.43 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c4a72de-fc56-4301-9e32-bad9f510234a")
 	)
 	(junction
 		(at 74.93 57.15)
@@ -1838,6 +1844,12 @@
 		(color 0 0 0 0)
 		(uuid "f801897c-8371-4d3e-99c7-1abbd9d974b4")
 	)
+	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe2ed97a-da47-4cd2-b724-406b5ae03882")
+	)
 	(wire
 		(pts
 			(xy 93.98 105.41) (xy 93.98 111.76)
@@ -1847,6 +1859,16 @@
 			(type default)
 		)
 		(uuid "0818565f-4d32-49f1-9490-dec62ab034a2")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a181f7f-99f0-4f34-a996-1cac52abe924")
 	)
 	(wire
 		(pts
@@ -1860,6 +1882,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc05974-26ff-4401-a58c-6876be334940")
+	)
+	(wire
+		(pts
 			(xy 74.93 57.15) (xy 68.58 57.15)
 		)
 		(stroke
@@ -1870,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 156.21 57.15)
+			(xy 156.21 82.55) (xy 156.21 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 92.71) (xy 156.21 92.71)
+			(xy 151.13 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 64.77) (xy 146.05 68.58)
+			(xy 146.05 64.77) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 157.48 57.15)
+			(xy 156.21 57.15) (xy 165.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2062,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 138.43 64.77)
+			(xy 138.43 82.55) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a92e0f2-2480-4fa5-bbba-6ea178a18e58")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 138.43 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 138.43 92.71)
+			(xy 138.43 91.44) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2140,13 +2182,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 92.71) (xy 140.97 92.71)
+			(xy 165.1 88.9) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9023ef3-d19e-4176-bf3d-fb8d2a564fb6")
+		(uuid "b15b3837-ab16-40e0-83fc-3a61f353447f")
 	)
 	(wire
 		(pts
@@ -2200,16 +2242,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 166.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a8942f-e1de-461c-96f6-6783e51a6756")
-	)
-	(wire
-		(pts
 			(xy 74.93 63.5) (xy 77.47 63.5)
 		)
 		(stroke
@@ -2217,16 +2249,6 @@
 			(type default)
 		)
 		(uuid "cc71e473-8b80-4ef9-882a-de8c3ee50a27")
-	)
-	(wire
-		(pts
-			(xy 146.05 76.2) (xy 146.05 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9fa0ed-e8ec-4ee1-99a7-58abe981daf8")
 	)
 	(wire
 		(pts
@@ -2257,6 +2279,16 @@
 			(type dash)
 		)
 		(uuid "d4e3f45d-eb00-4c97-be71-7cc3b01aecaf")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98f0297-4552-4fbf-b950-83fb34b0ef0b")
 	)
 	(wire
 		(pts
@@ -2360,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 57.15) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58d79fc-6da5-4b58-a0f0-3f874fbba185")
+	)
+	(wire
+		(pts
 			(xy 62.23 80.01) (xy 62.23 66.04)
 		)
 		(stroke
@@ -2402,7 +2444,7 @@
 	)
 	(text "Current\nlimiter"
 		(exclude_from_sim no)
-		(at 154.432 85.09 0)
+		(at 154.686 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,7 +2479,7 @@
 	)
 	(hierarchical_label "DC-"
 		(shape output)
-		(at 165.1 111.76 0)
+		(at 175.26 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2497,7 +2539,7 @@
 	)
 	(hierarchical_label "DC+"
 		(shape output)
-		(at 166.37 57.15 0)
+		(at 176.53 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2598,7 +2640,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC550")
-		(at 146.05 90.17 90)
+		(at 146.05 80.01 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2607,7 +2649,7 @@
 		(dnp no)
 		(uuid "1848d642-02e0-489f-bcee-2d4d2fa1211e")
 		(property "Reference" "Q10"
-			(at 146.05 100.33 90)
+			(at 146.05 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2657,7 @@
 			)
 		)
 		(property "Value" "BC550"
-			(at 146.05 97.79 90)
+			(at 146.05 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2665,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 147.955 95.25 0)
+			(at 147.955 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 146.05 90.17 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 90.17 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,91 +2715,6 @@
 				)
 				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
 					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "1N4007_1")
-		(lib_id "Diode:1N4007")
-		(at 161.29 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38dfe94a-2473-42df-971a-236a93941ea9")
-		(property "Reference" "D27"
-			(at 161.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 161.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
-			(at 161.29 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/1n4001.pdf"
-			(at 161.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1N4007"
-			(at 161.29 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c1afb27-2974-4408-96d6-8a13a9bfa4f3")
-		)
-		(pin "1"
-			(uuid "29b2bd82-0d44-4cb8-a8ba-90ede0d9fd9c")
-		)
-		(instances
-			(project "OSDEHA_PSU"
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2876,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 115.57 69.85 0)
 			(effects
 				(font
@@ -2966,7 +2923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -3053,7 +3010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 101.6 70.612 90)
 			(effects
 				(font
@@ -3137,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 151.13 55.372 90)
 			(effects
 				(font
@@ -3191,6 +3148,91 @@
 				)
 				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1N4007_1")
+		(lib_id "Diode:1N4007")
+		(at 165.1 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89cb34e7-0cf3-40ed-b844-bc0ea924715e")
+		(property "Reference" "D27"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
+			(at 160.655 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4001.pdf"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4007"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac8a64ea-cde9-4328-ba8b-3d97869eaf66")
+		)
+		(pin "1"
+			(uuid "4e2bd2c4-6799-45ca-9eb6-84456f1cd5d7")
+		)
+		(instances
+			(project "OSDEHA_PSU"
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 124.46 64.008 90)
 			(effects
 				(font
@@ -3368,7 +3410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 72.39 180)
+		(at 146.05 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3376,15 +3418,15 @@
 		(dnp no)
 		(uuid "96bf8800-9d52-45b7-a7dc-d3eb3b2e8a0b")
 		(property "Reference" "R34"
-			(at 143.51 72.39 90)
+			(at 143.51 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 146.05 72.39 90)
+		(property "Value" "1k"
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 147.828 72.39 90)
+			(at 147.828 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 146.05 72.39 0)
+			(at 146.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 72.39 0)
+			(at 146.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3462,7 @@
 			)
 		)
 		(property "MPN" "CMF55300R00"
-			(at 146.05 72.39 90)
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 72.39 180)
+		(at 138.43 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4058,7 +4100,7 @@
 		(dnp no)
 		(uuid "ffd443f7-d543-47c4-b3c3-85ca34b5b5da")
 		(property "Reference" "R20"
-			(at 135.89 72.39 90)
+			(at 140.97 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,15 +4108,15 @@
 			)
 		)
 		(property "Value" "300"
-			(at 138.43 72.39 90)
+			(at 138.43 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 140.208 72.39 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 136.652 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4125,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 138.43 72.39 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 72.39 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4144,7 @@
 			)
 		)
 		(property "MPN" "CMF55300R00"
-			(at 138.43 72.39 90)
+			(at 138.43 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)

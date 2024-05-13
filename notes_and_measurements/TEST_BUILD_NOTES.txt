@@ -51,9 +51,10 @@ Build and test log
 
 
 *** TO DO ***
-- Improve PSU tolerance to shorts and similar mishaps. So far the the output FET tends to blow up every time something nasty happens.
-- Link pairs of Coleman DHT Regs using solid wires between boards.
+- Improve PSU tolerance to shorts and similar mishaps. So far the the output FET tends to blow up every time something nasty happens. Follow the steps described by Jan Didden in his T-Reg article.
 - Design PCB for raw DC supply for Coleman Regs. Note on wiring (each channel): common DHT cathodes <--> common Coleman-NEG-pins (both boards linked by solid wire) <--> NEG pin of DC raw supply
+- Order new/revised PCBs.
+- Link pairs of Coleman DHT Regs using solid wires between boards.
 - Build and test amp output stage
 - Tweak and finalize amp PCB, order next version and build/test amp. Add HV psu caps to amp board?
 - test PSU time-delay adjust range for B+ / B- relay. Maybe increase turn-on delay time a bit to allow for more warm up of the input-stage tubes?
