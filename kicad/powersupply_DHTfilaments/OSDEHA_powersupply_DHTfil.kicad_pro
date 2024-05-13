@@ -51,8 +51,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|126500001|77197910|98d6ff21-c977-4dac-9de0-0aa51236d9b6|9a1168ae-2f86-4aff-89c9-cb75ce26c273",
+        "courtyards_overlap|126606152|85445001|98d6ff21-c977-4dac-9de0-0aa51236d9b6|db29e99d-6dbc-444a-9e10-73c75691834b",
+        "courtyards_overlap|131377350|85445001|a47a5c7f-a979-44ae-9475-49ff54a01a2f|db29e99d-6dbc-444a-9e10-73c75691834b",
+        "courtyards_overlap|131499999|77197910|9a1168ae-2f86-4aff-89c9-cb75ce26c273|a47a5c7f-a979-44ae-9475-49ff54a01a2f"
+      ],
       "meta": {
         "version": 2
       },
@@ -172,7 +183,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0,
+        3.0,
+        4.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -199,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -578,14 +599,6 @@
     [
       "6a766a35-7f7e-4680-bf64-1ed131aec470",
       "Root"
-    ],
-    [
-      "5c8de33b-0aec-4bd3-8a06-d4311bc9100c",
-      "COLEMAN_RAW_DC_LEFT"
-    ],
-    [
-      "a7689cda-8b81-433b-9126-0f3438ec2ce2",
-      "COLEMAN_RAW_DC_RIGHT"
     ]
   ],
   "text_variables": {}

@@ -48,10 +48,11 @@ Build and test log
 2024-05-12
 - Built and tested 4 x Coleman DHT Filament Regulators.
 
+2024-05.13
+- Work on HV PSU protection (following Jan Didden T-Reg description)
 
 
 *** TO DO ***
-- Improve PSU tolerance to shorts and similar mishaps. So far the the output FET tends to blow up every time something nasty happens. Follow the steps described by Jan Didden in his T-Reg article.
 - Design PCB for raw DC supply for Coleman Regs. Note on wiring (each channel): common DHT cathodes <--> common Coleman-NEG-pins (both boards linked by solid wire) <--> NEG pin of DC raw supply
 - Order new/revised PCBs.
 - Link pairs of Coleman DHT Regs using solid wires between boards.
