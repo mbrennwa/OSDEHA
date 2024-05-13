@@ -1,0 +1,2 @@
+Example:
+ps2pdf -dEPSCrop OPS_concept.ps OPS_concept.pdf

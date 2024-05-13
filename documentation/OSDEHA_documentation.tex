@@ -32,6 +32,26 @@ The OSDEHA uses DHT tubes for its output stage and implements the following desi
 \item The amplifier should be reasonably compact.
 \end{itemize}
 
+
+\section{Amplifier Circuit}
+
+Electrostatic headphones use three electrodes. The two outer electrodes (stators) are fixed, while the one in the center (diaphragm) is free to move. The diaphragm is biased relative to the stators at a high voltage (with the charge on the diaphramg held constant). The audio signal is applied to the stators, whereby the voltages applied to the two stators are of opposite polarity to drive the diaphgragm. The amplifier output therefore must provide symmetric audio outputs at opposite polarity. According to th design goals, the amplifier also needs a differential input and gain stage. \figr{OPS_concept} shows the conceptual layout of the OSDEHA.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{OPS_concept.pdf}
+\caption{Conceptural layout of the OSDEHA: differential input, gain stage stage, and push-pull DHT output stage.}
+\figlabel{OPS_concept}
+\end{center}
+\end{figure}
+
+
+\subsection{Output Stage}
+FROM DIYAUDIO POST:
+    The output stage needs to drive very high impedance estat headphones. To make sure the audio/AC power is used efficiently into the headphones, the anode loads need to present a (much) higher AC impedance to the anodes. So we're looking at constant-current loads (current sources/sinks, CCS). CCS loads also help with optimizing the linearity and voltage gain of the amplifier, and with suppressing ripple and noise from the +HV rails.
+    The gyrator CCS type (as discussed by @mogliaa and others) works as a CCS in the audio/AC domain, but provides a fixed voltage at DC. This may be a useful feature to fix the DC voltages at the anodes, and hence to adjust and maintain the amplifier outputs close to 0 V.
+
+
 \section{License information}
 Copyright Matthias Brennwald 2024.                                                    
 
