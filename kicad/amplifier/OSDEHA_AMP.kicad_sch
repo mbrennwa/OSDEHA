@@ -7543,6 +7543,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "41791-0850"
+			(at 378.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1be141e1-12f6-4cba-b1f7-4f97b323d5a4")
 		)

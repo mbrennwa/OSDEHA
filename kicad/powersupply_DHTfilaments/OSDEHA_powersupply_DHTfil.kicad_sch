@@ -1267,6 +1267,7 @@
 	)
 	(label "DC+"
 		(at 147.32 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1299,6 +1300,7 @@
 	)
 	(label "DC-"
 		(at 147.32 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,6 +1311,7 @@
 	)
 	(label "AC1"
 		(at 62.23 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,6 +1322,7 @@
 	)
 	(label "AC2"
 		(at 62.23 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SLPX153M025C7P3 "
+		(property "MPN" "SLPX153M025C7P3"
 			(at 129.54 59.69 0)
 			(effects
 				(font

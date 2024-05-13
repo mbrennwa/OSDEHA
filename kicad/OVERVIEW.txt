@@ -1,9 +1,11 @@
 OSDEHA PCBs / boards
 
-A complete set of OSDEHA boards consists of the following:
+A complete set of PCBs for a stereo OSDEHA consists of the following:
 
-2 x amplifier boards (including DHT filament CCS)
-1 x power supply board (HV supply, raw DHT filament supply, heater supply, HV power-on delay)
+2 x amplifier boards
+1 x power supply board (HV supply, heater supply for input tubes, stator BIAS, HV power-on delay)
+4 x Coleman DHT Filament regulators (PCBs + parts kit from Rode Coleman)
+2 x Raw DC supply for Coleman DTH Filament regs
 1 x volume control board (different versions for different pots: Alps RK27, Khozmo, etc.)
 
 Mains transformers:
