@@ -22,6 +22,8 @@ THIS DOCUMENT IS UNDER CONSTRUCTION
 
 \section{Overview}
 
+This document describes an audio amplifier for electrostatic headphones. The design of the amplifier is targeted at DIY builders and is published as open hardware (see \secn{license}).
+
 Electrostatic headphones operate on audio signals characterized by high voltage and low current. This is the domain of vacuum tubes, making them most suitable as drivers for e-stats.  While there exist a number of tube amplifiers for e-stat headphones, many of these designs do not utilize directly-heated triodes (DHTs), which exhibit outstanding linearity and sound quality.\par
 
 The OSDEHA uses DHT tubes for its output stage and implements the following design goals:
@@ -52,16 +54,16 @@ FROM DIYAUDIO POST:
     The gyrator CCS type (as discussed by @mogliaa and others) works as a CCS in the audio/AC domain, but provides a fixed voltage at DC. This may be a useful feature to fix the DC voltages at the anodes, and hence to adjust and maintain the amplifier outputs close to 0 V.
 
 
-\section{License information}
+\section{License information} \seclabel{license}
 Copyright Matthias Brennwald 2024.                                                    
 
 The OSDEHA is Open Hardware and is licensed under the CERN-OHL-S v2 or any later version.
 
-%%% You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (\url{https://ohwr.org/cern_ohl_s_v2.txt}).
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (\url{https://ohwr.org/cern_ohl_s_v2.txt}).
 
 This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 
-%%% Source location: \url{https://github.com/mbrennwa/OSDEHA}
+Source location: \url{https://github.com/mbrennwa/OSDEHA}
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the OSDEHA or other products you make using this source.            
 
