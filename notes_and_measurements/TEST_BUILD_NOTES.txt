@@ -14,7 +14,7 @@ Build and test log
 
 2024-05-04
 - Tested PSU board using the Toroidy mains transformers (instead of DC input from bench PSU as before). Works.
-- Built stator HV bias. Tested by loading it with a 4.7 uF capacitor for a few seconds, then meansured the voltage across the cap using a DVM. Voltage drops due to internal resistance of DVM, but first reading was above 500 VDC, so it seems to work ok. (see also further measurement 2024-05-09)
+- Built HV BIAS supply. Tested by loading it with a 4.7 uF capacitor for a few seconds, then meansured the voltage across the cap using a DVM. Voltage drops due to internal resistance of DVM, but first reading was above 500 VDC, so it seems to work ok. (see also further measurement 2024-05-09)
 
 2024-05-04
 - Moved PSU board to prototype chassis with IEC inlet and mains switch for easier and safer work
@@ -44,13 +44,22 @@ Build and test log
 	31.6		yes		-79		-91
 
 	--> 2nd is always considerably lower with matched tubes, 3rd is sometimes lower.
+- Probe slip --> short and bang! Let's stop for today...
 
 2024-05-12
 - Built and tested 4 x Coleman DHT Filament Regulators.
 
-2024-05.13
+2024-05-13
 - Work on circuit+PCB design for HV PSU protection (following Jan Didden T-Reg description). Increased trimmer R value for HV time-delay switch to allow longer turn-on delay.
-- Work on PCB design for raw-DC supply for Coleman DHT Filament regs
+- Work on PCB design for raw-DC supply for Coleman DHT Filament regs.
+- Found issue with HV PSU after short (test probe slip): protection Zeners on MOSFets (G-S) shorted out. One MOSFet was drawing a lot of grid current, which messed up the CCS voltage reference. Replaced all HV MOSFets and Zeners.
+
+2024-05-14
+- Tested HV PSU: output voltages are ok again, adjusted to target values. Measued voltage drop across the MOSFet gate resistors (300 Ohm): one had 0.0 mV, the other two had 2.7 mV --> gate current is < 1E-5 A, or 50x less than CCS current.
+- Check parts on amp board (IPS) after short (probe slip and bang) on 2024-05-11. Replaced the DN2540 parts in the CCS (just in case they were damaged). All resistors checked ok. 6E5P heaters are ok, but the anode/cathode/grid system is shot. Replaced the tubes. Amp IPS now works again. Test signals taken after DC-coupling caps (470nF):
+	- Output (balanced) sine signal starts clipping at 106 Vrms. Thats 300 Vpp.
+	- Triangle and rect signals are clean, no overshoot.
+	- Frequency response is flat up to 720 kHz, where sine signal is down by 1/2x (-6 dB).
 
 *** TO DO ***
 - Order new/revised PCBs.

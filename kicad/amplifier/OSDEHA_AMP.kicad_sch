@@ -5724,6 +5724,20 @@
 		)
 		(uuid "d1b58efe-76df-4c62-9a7a-d2669eb34e7a")
 	)
+	(text "STF5NK100 INSTEAD?"
+		(exclude_from_sim no)
+		(at 236.982 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 4 33 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5ecdab0-aab5-4af1-a3ad-9934a2cb63f0")
+	)
 	(text "OSDEHA Draft 240224, not tested, mbrennwa@diyAudio"
 		(exclude_from_sim no)
 		(at 279.4 69.85 0)
@@ -5767,6 +5781,20 @@
 			(justify left bottom)
 		)
 		(uuid "f49bf808-bd63-434d-beed-5fd10c71054c")
+	)
+	(text "STF5NK100 INSTEAD?"
+		(exclude_from_sim no)
+		(at 235.966 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 4 33 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "faad0398-2d0b-4b0b-946a-f10043de6566")
 	)
 	(text "20 mA"
 		(exclude_from_sim no)
