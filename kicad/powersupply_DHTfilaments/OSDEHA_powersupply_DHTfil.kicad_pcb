@@ -12828,14 +12828,6 @@
 		(uuid "0bb499d1-3b42-4562-b198-f5ce7ee6d180")
 	)
 	(segment
-		(start 100.73037 76.39463)
-		(end 99 78.125)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "180f1b02-1126-4cfc-9912-db61510d3b4d")
-	)
-	(segment
 		(start 129 70.945)
 		(end 120.055 70.945)
 		(width 4.5)
