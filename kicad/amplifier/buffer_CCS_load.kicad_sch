@@ -126,16 +126,14 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
+		(symbol "Transistor_FET_Other:DN2540N5-G"
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,8 +141,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "DN2540N5-G"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -152,8 +150,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 -14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -161,8 +159,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+				(at 0 -12.065 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,7 +168,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "150mA Ids, 400 Vds, Depletion-mode N-channel MOSFET, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -179,34 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "N-Channel Depletion-Mode MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,7 +186,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DN2540N5-G_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -242,31 +222,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -382,11 +338,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "DN2540N5-G_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -401,10 +357,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -703,16 +659,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
 		(at 134.62 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3a393a6-3c57-4c9c-b2ef-bc89d73f134f")
+		(uuid "fad04642-fc60-4ed8-9ceb-2cd402faa290")
 		(property "Reference" "Q9"
-			(at 139.7 83.82 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +677,7 @@
 			)
 		)
 		(property "Value" "DN2540"
-			(at 139.7 86.36 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +686,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 139.7 82.55 0)
+			(at 134.62 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,8 +694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/268/DN2540_B060313-965103.pdf"
-			(at 134.62 97.79 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf"
+			(at 134.62 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,14 +721,14 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "0098a241-d7e0-4cc0-a7d7-2eeafc2b3447")
+		)
 		(pin "1"
-			(uuid "f137a2cf-ac8b-488e-99ab-8163bd4a94e0")
+			(uuid "0085d9d2-31c0-40f7-bc26-875ec4d94354")
 		)
 		(pin "3"
-			(uuid "26f3e0c6-f132-4518-9cce-4b1ab5a4935c")
-		)
-		(pin "2"
-			(uuid "0725db84-f060-411d-b1f1-2dfc2011a9a7")
+			(uuid "066bd329-5fbc-4d3d-ad59-a64776fed92c")
 		)
 		(instances
 			(project "OSDEHA_AMP"
