@@ -60,13 +60,17 @@ Build and test log
 	- Output (balanced) sine signal starts clipping at 106 Vrms. Thats 300 Vpp.
 	- Triangle and rect signals are clean, no overshoot.
 	- Frequency response is flat up to 720 kHz, where sine signal is down by 1/2x (-6 dB).
+	
+2024-05-15
+- More work on PCB layout for HV PSU (avoid vertical small resistors for easier debugging)
+- Fixed errors on amp schematic and PCB (wrong CCS connection, wrong pinout on some FETs). Further improvements on PCB layout.
+- Tested fixed-bias voltage adjust/range. Works ok.
+- Tested buffer stage. Does not work, seems to short out the HV B2- supply somehow. I can't figure it out, possibly due to the messed up pinout and CCS connection (I tried some workarounds on the PCB, but no success). Tested CCS and buffer circuit in a dead-bug build, and that seemed to work as expected.
+- Finalized new version of PCBs (amp, HV PSU, DC-raw filament PSU), exported Gerbers, and ordered new PCBs (JLCPCB).
 
 *** TO DO ***
-- Order new/revised PCBs.
 - Link pairs of Coleman DHT Regs using solid wires between boards.
 - Build and test amp output stage
-- Tweak and finalize amp PCB, order next version and build/test amp. Add HV psu caps to amp board?
 - design chassis, mechanical construction
 - choose/decide on volume pot
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
-
