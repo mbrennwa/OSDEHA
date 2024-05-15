@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OSDEHA_AMP")(type "KiCad")(uri "${KIPRJMOD}/OSDEHA_AMP.pretty")(options "")(descr ""))
+)
