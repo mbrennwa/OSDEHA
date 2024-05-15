@@ -2351,319 +2351,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0) hide)
@@ -5934,6 +5621,87 @@
 		(uuid "f1820587-ed52-4d8f-bebd-46df2254d401")
 	)
 	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
+		(at 237.49 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0671a9ab-d541-4c7f-ad4e-b1c05dc9c97d")
+		(property "Reference" "Q4"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STF3LN80K5"
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 237.49 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
+			(at 237.49 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STF3LN80K5"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6afd025e-6f2e-464c-9b1b-9f4067ce64f0")
+		)
+		(pin "1"
+			(uuid "96bcd039-3ed2-4c2b-b125-30e8a80c3ded")
+		)
+		(pin "3"
+			(uuid "0c7b5534-2458-4e17-8910-197d8ae3e1f3")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 129.54 95.25 180)
 		(unit 1)
@@ -6633,6 +6401,87 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:DN2540N5-G")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2420bbd0-ba50-4ffb-8dd6-37c9233d0e57")
+		(property "Reference" "Q3"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STF3LN80K5"
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 237.49 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
+			(at 237.49 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STF3LN80K5"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e68a436-99d4-4882-8119-9ac46f2046ef")
+		)
+		(pin "1"
+			(uuid "b5cdd257-a0bc-4220-b028-7c1c718e632c")
+		)
+		(pin "3"
+			(uuid "a7d3f4e5-d313-4882-a85e-95c8c5bf4f8b")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10119,87 +9968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 237.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd36f530-bb7c-4ec4-b35b-4fef7cf53e51")
-		(property "Reference" "Q3"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STF3LN80K5"
-			(at 242.57 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
-			(at 237.49 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STF3LN80K5"
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab43ed6a-bf5c-417b-8e79-c29c6ece4cc4")
-		)
-		(pin "3"
-			(uuid "177d62b5-f845-49ba-9c24-ac1ce629ce7b")
-		)
-		(pin "2"
-			(uuid "1bb9e8b4-df18-4353-b53e-5dff399299e5")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 369.57 121.92 90)
 		(unit 1)
@@ -11129,87 +10897,6 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 237.49 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff7816f0-60d8-45db-a468-3e189ae7affa")
-		(property "Reference" "Q4"
-			(at 242.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STF3LN80K5"
-			(at 242.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 242.57 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ch/datasheet/2/389/stf8n80k5-1850706.pdf"
-			(at 237.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STF3LN80K5"
-			(at 237.49 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39452471-0b3d-4a9c-8904-769274aa17af")
-		)
-		(pin "3"
-			(uuid "7c3a7092-6085-4a7e-8d43-a8d7b4c99e9b")
-		)
-		(pin "2"
-			(uuid "8d8c0061-44b4-4ae5-b6ce-67bb688bb457")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
