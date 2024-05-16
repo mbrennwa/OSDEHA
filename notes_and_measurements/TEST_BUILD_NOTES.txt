@@ -69,6 +69,7 @@ Build and test log
 - Finalized new version of PCBs (amp, HV PSU, DC-raw filament PSU), exported Gerbers, and ordered new PCBs (JLCPCB).
 
 *** TO DO ***
+- Build wire harness with load resistors for HV PSU for easy and simultaneous testing of the PSU under load: 4-pin KK396 on PSU end, other end of wires to 3 x 27k power resistors linked to GND.
 - Link pairs of Coleman DHT Regs using solid wires between boards.
 - Build and test amp output stage
 - design chassis, mechanical construction
