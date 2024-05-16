@@ -23,7 +23,7 @@ Build and test log
 2024-05-09
 - Installed mains transformers and wiring in proto chassis
 - Tested PSU in proto chassis (ok)
-- Measured stator BIAS using a very high value resistor (approx 10 G Ohm) in series with the DVM (internal resistance approx. 10 M Ohm). The 10 GOhm resistor effectively reduces the load on the BIAS supply. Calibrated the DVM readings from other PSU outputs. Result: BIAS = 575 VDC (that's less than 1% off from the target!). Perfect.
+- Measured diaphgragm BIAS using a very high value resistor (approx 10 G Ohm) in series with the DVM (internal resistance approx. 10 M Ohm). The 10 GOhm resistor effectively reduces the load on the BIAS supply. Calibrated the DVM readings from other PSU outputs. Result: BIAS = 575 VDC (that's less than 1% off from the target!). Perfect.
 
 2024-05-11
 - Built amplifier input stage. Picked random 6E5P tubes from the box (no matching etc.):

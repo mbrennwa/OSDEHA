@@ -2649,15 +2649,15 @@
 		(dnp no)
 		(uuid "1848d642-02e0-489f-bcee-2d4d2fa1211e")
 		(property "Reference" "Q10"
-			(at 146.05 90.17 90)
+			(at 147.574 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BC550"
-			(at 146.05 87.63 90)
+		(property "Value" "2N3904"
+			(at 147.574 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/2n3904.pdf"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -2687,6 +2687,15 @@
 		)
 		(property "Description" ""
 			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N3904"
+			(at 146.05 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

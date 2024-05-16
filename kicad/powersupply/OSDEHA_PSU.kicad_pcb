@@ -372,6 +372,7 @@
 		(property "Value" "GBJ3510"
 			(at 12.6 4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cc16d310-118c-4725-8041-2678f05c3052")
 			(effects
 				(font
@@ -698,6 +699,7 @@
 		(property "Value" "1k"
 			(at 5.08 2.37 -90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "15247187-5826-4d27-90b5-cfb8a92cffff")
 			(effects
 				(font
@@ -983,6 +985,7 @@
 		(property "Value" "10M90S"
 			(at 2.54 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "31d79a67-2869-4147-87de-a9ba02efc215")
 			(effects
 				(font
@@ -7029,6 +7032,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4595a5f9-0c48-47c7-8228-b0eaf22b946b")
 			(effects
 				(font
@@ -7636,6 +7640,7 @@
 		(property "Value" "100 5 W"
 			(at 11.43 5.62 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5f0b1bd8-2b38-43ed-aaf5-fb2a0372c213")
 			(effects
 				(font
@@ -9388,7 +9393,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D9"
-			(at -2.032 0 0)
+			(at -2.032 0 180)
 			(layer "F.SilkS")
 			(uuid "2fae502f-5c65-4366-9102-04894c0f8a35")
 			(effects
@@ -9401,6 +9406,7 @@
 		(property "Value" "200 V"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1fc65a96-8ab6-44b9-b9d3-3523f3dc71a9")
 			(effects
 				(font
@@ -9446,7 +9452,7 @@
 			)
 		)
 		(property "MPN" "ZY200"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db144a25-28fc-45ce-8e92-00946c041d0c")
@@ -10309,6 +10315,7 @@
 		(property "Value" "100n 1 kV"
 			(at 2.467 5.906 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a0013d60-64df-46df-b13c-500538ebe97e")
 			(effects
 				(font
@@ -10838,6 +10845,7 @@
 		(property "Value" "100n"
 			(at 11.25 5.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f253ebd3-54e6-4733-822f-3e3bbc188bfc")
 			(effects
 				(font
@@ -10883,7 +10891,7 @@
 			)
 		)
 		(property "MPN" "F881DH104M300L "
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "890eab77-a478-467c-b45b-4953f82d6a42")
@@ -11368,6 +11376,7 @@
 		(property "Value" "STTH512FP"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c09bec20-5d8b-4a7b-b918-3d85da7badaa")
 			(effects
 				(font
@@ -11413,7 +11422,7 @@
 			)
 		)
 		(property "MPN" "STTH512FP"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bea4214-8267-4d42-b910-8df4fe14e6cd")
@@ -11881,6 +11890,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4cb1ffdf-596b-4a3f-875a-2ce3c7700ea6")
 			(effects
 				(font
@@ -11995,6 +12005,7 @@
 		(property "Value" "SBT1845-3G"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b08bedc0-ca26-4f7b-8ae9-0596ce98d12c")
 			(effects
 				(font
@@ -12040,7 +12051,7 @@
 			)
 		)
 		(property "MPN" "SBT1845-3G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b69e625-caa3-4c7e-9704-5911abb0afc5")
@@ -12892,6 +12903,7 @@
 		(property "Value" "4.7M"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7fd77062-5390-4179-83ed-fd3deadf035e")
 			(effects
 				(font
@@ -13176,6 +13188,7 @@
 		(property "Value" "BD138"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "567608ea-f246-420e-8fd0-3ad549e96e01")
 			(effects
 				(font
@@ -13221,7 +13234,7 @@
 			)
 		)
 		(property "MPN" "BD138"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49617556-548a-4479-a600-ea2946e8672c")
@@ -14337,7 +14350,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 3.368113 -3.75 0)
+			(at 3.368113 -3.75 180)
 			(layer "F.SilkS")
 			(uuid "b43304bb-d4fc-4a8b-bce9-18b1cad170b0")
 			(effects
@@ -14350,6 +14363,7 @@
 		(property "Value" "22u 16 V"
 			(at 1 3.75 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "599ae0a0-f683-4a70-97ff-86e5c369ee6b")
 			(effects
 				(font
@@ -14395,7 +14409,7 @@
 			)
 		)
 		(property "MPN" "860160372003 "
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc7c8732-aef2-4a5c-add3-468281df56d6")
@@ -17077,6 +17091,7 @@
 		(property "Value" "100n 1 kV"
 			(at 7.5 5.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ba911c5e-4245-4f18-a6c8-c391197dfc8d")
 			(effects
 				(font
@@ -17322,6 +17337,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7462f3ca-da8e-46dc-a1db-1b1b2b2b7037")
 			(effects
 				(font
@@ -17433,6 +17449,7 @@
 		(property "Value" "866k"
 			(at 1.27 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b1f8d0f7-c0ab-43bf-b412-b277fb8b9dcc")
 			(effects
 				(font
@@ -17639,6 +17656,7 @@
 		(property "Value" "2"
 			(at 5.08 2.37 -90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ca9bf1df-3a16-4bdd-89da-8709ae531641")
 			(effects
 				(font
@@ -18207,6 +18225,7 @@
 		(property "Value" "1N4007"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5cb47e0a-fd7a-4962-8982-e3a4e2d41a21")
 			(effects
 				(font
@@ -19338,6 +19357,7 @@
 		(property "Value" "47k"
 			(at 1.27 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "73e112c8-e0a6-4ae5-845b-87e2168ed570")
 			(effects
 				(font
@@ -19544,6 +19564,7 @@
 		(property "Value" "STTH512FP"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95668b51-eab0-4e6c-a5da-e509c963ac5f")
 			(effects
 				(font
@@ -19589,7 +19610,7 @@
 			)
 		)
 		(property "MPN" "STTH512FP "
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd5b7503-0d90-4ab8-b873-0148359d08a3")
@@ -20440,6 +20461,7 @@
 		(property "Value" "200 V"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "89643c11-19ac-47df-b819-e588f0139498")
 			(effects
 				(font
@@ -20809,6 +20831,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "38a677e9-47af-4975-aaa2-94a8276d1966")
 			(effects
 				(font
@@ -20920,6 +20943,7 @@
 		(property "Value" "1M"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "51ff52c4-86f0-448a-a880-3a0713ee2823")
 			(effects
 				(font
@@ -20965,7 +20989,7 @@
 			)
 		)
 		(property "MPN" "CMF551M0000"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8d1f2bf-aaac-4bb1-aafe-27c81f1b3779")
@@ -21204,6 +21228,7 @@
 		(property "Value" "100n 1 kV"
 			(at 7.5 5.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8a7bac6f-c0ce-4ac5-8cc0-a8dcd42adcd4")
 			(effects
 				(font
@@ -28017,6 +28042,7 @@
 		(property "Value" "1.91k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "10a7c571-3516-4acd-b35a-8bd59213334c")
 			(effects
 				(font
@@ -28062,7 +28088,7 @@
 			)
 		)
 		(property "MPN" "CMF551K9100"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7470f85-24cb-444c-83dd-fc6d976dce42")
@@ -28658,7 +28684,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q10"
-			(at 4.77 -0.27 0)
+			(at 4.77 -0.27 180)
 			(layer "F.SilkS")
 			(uuid "355d5b4a-82f4-4773-8d99-86fc899a9b82")
 			(effects
@@ -28668,9 +28694,10 @@
 				)
 			)
 		)
-		(property "Value" "BC550"
-			(at 1.27 2.79 -90)
+		(property "Value" "2N3904"
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f79ffaba-0c91-4658-beeb-980edd59d4a6")
 			(effects
 				(font
@@ -28691,7 +28718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/2n3904.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28712,6 +28739,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N3904"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f79f17fe-8284-4d7e-9ba0-f7fa53c2715d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28825,7 +28865,7 @@
 			(uuid "6222dab6-8cd6-4faf-89b7-2cbb715be013")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 -90)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "12a802c7-c207-4bdc-a403-dc01c372d5a9")
 			(effects
@@ -28908,6 +28948,7 @@
 		(property "Value" "2"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c52bfc38-bc43-44e4-9bf0-22ea56b4517c")
 			(effects
 				(font
@@ -30606,6 +30647,7 @@
 		(property "Value" "LM1085-ADJ"
 			(at 2.54 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "982edfcd-1d78-4626-b05d-f5578b910d8c")
 			(effects
 				(font
@@ -30923,6 +30965,7 @@
 		(property "Value" "180 V"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0728cb15-43a8-4cf3-bb06-08b903501a08")
 			(effects
 				(font
@@ -31292,6 +31335,7 @@
 		(property "Value" "NE555P"
 			(at 3.81 9.95 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "87db832b-dea0-4b0c-bde4-c1183afdf08c")
 			(effects
 				(font
@@ -32750,6 +32794,7 @@
 		(property "Value" "100n 1 kV"
 			(at 7.5 5.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1e133ffb-99f9-4852-ab69-bbd96d5d5b3c")
 			(effects
 				(font
@@ -33554,6 +33599,7 @@
 		(property "Value" "STTH512FP"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "671f2f14-3122-4e79-99df-20c04ff03945")
 			(effects
 				(font
@@ -33599,7 +33645,7 @@
 			)
 		)
 		(property "MPN" "STTH512FP"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e97414bd-950c-43f2-bbd1-85d99a14164f")
@@ -33860,6 +33906,7 @@
 		(property "Value" "866k"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "50e823cd-6eb2-4a78-bc0d-b54cda1ab069")
 			(effects
 				(font
@@ -34511,7 +34558,7 @@
 				)
 			)
 		)
-		(property "Value" "BC550"
+		(property "Value" "2N3904"
 			(at 1.27 2.79 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34535,7 +34582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/2n3904.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34556,6 +34603,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N3904"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e36551a2-6297-48c4-bcce-8e64632f5ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -35217,7 +35277,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D7"
-			(at 9.652 0 0)
+			(at 9.652 0 180)
 			(layer "F.SilkS")
 			(uuid "4146820e-4f28-4411-8089-0d28f3dab549")
 			(effects
@@ -35230,6 +35290,7 @@
 		(property "Value" "1N4007"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5101017e-7f53-47a6-816d-245f0564564b")
 			(effects
 				(font
@@ -35275,7 +35336,7 @@
 			)
 		)
 		(property "MPN" "1N4007"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "631b10b8-3717-4b78-b054-0fcbdcd84d7f")
@@ -35883,6 +35944,7 @@
 		(property "Value" "SBT1845-3G"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b27d32e5-3b25-47a6-8d75-fa03490478e2")
 			(effects
 				(font
@@ -35928,7 +35990,7 @@
 			)
 		)
 		(property "MPN" "SBT1845-3G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e41896e-ce81-4ee9-89c7-3fb7f264e255")
@@ -36189,6 +36251,7 @@
 		(property "Value" "SBT1845-3G"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3d5b0714-c471-4247-9136-65afc463d5c3")
 			(effects
 				(font
@@ -36234,7 +36297,7 @@
 			)
 		)
 		(property "MPN" "SBT1845-3G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9ca48f3-8b38-4f7f-af47-e9f8b5b1987e")
@@ -36495,6 +36558,7 @@
 		(property "Value" "10k"
 			(at 1.27 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cfc7e24d-a627-456a-bfc2-a65722daaede")
 			(effects
 				(font
@@ -36544,6 +36608,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8fe070b-839b-45d0-b532-e6c01870b93d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a49af22-2a77-45f4-b0b7-804d6b582b01")
 			(effects
 				(font
 					(size 1 1)
@@ -36701,6 +36778,7 @@
 		(property "Value" "300"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "eabeb1c9-06d4-498d-94b8-cf3222a65eff")
 			(effects
 				(font
@@ -36985,6 +37063,7 @@
 		(property "Value" "470"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9c772e41-e85d-40da-9402-396c35b61191")
 			(effects
 				(font
@@ -38105,6 +38184,7 @@
 		(property "Value" "RT424006"
 			(at 12.192 4.25 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3c82055b-4457-4e04-b69f-ad46df6b5d72")
 			(effects
 				(font
@@ -38150,7 +38230,7 @@
 			)
 		)
 		(property "MPN" "RT424006"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8bcc80b-8009-49af-8eb4-b982bf510606")
@@ -38549,6 +38629,7 @@
 		(property "Value" "STTH512FP"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b184d949-664d-460f-8602-85d875612229")
 			(effects
 				(font
@@ -38594,7 +38675,7 @@
 			)
 		)
 		(property "MPN" "STTH512FP"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8964e30e-b652-4caa-808f-72be8918c080")
@@ -39141,6 +39222,7 @@
 		(property "Value" "1N4007"
 			(at 1.27 3.639635 -135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "999fc312-8d9c-45e8-a1eb-e48309d5ac81")
 			(effects
 				(font
@@ -40619,7 +40701,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 0.95 1.725 0)
+			(at 0.95 1.725 180)
 			(layer "F.SilkS")
 			(uuid "8bc4bf57-b0f6-475c-bde3-3aec7a4d33ef")
 			(effects
@@ -40630,8 +40712,9 @@
 			)
 		)
 		(property "Value" "866k"
-			(at 5.08 2.37 -90)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "eea25766-7b56-4a2e-88ad-97751f07e1db")
 			(effects
 				(font
@@ -40855,7 +40938,7 @@
 			(uuid "85af7b9f-30ba-4169-a89a-831c6ee0f8c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 -90)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "bc42a4a7-554b-4fea-bd9a-bca0cf42366a")
 			(effects
@@ -40904,7 +40987,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C7"
-			(at 3.524 -3.302 0)
+			(at 3.524 -3.302 180)
 			(layer "F.SilkS")
 			(uuid "0cccbc53-f6af-484d-8532-1ad4c9ea720b")
 			(effects
@@ -40917,6 +41000,7 @@
 		(property "Value" "22u 16 V"
 			(at 1 3.75 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1a8d7163-8686-4aa3-a929-3618d916c493")
 			(effects
 				(font
@@ -40962,7 +41046,7 @@
 			)
 		)
 		(property "MPN" "860160372003"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "797a0075-7678-4b69-9238-bbc757abffae")
@@ -42506,6 +42590,7 @@
 		(property "Value" "10000u 25 V"
 			(at 5 13.75 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f9cd84c6-aee4-4c8b-9a78-5ba972aba1bb")
 			(effects
 				(font
@@ -47266,7 +47351,7 @@
 				)
 			)
 		)
-		(property "Value" "BC550"
+		(property "Value" "2N3904"
 			(at 1.27 2.79 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47290,7 +47375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/2n3904.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47311,6 +47396,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N3904"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f56f0ca-0714-4ab0-96d1-d1eb48c98929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -47507,6 +47605,7 @@
 		(property "Value" "1N4004"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b3f663bc-38ad-4c1e-ad12-6dddea27f6f8")
 			(effects
 				(font
@@ -47875,6 +47974,7 @@
 		(property "Value" "2M"
 			(at -2.54 3.67 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95e46eae-14a6-434f-af46-b32cc6ae2242")
 			(effects
 				(font
@@ -48150,7 +48250,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 19.526499 14.681 0)
+			(at 19.526499 14.681 180)
 			(layer "F.SilkS")
 			(uuid "5c395422-c539-4d61-9f9b-44ecb66ab65f")
 			(effects
@@ -48163,6 +48263,7 @@
 		(property "Value" "220u 630 VDC"
 			(at 5 18.75 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5bf333aa-c7ca-4c8e-b486-b7216c39d7c9")
 			(effects
 				(font
@@ -48208,7 +48309,7 @@
 			)
 		)
 		(property "MPN" "ALC70A221DE630 "
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1aff7ce9-582a-4c64-a318-2aec83f139b7")
@@ -54135,6 +54236,7 @@
 		(property "Value" "1N4007"
 			(at 1.27 3.639635 135)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fd9835d2-c7b8-46b2-a070-b857a693ed72")
 			(effects
 				(font
@@ -54629,7 +54731,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R26"
-			(at 11.825 0.025 0)
+			(at 11.825 0.025 180)
 			(layer "F.SilkS")
 			(uuid "24b2d1ec-50fc-40fe-88dd-8d49d01e9ea2")
 			(effects
@@ -54640,8 +54742,9 @@
 			)
 		)
 		(property "Value" "300"
-			(at 5.08 2.37 -90)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a8d5451a-1da0-4520-9e14-0605ec45802e")
 			(effects
 				(font
@@ -54865,7 +54968,7 @@
 			(uuid "5bf4b604-1cbd-4d97-aa85-c6a7a752c878")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 -90)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "6a53b564-6b39-4b43-9970-11678ae0006d")
 			(effects
@@ -54927,6 +55030,7 @@
 		(property "Value" "SBT1845-3G"
 			(at 2.54 2.5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3bf03ecf-8dbe-4074-8f4d-41b83c299de4")
 			(effects
 				(font
@@ -54972,7 +55076,7 @@
 			)
 		)
 		(property "MPN" "SBT1845-3G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e780b9c3-12c4-4d9e-88d5-b24ed2ee40d7")
@@ -56385,6 +56489,7 @@
 		(property "Value" "4.7u 630 V"
 			(at 18.75 11.25 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8412832c-bc06-4760-9782-053003ffecbc")
 			(effects
 				(font
