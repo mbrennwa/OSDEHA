@@ -68,9 +68,15 @@ Build and test log
 - Tested buffer stage. Does not work, seems to short out the HV B2- supply somehow. I can't figure it out, possibly due to the messed up pinout and CCS connection (I tried some workarounds on the PCB, but no success). Tested CCS and buffer circuit in a dead-bug build, and that seemed to work as expected.
 - Finalized new version of PCBs (amp, HV PSU, DC-raw filament PSU), exported Gerbers, and ordered new PCBs (JLCPCB).
 
+2024-05-16
+- Built wire harness with load resistors for HV PSU for easy and simultaneous testing of the PSU under load: 4-pin KK396 on PSU/PCB end, other end of wires to 3 x 27k power resistors linked to GND.
+- Tested PSU again using the load harness: B+ and B- were fine, B2- was at -50 VDC instead of -550 VDC. Removed NPN-BJT (BC550) from current limiter, which fixed the issue (B2 = -549 VDC under load). NPN-BJT was confirmed broken with component tester. Looks like I destroyed the BC550 during some mishap, but did not notice it because the B2- PSU showed the correct voltage (when it was not connected to a load!), so I missed this.
+- No-functional buffer stage in the amp (see 2024-05-15) was most likely related to the misbehaving B2- supply.
+
 *** TO DO ***
-- Build wire harness with load resistors for HV PSU for easy and simultaneous testing of the PSU under load: 4-pin KK396 on PSU end, other end of wires to 3 x 27k power resistors linked to GND.
 - Link pairs of Coleman DHT Regs using solid wires between boards.
+- Rebuild and test amp and PSU using the new boards.
+- Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
 - Build and test amp output stage
 - design chassis, mechanical construction
 - choose/decide on volume pot
