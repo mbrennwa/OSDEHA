@@ -10,10 +10,11 @@
 % \usepackage{fancyhdr} \pagestyle{fancy} \chead{\hifibau} \cfoot{\thepage}
 % \usepackage[english,ngerman]{babel}
 \usepackage{siunitx}
-\usepackage[colorlinks]{hyperref}
+% \usepackage[colorlinks]{hyperref}
+\usepackage{hyperref}
 \usepackage{caption} \captionsetup{labelfont={sf,bf}, size=footnotesize}
 
-\usepackage[superscript,biblabel]{cite}
+% \usepackage{cuted}
 
 % set format of document title
 \usepackage{titling}
