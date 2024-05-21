@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: OPS_concept.ps
 %%Creator: XCircuit v3.9 rev73
-%%CreationDate: Mon May 20 17:07:08 2024
+%%CreationDate: Tue May 21 14:13:18 2024
 %%Pages: 1
-%%BoundingBox: 68 68 464 358
+%%BoundingBox: 68 68 526 343
 %%DocumentNeededResources: font Helvetica Times-Roman 
 %%EndComments
 %%BeginProlog
@@ -229,6 +229,15 @@ begingate
 endgate
 } def
 
+/generic::dot {
+% trivial
+begingate
+248 1.000 0 0 6 0.000 360.000 xcarc
+1.000 0.000 0.000 scb
+(x) {/Times-Roman cf} 2 29 -0.000 1.000 0 0 pinlabel
+endgate
+} def
+
 /generic::circle {
 % trivial
 begingate
@@ -240,12 +249,11 @@ begingate
 endgate
 } def
 
-/generic::dot {
-% trivial
+/generic::arrow {
+% nonetwork
 begingate
-248 1.000 0 0 6 0.000 360.000 xcarc
-1.000 0.000 0.000 scb
-(x) {/Times-Roman cf} 2 29 -0.000 1.000 0 0 pinlabel
+1 0.800 0 -40 0 20 2 polygon
+1.000 -0.000 0 40 generic::arrowhead
 endgate
 } def
 
@@ -255,29 +263,24 @@ endgate
 %%Page: 300B_ECC88_PSE 1
 %%PageOrientation: Portrait
 /pgsave save def bop
-% 32.00 8.00 gridspace
+% 32.00 4.00 gridspace
 1.0000 inchscale
 2.6000 setlinewidth 179 736 translate
 
 1.000 /sv 0.000 576 -200 ::_Triode__directly_heated_
-1.000 0.000 592 -40 analog::isource
+1.000 0.000 592 -24 analog::isource
 1.000 /sv 0.000 952 -200 ::_Triode__directly_heated_
-1.000 0.000 968 -40 analog::isource
+1.000 0.000 968 -24 analog::isource
 1 1.000 592 -344 592 -416 968 -416 968 -344 4 polygon
-1 1.000 888 -40 936 -40 2 polygon
-1.000 0.000 680 -40 generic::circle
-1.000 180.000 888 -40 generic::circle
-1 1.000 624 -40 680 -40 2 polygon
-(OUTPUT) {/Helvetica cf} 2 17 0.000 1.000 784 -8 label
-1 1.000 592 24 592 80 968 80 968 80 4 polygon
+(OUT) {/Helvetica cf} 2 17 0.000 1.000 784 -100 label
 1 1.000 592 -344 624 -312 2 polygon
 1 1.000 968 -344 1000 -312 2 polygon
 1.000 0.000 784 -416 generic::dot
-1.000 0.000 784 80 generic::dot
+1.000 0.000 784 40 generic::dot
 1.000 90.000 784 -480 generic::circle
 1 1.000 784 -416 784 -480 2 polygon
-1.000 270.000 784 144 generic::circle
-1 1.000 784 144 784 80 2 polygon
+1.000 270.000 784 104 generic::circle
+1 1.000 784 104 784 40 2 polygon
 1 1.000 856 -200 832 -200 832 -376 416 -376 4 polygon
 1 1.000 480 -200 416 -200 2 polygon
 (DIFF) {/Helvetica cf} 2 17 0.000 1.000 344 -280 label
@@ -288,15 +291,21 @@ endgate
 1.000 180.000 200 -256 generic::circle
 1.000 180.000 200 -320 generic::circle
 (INPUT) {/Helvetica cf} 2 17 0.000 1.000 72 -296 label
-(B+) {/Helvetica cf} 2 17 0.000 1.000 792 184 label
+(B+) {/Helvetica cf} 2 17 0.000 1.000 792 144 label
 (B-) {/Helvetica cf} 2 17 0.000 1.000 792 -544 label
 1 1.000 152 -320 168 -320 2 polygon
 1 1.000 152 -256 168 -256 2 polygon
 1 1.000 160 -248 160 -264 2 polygon
-1 1.000 720 -32 720 -48 2 polygon
-1 1.000 712 -40 728 -40 2 polygon
-1 1.000 840 -40 856 -40 2 polygon
-1 1.000 968 80 968 24 2 polygon
+1 1.000 720 -80 720 -96 2 polygon
+1 1.000 712 -88 728 -88 2 polygon
+1 1.000 840 -88 856 -88 2 polygon
+1 1.000 592 -56 624 -88 680 -88 3 polygon
+1.000 0.000 680 -88 generic::circle
+1 1.000 968 -56 936 -88 888 -88 3 polygon
+1 1.000 592 40 968 40 2 polygon
+1.000 180.000 888 -88 generic::circle
+(0 V\(DC\)) {/Helvetica cf} 2 17 0.000 1.000 1140 -100 label
+1.000 270.000 1016 -88 generic::arrow
 pgsave restore showpage
 
 %%Trailer
