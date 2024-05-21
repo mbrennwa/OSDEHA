@@ -72,7 +72,21 @@ Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whic
 \item The 801/10Y/VT-25 tube family has a gain of 8$\times$. The 801 can be biased up to \SI{500}{V}, while the 10Y/VT-25 should not exceed a bias of \SI{450}{V}. These tubes are available as new-old-stock and from new production.
 \end{itemize}
 
-From a technical perspective, the 20B tube would be the most suitable. However, due to the uncertainty regarding its long-term availability, the 801/10Y/VT-25 family is a more practical choice for the OSDEHA design.
+
+
+
+From a technical standpoint, the 20B tube is indeed the most suitable choice for the application. However, due to concerns about the long-term availability of the 20B, the 801/10Y/VT-25 family of tubes is considered a more practical alternative for the OSDEHA design.
+
+\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{435}{V}, corresponding to a grid bias of approximately \SI{-36}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage remains within +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{801A_curves.pdf}
+\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a DC bias voltage of about \SI{430}{V} (blue).}
+\figlabel{801A_curves}
+\end{center}
+\end{figure}
+
 
 \section{License information} \seclabel{license}
 Copyright Matthias Brennwald 2024.                                                    
