@@ -5246,28 +5246,6 @@
 		)
 		(uuid "656ab215-31be-4464-8628-ac49d838e225")
 	)
-	(text "-550 V"
-		(exclude_from_sim no)
-		(at 201.93 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67e8e592-2747-4052-9c4b-ebe0abab4cae")
-	)
-	(text "-440 V"
-		(exclude_from_sim no)
-		(at 201.93 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72c4bca9-d8a6-47b1-a2f8-0ac20bb70173")
-	)
 	(text "20 mA"
 		(exclude_from_sim no)
 		(at 151.13 77.47 0)
@@ -5290,7 +5268,7 @@
 		)
 		(uuid "8fce737b-5dfd-48fe-8918-fda464696fed")
 	)
-	(text "ca. -480V"
+	(text "ca. -477 V"
 		(exclude_from_sim no)
 		(at 241.3 129.54 0)
 		(effects
@@ -5301,7 +5279,7 @@
 		)
 		(uuid "944a4dfe-69a6-4bb6-a6ba-2949b954f6ef")
 	)
-	(text "ca. -477 V"
+	(text "ca. -481 V"
 		(exclude_from_sim no)
 		(at 185.42 119.38 0)
 		(effects
@@ -6114,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "20k"
 			(at 191.77 173.99 90)
 			(effects
 				(font
@@ -6149,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF5525K000"
+		(property "MPN" "CMF5520K000"
 			(at 191.77 173.99 90)
 			(effects
 				(font
@@ -7654,7 +7632,7 @@
 				)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "20k"
 			(at 165.1 173.99 90)
 			(effects
 				(font
@@ -7689,7 +7667,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF5525K000"
+		(property "MPN" "CMF5520K000"
 			(at 165.1 173.99 90)
 			(effects
 				(font

@@ -52,7 +52,7 @@ With a balanced line-level input (\SI{3.5}{V} peak-to-peak), the required voltag
 
 \figr{OPS_concept} shows the conceptual layout of the OSDEHA. The output stage uses two DHTs in a push-pull arrangement to provide the symmetric, bipolar output needed to drive electrostatic headphones. For efficient transfer of the audio power to the headphones, the AC impedance of the anode loads must be larger than that of the headphones (several \unit{M\ohm}). This cannot be implemented with passive anode-load resistors, so active constant-current sources (CCSs) are used in this position. The CCS loads also improve the linearity and voltage gain of the amplifier, and suppress ripple and noise from the B+ rails.
 
-The DC level of the amplifier output should be near GND, centered between B+ and B-. The CCS loads, therefore, need to drop the DC voltage from B+ to GND, and the DHT tubes drop the same amount of voltage from GND to B-. The output DC level could be zeroed by biasing the tubes accordingly, but this would be prone to drift of the output tubes. However, better control of the output DC is achieved by using a ``gyrator'' CCS as conceived by Ale Moglia\cite{mogliaa_gyrator}. The ``gyrator'' circuit functions as a CCS in the audio/AC domain but automatically adjusts the DC operating current to achieve a predefined DC voltage point. The gyrator thus maintains the output DC level despite any thermal drift or aging of the DHT tubes.
+The DC level of the amplifier output should be close to \SI{0}{VDC}, centered between B+ and B-. The CCS loads, therefore, need to drop the DC voltage from B+ to \SI{0}{VDC}, and the DHT tubes drop the same amount of voltage from \SI{0}{VDC} to B-. The output DC level could be zeroed by adjusting the biasing of the tubes accordingly, but this would be prone to drift of the output tubes. Better control of the output DC is achieved by using a ``gyrator'' CCS as conceived by Ale Moglia\cite{mogliaa_gyrator}. The ``gyrator'' circuit functions as a CCS in the audio/AC domain but automatically adjusts the DC operating current to achieve a predefined DC voltage point. The gyrator thus maintains the output DC voltage despite any thermal drift or aging of the DHT tubes.
 
 \begin{figure}
 \begin{center}
@@ -72,17 +72,14 @@ Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whic
 \item The 801/10Y/VT-25 tube family has a gain of 8$\times$. The 801 can be biased up to \SI{500}{V}, while the 10Y/VT-25 should not exceed a bias of \SI{450}{V}. These tubes are available as new-old-stock and from new production.
 \end{itemize}
 
-
-
-
 From a technical standpoint, the 20B tube is indeed the most suitable choice for the application. However, due to concerns about the long-term availability of the 20B, the 801/10Y/VT-25 family of tubes is considered a more practical alternative for the OSDEHA design.
 
-\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{435}{V}, corresponding to a grid bias of approximately \SI{-36}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage remains within +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
+\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage remains within +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{801A_curves.pdf}
-\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a DC bias voltage of about \SI{430}{V} (blue).}
+\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a DC bias voltage of about \SI{440}{V} (blue).}
 \figlabel{801A_curves}
 \end{center}
 \end{figure}
