@@ -64,12 +64,12 @@ The DC level of the amplifier output should be close to \SI{0}{VDC}, centered be
 
 The choice of the output tube type is determined by the drive requirements for the headphone, as described in \secn{estat_drive}. Since the two tubes are in series with the headphone, each tube contributes half of the total voltage swing. Each tube needs to swing \SI{\pm325}{V} at a \SI{20}{mA} bias. Additionally, to emphasize the ``DHT sound,'' the DHT output stage should contribute as much voltage gain as possible to the overall gain of the amplifier.
 
-Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whichDTH}. In particular:
+Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whichDHT}. In particular:
 
 \begin{itemize}
 \item The 841/VT-51 tube has a gain of 30$\times$ and can be biased up to \SI{425}{V}. However, at the operating point required for the OSDEHA, the 841 tends to operate at a positive grid voltage, which leads to grid current draw. Moreover, these tubes are relatively scarce.
 \item The 20B tube is a modern design with a gain of 20$\times$, the 20B can be biased up to about \SI{500}{V}. However, these tubes are quite large (approximately the size of a beer bottle) and are manufactured in small quantities by a single producer (Emissionlabs), making their long-term availability uncertain.
-\item The family of the 801/801A/VT-62 and 10Y/VT-25 types has a gain of 8$\times$. The 801 can be biased up to \SI{500}{V}, while the 10Y should not be biased above \SI{450}{V}. These tubes are available as new-old-stock and from new production.
+\item The family of the 801/801A/VT-62 and 10Y/VT-25 types\cite{aasyl_801types} provide a gain of 8$\times$. The 801 can be biased up to \SI{500}{V}, while the 10Y should not be biased above \SI{450}{V}. These tubes are available as new-old-stock and from new production.
 \end{itemize}
 
 From a technical standpoint, the high gain of the 20B would would make this tube an interesting option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is considered a more practical choice for the OSDEHA design.
@@ -77,13 +77,13 @@ From a technical standpoint, the high gain of the 20B would would make this tube
 \figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage remains within +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
 
 
-DEPENDING ON THE EXACT CONFIGURATION OF THE CCS ANODE LOAD, THE TUBE MIGHT NEED TO PROVIDE THE CURRENT TO DRIVE THE HEADPHONE LOAD. THIS 
+DEPENDING ON THE EXACT CONFIGURATION OF THE CCS ANODE LOAD, THE TUBE MIGHT NEED TO PROVIDE THE CURRENT TO DRIVE THE HEADPHONE LOAD. THIS WILL NOT BE A MAJOR EFFECT ON THE FOLLOWING BIASING AND DESIGN CONSIDERATIONS.
 
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{801A_curves.pdf}
-\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a DC bias voltage of about \SI{440}{V} (blue).}
+\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a \SI{440}{V} bias and a \SI{\pm325}{V} anode swing (blue).}
 \figlabel{801A_curves}
 \end{center}
 \end{figure}
@@ -92,10 +92,7 @@ DEPENDING ON THE EXACT CONFIGURATION OF THE CCS ANODE LOAD, THE TUBE MIGHT NEED 
 \subsection{Input Stage}\seclabel{inputstage}
 Following the lines of the output stage, the differential input stage is designed as a symmetric long-tailed pair (LTP)\cite{valvewizard_LTP} using tubes with triode characteristics. The linearity and the voltage gain of the LTP is optimized if the ``tail'' exhibits a very high AC impedance. The LTP tail is therefore implemented as a CCS.
 
-The input stage amplify the balanced input with the voltage gain to drive the output stage as shown in \figr{801A_curves}. 
-
-With a balanced line-level peak-to-peak input of $2 x \SI{3.5}{V}$ and a balanced peak-to-peak drive of $2 x \SI{86}{V}$ for the ouput stage (\figr{801A_curves}), a voltage gain of $86 / 3.5 = 25\times$ is needed. Screening the available data on the gain and linearity\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles} of several low-power tubes, E180F or 6E5P tubes used as triodes appear to be suitable choices for the input stage.
-
+The input stage needs to amplify the audio input signal to drive the grids of the output tubes with an AC amplitude of $2 x \SI{86}{V}$ (peak-to-peak, \figr{801A_curves}). With a balanced line-level peak-to-peak input of $2 x \SI{3.5}{V}$, a voltage gain of $86 / 3.5 = 25\times$ is needed. The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linearity amplification \cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic,\cite{osdeha_p23} so the 6E5P is used for the LTP input stage.
 
 COUPLING AND BUFFERING TO OUTPUT STAGE DHT GRIDS: The grids of the output tubes will be biased below the B- / -HV rails, so it would be rather complicated to DC couple the LTP input/driver stage to the output stage. Capacitor coupling works very well [https://linearaudio.net/cyril-batemans-capacitor-sound-articles], especially if there is no substantial current flowing through the capacitor. Driving the output stage into A2 therefore needs a current buffer. A MOSFET source follower should do the trick.
 
