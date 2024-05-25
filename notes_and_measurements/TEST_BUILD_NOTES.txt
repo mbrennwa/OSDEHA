@@ -79,7 +79,7 @@ Build and test log
 
 *** TO DO ***
 - Link pairs of Coleman DHT Regs using solid wires between boards.
-- Rebuild and test amp and PSU using the new boards.
+- Determine gate current into the buffer FETs (measure voltage drop across R13 / R18)
 - Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
 - Build and test amp output stage
 - design chassis, mechanical construction
