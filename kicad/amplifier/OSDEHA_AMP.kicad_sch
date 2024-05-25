@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "20k"
 			(at 191.77 173.99 90)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "20k"
 			(at 165.1 173.99 90)
 			(effects
 				(font
