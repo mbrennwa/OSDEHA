@@ -73,6 +73,10 @@ Build and test log
 - Tested PSU again using the load harness: B+ and B- were fine, B2- was at -50 VDC instead of -550 VDC. Removed NPN-BJT (BC550) from current limiter, which fixed the issue (B2 = -549 VDC under load). NPN-BJT was confirmed broken with component tester. Looks like I destroyed the BC550 during some mishap, but did not notice it because the B2- PSU showed the correct voltage (when it was not connected to a load!), so I missed this.
 - No-functional buffer stage in the amp (see 2024-05-15) was most likely related to the misbehaving B2- supply.
 
+2024-05-25
+- Rebuilt amp (IPS and buffer) using new PCBs. Works as expected. Buffer output starts clipping at 144 Vpp, which is way more than needed to drive the the output stage to full output. No ringing or oscillations visible on scope with triangle or square wave signals. Bandwidth is 670 kHz (-3 dB) or 1 MHz (-6 dB).
+
+
 *** TO DO ***
 - Link pairs of Coleman DHT Regs using solid wires between boards.
 - Rebuild and test amp and PSU using the new boards.
