@@ -82,11 +82,8 @@ Build and test log
 - Built and tested raw DC supplies for Coleman Regs. Tested (without load), looks ok.
 
 *** TO DO ***
-- Link pairs of Coleman DHT Regs using solid wires between boards.
-- Determine best value for bias resistor network: measure bias voltage at min and max setting, then adjust pot to center value. Then adjust fixed resistor values to get close to the target value.
-- Determine gate current into the buffer FETs (measure voltage drop across R13 / R18)
 - Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
 - Build and test amp output stage
 - design chassis, mechanical construction
-- choose/decide on volume pot
+- choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
