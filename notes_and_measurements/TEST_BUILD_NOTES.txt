@@ -76,6 +76,9 @@ Build and test log
 2024-05-25
 - Rebuilt amp (IPS and buffer) using new PCBs. Works as expected. Buffer output starts clipping at 144 Vpp, which is way more than needed to drive the the output stage to full output. No ringing or oscillations visible on scope with triangle or square wave signals. Bandwidth is 670 kHz (-3 dB) or 1 MHz (-6 dB).
 
+2024-05-26
+- Determined values of R15 (R20) to get Vbias adjustment centered at target value at output of buffer stage --> R15 = 18.7k is a good value (with R12=47k, R14=20k and R11=1M) --> Vbias = -478V at buffer output if R14/pot is at center position.
+- Gate current for Q3 (Q4): voltage across R13 (1M) is <0.2 V, so current is less than 0.2 uA.
 
 *** TO DO ***
 - Link pairs of Coleman DHT Regs using solid wires between boards.
