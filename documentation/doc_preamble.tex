@@ -5,10 +5,11 @@
 \usepackage{microtype} \hyphenpenalty=750
 \usepackage{graphicx}
 \usepackage{epstopdf} \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
-\usepackage[applemac]{inputenc}
+% \usepackage[applemac]{inputenc}
 \usepackage{booktabs}
 % \usepackage{fancyhdr} \pagestyle{fancy} \chead{\hifibau} \cfoot{\thepage}
 % \usepackage[english,ngerman]{babel}
+
 \usepackage{siunitx}
 
 \PassOptionsToPackage{hyphens}{url}\usepackage[colorlinks]{hyperref}
@@ -34,11 +35,11 @@
 \titleformat{\subsection}{\slshape}{\thesubsection.}{0.5em}{#1 }
 \titleformat{\subsubsection}[runin]{\slshape}{\thesubsubsection.}{0.5em}{#1. }
  
-\usepackage[T1]{fontenc}
-\usepackage[scaled=.90]{helvet} \renewcommand{\familydefault}{\sfdefault} \usepackage[helvet]{sfmath}
+\usepackage[T1]{fontenc} \usepackage[scaled=.90]{helvet} \renewcommand{\familydefault}{\sfdefault} \usepackage[helvet]{sfmath}
 
+\newcommand{\Ohm}{\ensuremath{\Omega}}
 \sisetup{detect-all} % tell siunitx to detect font stuff
- 
+
 % \setlength{\columnsep}{0.75cm} 
 
 \graphicspath{{figures/}}
