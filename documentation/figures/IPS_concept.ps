@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: IPS_concept.ps
 %%Creator: XCircuit v3.9 rev73
-%%CreationDate: Fri May 31 18:19:39 2024
+%%CreationDate: Fri May 31 21:33:58 2024
 %%Pages: 1
-%%BoundingBox: 68 68 360 405
+%%BoundingBox: 68 68 530 372
 %%DocumentNeededResources: font Helvetica Times-Roman 
 %%EndComments
 %%BeginProlog
@@ -228,15 +228,6 @@ begingate
 endgate
 } def
 
-/generic::dot {
-% trivial
-begingate
-248 1.000 0 0 6 0.000 360.000 xcarc
-1.000 0.000 0.000 scb
-(x) {/Times-Roman cf} 2 29 -0.000 1.000 0 0 pinlabel
-endgate
-} def
-
 /generic::circle {
 % trivial
 begingate
@@ -275,6 +266,70 @@ begingate
 endgate
 } def
 
+/generic::dot {
+% trivial
+begingate
+248 1.000 0 0 6 0.000 360.000 xcarc
+1.000 0.000 0.000 scb
+(x) {/Times-Roman cf} 2 29 -0.000 1.000 0 0 pinlabel
+endgate
+} def
+
+/analog::capacitor {
+begingate
+1 1.000 0 -64 0 -6 2 polygon
+1 1.000 0 64 0 6 2 polygon
+1 1.000 -32 6 32 6 2 polygon
+1 1.000 -32 -6 32 -6 2 polygon
+1.000 0.000 0.000 scb
+(c.1) {/Times-Roman cf} 2 9 0.000 1.000 0 64 pinlabel
+(c.2) {/Times-Roman cf} 2 13 0.000 1.000 0 -64 pinlabel
+0.180 0.545 0.341 scb
+(spice:C%i %pc.1 %pc.2 1.0P) {/Times-Roman cf} 2 0 0.000 1.000 -208 -160 
+infolabel
+(sim:c %pc.1 %pc.2) {/Times-Roman cf} 2 0 0.000 1.000 -208 -208 infolabel
+endgate
+} def
+
+/analog::nmos {
+begingate
+1 1.000 0 -64 0 -28 -32 -28 -32 28 0 28 0 64 6 polygon
+1 1.000 -44 -28 -44 28 2 polygon
+1 1.000 -44 0 -64 0 2 polygon
+1.000 0.000 0.000 scb
+(G) {/Times-Roman cf} 2 7 0.000 1.000 -64 0 pinlabel
+(S) {/Times-Roman cf} 2 13 0.000 1.000 0 -64 pinlabel
+(D) {/Times-Roman cf} 2 9 0.000 1.000 0 64 pinlabel
+0.180 0.545 0.341 scb
+(spice:M%i %pD %pG %pS GND nmos) {/Times-Roman cf} 2 4 0.000 1.000 -244 -139 
+infolabel
+(sim:n %pG %pS %pD) {/Times-Roman cf} 2 4 0.000 1.000 -244 -187 infolabel
+endgate
+} def
+
+/analog::nmos2 {
+begingate
+1.000 0.000 0 0 analog::nmos
+1.000 90.000 0 -28 generic::arrowhead
+1.000 0.000 0.000 scb
+(G) {/Times-Roman cf} 2 7 0.000 1.000 -64 0 pinlabel
+(S) {/Times-Roman cf} 2 13 0.000 1.000 0 -64 pinlabel
+(D) {/Times-Roman cf} 2 9 0.000 1.000 0 64 pinlabel
+endgate
+} def
+
+/analog::gnd {
+% trivial
+begingate
+1 1.000 0 0 0 -32 2 polygon
+1 1.000 -32 -32 32 -32 2 polygon
+1 1.000 -18 -46 18 -46 2 polygon
+1 1.000 -4 -60 4 -60 2 polygon
+0.933 0.604 0.000 scb
+(GND) {/Times-Roman cf} 2 1 0.000 1.000 0 0 pinglobal
+endgate
+} def
+
 
 %%EndSetup
 
@@ -283,47 +338,81 @@ endgate
 /pgsave save def bop
 % 32.00 4.00 gridspace
 1.0000 inchscale
-2.6000 setlinewidth -177 780 translate
+2.6000 setlinewidth -177 756 translate
 
 1.000 /sv 0.000 592 -176 ::_Triode__directly_heated_
-1.000 /sv 0.000 944 -176 ::_Triode__directly_heated_
-1.000 0.000 784 -460 analog::isource
-1.000 0.000 784 -376 generic::dot
-1.000 90.000 784 -524 generic::circle
-1.000 270.000 784 224 generic::circle
-1 1.000 784 224 784 160 2 polygon
+1.000 /sv 0.000 848 -176 ::_Triode__directly_heated_
+1.000 0.000 736 -436 analog::isource
+1.000 90.000 736 -500 generic::circle
+1.000 270.000 736 160 generic::circle
+1 1.000 736 160 736 96 2 polygon
 1 1.000 496 -176 432 -176 2 polygon
 1 1.000 592 -304 432 -304 2 polygon
 1.000 180.000 432 -176 generic::circle
 1.000 180.000 432 -304 generic::circle
 (IN) {/Helvetica cf} 2 17 0.000 1.000 388 -256 label
-(B+) {/Helvetica cf} 2 17 0.000 1.000 792 264 label
-(B-) {/Helvetica cf} 2 17 0.000 1.000 792 -588 label
+(B+) {/Helvetica cf} 2 17 0.000 1.000 744 200 label
+(B-) {/Helvetica cf} 2 17 0.000 1.000 744 -564 label
 1 1.000 384 -304 400 -304 2 polygon
 1 1.000 384 -176 400 -176 2 polygon
 1 1.000 392 -168 392 -184 2 polygon
-1 1.000 1092 -8 1092 -24 2 polygon
-1 1.000 1084 -16 1100 -16 2 polygon
-1 1.000 1084 -56 1100 -56 2 polygon
-1.000 0.000 1052 -16 generic::circle
-1.000 0.000 608 64 analog::resistor
-1 1.000 608 -292 608 -376 960 -376 960 -292 4 polygon
+1.000 90.000 672 96 analog::resistor
+1 1.000 608 -292 608 -352 864 -352 864 -292 4 polygon
 1.000 90.000 608 -304 generic::jumper
-1 1.000 848 -176 832 -176 832 -304 624 -304 4 polygon
-1 1.000 608 -64 608 0 2 polygon
-1.000 0.000 960 64 analog::resistor
-1 1.000 960 -64 960 0 2 polygon
-1 1.000 608 128 608 160 960 160 960 128 4 polygon
-1.000 90.000 960 -56 generic::jumper
-1 1.000 944 -56 608 -56 2 polygon
-1.000 0.000 608 -56 generic::dot
-1.000 0.000 784 160 generic::dot
-1.000 0.000 960 -16 generic::dot
-1 1.000 960 -16 1052 -16 2 polygon
-1 1.000 976 -56 1052 -56 2 polygon
-1.000 0.000 1052 -56 generic::circle
-(OUT) {/Helvetica cf} 2 17 0.000 1.000 1084 8 label
-1 1.000 784 -396 784 -376 2 polygon
+1 1.000 752 -176 736 -176 736 -304 624 -304 4 polygon
+1 1.000 608 -64 608 96 2 polygon
+1.000 90.000 800 96 analog::resistor
+1 1.000 864 -64 864 96 2 polygon
+1.000 90.000 864 -64 generic::jumper
+1 1.000 848 -64 608 -64 2 polygon
+1.000 0.000 608 -64 generic::dot
+1.000 0.000 736 96 generic::dot
+1.000 0.000 864 96 generic::dot
+1 1.000 864 96 936 96 2 polygon
+1 1.000 880 -64 936 -64 2 polygon
+1 1.000 736 -372 736 -352 2 polygon
+1.000 90.000 1000 96 analog::capacitor
+1.000 90.000 1000 -64 analog::capacitor
+1.000 360.000 1248 -64 analog::nmos2
+1 1.000 1312 96 1064 96 2 polygon
+1 1.000 1184 -64 1064 -64 2 polygon
+1.000 360.000 1376 96 analog::nmos2
+1.000 0.000 1248 -244 analog::isource
+1.000 0.000 1376 -244 analog::isource
+1 1.000 1248 -128 1248 -180 2 polygon
+1 1.000 1248 -308 1248 -352 1376 -352 1376 -308 4 polygon
+1.000 90.000 1312 -500 generic::circle
+(B2-) {/Helvetica cf} 2 17 0.000 1.000 1320 -564 label
+1 1.000 1312 -500 1312 -352 2 polygon
+1.000 0.000 736 -352 generic::dot
+1.000 0.000 1312 -352 generic::dot
+1.000 180.000 1248 96 generic::jumper
+1.000 360.000 1120 212 analog::gnd
+1 1.000 1120 212 1248 212 1248 112 3 polygon
+1.000 0.000 1248 212 generic::dot
+1 1.000 1248 80 1248 0 2 polygon
+1 1.000 1376 32 1376 -180 2 polygon
+1 1.000 1248 212 1376 212 1376 160 3 polygon
+1.000 0.000 1248 -128 generic::dot
+1.000 0.000 1376 32 generic::dot
+1.000 90.000 1120 72 generic::circle
+1 1.000 1120 72 1120 96 2 polygon
+1.000 0.000 1120 96 generic::dot
+1.000 0.000 1120 -64 generic::dot
+(BIAS) {/Helvetica cf} 2 17 0.000 1.000 1120 4 label
+1.000 270.000 1120 -40 generic::circle
+1 1.000 1120 -40 1120 -64 2 polygon
+1 1.000 1360 -128 1248 -128 2 polygon
+1.000 90.000 1376 -128 generic::jumper
+1 1.000 1488 32 1376 32 2 polygon
+1 1.000 1488 -128 1392 -128 2 polygon
+1 1.000 1528 40 1528 24 2 polygon
+1 1.000 1520 32 1536 32 2 polygon
+1.000 0.000 1488 32 generic::circle
+1.000 0.000 1488 -128 generic::circle
+1 1.000 1520 -128 1536 -128 2 polygon
+(DHT) {/Helvetica cf} 2 17 0.000 1.000 1524 -40 label
+(GRIDS) {/Helvetica cf} 2 17 0.000 1.000 1520 -84 label
 pgsave restore showpage
 
 %%Trailer
