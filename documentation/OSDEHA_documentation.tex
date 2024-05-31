@@ -110,7 +110,7 @@ Following the lines of the output stage, the differential input stage is designe
 
 The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode unit is biased at \SI{10}{mA} and \SI{160}{V} anode voltage with \SI{27}{k\Ohm} load resistors, which provides for more than \SI{\pm100}{V} anode AC swing. (\figr{6E5P_curves}).
 
-The LTP input stage is capacitor coupled to the grids of the output DHTs. A suitable capacitor will not have any measureable effect on the audio signal\cite{bateman_caps_distortion} as long as there is no substantial current flow across the capacitor\cite{aiken_farting_out}. The DHT grids are therefore driven by FETs configured as source followers. The DC bias voltage for the DHT output tubes is applied to the gates of the FETs to guarantee stable bias even if DHT grids are driven into grid current.
+The LTP input stage is capacitor coupled to the grids of the output DHTs. A suitable capacitor will not have any measureable effect on the audio signal\cite{bateman_caps_distortion} as long as there is no substantial current flow across the capacitor\cite{aiken_farting_out}. The DHT grids are therefore driven by FETs configured as source followers. The DC bias voltage for the DHT output tubes is applied to the gates of the FETs to guarantee stable bias even if the DHT grids are driven into grid current.
 
 \begin{figure}
 \begin{center}
