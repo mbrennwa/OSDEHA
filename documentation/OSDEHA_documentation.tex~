@@ -49,21 +49,13 @@ The voltage swing to drive the stators depends on the headphone sensitivity and 
 
 \figr{OPS_concept} shows the conceptual layout of the OSDEHA. The output stage uses two DHTs in a push-pull arrangement to provide the symmetric, bipolar output needed to drive electrostatic headphones. For efficient transfer of the audio power to the headphones, the AC impedance of the anode loads must be larger than that of the headphones (several \unit{M\Ohm}). This cannot be implemented with passive anode-load resistors, so active constant-current sources (CCSs) are used in this position. The CCS loads also improve the linearity and voltage gain of the amplifier, and suppress ripple and noise from the B+ rails.
 
+The DC level of the differential amplifier output should be close to \SI{0}{VDC}. The absolute DC voltage of the output nodes should be approximately at GND, centered between B+ and B-. The CCS loads, therefore, need to drop the DC voltage from B+ to approximately \SI{0}{VDC}, and the DHT tubes drop the remaining voltage to B-. The output DC voltages could be zeroed by adjusting the biasing of the tubes accordingly, but this would be prone to drift of the output tubes. Better control of the output DC is achieved by using a ``gyrator'' circuit (see below). The ``gyrator'' works as a CCS in the audio/AC domain, but provides a fixed DC voltage to bias the tube anode close to GND and thus maintains the output DC voltage despite any thermal drift or aging of the DHT tubes.
+
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{OPS_concept.pdf}
 \caption{Conceptual layout of the OSDEHA: differential input, gain stage stage, and push-pull DHT output stage.}
 \figlabel{OPS_concept}
-\end{center}
-\end{figure}
-
-The DC level of the amplifier differential output should be close to \SI{0}{VDC}. The absolute DC voltage of the output nodes should be approximately at GND, centered between B+ and B-. The CCS loads, therefore, need to drop the DC voltage from B+ to approximately \SI{0}{VDC}, and the DHT tubes drop the remaining voltage to B-. The output DC voltages could be zeroed by adjusting the biasing of the tubes accordingly, but this would be prone to drift of the output tubes. Better control of the output DC is achieved by using a ``gyrator'' circuit as conceived by Ale Moglia\cite{mogliaa_gyrator} (\figr{gyrator_concept}). The ``gyrator'' works as a CCS in the audio/AC domain, but provides a fixed DC voltage to bias the tube anode close to GND and thus maintains the output DC voltage despite any thermal drift or aging of the DHT tubes.
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.45\textwidth]{gyrator_concept.pdf}
-\caption{``Gyrator'' circuit (simplified). At DC, the gate pin of the FET Q1 is grounded at \SI{0}{V} via R1, and the source pin is fixed at $-V_{\rm GS,0}$. The anode voltage is determined by the DC drop across R2, which in turn depends on the anode DC bias current as determined by the bias voltage applied to the grid of the tube. The depletion-mode FET Q2 drops most of the voltage from B+ to the anode and decouples Q1 from any noise or ripple on B+. At AC, the gate voltage of Q1 is tied to the anode through capacitor C, and Q1 and R2 operate as a CCS. If the audio output to the stator is taken from the $\mu$-output, the anode receives the full CCS output and the DHT therefore operates at a constant current that is independent of the stator current.}
-\figlabel{gyrator_concept}
 \end{center}
 \end{figure}
 
@@ -81,19 +73,23 @@ From a technical standpoint, the high gain of the 20B would would make this tube
 
 \figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage does not exceed +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
 
-
 \begin{figure}
 \begin{center}
-\includegraphics[width=\textwidth]{801A_curves.pdf}
+\includegraphics[width=0.8\textwidth]{801A_curves.pdf}
 \caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a \SI{440}{V} bias and a \SI{\pm325}{V} anode swing (blue).}
 \figlabel{801A_curves}
 \end{center}
 \end{figure}
 
+\figr{gyrator_concept} shows the simplified circuit of the ``gyrator'' loads on top of the two DHT anodes. In the DC domain, the gate pin of the FET Q1 is grounded via R1, and the source pin is therefore fixed at $-V_{\rm GS,0}$, and the anode is biased at a small negative DC voltage determined by $V_{\rm GS,0}$ and the DC drop across R2. The depletion-mode FET Q2 drops most of the voltage from B+ to the anode and decouples Q1 from any noise or ripple on B+. In the audio/AC domain, the gate voltage of Q1 is tied to the anode through capacitor C. Q1 mirrors any AC variation from the gate to its source pin, which maintains a constant voltage across R2, and thereby fixes a constant current flowing through R2. If the headphone stator is driven directly by the DHT anode, the CCS output is shared between the DHT and the stator. The current flowing through the DHT will therefore exhibit a slight variation in response to the AC current draw by the stator, which will typically less than \SI{4}{mA}\cite{osdeha_p8}. This AC current variation is considerably less than the DC bias current, so the general concept for the operating point illustrated in \figr{801A_curves} remains valid. However, instead of taking the audio output from the DHT anode, the stator can also be connected to the $\mu$-output of the ``gyrator''. In this $\mu$-follower configuration\cite{pimm_ccs,kimmel_mustage}, the stator does not draw any current from R2, which restores the constant-current operation of the DHT tube with a perfectly flat load line as shown in \figr{801A_curves}.
 
-The constant current AC output from each CCS is shared between the DHT and the headphone stator. The current flowing through the DHT will therefore exhibit a slight variation in response to the AC current draw by the stator. However, this AC current variation will be small (less than \SI{4}{mA})\cite{osdeha_p8}, and the general concept for the operating point illustrated in \figr{801A_curves} remains valid. The ``gyrator'' can also be configured to operate as a $\mu$-follower\cite{pimm_ccs,kimmel_mustage}, if the stator current is taken directly from the source pin of the ``gyrator'' FET. This configuration restores the constant-current operation of the DHT tube with a perfectly flat load line exactly as shown in \figr{801A_curves}.
-
-
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{gyrator_concept.pdf}
+\caption{``Gyrator'' circuit (simplified).}
+\figlabel{gyrator_concept}
+\end{center}
+\end{figure}
 
 \subsection{Input Stage}\seclabel{inputstage}
 
