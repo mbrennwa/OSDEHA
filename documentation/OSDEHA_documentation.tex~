@@ -69,7 +69,7 @@ Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whic
 
 From a technical standpoint, the high gain of the 20B would would make this tube an interesting option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is considered a more practical choice for the OSDEHA design.
 
-\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage does not exceed +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}.
+\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage does not exceed +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}. With the anode voltage close to GND, the B- voltage is \SI{-440}{V}, and B+ is \SI{+440}{V} for symmetry.
 
 \begin{figure}
 \begin{center}
@@ -96,14 +96,29 @@ In the DC domain, the gate pin of the FET Q1 is grounded via R1, and the source 
 
 \subsection{Input Stage}\seclabel{inputstage}
 
-Following the lines of the output stage, the differential input stage is designed as a symmetric long-tailed pair (LTP)\cite{valvewizard_LTP} using tubes with triode characteristics. The linearity and the voltage gain of the LTP is optimized with a very high AC impedance of the ``tail'', which is implemented as a CCS.
+The task of the input stage is to amplify the balanced input signal ($2 \times \SI{3.5}{V}$ peak-to-peak) to drive the DHT grids ($2 \times \SI{86}{V}$ peak-to-peak). To this end, a voltage gain of $86 / 3.5 = 25\times$ is needed.\par
 
-The input stage needs to provide the voltage gain to drive the grids of the output tubes with an AC amplitude of $2 \times \SI{86}{V}$ (peak-to-peak, \figr{801A_curves}). With a balanced line-level peak-to-peak input of $2 \times \SI{3.5}{V}$, a voltage gain of $86 / 3.5 = 25\times$ is needed. The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage.
+Following the lines of the output stage, the differential input stage is designed as long-tailed pair (LTP)\cite{valvewizard_LTP} using tubes with triode characteristics. The ``tail'' is implemented as a CCS to maximize linearity and voltage gain of the LTP (\figr{IPS_concept}).
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{IPS_concept.pdf}
+\caption{Input stage (simplified).}
+\figlabel{IPS_concept}
+\end{center}
+\end{figure}
 
-------------
-COUPLING AND BUFFERING TO OUTPUT STAGE DHT GRIDS: The grids of the output tubes will be biased below the B- / -HV rails, so it would be rather complicated to DC couple the LTP input/driver stage to the output stage. Capacitor coupling works very well [https://linearaudio.net/cyril-batemans-capacitor-sound-articles], especially if there is no substantial current flowing through the capacitor. Driving the output stage into A2 therefore needs a current buffer. A MOSFET source follower should do the trick.
-------------
+The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode unit is biased at \SI{10}{mA} and \SI{160}{V} anode voltage with \SI{27}{k\Ohm} load resistors, which provides for more than \SI{\pm100}{V} anode AC swing. (\figr{6E5P_curves}).
+
+The LTP input stage is capacitor coupled to the grids of the output DHTs. A suitable capacitor will not have any measureable effect on the audio signal\cite{bateman_caps_distortion} as long as there is no substantial current flow across the capacitor\cite{aiken_farting_out}. The DHT grids are therefore driven by FETs configured as source followers. The DC bias voltage for the DHT output tubes is applied to the gates of the FETs to guarantee stable bias even if the DHT grids are driven into grid current.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{6E5P_curves.pdf}
+\caption{Characteristic curves measured from a triode-connected 6E5P tube.}
+\figlabel{6E5P_curves}
+\end{center}
+\end{figure}
 
 
 \section{Power supplies}
