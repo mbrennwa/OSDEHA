@@ -98,8 +98,7 @@ In the DC domain, the gate pin of the FET Q1 is grounded via R1, and the source 
 
 Following the lines of the output stage, the differential input stage is designed as a symmetric long-tailed pair (LTP)\cite{valvewizard_LTP} using tubes with triode characteristics. The linearity and the voltage gain of the LTP is optimized with a very high AC impedance of the ``tail'', which is implemented as a CCS.
 
-The input stage needs to provide the voltage gain to drive the grids of the output tubes with an AC amplitude of $2 x \SI{86}{V}$ (peak-to-peak, \figr{801A_curves}). With a balanced line-level peak-to-peak input of $2 x \SI{3.5}{V}$, a voltage gain of $86 / 3.5 = 25\times$ is needed. The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification \cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23} and slightly worse linearity than the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage.
-
+The input stage needs to provide the voltage gain to drive the grids of the output tubes with an AC amplitude of $2 \times \SI{86}{V}$ (peak-to-peak, \figr{801A_curves}). With a balanced line-level peak-to-peak input of $2 \times \SI{3.5}{V}$, a voltage gain of $86 / 3.5 = 25\times$ is needed. The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage.
 
 
 ------------
