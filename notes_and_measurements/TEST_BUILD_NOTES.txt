@@ -81,6 +81,10 @@ Build and test log
 - Gate current for Q3 (Q4): voltage across R13 (1M) is <0.2 V, so current is less than 0.2 uA.
 - Built and tested raw DC supplies for Coleman Regs. Tested (without load), looks ok.
 
+2024-06-01
+- Wired DHT output tubes and Coleman Regs to amplifier board. Tested and adjusted filament supply through amplifier board, works ok.
+- Built output stage on amplifier board (Gyrator etc.). Connected HV PSUs (B+, B-, B2-). Does not work. Smoke from AOT Fets (or something nearby, could not see well).
+
 *** TO DO ***
 - Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
 - Build and test amp output stage
