@@ -85,7 +85,12 @@ Build and test log
 - Wired DHT output tubes and Coleman Regs to amplifier board. Tested and adjusted filament supply through amplifier board, works ok.
 - Built output stage on amplifier board (Gyrator etc.). Connected HV PSUs (B+, B-, B2-). Does not work. Smoke from AOT Fets (or something nearby, could not see well).
 
+2024-06-02
+- Rebuilt gyrator with correct pinout on the FETs. No more smoke, but still does not work. Does the tube/anode load down the protection Zeners and then pulls the gate and the 4.5M resistor low? There is quite a bit of DC across the 4.5M resistor. Also, the B+ supply was broken, so that may also have caused problems with the gyrator.
+- Rebuilt PSU using the new PCB. 6.3 V heater supply tested ok. Need to test the remaining parts.
+
 *** TO DO ***
+- Test HV PSUs of the new PCB.
 - Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
 - Build and test amp output stage
 - design chassis, mechanical construction
