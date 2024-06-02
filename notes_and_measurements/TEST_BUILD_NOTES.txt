@@ -88,12 +88,11 @@ Build and test log
 2024-06-02
 - Rebuilt gyrator with correct pinout on the FETs. No more smoke, but still does not work. Does the tube/anode load down the protection Zeners and then pulls the gate and the 4.5M resistor low? There is quite a bit of DC across the 4.5M resistor. Also, the B+ supply was broken, so that may also have caused problems with the gyrator.
 - Rebuilt PSU using the new PCB. 6.3 V heater supply tested ok. Need to test the remaining parts.
-- B2- supply does not work. Testing without Q5 installed. Very low voltage across RSET. Voltage across R18 is 0.5V, so CCS current is 0.5 mA (about right). Does the overcurrent limiter (Q6) suck up all the current coming out of R18? --> remove Q6 and check again.
+- B2- supply of new PSU-PCB does not work (B+ and B- not yet tested). Testing B2- without Q5 installed. Very low voltage across RSET. Voltage across R18 (1k) is 0.5V, so CCS current is 0.5 mA (about right). Does the overcurrent limiter (Q6) suck up all the current coming out of R18? --> remove Q6 and check again.
 
 *** TO DO ***
-- Test HV PSUs of the new PCB.
-- Build and test DHT filament DC supplies (2 x raw-DC boards, 4 x Coleman DHT filament regs)
-- Build and test amp output stage
+- Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly.
+- Build and test amp output stage: done 2024-06-02, but does not (yet?) work due to issue with B+ or drag-down of gate of CCS-FET???
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
