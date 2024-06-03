@@ -91,7 +91,8 @@ Build and test log
 - B2- supply of new PSU-PCB does not work (B+ and B- not yet tested). Testing B2- without Q5 installed. Very low voltage across RSET. Voltage across R18 (1k) is 0.5V, so CCS current is 0.5 mA (about right). Does the overcurrent limiter (Q6) suck up all the current coming out of R18? --> remove Q6 and check again.
 
 2024-06-03
-- Looking at 2N3904 datasheet I think the pinout on the PCB is backwards. This would explain why the current is "sucked out" of the CCS, upseting the voltage reference in the HV PSU.
+- Pinout of 2N3904 Q6/Q10/Q14 is backwards on amplifier PCB. This would explain why the current is "sucked out" of the CCS, upseting the voltage reference in the HV PSU.
+- Fixed pinout on PCB design.
 
 *** TO DO ***
 - Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly. Wrong pinout on Q6 / 2N3904?
