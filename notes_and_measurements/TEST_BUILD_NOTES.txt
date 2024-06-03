@@ -90,8 +90,11 @@ Build and test log
 - Rebuilt PSU using the new PCB. 6.3 V heater supply tested ok. Need to test the remaining parts.
 - B2- supply of new PSU-PCB does not work (B+ and B- not yet tested). Testing B2- without Q5 installed. Very low voltage across RSET. Voltage across R18 (1k) is 0.5V, so CCS current is 0.5 mA (about right). Does the overcurrent limiter (Q6) suck up all the current coming out of R18? --> remove Q6 and check again.
 
+2024-06-03
+- Looking at 2N3904 datasheet I think the pinout on the PCB is backwards. This would explain why the current is "sucked out" of the CCS, upseting the voltage reference in the HV PSU.
+
 *** TO DO ***
-- Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly.
+- Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly. Wrong pinout on Q6 / 2N3904?
 - Build and test amp output stage: done 2024-06-02, but does not (yet?) work due to issue with B+ or drag-down of gate of CCS-FET???
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
