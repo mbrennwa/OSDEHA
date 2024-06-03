@@ -52,7 +52,7 @@ The voltage swing to drive the stators depends on the headphone sensitivity and 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{OPS_concept.pdf}
-\caption{Conceptual layout of the OSDEHA: differential input, gain stage stage, and push-pull DHT output stage.}
+\caption{Conceptual layout of the OSDEHA: differential input and gain stage, push-pull DHT output stage.}
 \figlabel{OPS_concept}
 \end{center}
 \end{figure}
