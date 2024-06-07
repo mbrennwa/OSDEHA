@@ -94,7 +94,12 @@ Build and test log
 - Pinout of 2N3904 Q6/Q10/Q14 is backwards on amplifier PCB. This would explain why the current is "sucked out" of the CCS, upseting the voltage reference in the HV PSU.
 - Fixed pinout on PCB design.
 
+2024-06-07
+- Repaired B2- HV PSU and built B+ and B- HV PSU (using correct pinout of 2N3904 BJT). Tested ok.
+
+
 *** TO DO ***
+- B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
 - Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly. Wrong pinout on Q6 / 2N3904?
 - Build and test amp output stage: done 2024-06-02, but does not (yet?) work due to issue with B+ or drag-down of gate of CCS-FET???
 - design chassis, mechanical construction
