@@ -96,12 +96,16 @@ Build and test log
 
 2024-06-07
 - Repaired B2- HV PSU and built B+ and B- HV PSU (using correct pinout of 2N3904 BJT). Tested ok.
+- Tested amplifier Gyrator --> killed B+ HV supply again (cf. 2024-06-02).
+- Repaired B+ HV supply, using STF5NK100Z (TO220FP) instead of NTHL1000N170M1.
+- Tested amplifier Gyrator again (without DHT tube installed) --> one branch works ok (Anode out at 4 VDC, close to GND), the other has B+ / 440 VDC at Anode out.
+- Replaced AOT1N60 and IXTP3N100D2 --> both branches now work ok (ca. 4 VDC at Anode out)
 
 
 *** TO DO ***
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
-- Test HV PSUs of the new PCB: partially done 2026-06-02, but does not yet work correctly. Wrong pinout on Q6 / 2N3904?
-- Build and test amp output stage: done 2024-06-02, but does not (yet?) work due to issue with B+ or drag-down of gate of CCS-FET???
+- HV PSU: replace NTHL1000N170M1 with STF5NK100Z (TO220FP)
+- Build and test amp output stage with DHT tubes installed (follow up from 2024-06-07)
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
