@@ -101,6 +101,10 @@ Build and test log
 - Tested amplifier Gyrator again (without DHT tube installed) --> one branch works ok (Anode out at 4 VDC, close to GND), the other has B+ / 440 VDC at Anode out.
 - Replaced AOT1N60 and IXTP3N100D2 --> both branches now work ok (ca. 4 VDC at Anode out)
 
+2024-06-08
+- testing amplifier / Gyrator stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
+- Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors in place of DHT tubes.
+- Testing amplifier / Gyrator using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
 
 *** TO DO ***
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
