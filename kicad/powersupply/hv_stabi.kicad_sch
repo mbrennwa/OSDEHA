@@ -2464,6 +2464,20 @@
 		)
 		(uuid "d55a6d7c-b0dd-4951-b44b-9cf3a388d118")
 	)
+	(text "REPLACE WITH STF5NK100Z (TO220FP) !?"
+		(exclude_from_sim no)
+		(at 132.08 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 7 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f670670e-b061-4c05-903a-361ef433c448")
+	)
 	(hierarchical_label "DC-"
 		(shape output)
 		(at 175.26 111.76 0)
