@@ -105,12 +105,14 @@ Build and test log
 - testing amplifier / Gyrator stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
 - Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors in place of DHT tubes.
 - Testing amplifier / Gyrator using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
-- Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias seems to be fluctuating. Can this be made more stable?
+- Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias is not perfectly stable but has regular pulses (approx 1 pulse per second). The fluctuations stop if the DHT tubes are disconnected.
 
 *** TO DO ***
+- Figure out the pulsating fluctuations (2024-06-08). Issue related to the tubes (--> replace tubes with load resistors of equivalent resistance)? Bad DHT tubes (--> try different tubes)? Oscillation at DHTs (--> add grid stopper)?
+- Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
+- Change R30+R31+R32 and R35+R36+R37 from 4.5M to lower value (810k = 3 x 270k or so) for tighter DC reference of gate to GND (fc = 1/2/pi/R/C = 0.9 Hz). Make sure to not replicate the pole from R13/C2 and R18/C3 at fc = 3 Hz.
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
 - HV PSU: replace NTHL1000N170M1 with STF5NK100Z (TO220FP)
-- Build and test amp output stage with DHT tubes installed (follow up from 2024-06-07)
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS

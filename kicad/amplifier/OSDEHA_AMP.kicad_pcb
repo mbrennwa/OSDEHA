@@ -206,7 +206,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "08a35550-52ba-4b6f-8e3a-5b055de422ee")
@@ -253,7 +253,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6543,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "2ce09eb7-58ce-4cdb-b283-9081d01c8a31")
@@ -6590,7 +6590,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M000"
+		(property "MPN" "CMF55100K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11585,7 +11585,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "490e0002-9432-44cd-b450-5835aeaea3bb")
@@ -11632,7 +11632,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12153,7 +12153,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "36404537-d014-447c-a1d2-1d0d0da5db29")
@@ -12200,7 +12200,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17099,7 +17099,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "d964dcc3-22fc-407e-8bf5-a9e6c865d4ba")
@@ -17146,7 +17146,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23573,7 +23573,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M0000"
+		(property "MPN" "CMF55100K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24094,7 +24094,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "270k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "620f18e2-ae97-4974-ba97-f9612a25b0d3")
@@ -24141,7 +24141,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF551M5000"
+		(property "MPN" "CMF55270K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

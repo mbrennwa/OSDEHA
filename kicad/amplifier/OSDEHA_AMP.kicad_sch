@@ -9766,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF551M0000"
+		(property "MPN" "CMF55100K00"
 			(at 161.29 152.4 90)
 			(effects
 				(font
@@ -10459,7 +10459,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF551M000"
+		(property "MPN" "CMF55100K00"
 			(at 187.96 152.4 90)
 			(effects
 				(font
