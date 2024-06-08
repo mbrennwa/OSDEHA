@@ -7677,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "39030807-5287-4b16-918b-9a55846bd7dc")
@@ -23526,7 +23526,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "e0733448-7c0d-4b6d-a66d-b15feb841f06")
