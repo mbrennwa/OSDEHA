@@ -105,6 +105,7 @@ Build and test log
 - testing amplifier / Gyrator stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
 - Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors in place of DHT tubes.
 - Testing amplifier / Gyrator using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
+- Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias seems to be fluctuating. Can this be made more stable?
 
 *** TO DO ***
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
