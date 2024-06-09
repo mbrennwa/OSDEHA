@@ -2077,16 +2077,6 @@
 		)
 		(uuid "806c57cf-40c5-4768-a45e-f3c9c583f7de")
 	)
-	(polyline
-		(pts
-			(xy 107.95 58.42) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "80aa6f65-502f-4d7a-9ed5-a5d7196eb6ff")
-	)
 	(wire
 		(pts
 			(xy 138.43 91.44) (xy 138.43 92.71)
@@ -2096,16 +2086,6 @@
 			(type default)
 		)
 		(uuid "865516e2-2829-4b09-96e1-5f533d050b7d")
-	)
-	(polyline
-		(pts
-			(xy 107.95 76.2) (xy 118.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "86c91654-a061-48fa-b79a-c35266a6d6b3")
 	)
 	(wire
 		(pts
@@ -2246,26 +2226,6 @@
 			(type default)
 		)
 		(uuid "d0e42fa2-b700-4397-84e4-21e067d05a88")
-	)
-	(polyline
-		(pts
-			(xy 118.11 76.2) (xy 118.11 58.42)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d1ec1aa4-dc39-4ace-bf1f-a0aa3afccc52")
-	)
-	(polyline
-		(pts
-			(xy 118.11 58.42) (xy 107.95 58.42)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d4e3f45d-eb00-4c97-be71-7cc3b01aecaf")
 	)
 	(wire
 		(pts
@@ -2452,17 +2412,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf1bbf61-4f54-42fc-b37e-a74a1eda19e7")
-	)
-	(text "Thermal coupling"
-		(exclude_from_sim no)
-		(at 106.68 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d55a6d7c-b0dd-4951-b44b-9cf3a388d118")
 	)
 	(text "REPLACE WITH STF5NK100Z (TO220FP) !?"
 		(exclude_from_sim no)
