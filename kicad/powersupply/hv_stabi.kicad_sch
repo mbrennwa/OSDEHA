@@ -4066,7 +4066,7 @@
 				)
 			)
 		)
-		(property "Value" "2.1k"
+		(property "Value" "300"
 			(at 138.43 87.63 90)
 			(effects
 				(font
@@ -4102,7 +4102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF552K1000"
+		(property "MPN" "CMF55300R00"
 			(at 138.43 87.63 90)
 			(effects
 				(font

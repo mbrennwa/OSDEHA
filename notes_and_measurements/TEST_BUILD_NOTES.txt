@@ -109,10 +109,11 @@ Build and test log
 
 *** TO DO ***
 - Figure out the pulsating fluctuations (2024-06-08). Issue related to the tubes (--> replace tubes with load resistors of equivalent resistance)? Bad DHT tubes (--> try different tubes)? Oscillation at DHTs (--> add grid stopper)?
+- Revert the gate stopper of the HV B+ PSU to 300 Ohm.
 - Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from 4.5M to lower value (810k = 3 x 270k or so) for tighter DC reference of gate to GND (fc = 1/2/pi/R/C = 0.9 Hz). Make sure to not replicate the pole from R13/C2 and R18/C3 at fc = 3 Hz.
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
-- Current limiter in HV PSU will blow up if there's (near-) short. This is probably because there's too much current through the 2N3904 from the 4.7uF cap. Insert a current-limiting resistor to the collector pin (pin-3)? Imax = 0.2 A, Pmax = 0.625 W, Vce,max = 40 V --> If cap has 460 VDC and output is shorted, the limiter resistor must drop > 420V at 0.2 A --> R > 420 V / 0.2 A = 2.1kOhm
+- Current limiter in HV PSU will blow up if there's (near-) short. This is probably because there's too much current through the 2N3904 from the 4.7uF cap. Insert a current-limiting resistor to the collector pin (pin-3)? Imax = 0.2 A, Pmax = 0.625 W, Vce,max = 40 V --> If cap has 460 VDC and output is shorted, the limiter resistor must drop > 420V at 0.2 A --> R > 420 V / 0.2 A = 2.1kOhm. This saves the life of the current limiter, but stops it from working well, so the FET dies when there's a short. Think about a better solution.
 - HV PSU: replace NTHL1000N170M1 with STF5NK100Z (TO220FP)
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
