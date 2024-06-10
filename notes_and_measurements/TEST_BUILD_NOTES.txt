@@ -108,6 +108,7 @@ Build and test log
 - Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias is not perfectly stable but has regular pulses (approx 1 pulse per second). The fluctuations stop if the DHT tubes are disconnected.
 
 *** TO DO ***
+- ******** Rebuild and clean the Gyrators. check solder joints, check insulation to heatsink, confirm with bench PSU ********
 - Figure out the pulsating fluctuations (2024-06-08). Issue related to the tubes (--> replace tubes with load resistors of equivalent resistance)? Bad DHT tubes (--> try different tubes)? Oscillation at DHTs (--> add grid stopper)?
 - Revert the gate stopper of the HV B+ PSU to 300 Ohm.
 - Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
