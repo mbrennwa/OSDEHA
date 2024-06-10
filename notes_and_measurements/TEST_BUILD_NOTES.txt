@@ -113,7 +113,7 @@ Build and test log
 
 
 *** TO DO ***
-- Change R33 and R38 (mu resistors in Gyrators) to higher power. Carries 25 V at startup (9 V after warmup), and starts smoking when the amp plays hard (high frequency test signals).
+- Change R33 and R38 (mu resistors in Gyrators) to higher power. Carries 25 V at startup (9 V after warmup), and starts smoking when the amp plays hard (high frequency test signals). How about CPF3470R00 (3 Watt)?
 - Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from 4.5M to lower value (810k = 3 x 270k or so) for tighter DC reference of gate to GND (fc = 1/2/pi/R/C = 0.9 Hz). Make sure to not replicate the pole from R13/C2 and R18/C3 at fc = 3 Hz.
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
