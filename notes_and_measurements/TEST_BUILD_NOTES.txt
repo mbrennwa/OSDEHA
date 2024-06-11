@@ -113,17 +113,16 @@ Build and test log
 
 2024-06-11
 - Design note, HV PSU (B+, B-, B2-): replace BJT current limiter with a 10M90S current limiter for use during testing. Once testing is completed, the 10M90S can be replaced by a jumper to avoid any effects of the current limiter on the HV (output impedance, etc.)
-- Design note, Mu stage / DHT load: optimize the Mu resistor to prevent it from burning out: can use a slightly lower R value for less dissipation? Use a part with higher dissipation spec?
-- Design note, Mu stage / DHT: insert a proper gate stopper resistor to the CCS FET (like 100-300 Ohm).
+- Design note, Mu stage / DHT load: optimize the Mu resistor to prevent it from burning out: can use a slightly lower R value for less dissipation? Use a part with higher dissipation spec? --> use CPF3470R00
+- Design note, Mu stage / DHT: insert a proper gate stopper resistor to the CCS FET (like 100-300 Ohm) --> not needed, as gate is already stoppered by the resistor(s) to GND.
 
 
 *** TO DO ***
-- Change R33 and R38 (mu resistors in Gyrators) to higher power. Carries 25 V at startup (9 V after warmup), and starts smoking when the amp plays hard (high frequency test signals). How about CPF3470R00 (3 Watt)?
-- Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
-- Change R30+R31+R32 and R35+R36+R37 from 4.5M to lower value (810k = 3 x 270k or so) for tighter DC reference of gate to GND (fc = 1/2/pi/R/C = 0.9 Hz). Make sure to not replicate the pole from R13/C2 and R18/C3 at fc = 3 Hz.
-- B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
-- Current limiter in HV PSU will blow up if there's (near-) short. This is probably because there's too much current through the 2N3904 from the 4.7uF cap. Insert a current-limiting resistor to the collector pin (pin-3)? Imax = 0.2 A, Pmax = 0.625 W, Vce,max = 40 V --> If cap has 460 VDC and output is shorted, the limiter resistor must drop > 420V at 0.2 A --> R > 420 V / 0.2 A = 2.1kOhm. This saves the life of the current limiter, but stops it from working well, so the FET dies when there's a short. Think about a better solution.
-- HV PSU: replace NTHL1000N170M1 with STF5NK100Z (TO220FP)
+- Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
+- Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
+- B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so. <-- really necessary???
+- Current limiter in HV PSU will blow up if there's (near-) short. This is probably because there's too much current through the 2N3904 from the 4.7uF cap. Insert a current-limiting resistor to the collector pin (pin-3)? Imax = 0.2 A, Pmax = 0.625 W, Vce,max = 40 V --> If cap has 460 VDC and output is shorted, the limiter resistor must drop > 420V at 0.2 A --> R > 420 V / 0.2 A = 2.1kOhm. This saves the life of the current limiter, but stops it from working well, so the FET dies when there's a short. Think about a better solution. --> use 10M90S limiter in output for testing, install jumper wire after testing.
+- HV PSU: replace NTHL1000N170M1 with STW5NK100Z (TO247) <--- really?
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS

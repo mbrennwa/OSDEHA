@@ -1217,6 +1217,82 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 173.99 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09a3b2a7-51ed-4acd-9fc0-354ceb572b83")
+		(property "Reference" "R38"
+			(at 176.53 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 173.99 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 175.768 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31021/cpf.pdf"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " CPF3470R00"
+			(at 173.99 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f2437d-6eee-4f7b-bfdf-7b4e4b862d06")
+		)
+		(pin "2"
+			(uuid "a4973724-096a-410f-8069-a6c1c6202239")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 185.42 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1674,82 +1750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52b70f49-b4ac-46cc-9cf7-ce44688f5c05")
-		(property "Reference" "R38"
-			(at 171.45 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 173.99 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 172.212 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 173.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF55470R00"
-			(at 173.99 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7f7cf78-9bb7-4d49-9f04-006c80f123b7")
-		)
-		(pin "2"
-			(uuid "99363466-bceb-4097-9ee0-1927f7c1c220")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET_Other:DN2540N5-G")
 		(at 171.45 80.01 0)
 		(unit 1)
@@ -1825,82 +1825,6 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a13743c-acd9-466c-8e88-e7fcaed883a3")
-		(property "Reference" "R33"
-			(at 97.79 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 100.33 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 98.552 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF55470R00"
-			(at 100.33 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ceddc131-09da-483d-918e-66b70d4db82e")
-		)
-		(pin "2"
-			(uuid "12b5ad50-6c13-4487-b2aa-1509315d208e")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2758,6 +2682,82 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdb56d37-d872-4cb9-bdaf-eab2b33b2959")
+		(property "Reference" "R33"
+			(at 102.87 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical"
+			(at 102.108 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31021/cpf.pdf"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " CPF3470R00"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83053847-684e-453f-bbe0-7880cf795cd9")
+		)
+		(pin "2"
+			(uuid "1ca2f76a-6f74-4301-8e8d-7d404abb207d")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R33")
 					(unit 1)
 				)
 			)
