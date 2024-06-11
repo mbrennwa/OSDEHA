@@ -115,6 +115,12 @@ Build and test log
 - Design note, HV PSU (B+, B-, B2-): replace BJT current limiter with a 10M90S current limiter for use during testing. Once testing is completed, the 10M90S can be replaced by a jumper to avoid any effects of the current limiter on the HV (output impedance, etc.)
 - Design note, Mu stage / DHT load: optimize the Mu resistor to prevent it from burning out: can use a slightly lower R value for less dissipation? Use a part with higher dissipation spec? --> use CPF3470R00
 - Design note, Mu stage / DHT: insert a proper gate stopper resistor to the CCS FET (like 100-300 Ohm) --> not needed, as gate is already stoppered by the resistor(s) to GND.
+- Adjusted output stage to 20 mA idle at each DHT
+- Testing amp:
+	output clipping visible on scope at 1550 Vpp (using 1:100 resistor voltage divider 100k + 2k + 100k at output and differential scope probe)
+	voltage gain output/input = 241x
+	frequency response into 200k resistive load (-3 dB) = 10 Hz ... 500 kHz
+- Testing amp at high power output, the Gyrator cascode FETs Q6/Q8 tend to die. Too much heat? Or too much voltage?
 
 
 *** TO DO ***
