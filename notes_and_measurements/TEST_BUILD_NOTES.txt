@@ -103,14 +103,17 @@ Build and test log
 
 2024-06-08
 - testing amplifier / Gyrator stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
-- Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors in place of DHT tubes.
+- Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors inplace of DHT tubes.
 - Testing amplifier / Gyrator using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
 - Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias is not perfectly stable but has regular pulses (approx 1 pulse per second). The fluctuations stop if the DHT tubes are disconnected.
 
+2024-06-10
+- Pulsating voltage in Gyrator stage (and elsewhere) only happens with DHT tubes installed. If dummy resistors are used instead, pulsation is gone.
+- Pulses are from RFI/EMI noise pickup. Not specific to OSDEHA! Scope also shows similar pulse signals if probing the solder tin spool.
+
+
 *** TO DO ***
-- ******** Rebuild and clean the Gyrators. check solder joints, check insulation to heatsink, confirm with bench PSU ********
-- Figure out the pulsating fluctuations (2024-06-08). Issue related to the tubes (--> replace tubes with load resistors of equivalent resistance)? Bad DHT tubes (--> try different tubes)? Oscillation at DHTs (--> add grid stopper)?
-- Revert the gate stopper of the HV B+ PSU to 300 Ohm.
+- Change R33 and R38 (mu resistors in Gyrators) to higher power. Carries 25 V at startup (9 V after warmup), and starts smoking when the amp plays hard (high frequency test signals). How about CPF3470R00 (3 Watt)?
 - Change R13 and R18 to lower value (100k or so) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from 4.5M to lower value (810k = 3 x 270k or so) for tighter DC reference of gate to GND (fc = 1/2/pi/R/C = 0.9 Hz). Make sure to not replicate the pole from R13/C2 and R18/C3 at fc = 3 Hz.
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so.
