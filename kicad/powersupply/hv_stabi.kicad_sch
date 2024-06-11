@@ -2413,7 +2413,7 @@
 		)
 		(uuid "cf1bbf61-4f54-42fc-b37e-a74a1eda19e7")
 	)
-	(text "REPLACE WITH STF5NK100Z (TO220FP) !?"
+	(text "REPLACE WITH STW5NK100Z (TO247) !?"
 		(exclude_from_sim no)
 		(at 132.08 44.958 0)
 		(effects
