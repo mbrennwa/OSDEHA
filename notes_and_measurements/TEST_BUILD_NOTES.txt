@@ -111,6 +111,11 @@ Build and test log
 - Pulsating voltage in Gyrator stage (and elsewhere) only happens with DHT tubes installed. If dummy resistors are used instead, pulsation is gone.
 - Pulses are from RFI/EMI noise pickup. Not specific to OSDEHA! Scope also shows similar pulse signals if probing the solder tin spool.
 
+2024-06-11
+- Design note, HV PSU (B+, B-, B2-): replace BJT current limiter with a 10M90S current limiter for use during testing. Once testing is completed, the 10M90S can be replaced by a jumper to avoid any effects of the current limiter on the HV (output impedance, etc.)
+- Design note, Mu stage / DHT load: optimize the Mu resistor to prevent it from burning out: can use a slightly lower R value for less dissipation? Use a part with higher dissipation spec?
+- Design note, Mu stage / DHT: insert a proper gate stopper resistor to the CCS FET (like 100-300 Ohm).
+
 
 *** TO DO ***
 - Change R33 and R38 (mu resistors in Gyrators) to higher power. Carries 25 V at startup (9 V after warmup), and starts smoking when the amp plays hard (high frequency test signals). How about CPF3470R00 (3 Watt)?
