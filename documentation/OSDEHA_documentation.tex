@@ -79,17 +79,17 @@ From a technical standpoint, the high gain of the 20B would would make this tube
 \end{center}
 \end{figure}
 
-\figr{gyrator_concept} shows the simplified circuit of the CCSs used to load the anodes of the DHT output tubes. This AC-coupled CCS circuit is sometimes (incorrectly) called a ``gyrator''\cite{gyrator_term} and works as a CCS in the audio/AC domain only, while it outputs a fixed voltage in the DC domain.\cite{mogliaa_gyrator} In both cases, the FET Q1 controls the output of the circuit to the anode, while the depletion-mode FET Q2 drops most of the voltage from B+ and decouples Q1 from any noise or ripple that may be present in the B+ supply.\par
+\figr{activeload_concept} shows the simplified circuit of the CCSs used to load the anodes of the DHT output tubes. This circuit works as a CCS in the audio/AC domain only, while it outputs a fixed voltage in the DC domain. In both cases, the FET Q1 controls the output of the circuit to the anode, while the depletion-mode FET Q2 drops most of the voltage from B+ and decouples Q1 from any noise or ripple that may be present in the B+ supply.\par
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5\textwidth]{gyrator_concept.pdf}
-\caption{Gyrator CCS circuit (simplified).}
-\figlabel{gyrator_concept}
+\includegraphics[width=0.5\textwidth]{activeload_concept.pdf}
+\caption{Circuit of the active load (AC coupled CCS, simplified).}
+\figlabel{activeload_concept}
 \end{center}
 \end{figure}
 
-In the audio/AC domain, the gate of Q1 is tied to the anode through capacitor C. Q1 mirrors any AC variation of the anode voltage from the gate to its source pin. This maintains a constant voltage between the Q1 source and the DHT anode, and thereby keeps the current through R2 constant. If the headphone stator is driven directly by the DHT anode (output 1 in \figr{gyrator_concept}), this current is shared between the DHT and the stator. Therefore, the current flowing through the DHT will exhibit a slight variation in response to the AC current draw by the stator. This variation is typically less than \SI{4}{mA}\cite{osdeha_p8}, which is considerably less than the DC bias current. The general concept for the operating point illustrated in \figr{801A_curves} therefore remains valid. However, instead of taking the audio output from the DHT anode, the stator can also be connected to the $\mu$-output of the gyrator (output 2). In this $\mu$-follower configuration\cite{pimm_ccs,kimmel_mustage}, the stator draws its current directly form Q1, not through R2. This restores the constant-current operation of the DHT tube with a perfectly flat load line as shown in \figr{801A_curves}.\par
+In the audio/AC domain, the gate of Q1 is tied to the anode through capacitor C. Q1 mirrors any AC variation of the anode voltage from the gate to its source pin. This maintains a constant voltage between the Q1 source and the DHT anode, and thereby keeps the current through R2 constant. If the headphone stator is driven directly by the DHT anode (output 1 in \figr{activeload_concept}), this current is shared between the DHT and the stator. Therefore, the current flowing through the DHT will exhibit a slight variation in response to the AC current consumed by the stator. This variation is typically less than \SI{4}{mA}\cite{osdeha_p8}, which is considerably less than the DC bias current. The general concept for the operating point illustrated in \figr{801A_curves} therefore remains valid. However, instead of taking the audio output from the DHT anode, the stator can also be connected to the $\mu$-output (output 2 in \figr{activeload_concept}). In this $\mu$-follower configuration\cite{pimm_ccs,kimmel_mustage}, the stator draws its current directly form Q1, not through R2. This restores the constant-current operation of the DHT tube with a perfectly flat load line as shown in \figr{801A_curves}.\par
 
 In the DC domain, the gate pin of the FET Q1 is grounded via R1, and the source pin is therefore fixed at $-V_{\rm GS,0}$. This biases the anode at a small negative DC voltage determined by $V_{\rm GS,0}$ and the DC drop across R2. This maintains a stable DC voltage at the amplifier outputs despite any thermal drift or aging of the DHT tubes.
 
