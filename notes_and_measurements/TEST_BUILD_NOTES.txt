@@ -123,7 +123,7 @@ Build and test log
 - Testing amp at high power output, the Gyrator cascode FETs Q6/Q8 tend to die. Too much heat? Or too much voltage? Or oscillation?
 	- Added thermal paste to one cascode FET (but not the other) --> the one with paste dies again, while the other survives. Not a heat problem.
 	- Reduced B+, B-1 and B2- voltages to +400...-500V, so there can't be more than 900V across the cascode FETs, which are specified to 1000V --> they still die. --> Not too much voltage.
-	- Oscillation? Try with larger gate resistors (both at cascode and main CCS FETs)
+	- Cascode FETs don't die while idling, they mostly die when the amp is driven hard with high frequency test signals. Oscillation? Try with larger gate resistors (both at cascode and main CCS FETs).
 
 
 *** TO DO ***
