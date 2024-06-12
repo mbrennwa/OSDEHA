@@ -1999,6 +1999,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 111.76) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef1910a-4263-4abc-b8a3-2eb8dbfedd8e")
+	)
+	(wire
+		(pts
 			(xy 113.03 74.93) (xy 113.03 77.47)
 		)
 		(stroke
@@ -2006,16 +2016,6 @@
 			(type default)
 		)
 		(uuid "61b5ff40-eaa2-4779-859b-9c0c69fc932d")
-	)
-	(wire
-		(pts
-			(xy 116.84 99.06) (xy 113.03 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6325b72b-7ee7-4c60-a665-081baefa68dd")
 	)
 	(wire
 		(pts
@@ -2036,16 +2036,6 @@
 			(type default)
 		)
 		(uuid "6d702865-b613-4a5d-85fd-41a7f57035d7")
-	)
-	(wire
-		(pts
-			(xy 74.93 74.93) (xy 74.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767f0bf9-0e08-4d6f-bc80-fdfc76602cb7")
 	)
 	(wire
 		(pts
@@ -2129,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 68.58) (xy 74.93 74.93)
+			(xy 74.93 69.85) (xy 74.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2146,6 +2136,16 @@
 			(type default)
 		)
 		(uuid "a3c68566-329f-49ef-8fd7-d00f2f815b97")
+	)
+	(wire
+		(pts
+			(xy 74.93 74.93) (xy 74.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a647048b-dd07-4895-9896-f5497e619699")
 	)
 	(wire
 		(pts
@@ -2209,16 +2209,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 77.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc71e473-8b80-4ef9-882a-de8c3ee50a27")
-	)
-	(wire
-		(pts
 			(xy 68.58 74.93) (xy 45.72 74.93)
 		)
 		(stroke
@@ -2246,16 +2236,6 @@
 			(type default)
 		)
 		(uuid "da1acd9c-5c01-47d8-a2e9-d03de9453cf8")
-	)
-	(wire
-		(pts
-			(xy 113.03 111.76) (xy 113.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbff7173-abd3-4e99-87fb-16f13ecb0d4f")
 	)
 	(wire
 		(pts
@@ -2306,26 +2286,6 @@
 			(type default)
 		)
 		(uuid "e71bbb86-5abb-4862-800b-4f228c2d3642")
-	)
-	(wire
-		(pts
-			(xy 74.93 68.58) (xy 78.74 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa06724-3593-4647-abad-b5730080f475")
-	)
-	(wire
-		(pts
-			(xy 113.03 104.14) (xy 116.84 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00bf6e9-dba9-4661-b38b-3bd5896c5b66")
 	)
 	(wire
 		(pts
@@ -2380,7 +2340,7 @@
 	)
 	(text "ca. 0.5 mA"
 		(exclude_from_sim no)
-		(at 111.76 107.95 90)
+		(at 111.252 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2453,25 +2413,25 @@
 	)
 	(hierarchical_label "RSET"
 		(shape passive)
-		(at 116.84 99.06 0)
+		(at 113.03 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "834bea92-0705-4c3f-95a2-22c394fe8597")
 	)
 	(hierarchical_label "CAP"
 		(shape passive)
-		(at 77.47 63.5 0)
+		(at 74.93 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9cb25cd6-3c01-4bd8-a6d1-039526f9269d")
 	)
