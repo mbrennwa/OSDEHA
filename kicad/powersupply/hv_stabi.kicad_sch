@@ -2338,6 +2338,20 @@
 		)
 		(uuid "3128aefb-d1d8-48f0-90b6-f4cff84371f3")
 	)
+	(text "REPLACE WITH 38k RESISTOR TO PROTECT BJT FROM OVERVOLTAGE + OVERCURRENT OUT OF 4.7u CAP?"
+		(exclude_from_sim no)
+		(at 137.414 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 7 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a366d5f-56e4-457c-a25d-caf864680c02")
+	)
 	(text "ca. 0.5 mA"
 		(exclude_from_sim no)
 		(at 111.252 107.95 90)
