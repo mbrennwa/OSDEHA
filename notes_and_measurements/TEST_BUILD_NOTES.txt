@@ -124,6 +124,7 @@ Build and test log
 	- Added thermal paste to one cascode FET (but not the other) --> the one with paste dies again, while the other survives. Not a heat problem.
 	- Reduced B+, B-1 and B2- voltages to +400...-500V, so there can't be more than 900V across the cascode FETs, which are specified to 1000V --> they still die. --> Not too much voltage.
 	- Cascode FETs don't die while idling, they mostly die when the amp is driven hard with high frequency test signals. Oscillation? Try with larger gate resistors (both at cascode and main CCS FETs).
+	(See also https://www.bartola.co.uk/valves/2019/02/03/hybrid-mu-follower-aka-gyrator-rev08-pcb-update --> use of dedicated gate stopper 330R for CCS FET is needed to prevent oscillation!)
 
 
 *** TO DO ***
