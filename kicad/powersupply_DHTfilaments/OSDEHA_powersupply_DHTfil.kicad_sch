@@ -1241,6 +1241,19 @@
 		)
 		(uuid "f901723a-34ad-4ba1-aaac-efb20074171a")
 	)
+	(text "Version 20240515"
+		(exclude_from_sim no)
+		(at 61.214 40.64 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "70118be3-2e9d-4d30-9387-2c6d68592382")
+	)
 	(text "This PCB provides the raw DC supply for a pair of Coleman DHT Filament Regulators.\nTwo of these PCBs are needed for a stereo amp.\nEach channel uses one pair of Coleman DHT filament regulators, which share a common raw DC supply.\nWithin a given pair/channel, the \"NEG\" (INPUT-, OUT-) of each Coleman DHT board are linked together using a solid wire.\nThe \"NEG\" of each pair/channel connects to B- rail of the respective amplifier board.\nRaw DC supplies must be floating and use separate AC windings!"
 		(exclude_from_sim no)
 		(at 60.96 35.814 0)

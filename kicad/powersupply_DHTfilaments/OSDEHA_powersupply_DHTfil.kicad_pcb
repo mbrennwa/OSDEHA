@@ -12623,7 +12623,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d9aae09d-70f7-42c5-ace7-46d8e874fc6a")
 	)
-	(gr_text "mbrennwa.github.io/OSDEHA"
+	(gr_text "mbrennwa.github.io/OSDEHA\nV20240515"
 		(at 158.25 93.65 0)
 		(layer "B.SilkS")
 		(uuid "09e404a0-959e-4b97-b7ca-5cb3cd3bea09")
