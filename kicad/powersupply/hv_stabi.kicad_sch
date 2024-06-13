@@ -2916,14 +2916,14 @@
 			)
 		)
 		(property "Value" "FJPF5027OTU"
-			(at 154.686 84.836 90)
+			(at 150.622 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Vertical"
 			(at 147.955 86.36 0)
 			(effects
 				(font

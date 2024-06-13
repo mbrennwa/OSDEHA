@@ -696,10 +696,16 @@
 		(uuid "1e198c02-224a-4c3a-a7de-606aa26420ec")
 	)
 	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4fd195-7060-486b-8bac-fb8c87c7ff0c")
+	)
+	(junction
 		(at 158.75 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2fcc4fcb-732d-49c0-9f27-f6723eae63e0")
+		(uuid "33198633-97a0-4208-8da0-d38c7d90c816")
 	)
 	(junction
 		(at 191.77 85.09)
@@ -736,12 +742,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcbe1c6a-faaf-451d-80dc-81edb7327362")
-	)
-	(junction
-		(at 85.09 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f61a0ddb-501a-4908-ad5b-88b04d627b62")
 	)
 	(junction
 		(at 100.33 50.8)
@@ -961,16 +961,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 166.37 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a0a42a-b759-440c-a7e6-8901a13e7645")
-	)
-	(wire
-		(pts
 			(xy 173.99 85.09) (xy 173.99 88.9)
 		)
 		(stroke
@@ -1078,16 +1068,6 @@
 			(type default)
 		)
 		(uuid "e6f25342-db89-4ded-b4d6-9711693906e9")
-	)
-	(wire
-		(pts
-			(xy 85.09 80.01) (xy 92.71 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f314a7c0-9823-4fff-8673-5003226914bb")
 	)
 	(wire
 		(pts
@@ -1592,6 +1572,82 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c37e520-8e01-47a9-b8ee-3d6cacc4d76c")
+		(property "Reference" "R23"
+			(at 88.9 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 88.9 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55330R00"
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f786683-5b33-4af1-9dc7-66c9d4297307")
+		)
+		(pin "1"
+			(uuid "a985d9c6-eab3-41c4-a24f-95e186eda110")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2220,6 +2276,82 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9680f706-c4ec-4355-8ca6-7cb5e6f2d95f")
+		(property "Reference" "R24"
+			(at 162.56 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 162.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 162.56 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?31018"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMF55330R00"
+			(at 162.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a64bdcbe-3f70-4ec4-8e00-06b566cf7b55")
+		)
+		(pin "1"
+			(uuid "bcc4117a-5cf6-472e-8fb5-16f134e2c56c")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
+					(reference "R24")
 					(unit 1)
 				)
 			)
