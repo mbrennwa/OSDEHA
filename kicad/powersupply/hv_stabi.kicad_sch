@@ -1514,14 +1514,14 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:BD911"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 6.35 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1529,8 +1529,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
+			(property "Value" "BD911"
+				(at 6.35 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1538,8 +1538,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 6.35 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1549,7 +1549,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1559,7 +1559,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "15A, Silicon Power NPN Transistors, TO-220"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1568,7 +1568,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "Power NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1577,7 +1577,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1586,7 +1586,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "BD911_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1647,11 +1647,11 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "BD911_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1667,9 +1667,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1685,9 +1685,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2338,20 +2338,6 @@
 		)
 		(uuid "3128aefb-d1d8-48f0-90b6-f4cff84371f3")
 	)
-	(text "REPLACE WITH 38k RESISTOR TO PROTECT BJT FROM OVERVOLTAGE + OVERCURRENT OUT OF 4.7u CAP?"
-		(exclude_from_sim no)
-		(at 137.414 92.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 7 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a366d5f-56e4-457c-a25d-caf864680c02")
-	)
 	(text "ca. 0.5 mA"
 		(exclude_from_sim no)
 		(at 111.252 107.95 90)
@@ -2912,6 +2898,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BD911")
+		(at 146.05 80.01 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cad4cf6-1222-4331-8086-374eb10eb249")
+		(property "Reference" "Q6"
+			(at 146.05 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FJPF5027OTU"
+			(at 154.686 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 147.955 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "FJPF5027OTU"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7ca341a-2fe3-4470-8c69-9cf0d1fee4a8")
+		)
+		(pin "3"
+			(uuid "a8b2e116-f29b-49bb-842b-6bcbca1a8d04")
+		)
+		(pin "1"
+			(uuid "3728e94f-d5cf-44c6-ab61-2bbbf00f42dd")
+		)
+		(instances
+			(project "OSDEHA_PSU"
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 151.13 57.15 270)
 		(unit 1)
@@ -3330,97 +3398,6 @@
 				)
 				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 146.05 80.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0375cad-0706-4409-a034-da23d4f06aac")
-		(property "Reference" "Q6"
-			(at 146.05 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 152.908 84.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 147.955 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2N3904"
-			(at 146.05 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bc15accb-77a6-4116-a4b3-1b9323df5975")
-		)
-		(pin "1"
-			(uuid "87d32add-c852-4bc5-80d4-1792f9e0efda")
-		)
-		(pin "2"
-			(uuid "5ae56bc3-89ea-4fb3-b3c7-51075c0a2cf9")
-		)
-		(instances
-			(project "OSDEHA_PSU"
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/8a700a98-b42d-48e6-9de9-2ba90c34a5f4"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/9e1e0254-ef31-452c-8d43-59d8e4c13fb9"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/ca37e2fa-48ac-4eb3-a7a4-1e3bbee61661/4254f3fa-5a7d-4f6e-8fcc-41d75b752000"
-					(reference "Q14")
 					(unit 1)
 				)
 			)

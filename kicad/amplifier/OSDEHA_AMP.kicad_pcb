@@ -7101,7 +7101,7 @@
 		(descr "Resistor, Axial_DIN0516 series, Axial, Vertical, pin pitch=5.08mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0516 series Axial Vertical pin pitch 5.08mm 2W length 15.5mm diameter 5mm")
 		(property "Reference" "R38"
-			(at 4.6 2.605 270)
+			(at 4.6 2.605 -90)
 			(layer "F.SilkS")
 			(uuid "b45710f7-a821-4dae-8afd-28172748e56d")
 			(effects
@@ -7112,7 +7112,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 2.54 3.62 270)
+			(at 2.54 3.62 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03034928-a3b7-4005-8994-f12bfac016ad")
@@ -7260,7 +7260,7 @@
 			(uuid "33decfbd-0de7-4fde-9280-be7334b5ea2b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.62 270)
+			(at 2.54 -3.62 -90)
 			(layer "F.Fab")
 			(uuid "255151e9-f81e-4036-8479-01f1fca46449")
 			(effects
@@ -10213,7 +10213,7 @@
 		(descr "Resistor, Axial_DIN0516 series, Axial, Vertical, pin pitch=5.08mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0516 series Axial Vertical pin pitch 5.08mm 2W length 15.5mm diameter 5mm")
 		(property "Reference" "R33"
-			(at 4.59 2.8 270)
+			(at 4.59 2.8 -90)
 			(layer "F.SilkS")
 			(uuid "852c8fe5-4141-4813-abc0-ae0bff430739")
 			(effects
@@ -10224,7 +10224,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 2.54 3.62 270)
+			(at 2.54 3.62 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "523e6dab-24a2-4f6f-b446-8a9fd3ebfded")
@@ -10272,7 +10272,7 @@
 			)
 		)
 		(property "MPN" " CPF3470R00"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80674304-bdd1-4df1-a17c-0a1cb10116ea")
@@ -10371,7 +10371,7 @@
 			(uuid "b047853a-7cd3-4558-8ccc-44ad67ed2be1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -3.62 270)
+			(at 2.54 -3.62 -90)
 			(layer "F.Fab")
 			(uuid "4dd8a23c-699b-46c9-bdde-f3073bfa01c7")
 			(effects
@@ -25014,8 +25014,20 @@
 		(layer "Edge.Cuts")
 		(uuid "a56c52b8-ddfd-4855-8e7b-2c542f877ae7")
 	)
+	(gr_text "V20240613"
+		(at 130 114.725 0)
+		(layer "F.SilkS")
+		(uuid "1bb42e88-453a-4fcd-8bf9-3ef910b10617")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "mbrennwa.github.io/OSDEHA"
-		(at 145.675 115.725 0)
+		(at 129.825 111.625 0)
 		(layer "F.SilkS")
 		(uuid "62694c89-0d0f-4fe3-837e-f0933082ce01")
 		(effects
@@ -25023,7 +25035,7 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify bottom)
+			(justify left bottom)
 		)
 	)
 	(dimension
