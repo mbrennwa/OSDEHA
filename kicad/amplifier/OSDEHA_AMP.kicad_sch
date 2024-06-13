@@ -5389,7 +5389,7 @@
 		)
 		(uuid "d1b58efe-76df-4c62-9a7a-d2669eb34e7a")
 	)
-	(text "OSDEHA Draft 010624, not tested, mbrennwa@diyAudio"
+	(text "OSDEHA Draft DDMMYY, not tested, mbrennwa@diyAudio"
 		(exclude_from_sim no)
 		(at 279.4 69.85 0)
 		(effects
