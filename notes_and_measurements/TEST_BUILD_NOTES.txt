@@ -83,10 +83,10 @@ Build and test log
 
 2024-06-01
 - Wired DHT output tubes and Coleman Regs to amplifier board. Tested and adjusted filament supply through amplifier board, works ok.
-- Built output stage on amplifier board (Gyrator etc.). Connected HV PSUs (B+, B-, B2-). Does not work. Smoke from AOT Fets (or something nearby, could not see well).
+- Built output stage on amplifier board (mu follower etc.). Connected HV PSUs (B+, B-, B2-). Does not work. Smoke from AOT Fets (or something nearby, could not see well).
 
 2024-06-02
-- Rebuilt gyrator with correct pinout on the FETs. No more smoke, but still does not work. Does the tube/anode load down the protection Zeners and then pulls the gate and the 4.5M resistor low? There is quite a bit of DC across the 4.5M resistor. Also, the B+ supply was broken, so that may also have caused problems with the gyrator.
+- Rebuilt mu follower / CCS with correct pinout on the FETs. No more smoke, but still does not work. Does the tube/anode load down the protection Zeners and then pulls the gate and the 4.5M resistor low? There is quite a bit of DC across the 4.5M resistor. Also, the B+ supply was broken, so that may also have caused problems with the mu follower / CCS.
 - Rebuilt PSU using the new PCB. 6.3 V heater supply tested ok. Need to test the remaining parts.
 - B2- supply of new PSU-PCB does not work (B+ and B- not yet tested). Testing B2- without Q5 installed. Very low voltage across RSET. Voltage across R18 (1k) is 0.5V, so CCS current is 0.5 mA (about right). Does the overcurrent limiter (Q6) suck up all the current coming out of R18? --> remove Q6 and check again.
 
@@ -96,19 +96,19 @@ Build and test log
 
 2024-06-07
 - Repaired B2- HV PSU and built B+ and B- HV PSU (using correct pinout of 2N3904 BJT). Tested ok.
-- Tested amplifier Gyrator --> killed B+ HV supply again (cf. 2024-06-02).
+- Tested amplifier mu follower / CCS --> killed B+ HV supply again (cf. 2024-06-02).
 - Repaired B+ HV supply, using STF5NK100Z (TO220FP) instead of NTHL1000N170M1.
-- Tested amplifier Gyrator again (without DHT tube installed) --> one branch works ok (Anode out at 4 VDC, close to GND), the other has B+ / 440 VDC at Anode out.
+- Tested amplifier mu fullower / CCS again (without DHT tube installed) --> one branch works ok (Anode out at 4 VDC, close to GND), the other has B+ / 440 VDC at Anode out.
 - Replaced AOT1N60 and IXTP3N100D2 --> both branches now work ok (ca. 4 VDC at Anode out)
 
 2024-06-08
-- testing amplifier / Gyrator stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
-- Testing amplifier / Gyrator using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors inplace of DHT tubes.
-- Testing amplifier / Gyrator using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
-- Testing complete amplifier (input, driver, output gyrator + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias is not perfectly stable but has regular pulses (approx 1 pulse per second). The fluctuations stop if the DHT tubes are disconnected.
+- testing amplifier / mu follower CCS stage: found poor insulation between HV MOSFETs and heatsink, which caused shorts. Also found poor solder joint on gate resistors of AOT160. Fixed.
+- Testing amplifier / mu follower CCS using bench PSU for better control of current limits, starting at lower voltages. DC operating points work ok with 20k load resistors inplace of DHT tubes.
+- Testing amplifier / mu follower CCS using OSDEHA HV PSU, with 20k load resistors in place of DHT tubes. DC operating points work ok.
+- Testing complete amplifier (input, driver, output mu follower CCS + DHTs) --> DC operating points in output stage ok. Can adjust DC bias to target 20 mA idle current, but DC bias is not perfectly stable but has regular pulses (approx 1 pulse per second). The fluctuations stop if the DHT tubes are disconnected.
 
 2024-06-10
-- Pulsating voltage in Gyrator stage (and elsewhere) only happens with DHT tubes installed. If dummy resistors are used instead, pulsation is gone.
+- Pulsating voltage in mu follower CCS stage (and elsewhere) only happens with DHT tubes installed. If dummy resistors are used instead, pulsation is gone.
 - Pulses are from RFI/EMI noise pickup. Not specific to OSDEHA! Scope also shows similar pulse signals if probing the solder tin spool.
 
 2024-06-11
@@ -120,7 +120,7 @@ Build and test log
 	output clipping visible on scope at 1550 Vpp (using 1:100 resistor voltage divider 100k + 2k + 100k at output and differential scope probe)
 	voltage gain output/input = 241x
 	frequency response into 200k resistive load (-3 dB) = 10 Hz ... 500 kHz
-- Testing amp at high power output, the Gyrator cascode FETs Q6/Q8 tend to die. Too much heat? Or too much voltage? Or oscillation?
+- Testing amp at high power output, the mu follower CCS cascode FETs Q6/Q8 tend to die. Too much heat? Or too much voltage? Or oscillation?
 	- Added thermal paste to one cascode FET (but not the other) --> the one with paste dies again, while the other survives. Not a heat problem.
 	- Reduced B+, B-1 and B2- voltages to +400...-500V, so there can't be more than 900V across the cascode FETs, which are specified to 1000V --> they still die. --> Not too much voltage.
 	- Cascode FETs don't die while idling, they mostly die when the amp is driven hard with high frequency test signals. Oscillation? Try with larger gate resistors (both at cascode and main CCS FETs).
