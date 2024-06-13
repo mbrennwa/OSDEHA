@@ -131,14 +131,17 @@ Build and test log
 	- DC operation is fine, same as before
 	- AC operation with tubes shows less runaway, FETs do not blow up.
 	- Driving the output stage hard with high-frequency test signal causes a "flame" in one of the DHT tube. Immediately turned the amp off. Testing output stage with DC bench supplies and dummy load resistors, and it seems fine.
+	- One of the CCS loads on the buffer stage burned out. Oscillation? Rebuild CCS, but with larger gate stopper?
 
 
 *** TO DO ***
-- Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
+- Repair buffer CCS, use larger gate stopper, check buffer stage.
+- Test amp with dummy load resistors instead of DHT tubes. Drive it hard with high-frequency test signals to see if it behaves.
+- (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so. <-- really necessary???
-- Current limiter in HV PSU will blow up if there's (near-) short. This is probably because there's too much current through the 2N3904 from the 4.7uF cap. Insert a current-limiting resistor to the collector pin (pin-3)? Imax = 0.2 A, Pmax = 0.625 W, Vce,max = 40 V --> If cap has 460 VDC and output is shorted, the limiter resistor must drop > 420V at 0.2 A --> R > 420 V / 0.2 A = 2.1kOhm. This saves the life of the current limiter, but stops it from working well, so the FET dies when there's a short. Think about a better solution. --> use 10M90S limiter in output for testing, install jumper wire after testing.
-- HV PSU: replace NTHL1000N170M1 with STW5NK100Z (TO247) <--- really?
+- Current limiter in HV PSU will blow up if there's (near-) short. Use beefy TO220 high-voltage BJT instead.
+- (Really? Naahhh...) HV PSU: replace NTHL1000N170M1 with STW5NK100Z (TO247)
 - design chassis, mechanical construction
 - choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
