@@ -595,7 +595,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "1k"
 			(at 125.73 85.09 90)
 			(effects
 				(font
@@ -630,7 +630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55300R00"
+		(property "MPN" "CMF551K000"
 			(at 125.73 85.09 90)
 			(effects
 				(font

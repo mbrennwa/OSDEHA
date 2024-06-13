@@ -3566,7 +3566,7 @@
 			(xy 115.57 147.32) (xy 132.08 147.32)
 		)
 		(stroke
-			(width 0)
+			(width 0.0254)
 			(type default)
 		)
 		(uuid "25aee005-30b2-4b08-ac91-8997c59c11b7")
@@ -8479,7 +8479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "1k"
 			(at 104.14 162.56 90)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55300R00"
+		(property "MPN" "CMF551K000"
 			(at 104.14 162.56 90)
 			(effects
 				(font
@@ -10668,7 +10668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "1k"
 			(at 127 152.4 90)
 			(effects
 				(font
@@ -10703,7 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55300R00"
+		(property "MPN" "CMF551K000"
 			(at 127 152.4 90)
 			(effects
 				(font
