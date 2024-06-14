@@ -133,12 +133,18 @@ Build and test log
 	- Driving the output stage hard with high-frequency test signal causes a "flame" in one of the DHT tube. Immediately turned the amp off. Testing output stage with DC bench supplies and dummy load resistors, and it seems fine.
 	- One of the CCS loads on the buffer stage burned out. Oscillation? Rebuild CCS, but with larger gate stopper?
 
+2024-06-14
+- Repaired buffer stage / CCS. Confirmed working ok using bench PSUs.
+- Changed gate stoppers at DN2540 and IXTP parts from 300R to 1k
+- Found 100R gate stoppers at DHT tube sockets were toasted. Replaced with 220R.
+- Added grid voltage clamp diodes to DHT tube sockets.
+- Testing amp with new gate stoppers and diode clamps at DHT grids, but without tubes. Works ok, clamp works.
+- Testing amp with one DTH and one dummy load resistor. Tube shows osciallation at 2 MHz, but no runaway. Dummy resistor is clean.
+
+
 
 *** TO DO ***
-- Repair buffer CCS, use larger gate stopper, check buffer stage.
-- Reduce risk of oscillation: change gate stoppers on DN2540 parts (R5, R8, R40, R42) and on IXTP parts (R34, R39) from 300R to 1k
-- Add diode clamp to DHT grid to prevent too much positive grid voltage
-- Test amp with dummy load resistors instead of DHT tubes. Drive it hard with high-frequency test signals to see if it behaves.
+- Figure out HF oscillation with DHT tube installed. Use larger gate stopper? Remove diode clamp?
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
