@@ -144,7 +144,7 @@ Build and test log
 
 
 *** TO DO ***
-- Figure out HF oscillation with DHT tube installed. Use larger gate stopper? Remove diode clamp?
+- Figure out HF oscillation with DHT tube installed. Use larger gate stopper? Remove diode clamp? Apply some RC snubbers at the right points?
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
