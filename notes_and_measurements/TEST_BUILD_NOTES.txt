@@ -137,6 +137,7 @@ Build and test log
 *** TO DO ***
 - Repair buffer CCS, use larger gate stopper, check buffer stage.
 - Reduce risk of oscillation: change gate stoppers on DN2540 parts (R5, R8, R40, R42) and on IXTP parts (R34, R39) from 300R to 1k
+- Add diode clamp to DHT grid to prevent too much positive grid voltage
 - Test amp with dummy load resistors instead of DHT tubes. Drive it hard with high-frequency test signals to see if it behaves.
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
