@@ -5684,7 +5684,7 @@
 		)
 		(uuid "d1b58efe-76df-4c62-9a7a-d2669eb34e7a")
 	)
-	(text "OSDEHA Draft DDMMYY, not tested, mbrennwa@diyAudio"
+	(text "OSDEHA Draft 2024-06-14, mbrennwa@diyAudio"
 		(exclude_from_sim no)
 		(at 279.4 69.85 0)
 		(effects
@@ -7328,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 67.31 0)
+		(at 45.72 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7337,7 +7337,7 @@
 		(fields_autoplaced yes)
 		(uuid "30151c80-1965-403d-843f-08adfdd6ebef")
 		(property "Reference" "H2"
-			(at 30.48 66.04 0)
+			(at 48.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7346,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 30.48 68.58 0)
+			(at 48.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7355,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 67.31 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 67.31 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7373,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 67.31 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8778,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 62.23 0)
+		(at 45.72 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8787,7 +8787,7 @@
 		(fields_autoplaced yes)
 		(uuid "7225b0dc-3969-4ee1-bc3e-c3a8a7882aaa")
 		(property "Reference" "H1"
-			(at 30.48 60.96 0)
+			(at 48.26 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8796,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 30.48 63.5 0)
+			(at 48.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8805,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 62.23 0)
+			(at 45.72 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 62.23 0)
+			(at 45.72 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 62.23 0)
+			(at 45.72 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9457,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 72.39 0)
+		(at 45.72 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9466,7 +9466,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fef3501-3909-4260-9434-ffb77fd809b7")
 		(property "Reference" "H3"
-			(at 30.48 71.12 0)
+			(at 48.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9475,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 30.48 73.66 0)
+			(at 48.26 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9484,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 72.39 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 72.39 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 72.39 0)
+			(at 45.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9909,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 77.47 0)
+		(at 45.72 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9918,7 +9918,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad39bcf6-8308-4910-98eb-013892f13a37")
 		(property "Reference" "H4"
-			(at 30.48 76.2 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +9927,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 30.48 78.74 0)
+			(at 48.26 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +9936,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 77.47 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +9945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 77.47 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +9954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 77.47 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
