@@ -144,11 +144,7 @@ Build and test log
 
 
 *** TO DO ***
-- DONE OK -- repair buffer CCS, use larger gate stopper, check buffer stage.
-- DONE OK -- Reduce risk of oscillation: change gate stoppers on DN2540 parts (R5, R8, R40, R42) and on IXTP parts (R34, R39) from 300R to 1k
-- DONE OK -- Add diode clamp to DHT grid to prevent too much positive grid voltage
-- DONE -- Test VT25 tubes No 2 and 3: are they dead or alive?  --> No 2 is dead, No 3 works
-- DONE OK, diode clamp works as expected -- Test amp with dummy load resistors instead of DHT tubes. Drive it hard with high-frequency test signals to see if it behaves.
+- Figure out HF oscillation with DHT tube installed. Use larger gate stopper? Remove diode clamp?
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
