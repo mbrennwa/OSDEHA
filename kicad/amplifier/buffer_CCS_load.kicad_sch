@@ -507,7 +507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02483c5f-461b-4a19-92a6-5444ffb40f2a")
-		(property "Reference" "R41"
+		(property "Reference" "R43"
 			(at 134.62 97.79 90)
 			(effects
 				(font
@@ -587,7 +587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74bdfc90-47bf-4cad-9b92-b8c81b968e2e")
-		(property "Reference" "R40"
+		(property "Reference" "R42"
 			(at 125.73 87.63 90)
 			(effects
 				(font
@@ -667,7 +667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fad04642-fc60-4ed8-9ceb-2cd402faa290")
-		(property "Reference" "Q9"
+		(property "Reference" "Q10"
 			(at 139.7 85.09 0)
 			(effects
 				(font
