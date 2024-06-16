@@ -151,11 +151,22 @@ Build and test log
 	- re-installed clamp diodes --> no oscillation
 	- remove RC snubber --> no oscillation
 	- remove grid stopper --> no oscillation
+- Further testing to check how output stage behavaes if driven hard --> input/buffer stage blows up. Buffer CCS FETs broken. Repaired. Input stage does not work, no current through tubes. Checked resistors and replaced FETs in tail CCS, still does not work. Tubes ok?
+
 
 
 *** TO DO ***
+
+- Check / repair input + driver stage.
+
+- Figure out what causes the failure of the driver/input stage when driving the tubes hard:
+	- drive it hard without tubes (high frequency, high amplitude)
+	- somehow simulate grid load without DHT tubes to better understand what's going on
+	
 - Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
+
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
+
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so. <-- really necessary???
