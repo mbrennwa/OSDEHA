@@ -141,10 +141,18 @@ Build and test log
 - Testing amp with new gate stoppers and diode clamps at DHT grids, but without tubes. Works ok, clamp works.
 - Testing amp with one DTH and one dummy load resistor. Tube shows osciallation at 2 MHz, but no runaway. Dummy resistor is clean.
 
-
+2024-06-16
+- Checking for source and cure for oscillation.
+- Removing diode clamps at tube sockets does not change oscillation.
+- Adding RC snubber (R=10k, C=100p Mica) from anode to cathode/filament on tube socket has only very little effect to reduce the oscillation.
+- Oscillation looks like a smoothe sine wave at the tube pins, but less smooth saw-tooth at the PCB pins. This means the HF stuff happens on the PCB side, not at the tube side of the connection leads between PCB and tube.
+- Reducing mu resistor in mu stage from 450R to 300R changes oscillation from continuous to intermittent. Reducing it further to 150R, and oscillation is gone. Looks like there was too much feedback in the mu-stage CCS.
+- Can the clamp diodes, RC snubber and gate stopper resistor at the tube socket be reduced again? (or entirely removed?)
+	- re-installed clamp diodes --> no oscillation
+	- remove RC snubber --> no oscillation
+	- remove grid stopper --> no oscillation
 
 *** TO DO ***
-- Figure out HF oscillation with DHT tube installed. Use larger gate stopper? Remove diode clamp? Apply some RC snubbers at the right points?
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
