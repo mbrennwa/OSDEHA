@@ -160,6 +160,8 @@ Build and test log
 - Check / repair input + driver stage.
 
 - Figure out what causes the failure of the driver/input stage when driving the tubes hard:
+	- (so far, the failure only happened when the DHT grids were connected to the buffer stage)
+	- add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
 	- drive it hard without tubes (high frequency, high amplitude)
 	- somehow simulate grid load without DHT tubes to better understand what's going on
 	
