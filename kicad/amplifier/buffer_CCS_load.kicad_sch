@@ -126,6 +126,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4007"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET_Other:DN2540N5-G"
 			(pin_names
 				(offset 0) hide)
@@ -397,10 +559,22 @@
 		)
 	)
 	(junction
+		(at 137.16 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8109172d-7bea-4c39-9122-493b89851239")
+	)
+	(junction
 		(at 137.16 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9462116c-87b2-41b2-b821-67b208cf7c40")
+	)
+	(junction
+		(at 137.16 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63976b1-34ba-42fb-967c-ba48bdf9aca7")
 	)
 	(wire
 		(pts
@@ -414,6 +588,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 91.44) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2124a5ef-ec0f-4278-834c-1ffd4de07420")
+	)
+	(wire
+		(pts
 			(xy 121.92 85.09) (xy 121.92 102.87)
 		)
 		(stroke
@@ -421,6 +605,16 @@
 			(type default)
 		)
 		(uuid "396ad2f2-db3d-445e-ac22-a71abceee6c7")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b2ecb1-63a5-492e-b28c-531e810eb1ee")
 	)
 	(wire
 		(pts
@@ -444,7 +638,37 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 93.98) (xy 137.16 90.17)
+			(xy 137.16 60.96) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a75ec7-1a2e-43dc-8608-3be1bacb6830")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933b82a8-2936-40e2-b9b3-4428dc945fc9")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f68daad-c1f3-4c4c-b44f-74435efe0c81")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -452,9 +676,29 @@
 		)
 		(uuid "a831cb86-44b6-43dd-a05c-e6f06260b37b")
 	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2949038-41dd-4ad5-ae31-5d7a7d49fd20")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65bd933-0048-436a-8ee4-39fa953e9dd8")
+	)
 	(text "10 mA CCS"
 		(exclude_from_sim no)
-		(at 128.27 71.12 0)
+		(at 128.27 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -488,7 +732,7 @@
 	)
 	(hierarchical_label "POS"
 		(shape passive)
-		(at 137.16 80.01 90)
+		(at 137.16 60.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -653,6 +897,98 @@
 				)
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 154.94 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f70485a-8dd9-4b4b-ace0-75ec3261579b")
+		(property "Reference" "D14"
+			(at 157.48 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 157.48 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 150.495 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f9b17c-f819-44da-bee3-51d332b470f8")
+		)
+		(pin "2"
+			(uuid "0d3f7f57-1368-477c-b294-b5190bfdfaba")
+		)
+		(instances
+			(project ""
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/117f0db4-f368-407f-8708-b67954482099"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/964c5f27-279d-4094-beed-423757c37563"
+					(reference "D13")
 					(unit 1)
 				)
 			)
