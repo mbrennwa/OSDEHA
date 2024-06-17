@@ -165,6 +165,7 @@ Build and test log
 	- add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
 	- Test 1: drive it hard without tubes (high frequency, high amplitude)
 	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
+	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An worn out KT66 should do, may need somewhat more negative grid bias.
 	
 - Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
 
