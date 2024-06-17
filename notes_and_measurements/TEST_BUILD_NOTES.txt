@@ -161,9 +161,10 @@ Build and test log
 
 - Figure out what causes the failure of the driver/input stage when driving the tubes hard:
 	- (so far, the failure only happened when the DHT grids were connected to the buffer stage)
+	- overvoltage across CCS FET? DN2540 is good to 400V across Drain-Source, but there might be more during large signal swings. Replace with IXTP3N100D2 (use approx. 330 Ohm sense resistor for 10mA).
 	- add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
-	- drive it hard without tubes (high frequency, high amplitude)
-	- somehow simulate grid load without DHT tubes to better understand what's going on
+	- Test 1: drive it hard without tubes (high frequency, high amplitude)
+	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
 	
 - Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
 
