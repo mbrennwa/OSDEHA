@@ -9013,7 +9013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 310.388 148.59 90)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55100R00"
+		(property "MPN" "CMF55220R00"
 			(at 312.42 148.59 90)
 			(effects
 				(font
@@ -10574,7 +10574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 263.398 148.59 90)
 			(effects
 				(font
@@ -10610,7 +10610,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55100R00"
+		(property "MPN" "CMF55220R00"
 			(at 265.43 148.59 90)
 			(effects
 				(font

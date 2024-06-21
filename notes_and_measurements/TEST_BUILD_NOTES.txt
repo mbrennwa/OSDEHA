@@ -159,6 +159,8 @@ Build and test log
 
 - Check / repair input + driver stage.
 
+- FOR TESTING IN ONE BRANCH: Change AOT1N60 to DN2540, which has much lower saturation voltage and will therefore provide stiffer CCS at the 4...5 V drain-source voltage provided by the Vgs value of the IXTP cascode FET. Capacitances and gfs are very similar between the AOT1N60 to DN2540 parts. That might also help with the oscillation issue in the mu-stage, allowing a larger Rmu resistor for higher CCS impedance.
+
 - Figure out what causes the failure of the driver/input stage when driving the tubes hard:
 	- (so far, the failure only happened when the DHT grids were connected to the buffer stage)
 	- overvoltage across CCS FET? DN2540 is good to 400V across Drain-Source, but there might be more during large signal swings. Replace with IXTP3N100D2 (use approx. 330 Ohm sense resistor for 10mA).
