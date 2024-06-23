@@ -151,7 +151,18 @@ Build and test log
 	- re-installed clamp diodes --> no oscillation
 	- remove RC snubber --> no oscillation
 	- remove grid stopper --> no oscillation
-- Further testing to check how output stage behavaes if driven hard --> input/buffer stage blows up. Buffer CCS FETs broken. Repaired. Input stage does not work, no current through tubes. Checked resistors and replaced FETs in tail CCS, still does not work. Tubes ok?
+- Further testing to check how output stage behaves if driven hard --> input/buffer stage blows up. Buffer CCS FETs broken. Repaired. Input stage does not work, no current through tubes. Checked resistors and replaced FETs in tail CCS, still does not work. Tubes ok?
+
+2024-06-22
+- Repaired input + driver stage
+- Installed DN2540 instead of AOT1N60 as CCS "lower" FET in mu-stage. DC operating point comes out as expected.
+
+2024-06-23
+Checking input + driver stage after repair.
+- Tried backwards diode from Drain-to-Source on CCS FETs to protect from negative voltage spikes. No effect. The CCS behaves ok even if the CCS FET Drain is driven negative. The FET just shorts the negative spike to B2-, so the diode is useless (confirmed with scope). Removed the diode from the schematic and PCB.
+- Found buffer CCS to run at 40 mA bias instead of 10 mA. This may explain the death of the buffer CCS FETs (overheating if driven hard). Increased R-sense values to give 10 mA on board. Changed CCS sense resistors from 150R to 536R in schematic.
+- With bench supplies (B+ = 200 V, B- = -60 V, B2- = -160 V): Driver/buffer does not blow up when driven hard into no load, dummy load (resistor + cap), 
+
 
 
 
@@ -164,7 +175,7 @@ Build and test log
 - Figure out what causes the failure of the driver/input stage when driving the tubes hard:
 	- (so far, the failure only happened when the DHT grids were connected to the buffer stage)
 	- overvoltage across CCS FET? DN2540 is good to 400V across Drain-Source, but there might be more during large signal swings. Replace with IXTP3N100D2 (use approx. 330 Ohm sense resistor for 10mA).
-	- add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
+	- DIODE CAN'T LIMIT THE HF SPIKES IN CCS, NO CHANGE ON SCOPE! add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
 	- Test 1: drive it hard without tubes (high frequency, high amplitude)
 	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
 	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An KT66 should do, may need somewhat more negative grid bias.
