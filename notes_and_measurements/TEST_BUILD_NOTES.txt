@@ -168,8 +168,6 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
-- Check / repair input + driver stage.
-
 - FOR TESTING IN ONE BRANCH: Change AOT1N60 to DN2540, which has much lower saturation voltage and will therefore provide stiffer CCS at the 4...5 V drain-source voltage provided by the Vgs value of the IXTP cascode FET. Capacitances and gfs are very similar between the AOT1N60 to DN2540 parts. That might also help with the oscillation issue in the mu-stage, allowing a larger Rmu resistor for higher CCS impedance.
 
 - Figure out what causes the failure of the driver/input stage when driving the tubes hard:
@@ -185,6 +183,8 @@ Checking input + driver stage after repair.
 - Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
 
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
+
+- PCBs: redo the part labels/numbers for more consistent numbering.
 
 - Powersupply: try the beefy high-voltage BJTs for the overload protection.
 
