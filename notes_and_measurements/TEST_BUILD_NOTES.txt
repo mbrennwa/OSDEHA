@@ -167,17 +167,20 @@ Build and test log
 	- add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
 	- Test 1: drive it hard without tubes (high frequency, high amplitude)
 	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
-	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An worn out KT66 should do, may need somewhat more negative grid bias.
+	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An KT66 should do, may need somewhat more negative grid bias.
 	
 - Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
 
+- Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
+
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
+
+- Powersupply: try the beefy high-voltage BJTs for the overload protection.
 
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
 - B+ and B- HV PSU: Change RSET value from 866k to 890k or 900k or so. <-- really necessary???
-- Current limiter in HV PSU will blow up if there's (near-) short. Use beefy TO220 high-voltage BJT instead.
 - (Really? Naahhh...) HV PSU: replace NTHL1000N170M1 with STW5NK100Z (TO247)
+- DONE / DACT 10k -- choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - design chassis, mechanical construction
-- choose/decide on volume pot: need 4-deck attenuator with very tight matching to maintain the symmetry of the balanced input --> switched attenuator using fixed low-tolerance resistors is a good idea.
 - for later: design integrated DHT filament supply containing rectifiers, Raw DC filtering  and FILAMENT CCS
