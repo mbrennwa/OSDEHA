@@ -168,9 +168,9 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
-- FOR TESTING IN ONE BRANCH: Change AOT1N60 to DN2540, which has much lower saturation voltage and will therefore provide stiffer CCS at the 4...5 V drain-source voltage provided by the Vgs value of the IXTP cascode FET. Capacitances and gfs are very similar between the AOT1N60 to DN2540 parts. That might also help with the oscillation issue in the mu-stage, allowing a larger Rmu resistor for higher CCS impedance.
+- DONE, BUT ONLY TESTED AT DC SO FAR: FOR TESTING IN ONE BRANCH: Change AOT1N60 to DN2540, which has much lower saturation voltage and will therefore provide stiffer CCS at the 4...5 V drain-source voltage provided by the Vgs value of the IXTP cascode FET. Capacitances and gfs are very similar between the AOT1N60 to DN2540 parts. That might also help with the oscillation issue in the mu-stage, allowing a larger Rmu resistor for higher CCS impedance.
 
-- Figure out what causes the failure of the driver/input stage when driving the tubes hard:
+- DONE, BUT MORE TESTING MAY BE USEFUL (ISSUE WAS LIKELY THE EXCESSIVE CURRENT IN THE CCS OF THE BUFFER STAGE): Figure out what causes the failure of the driver/input stage when driving the tubes hard:
 	- (so far, the failure only happened when the DHT grids were connected to the buffer stage)
 	- overvoltage across CCS FET? DN2540 is good to 400V across Drain-Source, but there might be more during large signal swings. Replace with IXTP3N100D2 (use approx. 330 Ohm sense resistor for 10mA).
 	- DIODE CAN'T LIMIT THE HF SPIKES IN CCS, NO CHANGE ON SCOPE! add protection diode in buffer CCS to prevent CCS FET drain from swinging below source voltage, which is linked to B2-
@@ -183,6 +183,8 @@ Checking input + driver stage after repair.
 - Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
 
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
+
+- CHECK: are there fusible resistors that would work for the 5.1k current limiter / safety resistors at the headphone outputs?
 
 - PCBs: redo the part labels/numbers for more consistent numbering.
 
