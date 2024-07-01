@@ -1232,7 +1232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09a3b2a7-51ed-4acd-9fc0-354ceb572b83")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 176.53 92.71 90)
 			(effects
 				(font
@@ -1293,7 +1293,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1308,7 +1308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dfb0b6d-dd0d-4499-b779-67205a3ca2e8")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 185.42 67.31 90)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1384,7 +1384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1106d323-5af5-4bbf-a068-f6cb1932d2e8")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 78.74 77.47 90)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1614,7 +1614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c37e520-8e01-47a9-b8ee-3d6cacc4d76c")
-		(property "Reference" "R23"
+		(property "Reference" "R32"
 			(at 88.9 77.47 90)
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R23")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1690,7 +1690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31bdcc37-a175-4f8c-ae21-05a8a2f0405d")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 71.12 77.47 90)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2084,7 +2084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77f699cd-4c44-4c28-8f5d-ac32638b4468")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -2145,7 +2145,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "946ba9d1-c229-4486-97d3-6b85dea12940")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 63.5 77.47 90)
 			(effects
 				(font
@@ -2303,7 +2303,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2318,7 +2318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9680f706-c4ec-4355-8ca6-7cb5e6f2d95f")
-		(property "Reference" "R24"
+		(property "Reference" "R38"
 			(at 162.56 77.47 90)
 			(effects
 				(font
@@ -2379,7 +2379,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "R24")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c0f7fe-6b86-4917-a125-f347a70ed98c")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2703,7 +2703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6aee985-6220-4dfd-88a3-99df0321581f")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 162.56 87.63 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2780,7 +2780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaa0da9f-2daa-43c0-a8ec-063a418306e2")
-		(property "Reference" "D10"
+		(property "Reference" "D12"
 			(at 170.18 87.63 0)
 			(effects
 				(font
@@ -2841,7 +2841,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "D10")
+					(reference "D12")
 					(unit 1)
 				)
 			)

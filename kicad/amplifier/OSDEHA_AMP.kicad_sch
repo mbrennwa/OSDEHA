@@ -3240,10 +3240,10 @@
 		(uuid "0e8056ab-67f1-4a8c-8131-b4f0df765a34")
 	)
 	(junction
-		(at 373.38 121.92)
+		(at 372.11 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f6709dd-1629-4a47-9afa-c65f6a66ab32")
+		(uuid "10cbb492-be85-4a16-9be4-dc82823271c6")
 	)
 	(junction
 		(at 213.36 185.42)
@@ -3366,6 +3366,12 @@
 		(uuid "66bf4eb2-10eb-433a-a8cf-c4469a688a5b")
 	)
 	(junction
+		(at 372.11 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6903ab55-c1db-499a-9c52-d6c8757d9230")
+	)
+	(junction
 		(at 269.24 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3430,12 +3436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd386d25-2d8e-44a4-bcf8-6e42b3085433")
-	)
-	(junction
-		(at 373.38 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c015dee3-b99a-442b-a933-2f464675825d")
 	)
 	(junction
 		(at 303.53 107.95)
@@ -3525,7 +3525,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 119.38) (xy 373.38 119.38)
+			(xy 378.46 119.38) (xy 372.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3545,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 121.92) (xy 373.38 121.92)
+			(xy 373.38 121.92) (xy 372.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3705,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 128.27) (xy 373.38 128.27)
+			(xy 378.46 128.27) (xy 372.11 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3875,6 +3875,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 124.46) (xy 372.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5d26c8-4bce-4be4-99c2-efac7e5d09de")
+	)
+	(wire
+		(pts
 			(xy 369.57 93.98) (xy 369.57 87.63)
 		)
 		(stroke
@@ -3925,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 121.92) (xy 342.9 121.92)
+			(xy 306.07 121.92) (xy 344.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4425,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 121.92) (xy 351.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f12a2e-817c-48bd-9e33-b9b9609f58c7")
+	)
+	(wire
+		(pts
 			(xy 240.03 125.73) (xy 240.03 130.81)
 		)
 		(stroke
@@ -4745,6 +4765,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 124.46) (xy 359.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c901a7-232b-4ea7-8394-d8952aee0edd")
+	)
+	(wire
+		(pts
 			(xy 77.47 132.08) (xy 81.28 132.08)
 		)
 		(stroke
@@ -4775,7 +4805,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 128.27) (xy 373.38 124.46)
+			(xy 372.11 128.27) (xy 372.11 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4835,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 119.38) (xy 373.38 121.92)
+			(xy 372.11 119.38) (xy 372.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4902,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "d026ece4-9448-4253-96df-70eced8a94b4")
+	)
+	(wire
+		(pts
+			(xy 367.03 121.92) (xy 372.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06c0590-1396-4e18-8b89-77fa529c3c8e")
 	)
 	(wire
 		(pts
@@ -5015,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 124.46) (xy 373.38 124.46)
+			(xy 373.38 124.46) (xy 372.11 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +5225,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 124.46) (xy 342.9 124.46)
+			(xy 295.91 124.46) (xy 344.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +5813,7 @@
 		(uuid "5653bfab-36b3-4827-b423-f8836cb0b0de")
 	)
 	(label "OUT-"
-		(at 379.73 119.38 180)
+		(at 378.46 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5795,7 +5835,7 @@
 		(uuid "5f5591b6-2e04-49c5-9dac-9fac6f766bae")
 	)
 	(label "OUT+"
-		(at 379.73 128.27 180)
+		(at 378.46 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,7 +6332,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "0c619d85-47d1-4b57-af5c-0e6bb6e7f8ca")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 313.69 160.528 0)
 			(effects
 				(font
@@ -6364,7 +6404,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6605,31 +6645,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 346.71 121.92 90)
+		(at 347.98 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "113e1997-6990-47c4-849f-66a20e1f6103")
-		(property "Reference" "R27"
-			(at 346.71 119.38 90)
+		(property "Reference" "R25"
+			(at 347.98 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.27k"
-			(at 346.71 116.84 90)
+		(property "Value" "4.3k 2W"
+			(at 347.98 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 346.71 123.698 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 347.98 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,8 +6677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 346.71 121.92 0)
+		(property "Datasheet" "https://www.vishay.com/doc?31021"
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 121.92 0)
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,8 +6695,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF551k2700"
-			(at 346.71 121.92 90)
+		(property "MPN" " CPF24K3000"
+			(at 347.98 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6713,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7158,7 +7198,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "2e239cc6-ccab-493e-841b-0a22c66e8670")
-		(property "Reference" "D11"
+		(property "Reference" "D6"
 			(at 266.7 160.528 0)
 			(effects
 				(font
@@ -7230,7 +7270,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7392,31 +7432,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 354.33 121.92 90)
+		(at 363.22 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3fb9eb98-b8e9-46da-a7d0-c09d9798a9d5")
-		(property "Reference" "R47"
-			(at 354.33 119.38 90)
+		(uuid "3f7c729d-3634-4e50-9a97-5afe7a279059")
+		(property "Reference" "R27"
+			(at 363.22 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.27k"
-			(at 354.33 116.84 90)
+		(property "Value" "1k 0.33 W fus."
+			(at 363.22 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 354.33 123.698 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 363.22 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,8 +7464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 354.33 121.92 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28737/nfr25.pdf"
+			(at 363.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 121.92 0)
+			(at 363.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,8 +7482,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF551k2700"
-			(at 354.33 121.92 90)
+		(property "MPN" "NFR2500001001JA5"
+			(at 363.22 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,15 +7492,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9baa3d6-f8d9-4255-89dd-34d3c6d17343")
+			(uuid "62041bcf-0587-4a7f-9a33-18584f7af28f")
 		)
 		(pin "2"
-			(uuid "b6795fd6-2f31-41ce-94b8-2395c554efa9")
+			(uuid "bb04461f-bcec-4bd7-8838-5fcac2fbe8fb")
 		)
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R47")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7620,82 +7660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 361.95 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44a9c181-9873-4332-a2c2-ecc7f8e8f517")
-		(property "Reference" "R45"
-			(at 361.95 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27k"
-			(at 361.95 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 361.95 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 361.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF551k2700"
-			(at 361.95 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38fcc639-a57f-4543-b7d4-d65ab522f0fd")
-		)
-		(pin "2"
-			(uuid "9d20a859-31f0-4879-9dcd-00e4153f41d4")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 316.23 154.94 270)
 		(unit 1)
@@ -7704,7 +7668,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "48f13395-d1d8-4c11-b2bb-1255d847cd6a")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 313.69 154.94 0)
 			(effects
 				(font
@@ -7765,7 +7729,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8709,7 +8673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "714e8f14-207f-482d-996f-070380a1e025")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -8770,7 +8734,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8921,82 +8885,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 346.71 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e050d2b-a6e2-48c2-b27e-3b5801a86eca")
-		(property "Reference" "R28"
-			(at 346.71 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27k"
-			(at 346.71 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 346.71 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 346.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 346.71 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF551k2700"
-			(at 346.71 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42a52089-8118-43d4-a081-2b1d82d38d59")
-		)
-		(pin "2"
-			(uuid "2230e961-4c68-4a90-a90f-2f58320d4bf2")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 312.42 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9004,7 +8892,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "80b09f23-99d7-4e35-9d6d-e25f523c9007")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 310.388 146.304 90)
 			(effects
 				(font
@@ -9067,7 +8955,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9047,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "8bd059cc-4886-45df-8fed-79545362436a")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 266.7 154.94 0)
 			(effects
 				(font
@@ -9220,7 +9108,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9514,82 +9402,6 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 361.95 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0e66827-c71f-4601-9d6f-9ca232b879e4")
-		(property "Reference" "R48"
-			(at 361.95 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27k"
-			(at 361.95 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 361.95 123.698 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 361.95 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF551k2700"
-			(at 361.95 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9eff649f-616f-4733-b086-6c3800c23e4e")
-		)
-		(pin "2"
-			(uuid "2fcd5a32-6e4c-4881-babc-8782c3809bb3")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10061,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 379.73 121.92 0)
+		(at 378.46 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10257,7 +10069,7 @@
 		(dnp no)
 		(uuid "c93d96c6-481d-4660-bc6c-2cd53bb57a3d")
 		(property "Reference" "J4"
-			(at 381 121.92 0)
+			(at 379.73 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10078,7 @@
 			)
 		)
 		(property "Value" "OUTPUT"
-			(at 381 124.46 0)
+			(at 379.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10087,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 379.73 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/417910849?display=pdf"
-			(at 379.73 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10114,7 @@
 			)
 		)
 		(property "MPN" "41791-0849"
-			(at 379.73 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd80b141-d1f7-4b5c-9f64-e2ec57575326")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 236.22 151.13 0)
 			(effects
 				(font
@@ -10396,7 +10208,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10565,7 +10377,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "d08bf6a6-e64e-4941-afe0-b593ff6d4557")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 263.398 146.304 90)
 			(effects
 				(font
@@ -10628,7 +10440,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d71ee1e3-1c14-48c2-b18a-a9272e502db1")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 236.22 128.27 0)
 			(effects
 				(font
@@ -10705,7 +10517,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10713,31 +10525,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 369.57 121.92 90)
+		(at 347.98 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "deff3c94-44ae-42c5-9293-9f6e83a86d1e")
-		(property "Reference" "R49"
-			(at 369.57 119.38 90)
+		(uuid "d9b7976a-ad0e-489a-80b3-3cf3cef797e9")
+		(property "Reference" "R26"
+			(at 347.98 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.27k"
-			(at 369.57 116.84 90)
+		(property "Value" "4.3k 2W"
+			(at 347.98 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 369.57 123.698 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 347.98 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,8 +10557,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 369.57 121.92 0)
+		(property "Datasheet" "https://www.vishay.com/doc?31021"
+			(at 347.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 121.92 0)
+			(at 347.98 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,8 +10575,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF551k2700"
-			(at 369.57 121.92 90)
+		(property "MPN" "CPF24K3000"
+			(at 347.98 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,15 +10585,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "efade18d-6c5b-43eb-80ac-32cdea9a9e8d")
+			(uuid "fecf5785-5e5c-4a40-a986-6da873d1a967")
 		)
 		(pin "2"
-			(uuid "65c31fea-7efe-43cc-b07d-fb5a84469add")
+			(uuid "99509e19-47b6-4b81-9ee9-2926b2782578")
 		)
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R49")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10865,82 +10677,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 354.33 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0ac31d6-616d-4336-89fa-0af06b51e82b")
-		(property "Reference" "R44"
-			(at 354.33 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27k"
-			(at 354.33 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 354.33 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 354.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF551k2700"
-			(at 354.33 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a08285f9-3b18-4508-8cc2-18dbc59a5eb8")
-		)
-		(pin "2"
-			(uuid "98c9b416-57c1-48a7-829b-ee54d06b4d99")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 77.47 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11010,82 +10746,6 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 369.57 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2b34eea-3e2b-42ae-8791-60fb16cda23e")
-		(property "Reference" "R46"
-			(at 369.57 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27k"
-			(at 369.57 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 369.57 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?31018"
-			(at 369.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 369.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CMF551k2700"
-			(at 369.57 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3539694-1e38-49ee-a824-9903bc2c96d1")
-		)
-		(pin "2"
-			(uuid "059b108b-ec85-4ec7-9c45-ba092c8a4b27")
-		)
-		(instances
-			(project "OSDEHA_AMP"
-				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11244,6 +10904,82 @@
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 363.22 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef679721-7b7c-4d9a-b12f-37fc79b12fc2")
+		(property "Reference" "R28"
+			(at 363.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k 0.33 W fus."
+			(at 363.22 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 363.22 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28737/nfr25.pdf"
+			(at 363.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NFR2500001001JA5"
+			(at 363.22 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc83a45f-e6e7-4710-b7c4-5f6294a92c6f")
+		)
+		(pin "2"
+			(uuid "2c5e6cfe-e29c-4d8f-9889-1fde2d8227e8")
+		)
+		(instances
+			(project "OSDEHA_AMP"
+				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -11502,7 +11238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6bd1bb4-cf99-40fc-bdcd-ce2e4110bbc7")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 228.6 151.13 0)
 			(effects
 				(font
@@ -11563,7 +11299,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
