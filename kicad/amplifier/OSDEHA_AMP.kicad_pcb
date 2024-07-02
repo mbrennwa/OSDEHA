@@ -2008,7 +2008,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 5.08 2.37 180)
 			(layer "F.Fab")
 			(uuid "8c89af04-731b-48db-bae0-becd7b271471")
@@ -2058,7 +2058,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55330R00"
+		(property "MPN" "CMF551K0000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4936,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 5.08 2.37 180)
 			(layer "F.Fab")
 			(uuid "a3bf561f-f4b3-475b-ad7c-f01714bf0194")
@@ -4986,7 +4986,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55330R00"
+		(property "MPN" "CMF551K0000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20187,7 +20187,7 @@
 		(descr "Resistor, Axial_DIN0414 series, Axial, Vertical, pin pitch=5.08mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Vertical pin pitch 5.08mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R25"
-			(at -4.025 0 180)
+			(at -4.025 0 360)
 			(layer "F.SilkS")
 			(uuid "3630f625-109f-4027-8bd3-65551a51c946")
 			(effects

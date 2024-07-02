@@ -1622,7 +1622,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 88.9 80.01 90)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55330R00"
+		(property "MPN" "CMF551K0000"
 			(at 88.9 80.01 90)
 			(effects
 				(font
@@ -2326,7 +2326,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 162.56 80.01 90)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55330R00"
+		(property "MPN" "CMF551K0000"
 			(at 162.56 80.01 90)
 			(effects
 				(font
