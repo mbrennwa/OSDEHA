@@ -6653,6 +6653,14 @@
 		(dnp no)
 		(uuid "113e1997-6990-47c4-849f-66a20e1f6103")
 		(property "Reference" "R25"
+			(at 347.98 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.3k 3W"
 			(at 347.98 119.38 90)
 			(effects
 				(font
@@ -6660,15 +6668,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k 2W"
-			(at 347.98 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical"
 			(at 347.98 123.698 90)
 			(effects
 				(font
@@ -6695,7 +6695,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CPF24K3000"
+		(property "MPN" " CPF34K3000"
 			(at 347.98 121.92 90)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 		(dnp no)
 		(uuid "3f7c729d-3634-4e50-9a97-5afe7a279059")
 		(property "Reference" "R27"
-			(at 363.22 119.38 90)
+			(at 363.22 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7448,7 @@
 			)
 		)
 		(property "Value" "1k 0.33 W fus."
-			(at 363.22 116.84 90)
+			(at 363.22 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10525,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 347.98 124.46 270)
+		(at 347.98 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10533,23 +10533,23 @@
 		(dnp no)
 		(uuid "d9b7976a-ad0e-489a-80b3-3cf3cef797e9")
 		(property "Reference" "R26"
-			(at 347.98 127 90)
+			(at 347.98 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.3k 2W"
-			(at 347.98 129.54 90)
+		(property "Value" "4.3k 3W"
+			(at 347.98 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
-			(at 347.98 122.682 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical"
+			(at 347.98 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10575,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CPF24K3000"
+		(property "MPN" "CPF34K3000"
 			(at 347.98 124.46 90)
 			(effects
 				(font
@@ -10919,7 +10919,7 @@
 		(dnp no)
 		(uuid "ef679721-7b7c-4d9a-b12f-37fc79b12fc2")
 		(property "Reference" "R28"
-			(at 363.22 127 90)
+			(at 363.22 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10927,7 @@
 			)
 		)
 		(property "Value" "1k 0.33 W fus."
-			(at 363.22 129.54 90)
+			(at 363.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
