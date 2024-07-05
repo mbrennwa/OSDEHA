@@ -175,6 +175,13 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
+
+- Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
+
+- If HV PSU works fine with the beefy high-voltage BJT current limiters
+	--> repeat amp testing with the proper PSU in place (instead of bench PSUs)
+	--> repeat amp testing with VT25 DHTs instead of KT66 (adjust grid bias voltage!!!)
+
 - DONE, BUT ONLY TESTED AT DC SO FAR: FOR TESTING IN ONE BRANCH: Change AOT1N60 to DN2540, which has much lower saturation voltage and will therefore provide stiffer CCS at the 4...5 V drain-source voltage provided by the Vgs value of the IXTP cascode FET. Capacitances and gfs are very similar between the AOT1N60 to DN2540 parts. That might also help with the oscillation issue in the mu-stage, allowing a larger Rmu resistor for higher CCS impedance.
 
 - DONE, BUT MORE TESTING MAY BE USEFUL (ISSUE WAS LIKELY THE EXCESSIVE CURRENT IN THE CCS OF THE BUFFER STAGE): Figure out what causes the failure of the driver/input stage when driving the tubes hard:
@@ -195,8 +202,6 @@ Determine the max. Rmu in the output mu-stage that does not lead to oscillation 
 - CHECK: are there fusible resistors that would work for the 5.1k current limiter / safety resistors at the headphone outputs?
 
 - PCBs: redo the part labels/numbers for more consistent numbering.
-
-- Powersupply: try the beefy high-voltage BJTs for the overload protection.
 
 - (DONE??? CHECK...) Change R13 and R18 to lower value (100k) for tighter bias control and fc = 3 Hz
 - Change R30+R31+R32 and R35+R36+R37 from single 866k to 3x series parts (to keep them within the power/voltage limits)
