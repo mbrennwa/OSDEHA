@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-curveplot IXTP3N100D2_*.dat --xylimit 10 --ylimit 0.05 --yscale m --xlabel 'DRAIN-SOURCE VOLTAGE' --ylabel 'DRAIN CURRENT' --title 'IXTP3N100D2 (DIFFERENT BATCHES)' --savepdf --nodisplay
-
-curveplot CCSFET_*.dat --xlimit 15 --ylimit 0.08 --yscale m --xlabel 'DRAIN-SOURCE VOLTAGE' --ylabel 'DRAIN CURRENT' --noclabels --noclabels --title 'DN2540 (RED) VS. AOT1N60 (BLUE), 0.1V VGS STEPS' --savepdf --nodisplay
-

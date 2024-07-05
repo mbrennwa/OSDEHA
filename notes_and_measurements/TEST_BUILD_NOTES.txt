@@ -163,6 +163,13 @@ Checking input + driver stage after repair.
 - Found buffer CCS to run at 40 mA bias instead of 10 mA. This may explain the death of the buffer CCS FETs (overheating if driven hard). Increased R-sense values to give 10 mA on board. Changed CCS sense resistors from 150R to 536R in schematic.
 - With bench supplies (B+ = 200 V, B- = -60 V, B2- = -160 V): Driver/buffer does not blow up when driven hard into no load, dummy load (resistor + cap), 
 
+2024-07-05
+- Testing amp with bench PSUs and a single KT66 dummy (other branch has dummy resistors):
+	- Works fine in general
+	- There's some noise on the scope traces. Where's that from? Ground loop somehow?
+	- Driver/buffer does not blow up when driven hard (300 kHz signals deep into clipping)
+	- Increased Rmu to 470 Ohm again, seems to work fine with DN2540 (instead of AOT1N60)
+	
 
 
 
@@ -180,7 +187,8 @@ Checking input + driver stage after repair.
 	
 - Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
 
-- Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
+- DONE (WITH KT66 DUMMY): Rmu = 470 Ohm works fine with DN2540.
+Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
 
 - Check: what happens if the output voltage from the input/driver stage swings close (or even beyond) B2-. What happens in the CCS loads of the buffer stage if this happens? Should there be a protection diode from Drain to Source of the CCS FET to prevent the drain from swinging negative relative to the Source?
 
