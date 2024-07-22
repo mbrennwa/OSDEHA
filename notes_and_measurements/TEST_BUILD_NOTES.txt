@@ -178,6 +178,8 @@ Checking input + driver stage after repair.
 
 - Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
 
+- Powersupply: use smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
+
 - If HV PSU works fine with the beefy high-voltage BJT current limiters
 	--> repeat amp testing with the proper PSU in place (instead of bench PSUs)
 	--> repeat amp testing with VT25 DHTs instead of KT66 (adjust grid bias voltage!!!)
