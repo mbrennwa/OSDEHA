@@ -11917,7 +11917,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4254f3fa-5a7d-4f6e-8fcc-41d75b752000")
-		(property "Sheetname" "HV_STABI3"
+		(property "Sheetname" "HV_STAB_B2-"
 			(at 73.66 118.11 0)
 			(effects
 				(font
@@ -12015,7 +12015,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8a700a98-b42d-48e6-9de9-2ba90c34a5f4")
-		(property "Sheetname" "HV_STABI1"
+		(property "Sheetname" "HV_STAB_B+"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -12113,7 +12113,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9e1e0254-ef31-452c-8d43-59d8e4c13fb9")
-		(property "Sheetname" "HV_STABI2"
+		(property "Sheetname" "HV_STAB_B-"
 			(at 73.66 99.06 0)
 			(effects
 				(font

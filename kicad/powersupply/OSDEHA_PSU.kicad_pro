@@ -82,6 +82,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -615,15 +616,15 @@
     ],
     [
       "8a700a98-b42d-48e6-9de9-2ba90c34a5f4",
-      "HV_STABI1"
+      "HV_STAB_B+"
     ],
     [
       "9e1e0254-ef31-452c-8d43-59d8e4c13fb9",
-      "HV_STABI2"
+      "HV_STAB_B-"
     ],
     [
       "4254f3fa-5a7d-4f6e-8fcc-41d75b752000",
-      "HV_STABI3"
+      "HV_STAB_B2-"
     ]
   ],
   "text_variables": {}
