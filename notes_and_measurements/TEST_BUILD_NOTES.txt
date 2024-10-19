@@ -174,12 +174,17 @@ Checking input + driver stage after repair.
 - PSU: tested TO220 BJTs for overload protection. Progress, protection now work ok. Except: Series FETs still die before BJT protection kicks in if there's an instantaneous short.
 - Removed tweaks needed for previous tests with KT66 tubes. Brought amplifier up, step by step (front end only, then with VT25 test tubes). Works!
 - Warming up with no signal, monitoring DC bias current via voltage across mu resistors. Adjusted a few times to 20 mA (9.4 V across 470R mu resistors) until it was stable after a couple of minutes.
-- Testing AC output (using diff probe across balanced output): frequency response up ca. 0.3 MHz / -6 dB-rel. or so, driving it hard to clipping at approx. 1.6 kVpp. Does not blow up or do other funny things.
+- Testing AC output (using diff probe across balanced output):
+	frequency response (no load except diff probe):
+	lower end: 7 Hz -3 dB-rel, 5 Hz -6 dB-rel.
+	upper end: 180 kHz -3 dB-rel,  330 kHz / -6 dB-rel.
+- Driving it hard with triangle signal to clipping at approx. 1.6 kVpp. Does not blow up or do other funny things.
 
 
 
 *** TO DO ***
 
+- PCB layout: change mu-resistors such that it's easy to attach probes/clips for monitoring and adjusting DC bias.
 
 - DONE (for now): Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
 
