@@ -170,15 +170,21 @@ Checking input + driver stage after repair.
 	- Driver/buffer does not blow up when driven hard (300 kHz signals deep into clipping)
 	- Increased Rmu to 470 Ohm again, seems to work fine with DN2540 (instead of AOT1N60)
 	
+2024-10-19
+- PSU: tested TO220 BJTs for overload protection. Progress, protection now work ok. Except: Series FETs still die before BJT protection kicks in if there's an instantaneous short.
+- Removed tweaks needed for previous tests with KT66 tubes. Brought amplifier up, step by step (front end only, then with VT25 test tubes). Works!
+- Warming up with no signal, monitoring DC bias current via voltage across mu resistors. Adjusted a few times to 20 mA (9.4 V across 470R mu resistors) until it was stable after a couple of minutes.
+- Testing AC output (using diff probe across balanced output): frequency response up ca. 0.3 MHz / -6 dB-rel. or so, driving it hard to clipping at approx. 1.6 kVpp. Does not blow up or do other funny things.
 
 
 
 *** TO DO ***
 
 
-- Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
+- DONE (for now): Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
 
-- Powersupply: use smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
+- Powersupply: Save space by using smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
+  --> will need to look at ripple on rail voltage once amp is up and running.
 
 - If HV PSU works fine with the beefy high-voltage BJT current limiters
 	--> repeat amp testing with the proper PSU in place (instead of bench PSUs)
