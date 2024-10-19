@@ -184,7 +184,7 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
-- PCB layout: change mu-resistors such that it's easy to attach probes/clips for monitoring and adjusting DC bias.
+- PCB layout: add test point for such that it's easy to attach probes/clips for monitoring and adjusting DC bias. Example: Keystone 5010 test point
 
 - DONE (for now): Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
 
