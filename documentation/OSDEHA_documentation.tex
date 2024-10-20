@@ -146,20 +146,25 @@ HEATSINKS, CHASSIS, ETC.
 
 \section{Amplifier bring-up and adjustment of operating points}
 
-General steps to follow to bring up, test, and adjust the amplifier. Shut down after each step and confirm that all high-voltage supplies have dissipated close to zero before working on the next step!
+Building, testing, and adjusting the OSDEHA is best done step by step as described below. Turn off the power supply and amplifier after each step and confirm that all capacitors are discharged and no (high) voltages are left before working on the next step!
 
-% 1. Build and test power supply
-% - Make sure there are no shorts to the chassis, all transistors are properly insulated to the chassis/heatsinks.
-% - Connect transformer primaries to mains via variac.
-% - Connect transformer secondaries of heater supply and bring up slowly with variac. Confirm heater supply voltage and function of HV delay relay.
+\subsection{Power supply}
+\begin{itemize}
+\item Assmemble the power-supply boards. Install the boards and transformers in the amplifier chassis. Connect the primary windings of the transformers to the mains inlet and power switch of the amplifier chassis.
+\item Connect the amplifier to mains power through a variac (set the variac to zero before plugging it to the wall outlet).
+\item Connect transformer secondaries of heater supply. Then slowly ramp up the variac and confirm the heater supply works as expected. Also confirm if the function of the HV delay relay.
+\item ...
 % - Connect transformer secondaries of DHT filament supply and bring up slowly with variac. Confirm filament supply is working using dummy resistors in place of DHT filaments. Then adjust voltage to correct target values with DHT filaments in place.
 % - Connect transformer secondaries of HV supplies and install dummy load resistors at HV outputs. Bring up slowly with variac, confirm and adjust HV output voltages.
 % - Check stator bias output. Note: DVM will load down the bias output, resulting in a low voltage reading.
-%
-%
-%
-% 2. Build and test amplifier
-%
+
+\end{itemize}
+
+
+\subsection{Amplifier circuit}
+\begin{itemize}
+\item Assmemble the amplifier boards. Install the boards in the amplifier chassis. Install the wiring for audio input and output between the boards and the chassis connectors.
+\item ...
 % Make sure there are no shorts to the chassis, all transistors are properly insulated to the chassis/heatsinks.
 %
 % Connect PSU heater supply and install front-end tubes to the amplifier board. Bring up slowly with variac, and confirm tube filaments lighting up, and check for correct heater voltage again.
@@ -175,6 +180,7 @@ General steps to follow to bring up, test, and adjust the amplifier. Shut down a
 % - Adjust DC grid bias of output tubes to the most negative value.
 % - Install DHT tubes and bring up slowly with variac. Confirm DHT filament current is correct and adjust if necessary. Monitor DC bias current through each DHT by reading the voltage across the mu-resistors while increasing the DC grid bias until the target value of the DC bias is achieved. Let the amplifier warm up and adjust filament and DC bias currents as necessary.
 % - Apply an AC test signal the input and confirm output correct output from the amplifier.
+\end{itemize}
 
 
 
