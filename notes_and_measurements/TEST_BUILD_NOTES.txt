@@ -217,7 +217,9 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
-- Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?)
+- Check LTP tail CCS: current at target value 20 mA? Adjust CCS sense resistor if necessary
+
+- Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
 
 - Check HV PSU output: make sure regulation can be adjusted to correct target values works ok with mains variable from 220...240 VAC:
 	B+ = 440 VDC
