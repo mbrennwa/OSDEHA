@@ -194,6 +194,24 @@ Checking input + driver stage after repair.
 	
 - Not running the amplifier to full amplitude output because dummy capacitor is rated to 500 V only
 
+- PSU testing at 220 VAC mains (instead of 230 VAC) to determine headroom of stabilizers vs. max. DC output voltage:
+
+	with no load, raw DC after rectifiers:
+	- B+ and B-: raw DC = 447 VDC @ 220 VAC mains (raw DC = 466 VDC @ 230 VAC mains)
+	- B2-: raw DC = 
+	
+	with 27 kOhm dummy load on each B+, B- and B2-:
+	- B+ and B-: raw DC = 432 VDC @ 220 VAC mains (raw DC = 452 VDC @ 230 VAC mains)
+	- max B+ and B- at 220 VAC mains before stabilisation cuts off = ca. 422 VDC at PSU output (current = U/R = 15.6 mA)
+	- max B2- at 220 VAC mains before stabilisation cuts off = 525 VDC at PSU output (current = 19.4 mA)
+	
+	with real load of two STEREO amps = 60 + 60 mA (B+, B-) and 20 + 20 mA (B2-), the cut off will tend to happen at slightly lower voltages.
+	--> estimated target values (will need confirmation later with real amps in place):
+	B+ and B- = +/- 420 VDC
+	B2- = 520 VDC
+	
+	--> adjusted HV PSU output to these values --- NEED TO CONFIRM ONCE BOTH AMPLIFIER BOARDS ARE HOOKED UP TO THE HV PSU!!!
+
 
 
 
@@ -212,7 +230,7 @@ Checking input + driver stage after repair.
 
 - DONE (for now): Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
 
-- Powersupply: Save space by using smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
+- NO, THAT'S NO GOOD (WOULD CAUS TOO MUCH RIPPLE UPSTREAM THE VOLTAGE STABILIZER, CAUSING THE CCS TO CUT OFF!) Powersupply: Save space by using smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
   --> will need to look at ripple on rail voltage once amp is up and running.
 
 - DONE If HV PSU works fine with the beefy high-voltage BJT current limiters
