@@ -69,12 +69,12 @@ Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whic
 
 From a technical standpoint, the high gain of the 20B would would make this tube an interesting option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is considered a more practical choice for the OSDEHA design.
 
-\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{440}{V}, corresponding to a grid bias of approximately \SI{-37}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. Additionally, the grid voltage does not exceed +\SI{5}{V}, where the grid current has been measured to stay well below \SI{1}{mA}. With the anode voltage close to GND, the B- voltage is \SI{-440}{V}, and B+ is \SI{+440}{V} for symmetry.
+\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{420}{V}, corresponding to a grid bias of approximately \SI{-34}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. The grid voltage does not exceed +\SI{10}{V}, where the grid current has been measured to stay well below \SI{1}{mA}. With the anode voltage close to GND, the B- voltage is \SI{-420}{V}, and B+ is \SI{+420}{V} for symmetry.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{801A_curves.pdf}
-\caption{Characteristic curves measured from an 801A DHT, with \SI{20}{mA} CCS load line and a \SI{440}{V} bias and a \SI{\pm325}{V} anode swing (blue).}
+\caption{Characteristic curves measured from an 801A DHT, with a DC bias point at \SI{420}{V} and \SI{20}{mA}, and a constant-current loadline showing \SI{\pm325}{V} anode swing (blue).}
 \figlabel{801A_curves}
 \end{center}
 \end{figure}
@@ -144,42 +144,36 @@ FULL SCHEMATICS AND DESCRIPTION
 HEATSINKS, CHASSIS, ETC.
 
 
-\section{Amplifier bring-up and adjustment of operating points}
+\section{Bring-up and initial adjustments}
 
-Building, testing, and adjusting the OSDEHA is best done step by step as described below. Turn off the power supply and amplifier after each step and confirm that all capacitors are discharged and no (high) voltages are left before working on the next step!
+Building, testing, and adjusting the OSDEHA is best done step by step as described below. Use a variac to slowly bring up the circuits. It's recommended to built, install and fully test one amplifier board before working on the second one. Before working on the circuits, reset the variac to zero, switch off power, and wait for all capacitors to discharge such that no (high) voltages are left anywhere in the circuits.
 
 \subsection{Power supply}
 \begin{itemize}
 \item Assmemble the power-supply boards. Install the boards and transformers in the amplifier chassis. Connect the primary windings of the transformers to the mains inlet and power switch of the amplifier chassis.
 \item Connect the amplifier to mains power through a variac (set the variac to zero before plugging it to the wall outlet).
-\item Connect transformer secondaries of heater supply. Then slowly ramp up the variac and confirm the heater supply works as expected. Also confirm if the function of the HV delay relay.
-\item ...
-% - Connect transformer secondaries of DHT filament supply and bring up slowly with variac. Confirm filament supply is working using dummy resistors in place of DHT filaments. Then adjust voltage to correct target values with DHT filaments in place.
-% - Connect transformer secondaries of HV supplies and install dummy load resistors at HV outputs. Bring up slowly with variac, confirm and adjust HV output voltages.
-% - Check stator bias output. Note: DVM will load down the bias output, resulting in a low voltage reading.
-
+\item Connect transformer secondaries of heater supply. Then slowly ramp up the variac and confirm the heater supply works as expected. Also confirm the function of the HV delay relay.
+\item Connect transformer secondaries of the DHT filament supply. Install dummy resistor at the filament connections and then slowly ramp up the variac to confirm if the heater supply works as expected, then remove the dummy resistors.
+\item Connect the transformer secondaries of the high-voltage supplies and install dummy resistors at their outputs. Slowly ramp up the variac. Confirm and adjust HV output voltages. Also check the diaphragm bias voltage output (note: the internal resistance of the volt meter will load down the bias output, resulting in a low voltage reading).
+\item Remove the dummy resistors from the high-voltage supplies.
 \end{itemize}
 
 
-\subsection{Amplifier circuit}
+\subsection{Amplifier input stage}
 \begin{itemize}
-\item Assmemble the amplifier boards. Install the boards in the amplifier chassis. Install the wiring for audio input and output between the boards and the chassis connectors.
-\item ...
-% Make sure there are no shorts to the chassis, all transistors are properly insulated to the chassis/heatsinks.
-%
-% Connect PSU heater supply and install front-end tubes to the amplifier board. Bring up slowly with variac, and confirm tube filaments lighting up, and check for correct heater voltage again.
-%
-% Check frontend:
-% - Make sure output tubes (DHTs) are not installed / connected.
-% - Connect HV supply to the amplifier board.
-% - Bring up slowly with variac, confirm correct bias of input stage tubes (anode voltage, CCS tail current). You may need to tweak the values of the CCS sense resistors depending on the characteristics of your specific DN2540 parts.
-% - Confirm DC current bias at buffer stages. You may need to tweak the values of the CCS sense resistors depending on the characteristics of your specific DN2540 parts.
-% - Apply an AC test signal to the input and follow the signal along the circuit, confirming correct output from the buffer stage.
-%
-% Check output stage:
-% - Adjust DC grid bias of output tubes to the most negative value.
-% - Install DHT tubes and bring up slowly with variac. Confirm DHT filament current is correct and adjust if necessary. Monitor DC bias current through each DHT by reading the voltage across the mu-resistors while increasing the DC grid bias until the target value of the DC bias is achieved. Let the amplifier warm up and adjust filament and DC bias currents as necessary.
-% - Apply an AC test signal the input and confirm output correct output from the amplifier.
+\item Assmemble the amplifier board, install the board in the amplifier chassis, and set up the wire connections to volume pot and the connectors on the chassis. Install the tubes of the input stage, but do \emph{not} yet install or connect the DHT tubes of the output stage.
+\item Connect the heater supply to the amplifier board. Slowly ramp up the variac and confirm the functioning of the heaters of the input-stage tubes.
+\item Connect the high-voltage supplies to the amplifier board. Slowly ramp up the variac and confirm the correct DC bias of input stage tubes (anode voltages, CCS tail currents) and the DC bias currents of the buffer stages. Depending on the characteristics of your specific DN2540 parts it may be necessary to adjust the bias points by using different values for the CCS sense resistors.
+\item Apply an AC test signal to the amplifier input and switch on power. Follow the signal along the circuit and confirm correct output from the buffer stage.
+\end{itemize}
+
+
+\subsection{Amplifier output stage}
+\begin{itemize}
+\item With the output tubes still disconnected from the amplifier, adjust DC grid bias of output tubes to the most negative value.
+\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and connect the DHT output tubes to the amplifier. Slowly ramp up the variac and adjust the filament voltage to the target value.
+\item Reconnect the high-voltage supplies to the amplifier board and slowly ramp up the variac. Monitor the DC bias current of each output tube by reading the voltage across the mu-resistors. Adjust the DC grid bias until the targeted DC bias points are achieved. Let the amplifier warm up and readjust DC bias as necessary. Also monitor the filament voltages during warmup, and readjust if necessary.
+\item Apply an AC test signal to the amplifier input and check for correct output from the amplifier.
 \end{itemize}
 
 
