@@ -1359,10 +1359,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83f2437d-6eee-4f7b-bfdf-7b4e4b862d06")
+			(uuid "878a9e42-65b8-44f4-85d7-a4a632ced2b6")
 		)
 		(pin "2"
-			(uuid "a4973724-096a-410f-8069-a6c1c6202239")
+			(uuid "cc1aafff-7462-4075-ba15-3d9eb7abda0a")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1435,10 +1435,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "202d2fa0-ee6b-49fb-ad46-73a973764a7c")
+			(uuid "f387e1ca-5202-4957-9025-13cd51b40e69")
 		)
 		(pin "2"
-			(uuid "f755eb16-29bf-42ee-9a14-87bd1a4ba23c")
+			(uuid "344cb0fa-a479-41ab-9dbd-d8086f6a149e")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1511,10 +1511,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eff6b710-9fcc-4f6d-a2dc-9a6a1cd9079c")
+			(uuid "0cbfcadc-88c4-403b-ad2e-5b56e209a608")
 		)
 		(pin "1"
-			(uuid "77fa3610-05d3-440a-a508-7498bc88ea1d")
+			(uuid "88fa0323-835c-4aa0-b380-9b5f0cec409a")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1589,10 +1589,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1545666-6bc4-4203-973f-975b8b045100")
+			(uuid "a4e64f94-ef17-4c56-b35e-4c46fc350d67")
 		)
 		(pin "1"
-			(uuid "7050de3a-b1c6-4233-bd60-899c77460208")
+			(uuid "278b6321-fe64-4751-a201-233bd4d1ce01")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1665,10 +1665,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4287945d-7659-4ae7-84d2-edd8377d1131")
+			(uuid "a31e1ba9-d98b-4c4f-b39d-3467d4faa7f5")
 		)
 		(pin "1"
-			(uuid "699b0a96-3327-4173-9495-5440f7aaa4fb")
+			(uuid "0976bb75-ee67-436d-9ea3-ae11d8686efb")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1741,10 +1741,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5f786683-5b33-4af1-9dc7-66c9d4297307")
+			(uuid "7e7dc32a-dfce-4fbd-b710-79c15e0985e6")
 		)
 		(pin "1"
-			(uuid "a985d9c6-eab3-41c4-a24f-95e186eda110")
+			(uuid "47b135b0-adfd-4271-97fb-7e2831ce30de")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1817,10 +1817,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0483435a-d8f7-444d-8e88-ab0c2c5348d8")
+			(uuid "63e40040-08df-4f47-af55-50c4d803ebfb")
 		)
 		(pin "1"
-			(uuid "f7a62876-a908-411f-8754-9ea9db4702aa")
+			(uuid "393202e8-7f60-47a2-a6cc-f2aa6922ed52")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1877,7 +1877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Keystone test point"
 			(at 173.99 100.33 0)
 			(effects
 				(font
@@ -1886,8 +1886,17 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "5010"
+			(at 173.99 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "bdff350d-5ce4-4ae1-a748-b6733194e756")
+			(uuid "ec2006d5-069b-4c20-b801-1e499913626f")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -1960,10 +1969,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2692787-b1da-45a6-a107-372381afd984")
+			(uuid "d0c53403-29e4-4a03-b0fe-293d48738d2e")
 		)
 		(pin "2"
-			(uuid "b03da9d1-1ae0-4b2e-8b6b-36bee6a00fcf")
+			(uuid "35466022-89fe-4353-8d2a-f8715d469a21")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2038,13 +2047,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "38fe5d47-4fd6-4887-a986-45059c8c02ca")
+			(uuid "ac3e8bc5-2030-4d6c-9924-0c9194a0d506")
 		)
 		(pin "1"
-			(uuid "0354ce11-2ad3-4828-bbc0-a42f7ec1f375")
+			(uuid "e4309461-6c4e-4148-860a-de249f0a8dc8")
 		)
 		(pin "3"
-			(uuid "a32f4b70-7799-45da-b614-1e12109c40f5")
+			(uuid "6b1cb591-7f67-4813-a742-556e8512a364")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2119,10 +2128,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5cec0991-1c5e-4df0-ae92-b147b1d2f279")
+			(uuid "397446da-be24-4e8c-8c93-90812d18849d")
 		)
 		(pin "1"
-			(uuid "5e1c163e-7915-48f1-a975-85af5692048f")
+			(uuid "e235b79f-d8cc-4e3a-ae47-a8111f2b2ab1")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2198,13 +2207,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "062b7ee4-1b1f-47a7-af37-ada20aec1854")
+			(uuid "13fca568-a69f-4903-a545-653749ad643d")
 		)
 		(pin "1"
-			(uuid "18e951d9-cdce-4186-99fc-2c0a7ecf39dc")
+			(uuid "c0d6bf75-608f-44e4-8160-29fe8851e6f8")
 		)
 		(pin "3"
-			(uuid "52ff6ac1-ec22-4210-a198-8078d3994cf5")
+			(uuid "8f34b346-2ab0-414d-ba7d-b537ea026e32")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2278,10 +2287,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0d060049-4251-4de1-b11d-73f0257df0d4")
+			(uuid "903bfcaa-68ff-4e94-8d26-5616eecdb33e")
 		)
 		(pin "1"
-			(uuid "fdfba91b-66a9-4afc-b7cd-63c2345e0ea3")
+			(uuid "edc03dd5-5162-4c11-a86b-1139443abb36")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2357,13 +2366,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8421fdad-dc0c-4a34-826a-47bbdb122e78")
+			(uuid "27cbca46-8f94-4236-917e-edf9df07ae3f")
 		)
 		(pin "1"
-			(uuid "fc21df02-08f4-4451-b52b-0d6cfc737200")
+			(uuid "db987e3a-0dfb-478d-98a8-4226d8f778de")
 		)
 		(pin "3"
-			(uuid "7acaba08-efa6-4515-a1fd-87633e2a4f6a")
+			(uuid "9455bba2-e822-4b07-aeda-171ee716ae16")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2436,10 +2445,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f52484a7-6b1a-45ab-8e6b-4b83f0043a79")
+			(uuid "97965e87-abbc-461e-b9d4-ca9f6a8d7f2c")
 		)
 		(pin "1"
-			(uuid "74784488-8fd4-4457-9e83-cee8ab78349a")
+			(uuid "76296532-8f97-45a0-9356-0e5498e29009")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2512,10 +2521,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a64bdcbe-3f70-4ec4-8e00-06b566cf7b55")
+			(uuid "1c973d39-ef45-4f93-8e74-3e5fcba99cf2")
 		)
 		(pin "1"
-			(uuid "bcc4117a-5cf6-472e-8fb5-16f134e2c56c")
+			(uuid "7f51038e-1c9f-4085-a3f8-8e18f6129f88")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2588,10 +2597,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e33ff073-b219-44b1-8f43-cad65c8f9628")
+			(uuid "9887485d-4abc-479a-a006-21701e480916")
 		)
 		(pin "1"
-			(uuid "f736c543-14c5-4203-aaf5-9ba347cee026")
+			(uuid "d5f9b02d-4d94-4715-8f08-1a6f81268245")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2666,13 +2675,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "16f2866e-794f-43a1-88b0-8d506add653f")
+			(uuid "4f47eb9b-029a-4358-aec0-d1719608c57c")
 		)
 		(pin "1"
-			(uuid "40dd5446-da05-4427-9038-8542133e3f10")
+			(uuid "8f06f1e0-c7bd-428a-bfb3-d6e1eff80d02")
 		)
 		(pin "3"
-			(uuid "e01d7536-6211-4987-bfb0-5ce24b5e2aeb")
+			(uuid "718b97ec-2ae7-4485-9b7b-2f41f45b6dd7")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2745,10 +2754,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1863e423-1ea5-4d6c-9672-ac0f66658ea0")
+			(uuid "5d2aee49-702b-49b6-b0ac-6c8667eccb3e")
 		)
 		(pin "1"
-			(uuid "fce8e8a1-65b9-415b-bd04-a6d24cae50e1")
+			(uuid "497a5c5f-acfe-4744-bc17-e29a7cb6e6f6")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2769,7 +2778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9bf41f-c943-4fb7-b9f3-59941f25f8e4")
-		(property "Reference" "TP1"
+		(property "Reference" "TP?"
 			(at 105.41 99.0599 90)
 			(effects
 				(font
@@ -2805,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Keystone test point"
 			(at 100.33 100.33 0)
 			(effects
 				(font
@@ -2815,12 +2824,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6378cdd-e9b4-4859-89b8-3a0327dff4aa")
+			(uuid "5981d957-fac2-406b-9a9f-7b7944814239")
 		)
 		(instances
-			(project ""
+			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "TP1")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -2888,10 +2897,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e95efd2-fbce-4e8a-8eda-535399ae1fbc")
+			(uuid "0ebd7ddf-663e-4592-96ea-bbd7187b44bb")
 		)
 		(pin "1"
-			(uuid "67073788-dd1d-4a8b-9676-e9426308ecfb")
+			(uuid "121e703e-b7c1-4960-8412-d310f5e30c20")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -2964,10 +2973,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5b2b5bcb-c7e3-4d73-a87f-37042b5d6440")
+			(uuid "829e7855-b048-44bb-a822-c54ac9817989")
 		)
 		(pin "1"
-			(uuid "133c2c38-fa2e-4b27-8585-2acef50abd9d")
+			(uuid "3dfcd207-6a0c-44ad-ba20-cbcd767c23aa")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -3041,10 +3050,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cd7c884a-bbd0-4e0f-9194-06ba2bee8c48")
+			(uuid "ccac8fd8-a779-4249-9a8d-f7d4dd6d066c")
 		)
 		(pin "1"
-			(uuid "0c6a7f74-14aa-4f37-85ad-12ae7a5c0dca")
+			(uuid "b9276bee-5545-4dcd-bcde-3c531f7fb0e3")
 		)
 		(instances
 			(project "OSDEHA_AMP"
@@ -3117,10 +3126,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83053847-684e-453f-bbe0-7880cf795cd9")
+			(uuid "d4974a0f-e302-4424-8e4e-72236475eaa6")
 		)
 		(pin "2"
-			(uuid "1ca2f76a-6f74-4301-8e8d-7d404abb207d")
+			(uuid "fd86d221-40c6-43f5-97ca-bee894ef3162")
 		)
 		(instances
 			(project "OSDEHA_AMP"

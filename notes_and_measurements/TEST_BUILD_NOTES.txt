@@ -184,6 +184,15 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
+- Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?)
+
+- Check HV PSU output: make sure regulation can be adjusted to correct target values works ok with mains variable from 220...240 VAC:
+	B+ = 440 VDC
+	B- = -440 VDC
+	B2- = -550 VDC
+
+- Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
+
 - DONE PCB layout: add test point for such that it's easy to attach probes/clips for monitoring and adjusting DC bias. Example: Keystone 5010 test point
 
 - DONE (for now): Powersupply: try the beefy high-voltage BJTs for the overload protection. --> test with controlled load somehow.
@@ -191,7 +200,7 @@ Checking input + driver stage after repair.
 - Powersupply: Save space by using smaller caps after rectifier in B+ and B- PSU (similar to those in B2-)?
   --> will need to look at ripple on rail voltage once amp is up and running.
 
-- If HV PSU works fine with the beefy high-voltage BJT current limiters
+- DONE If HV PSU works fine with the beefy high-voltage BJT current limiters
 	--> repeat amp testing with the proper PSU in place (instead of bench PSUs)
 	--> repeat amp testing with VT25 DHTs instead of KT66 (adjust grid bias voltage!!!)
 
@@ -205,7 +214,7 @@ Checking input + driver stage after repair.
 	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
 	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An KT66 should do, may need somewhat more negative grid bias.
 	
-- Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
+- DONE Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
 
 - DONE (WITH KT66 DUMMY): Rmu = 470 Ohm works fine with DN2540.
 Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
