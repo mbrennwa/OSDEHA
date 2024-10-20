@@ -175,10 +175,25 @@ Checking input + driver stage after repair.
 - Removed tweaks needed for previous tests with KT66 tubes. Brought amplifier up, step by step (front end only, then with VT25 test tubes). Works!
 - Warming up with no signal, monitoring DC bias current via voltage across mu resistors. Adjusted a few times to 20 mA (9.4 V across 470R mu resistors) until it was stable after a couple of minutes.
 - Testing AC output (using diff probe across balanced output):
-	frequency response (no load except diff probe):
+	frequency response with MU/CCS switch = mu-stage mode (no load except diff probe):
 	lower end: 7 Hz -3 dB-rel, 5 Hz -6 dB-rel.
-	upper end: 180 kHz -3 dB-rel,  330 kHz / -6 dB-rel.
-- Driving it hard with triangle signal to clipping at approx. 1.6 kVpp. Does not blow up or do other funny things.
+	upper end: 180 kHz -3 dB-rel,  340 kHz / -6 dB-rel.
+- Driving amplifier hard with triangle signal to clipping at approx. 1.6 kVpp. Does not blow up or do other funny things.
+
+	
+2024-10-20
+- Testing AC output frequency response with 100 pF dummy load (using diff probe across balanced output):
+
+	MU/CCS switch = mu-stage mode:
+	lower end: 8.8 Hz -3 dB-rel, 5.5 Hz -6 dB-rel.
+	upper end: 77 kHz -3 dB-rel,  123 kHz / -6 dB-rel.
+
+	MU/CCS switch = CCS-mode:
+	lower end: 8.7 Hz -3 dB-rel, 5.5 Hz -6 dB-rel.
+	upper end: 50 kHz -3 dB-rel,  87 kHz / -6 dB-rel.
+	
+- Not running the amplifier to full amplitude output because dummy capacitor is rated to 500 V only
+
 
 
 
@@ -191,7 +206,7 @@ Checking input + driver stage after repair.
 	B- = -440 VDC
 	B2- = -550 VDC
 
-- Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
+- DONE Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
 
 - DONE PCB layout: add test point for such that it's easy to attach probes/clips for monitoring and adjusting DC bias. Example: Keystone 5010 test point
 
