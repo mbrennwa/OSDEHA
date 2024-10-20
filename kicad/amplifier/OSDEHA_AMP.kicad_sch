@@ -5764,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Value" "25k 5W"
+		(property "Value" "25k 5W non-inductive"
 			(at 132.08 95.25 90)
 			(effects
 				(font
@@ -6393,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Value" "25k 5W"
+		(property "Value" "25k 5W non-inductive"
 			(at 99.06 95.25 90)
 			(effects
 				(font
