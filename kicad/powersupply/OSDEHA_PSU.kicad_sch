@@ -6134,7 +6134,7 @@
 		)
 		(uuid "10ac53bd-d5bb-4fe8-9e57-c86414a635a2")
 	)
-	(text "B+ +440 VDC\n2 x 60 mA"
+	(text "B+ +420 VDC\n2 x 60 mA"
 		(exclude_from_sim no)
 		(at 134.62 81.28 0)
 		(effects
@@ -6214,7 +6214,7 @@
 		)
 		(uuid "94a6c4b2-08a3-4755-a5b9-431120192306")
 	)
-	(text "Buffer + grid bias\n-550 VDC\n2 x 20 mA"
+	(text "Buffer + grid bias\n-520 VDC\n2 x 20 mA"
 		(exclude_from_sim no)
 		(at 134.62 128.27 0)
 		(effects
@@ -6260,7 +6260,7 @@
 		)
 		(uuid "b13c112c-6ab1-412e-b798-79a5d8417621")
 	)
-	(text "B- -440 VDC\n2 x 60 mA"
+	(text "B- -420 VDC\n2 x 60 mA"
 		(exclude_from_sim no)
 		(at 134.62 107.95 0)
 		(effects
