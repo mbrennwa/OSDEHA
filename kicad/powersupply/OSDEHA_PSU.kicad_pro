@@ -491,7 +491,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "../../gerbers/20241026_PSU_main/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
