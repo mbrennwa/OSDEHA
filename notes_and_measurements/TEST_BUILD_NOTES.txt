@@ -226,6 +226,12 @@ Checking input + driver stage after repair.
 	B- = -440 VDC
 	B2- = -550 VDC
 
+	---> 2024-10-20 tests: adjusted to lower values (need to confirm/test/validate once real STEREO amp with full current draw is in place):
+	B+ = 420 VDC
+	B- = -420 VDC
+	B2- = -520 VDC
+	
+
 - DONE Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
 
 - DONE PCB layout: add test point for such that it's easy to attach probes/clips for monitoring and adjusting DC bias. Example: Keystone 5010 test point
