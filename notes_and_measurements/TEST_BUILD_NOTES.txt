@@ -221,16 +221,35 @@ Checking input + driver stage after repair.
 
 - Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
 
-- Check HV PSU output: make sure regulation can be adjusted to correct target values works ok with mains variable from 220...240 VAC:
-	B+ = 440 VDC
-	B- = -440 VDC
-	B2- = -550 VDC
+- (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
-	---> 2024-10-20 tests: adjusted to lower values (need to confirm/test/validate once real STEREO amp with full current draw is in place):
+- Rebuild 2 x amp and PSU, install in (temporary/mockup) chassis.
+
+- Confirm/test/validate HV PSU stabilizers once real STEREO amp with full current draw is in place: make sure HV ouput can be adjusted to correct target values with mains variable from 220...240 VAC, no cut-off due to ripple on raw DC and drop-out limit on voltage reference (see also 2024-10-20 tests):
 	B+ = 420 VDC
 	B- = -420 VDC
 	B2- = -520 VDC
 	
+- Design chassis, determine mechanical arrangement and construction. Ideas and thoughts
+	- amp boards on the sides, flat on bottom plate, transistors on heatsinks
+	- transformers on the back, on bottom plate (or on rear plate?), between the amp boards
+	- PSU boards and Coleman regs on the front (Colemans on front panel?)
+	- 4 x power DHTs mounted on sub-chassis above PSU board / transformers
+	- IEC mains inlet on the rear plate, left side
+	- Audio XLR inputs on the rear plate, right side
+	- Volume pot (4 channel for balanced/stereo): centered or on the right (away from mains inlet)? With extension rod to the button on the front panel 
+	- Headphone jack(s) on front panel, location depending on position of volume control
+	- Power indicator LED on front panel, driven by heater supply
+	- Front plate covers heat sinks on the sides, plate fixed by four screws into the front edges of the heatsinks (cut threads into heatsinks)
+	- Heatsinks fixed to bottom plate with screws, theads cut into lower edge of heatsinks
+	- Top and rear plates mounted in between the heatsinks using square alu rods as connectors (about 10x10mm)
+	  (top plate connects to the heatsinks, with threaded holes in heatsinks)
+	  (reat plate connects to bottom and top plates, so less work messing around with cutting threads in heasinks)
+	
+
+
+
+*** COMPLETED TO-DO ITEMS ***
 
 - DONE Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
 
