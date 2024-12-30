@@ -40,4 +40,3 @@ The boards will be rotated by 180 degrees. Connectors should therefore be on the
 
 Coleman DHT regulators:
 - Can the Coleman boards sit on the main amp boards piggy-back style?
-
