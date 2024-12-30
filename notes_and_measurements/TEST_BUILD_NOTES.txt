@@ -225,10 +225,18 @@ Checking input + driver stage after repair.
   measured with R44 = 470 Ohm: V-drop = 5.45 V --> current = 11.6 mA
   --> different R values on different FETs give some current, showing the part/parameter variation
   --> possibly use slightly higher R42/R44 value of about 540 Ohm (CMF55536R00)
+  
+- HV PSU sags under load. Too much ripple / not enough headroom/dropout?
+  Dialing it further down to:
+  B+/B- = +/- 400 VDC
+  B2- = -500 VDC
+  --> this is stable enough with load = dummy resistors + 1 amp channel
 
 
 
 *** TO DO ***
+
+- check HV PSU dropout / ripple again! Can't get stable output under load higher than +/-400 VDC
 
 - (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
@@ -243,8 +251,11 @@ Checking input + driver stage after repair.
 	- Use ready made chassis (19zoll.com, modushop, etc.) or go with separate heatsinks + Schaeffer panels?
 	- amp boards on the sides, flat on bottom plate, transistors on heatsinks
 	- transformers on the back, on bottom plate (or on rear plate?), between the amp boards
-	- PSU boards and Coleman regs on the front (Colemans on front panel?)
+	- PSU boards on the bottom plate, just behind the fron plate.
+	- RAW DC supply for Coleman regs on rear panel?
 	- 4 x power DHTs mounted on sub-chassis above PSU board / transformers
+	- Coleman regs near the DHTs on the subchassis for accessibility to adjust filament voltages?
+	  ALTERNATIVE: Coleman regs on bottom plate, between amp boards (either near rear or front panel) / 2 Colemans ons left and 2 Colemans on right
 	- IEC mains inlet on the rear plate, left side
 	- Audio XLR inputs on the rear plate, right side
 	- Volume pot (4 channel for balanced/stereo): centered or on the right (away from mains inlet)? Mount pot on subchassis used for DHT output tubes? Use extension rod to the button on the front panel 
