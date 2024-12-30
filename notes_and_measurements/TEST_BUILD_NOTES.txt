@@ -231,6 +231,7 @@ Checking input + driver stage after repair.
 	B2- = -520 VDC
 	
 - Design chassis, determine mechanical arrangement and construction. Ideas and thoughts
+	- Use ready made chassis (19zoll.com, modushop, etc.) or go with separate heatsinks + Schaeffer panels?
 	- amp boards on the sides, flat on bottom plate, transistors on heatsinks
 	- transformers on the back, on bottom plate (or on rear plate?), between the amp boards
 	- PSU boards and Coleman regs on the front (Colemans on front panel?)
@@ -274,8 +275,6 @@ Checking input + driver stage after repair.
 	- Test 2: somehow simulate grid load without DHT tubes to better understand what's going on
 	- Test 3: use an old dummy tube (instead of the valuable VT25 / 801A DHTs) to test the amp. An KT66 should do, may need somewhat more negative grid bias.
 	
-- DONE Check how output stage behaves at high-frequency test signals. Ringing? Oscillation? Runaway?
-
 - DONE (WITH KT66 DUMMY): Rmu = 470 Ohm works fine with DN2540.
 Determine the max. Rmu in the output mu-stage that does not lead to oscillation (with DN2540)? --> order parts with suitable power spec.
 
