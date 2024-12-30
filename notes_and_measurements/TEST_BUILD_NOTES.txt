@@ -231,6 +231,28 @@ Checking input + driver stage after repair.
   B+/B- = +/- 400 VDC
   B2- = -500 VDC
   --> this is stable enough with load = dummy resistors + 1 amp channel
+      use this setting for testing, but will need to revise PSU / transformer later (see next item)
+  
+- Revise specs of HV transformer secondaries:
+	
+	Current transformer has:
+	Secondaries 1 and 2: 325 VAC / 220 mA
+	Secondary-3: 415 VAC / 75 mA
+	
+	* We need at least 20 V more
+	* We don't need this much current:
+		- B+ and B-: 60 mA per channel, so 120 mA total
+		- B2-: 20 mA per channel, so 40 mA total
+	* We can't exceed the voltage limits of the PSU caps if/when the PSU runs without any load:
+		- max. 550 VDC for B+ and B- --> max. AC = 550 / 1.414 = 389 VAC, even with 10% high mains, so max. secondary AC is 370 VAC
+		- 630 VDC for B2- --> max. AC = 550 / 1.414 = 446 VAC, even with 5% high mains, so max. secondary AC is 424 VAC
+	* For transformer current rating, see:
+	  https://www.sowter.co.uk/rectifier-transformer-calculation.php
+	  min. AC current rating of transformer = 1.61 x DC output current
+	
+  ====> **** New specs for transformer secondaries ****
+	Secondaries 1 and 2: 350 VAC / 200 mA
+	Secondaries 3: 420 VAC / 70 mA
 
 
 
