@@ -213,13 +213,23 @@ Checking input + driver stage after repair.
 	--> adjusted HV PSU output to these values --- NEED TO CONFIRM ONCE BOTH AMPLIFIER BOARDS ARE HOOKED UP TO THE HV PSU!!!
 
 
+2024-12-30
+- CCS LTP current:
+  target value is 20 mA
+  measured with R6=75 Ohm: V-drop = 1.665 V --> current = 22.2 mA, about 10% high, so not bad
+  --> possibly use slighly higher R6 value = 22.2/20 x 75 Ohm = 83 Ohm
+
+- CCS buffers/drivers:
+  target value is 10 mA
+  measured with R42 = 494 Ohm: V-drop = 5.75 V --> current = 11.6 mA
+  measured with R44 = 470 Ohm: V-drop = 5.45 V --> current = 11.6 mA
+  --> possibly use slightly higher R42/R44 value of about 560 Ohm
+
 
 
 *** TO DO ***
 
-- Check LTP tail CCS: current at target value 20 mA? Adjust CCS sense resistor if necessary
-
-- Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
+- Adjust values of CCS sense resistors R6, R42 and R44 as tested on 2024-12-30
 
 - (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
@@ -252,7 +262,13 @@ Checking input + driver stage after repair.
 
 *** COMPLETED TO-DO ITEMS ***
 
+- DONE Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
+
+- DONE Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
+
 - DONE Repeat 2024-10-19 tests with realisic dummy load (100 pF capacitor through 5.1k "safety" resistors)
+
+- DONE Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
 
 - DONE PCB layout: add test point for such that it's easy to attach probes/clips for monitoring and adjusting DC bias. Example: Keystone 5010 test point
 
