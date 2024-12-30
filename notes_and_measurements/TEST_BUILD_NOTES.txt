@@ -237,6 +237,14 @@ Checking input + driver stage after repair.
 *** TO DO ***
 
 - check HV PSU dropout / ripple again! Can't get stable output under load higher than +/-400 VDC
+	--> found AC from transformer secondaries to be lower than speced:
+	- design target B+/B- AC secondary = 340 VAC
+	- true AC secondary = 330 VAC
+	- B2- design target = 420 VAC / true AC secondary = 400 VAC
+	- Playing with Variac shows that design target should be increased to 345..350 VAC or so for a bit more headroom, allowing proper +/- 420 VDC output
+	--> revise specs for HV mains transfomer:
+	B+ and B-: 350 VAC / 220 mA
+	B2-: 430 VAC / 75 mA
 
 - (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
