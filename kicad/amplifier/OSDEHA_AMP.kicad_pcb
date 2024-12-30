@@ -528,7 +528,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Keystone test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -537,6 +537,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5010"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55ad3f1-c787-4f26-8110-36e8f97c42f2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1977,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Keystone test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3682,7 +3695,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55150R00"
+		(property "MPN" "CMF55536R00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5696,7 +5709,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "82"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "ea65f741-8961-43cd-a613-003b33ef18a1")
@@ -5746,7 +5759,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF5575R000"
+		(property "MPN" "CMF5582R000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7411,7 +7424,7 @@
 				)
 			)
 		)
-		(property "Value" "27.4k 5W"
+		(property "Value" "25k 5W non-inductive"
 			(at 3.685 5.75 0)
 			(layer "F.Fab")
 			(uuid "a63970aa-4b50-4e75-a3d0-3e8747746ab8")
@@ -7461,7 +7474,7 @@
 				)
 			)
 		)
-		(property "MPN" "85F27K4 "
+		(property "MPN" "WHE25KFET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14083,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Value" "27.4k 5W"
+		(property "Value" "25k 5W non-inductive"
 			(at 3.685 5.75 0)
 			(layer "F.Fab")
 			(uuid "ce118630-02a7-4566-9d10-3555028fa74d")
@@ -14133,7 +14146,7 @@
 				)
 			)
 		)
-		(property "MPN" "85F27K4 "
+		(property "MPN" "WHE25KFET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19998,7 +20011,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55150R00"
+		(property "MPN" "CMF55536R00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

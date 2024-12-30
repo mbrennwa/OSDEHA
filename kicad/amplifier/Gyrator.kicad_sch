@@ -2778,7 +2778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9bf41f-c943-4fb7-b9f3-59941f25f8e4")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 105.41 99.0599 90)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 		(instances
 			(project "OSDEHA_AMP"
 				(path "/59cc4414-299b-49db-9f9a-b06f69a12073/51668184-e52b-4b73-b0e2-641c1f96c6ef"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

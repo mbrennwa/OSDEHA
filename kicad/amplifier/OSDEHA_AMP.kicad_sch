@@ -6084,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "82"
 			(at 115.57 173.99 90)
 			(effects
 				(font
@@ -6119,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF5575R000"
+		(property "MPN" "CMF5582R000"
 			(at 115.57 173.99 90)
 			(effects
 				(font

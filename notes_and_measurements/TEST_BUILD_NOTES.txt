@@ -216,20 +216,21 @@ Checking input + driver stage after repair.
 2024-12-30
 - CCS LTP current:
   target value is 20 mA
-  measured with R6=75 Ohm: V-drop = 1.665 V --> current = 22.2 mA, about 10% high, so not bad
-  --> possibly use slighly higher R6 value = 22.2/20 x 75 Ohm = 83 Ohm
+  measured with R6=75 Ohm: V-drop = 1.665 V --> current = 22.2 mA, about 10% high, not bad
+  --> possibly use slighly higher R6 value of avout 82 Ohm (CMF5582R000)
 
 - CCS buffers/drivers:
   target value is 10 mA
   measured with R42 = 494 Ohm: V-drop = 5.75 V --> current = 11.6 mA
   measured with R44 = 470 Ohm: V-drop = 5.45 V --> current = 11.6 mA
-  --> possibly use slightly higher R42/R44 value of about 560 Ohm
+  --> different R values on different FETs give some current, showing the part/parameter variation
+  --> possibly use slightly higher R42/R44 value of about 540 Ohm (CMF55536R00)
 
 
 
 *** TO DO ***
 
-- Adjust values of CCS sense resistors R6, R42 and R44 as tested on 2024-12-30
+- Adjust values of CCS sense resistors R6, R42 and R44 (see 2024-12-30)
 
 - (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
