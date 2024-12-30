@@ -230,8 +230,6 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
-- Adjust values of CCS sense resistors R6, R42 and R44 (see 2024-12-30)
-
 - (re-)Build 580 V bias supply and test amp with headphones hooked up VIA SAFETY RESISTORS!
 
 - Rebuild 2 x amp and PSU, install in (temporary/mockup) chassis.
@@ -263,7 +261,9 @@ Checking input + driver stage after repair.
 
 *** COMPLETED TO-DO ITEMS ***
 
-- DONE Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
+- DONE Adjust values of CCS sense resistors R6, R42 and R44 (see 2024-12-30)
+
+- DONE Check LTP CCS: current at target value 20 mA?
 
 - DONE Check buffer CCS loads: current at target value 10 mA? Voltage drop across R42 and R44 (536 Ohm?). Adjust CCS sense resistor if necessary.
 
