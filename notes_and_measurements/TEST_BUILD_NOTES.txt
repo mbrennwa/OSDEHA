@@ -277,26 +277,7 @@ Checking input + driver stage after repair.
 	B- = -420 VDC
 	B2- = -520 VDC
 	
-- Design chassis, determine mechanical arrangement and construction. Ideas and thoughts
-	- Use ready made chassis (19zoll.com, modushop, etc.) or go with separate heatsinks + Schaeffer panels?
-	- amp boards on the sides, flat on bottom plate, transistors on heatsinks
-	- transformers on the back, on bottom plate (or on rear plate?), between the amp boards
-	- PSU boards on the bottom plate, just behind the fron plate.
-	- RAW DC supply for Coleman regs on rear panel?
-	- 4 x power DHTs mounted on sub-chassis above PSU board / transformers
-	- Coleman regs near the DHTs on the subchassis for accessibility to adjust filament voltages?
-	  ALTERNATIVE: Coleman regs on bottom plate, between amp boards (either near rear or front panel) / 2 Colemans ons left and 2 Colemans on right
-	- IEC mains inlet on the rear plate, left side
-	- Audio XLR inputs on the rear plate, right side
-	- Volume pot (4 channel for balanced/stereo): centered or on the right (away from mains inlet)? Mount pot on subchassis used for DHT output tubes? Use extension rod to the button on the front panel 
-	- Headphone jack(s) on front panel, location depending on position of volume control
-	- Power indicator LED on front panel, driven by heater supply
-	- Front plate covers heat sinks on the sides, plate fixed by four screws into the front edges of the heatsinks (cut threads into heatsinks)
-	- Heatsinks fixed to bottom plate with screws, theads cut into lower edge of heatsinks
-	- Top and rear plates mounted in between the heatsinks using square alu rods as connectors (about 10x10mm)
-	  (top plate connects to the heatsinks, with threaded holes in heatsinks)
-	  (reat plate connects to bottom and top plates, so less work messing around with cutting threads in heasinks)
-	
+- Design chassis, determine mechanical arrangement and construction. See ../chassis/chassis_notes.txt
 
 
 
