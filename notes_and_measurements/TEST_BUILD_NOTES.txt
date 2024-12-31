@@ -249,6 +249,7 @@ Checking input + driver stage after repair.
 	* For transformer current rating, see:
 	  https://www.sowter.co.uk/rectifier-transformer-calculation.php
 	  min. AC current rating of transformer = 1.61 x DC output current
+	* Note: Toroidy does not (like to) make transformers with summed voltages of all secondaries higher than 1000 VAC. Maybe look at other manufacturers if necessary.
 	
   ====> **** New specs for transformer secondaries ****
 	Secondaries 1 and 2: 350 VAC / 200 mA
