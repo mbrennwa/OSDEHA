@@ -1,19 +1,95 @@
-Internal chassis dimensions:
-- length ca 30 cm (1 x amp board + 2 x Coleman regs on each side / on each heatsink)
-- width determined by board dimensions (2 x width amp boards + 1 x length main PSU)
-- height determined by main PSU height (big caps) + subchassis for DHT output tubes + volume pot
+Concept:
+- 2 chassis (amplifier, power supply):
+	- allows acceptable form factor for amplifier module, while PSU can be hidden away (but PSU can also be stacked underneath the amp).
+	- Kepp recitifier noise away from amplifier
+- Amp dimensions:
+	- width = 280 mm (including 2 x 40 mm width of heatsinks on the sides)
+	- height = 90..100 mm (without the tubes sticking out from the top)
+	- depth = 300 mm
+- PSU dimensions:
+	- width = 280 mm
+	- height = [check height of large HV caps]
+	- depth = 300 mm
+- Connections between PSU and amp:
+	- 1 x cable for HV PSU + bias (keep separate from potentially noisy heater / filament RAW DC currents)
+	- 1 x cable heater and RAW-DC filament currents (1 x 6.3 VDC for input heaters, 2 x RAW-DC supplies for Coleman Filament regs in the amp chassis)
+	- only PSU: IEC mains inlet + switch + fuses
+	- only amp: 2 x XLR audio inputs, Stax outputs on frontpanel
 
-Heatsinks:
-- dimensions: 300 mm x 100..150 mm
-- Fischer SK 56 100..150 SA has strong/flat fins on end, easy to fit front plate/screws
+
+Heatsinks for amp:
+- dimensions: 40 x 300 mm x 90..100 mm
 
 
+PSU inernal arrangement
+	- Left: 2 x mains transformers
+	- Center: 1 x main PSU board (HV + 6.3 V heater + HV bias)
+	- Right: 2 x filament RAW-DC supplies
+
+
+PSU front panel:
+	- Power LED indicator at center
+	
+
+PSU rear panel:
+	- IEC mains inlet (incl. switch + fuses), on the side where the mains transformers are
+	- 2 x cable connectors to amp chassis
+
+
+Amp internal arrangment:
+	- Heasinks on left and right
+	- 2 x amp board on heatsinks.
+	  Right board aligned to front plate
+	  Left board aligned to rear plate (to keep input tubes away from front plate, make space for Stax connector on front plate)
+	- Coleman boards:
+	  2 x boards on right, aligned to rear plate
+	- 2 x boards boards on left, aligned to front plate (Stax connector on front plate can mount above the Coleman boards)
+	
+
+Amp front panel:
+	- Volume control on right (above right amp board)
+	- Stax connector on left (above Coleman regs)
+	- Power LED indicator at center
+
+
+Amp rear panel:
+	- 2 x cable connectors to amp chassis
+	- 2 x XLR audio inputs
+	
+
+Cable connections between PSU and amp chassis:
+
+	HV Cable:
+	- B+
+	- B-
+	- B2-
+	- GND
+	- 580 VDC bias
+	- Earth/chassis
+
+	Heater/Filament cable:
+	- Heater POS (6.3 V)
+	- Heater NEG (0 V) [connected to GND on PSU main board]
+	- RAW-DC 1 POS [floating]
+	- RAW-DC 1 NEG [floating]
+	- RAW-DC 2 POS [floating]
+	- RAW-DC 2 NEG [floating]
+
+
+
+
+
+
+
+
+
+Old notes, but may be worth to keep:
 
 Ideas and thoughts
 	- DON'T (EITHER UGLY OR DOES NOT FIT, WILL NEED MACHINING FOR HOLES/PLUGS/VOLUME-KNOB -- FRONTPANEL DESIGN IS EASIER!) Use ready made chassis (19zoll.com, modushop, etc.) or go with separate heatsinks + Schaeffer panels?
 	- amp boards on the sides, flat on bottom plate, transistors on heatsinks
 	- transformers on the back, on bottom plate (or on rear plate?), between the amp boards
-	- PSU boards on the bottom plate, just behind the fron plate.
+	- PSU boards on the bottom plate, just behind the front plate.
 	- RAW DC supply for Coleman regs on rear panel?
 	- 4 x power DHTs mounted on sub-chassis above PSU board / transformers
 	- Coleman regs near the DHTs on the subchassis for accessibility to adjust filament voltages?
