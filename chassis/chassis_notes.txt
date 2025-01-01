@@ -4,7 +4,7 @@ Concept:
 	- Kepp recitifier noise away from amplifier
 - Amp dimensions:
 	- width = 280 mm (including 2 x 40 mm width of heatsinks on the sides)
-	- height = 90..100 mm (without the tubes sticking out from the top)
+	- height = 90..100 mm, need enough height for input tubes [height not including the power tubes sticking out from the top]
 	- depth = 300 mm
 - PSU dimensions:
 	- width = 280 mm
@@ -44,6 +44,7 @@ Amp internal arrangment:
 	- Coleman boards:
 	  2 x boards on right, aligned to rear plate
 	- 2 x boards boards on left, aligned to front plate (Stax connector on front plate can mount above the Coleman boards)
+	- 4 x power tubes between the amp boards, centered on a line in the middle of the chassis. Tubes sticking out on top of the chassis, mounted on small subchassis
 	
 
 Amp front panel:
