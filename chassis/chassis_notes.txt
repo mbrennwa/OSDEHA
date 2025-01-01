@@ -61,8 +61,17 @@ Amp rear panel:
 
 Cable connections between PSU and amp chassis:
 
-	Connectors: Amphenol Ecomate C16 plastic
-	(pre-made cable assemblies available at Digikey)
+	Connectors: TE AMP CPC 7-pos 600 V, shell size 13 (6-pos not available?)
+	
+	https://www.te.com/en/plp/circular-power-connectors/YG2dj.html
+	
+	
+	7-pos male plug with 1m cable: 2387101-2
+	7-pos female panel: 211398-3
+	cable clamp: 206966-7
+
+
+
 
 	HV Cable:
 	- B+
