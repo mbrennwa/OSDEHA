@@ -5327,6 +5327,18 @@
 		)
 		(uuid "fec26894-47fe-410a-891d-2b50ddacc58d")
 	)
+	(rectangle
+		(start 309.88 233.68)
+		(end 322.58 246.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1ad9976-7281-4e8e-a75a-6275c7d2f0af)
+	)
 	(text "From balanced\nstepped attenuator\n(2 x 100k)"
 		(exclude_from_sim no)
 		(at 50.8 127 0)
@@ -5338,7 +5350,7 @@
 		)
 		(uuid "16e6125e-c5e4-44dd-912d-c399a7e3fdea")
 	)
-	(text "to DHT F2"
+	(text "DHT F2"
 		(exclude_from_sim no)
 		(at 319.024 241.046 0)
 		(effects
@@ -5349,7 +5361,7 @@
 		)
 		(uuid "1ed86e54-140f-4296-9c4e-57c433895150")
 	)
-	(text "to B-"
+	(text "B-"
 		(exclude_from_sim no)
 		(at 319.024 244.856 0)
 		(effects
@@ -5679,6 +5691,17 @@
 		)
 		(uuid "ca72fd82-631e-45d2-a8cd-9f0d2752e4c5")
 	)
+	(text "To J5\non amp PCB"
+		(exclude_from_sim no)
+		(at 315.722 233.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "cbda69d7-0123-45d3-8866-1c9d11167083")
+	)
 	(text "10 mA"
 		(exclude_from_sim no)
 		(at 95.25 95.25 90)
@@ -5701,7 +5724,7 @@
 		)
 		(uuid "da75c66c-01c3-41ad-902c-14881fa4ea1d")
 	)
-	(text "to DHT F1"
+	(text "DHT F1"
 		(exclude_from_sim no)
 		(at 319.024 237.236 0)
 		(effects
