@@ -61,19 +61,7 @@ Amp rear panel:
 
 Cable connections between PSU and amp chassis:
 
-	Connectors: TE AMP CPC 7-pos 600 V, shell size 13 (6-pos not available?)
-	
-	https://www.te.com/en/plp/circular-power-connectors/YG2dj.html
-	
-	
-	7-pos male plug with 1m cable: 2387101-2
-	7-pos female panel: 211398-3
-	cable clamp: 206966-7
-
-
-
-
-	HV Cable:
+	Cable I (high voltage lines):
 	- B+
 	- B-
 	- B2-
@@ -81,13 +69,39 @@ Cable connections between PSU and amp chassis:
 	- GND
 	- Earth/chassis
 
-	Heater/Filament cable:
+	Cable II (heater/filament RAW-DC):
 	- Heater POS (6.3 V)
 	- Heater NEG (0 V) [connected to GND on PSU main board]
 	- RAW-DC 1 POS [floating]
 	- RAW-DC 1 NEG [floating]
 	- RAW-DC 2 POS [floating]
 	- RAW-DC 2 NEG [floating]
+	cable clamp: 206966-7
+	
+	
+	Connector requirements:
+	- Use different connectors for the two cables to avoid accidental mixups!
+	- PE/chassis connection:
+		- PE conncetions on HV cable, not on Filament cable
+		- PE/chassis pin on the HV cable must connect before the other pins
+	- All connectors must be rated for 600 VDC or more (filament supplies are floating on B- voltage!)
+	
+	--> Connector HV-Cable: Amphenol DMS 18-8
+	    700 V or higher rating
+	    center pin is larger/longer, use this for PE -- use extra pins for parallel connections: 2 x PE and 2 x GND between pos and neg HV pins
+	    Cable male:     MS3106E18-8P
+	    Cable female:   MS3106E18-8S
+	    Chassis male:   MS3102E18-8P
+	    Chassis female: MS3102E18-8S
+
+	--> Connector Heater/filament cable: DMS 18-12
+	    Cable male:     MS3106E18-12P
+	    Cable female:   MS3106E18-12S
+	    Chassis male:   MS3102E18-12P
+	    Chassis female: MS3102E18-12S
+	    
+	Cable: Lapp 301606S‎, 6 conductors 16 AWG, color coded, shielded
+
 
 
 
