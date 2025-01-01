@@ -3228,6 +3228,12 @@
 		(uuid "766e90d2-a7ec-4c39-97af-bba42a3920bc")
 	)
 	(junction
+		(at 368.3 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "787d4a63-6c30-42e1-8dd5-6decf8ba37ba")
+	)
+	(junction
 		(at 165.1 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3262,12 +3268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa9f7953-eef0-4739-8730-bda6d523ef5d")
-	)
-	(junction
-		(at 367.03 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aedaa587-98d1-4093-95cb-bc9af8dd175b")
 	)
 	(junction
 		(at 115.57 165.1)
@@ -3519,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 224.79) (xy 367.03 240.03)
+			(xy 368.3 224.79) (xy 368.3 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 236.22) (xy 328.93 236.22)
+			(xy 320.04 236.22) (xy 332.74 236.22)
 		)
 		(stroke
 			(width 0)
@@ -3969,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 224.79) (xy 367.03 224.79)
+			(xy 359.41 224.79) (xy 368.3 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4049,6 +4049,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 240.03) (xy 374.65 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520747be-c5fb-491f-a4c6-cb5e357d26eb")
+	)
+	(wire
+		(pts
 			(xy 198.12 165.1) (xy 274.32 165.1)
 		)
 		(stroke
@@ -4109,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 224.79) (xy 328.93 236.22)
+			(xy 332.74 224.79) (xy 332.74 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4306,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "7ada94fe-08b7-489a-94f8-d591e9876a38")
-	)
-	(wire
-		(pts
-			(xy 367.03 240.03) (xy 374.65 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c014682-4edd-477f-8b7d-73aa300b8b1b")
 	)
 	(wire
 		(pts
@@ -4899,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 240.03) (xy 367.03 240.03)
+			(xy 359.41 240.03) (xy 368.3 240.03)
 		)
 		(stroke
 			(width 0)
@@ -5319,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 224.79) (xy 328.93 224.79)
+			(xy 340.36 224.79) (xy 332.74 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5536,9 +5536,9 @@
 		)
 		(uuid "7b4d78ad-aa14-4c75-bf29-2855bf0b3707")
 	)
-	(text "Coleman DHT Filament supplies\n(separate PCBs)"
+	(text "Coleman DHT\nFilament regulators\n(separate PCBs)"
 		(exclude_from_sim no)
-		(at 305.308 224.028 0)
+		(at 309.88 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
