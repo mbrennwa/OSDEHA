@@ -61,12 +61,15 @@ Amp rear panel:
 
 Cable connections between PSU and amp chassis:
 
+	Connectors: Amphenol Ecomate C16 plastic
+	(pre-made cable assemblies available at Digikey)
+
 	HV Cable:
 	- B+
 	- B-
 	- B2-
-	- GND
 	- 580 VDC bias
+	- GND
 	- Earth/chassis
 
 	Heater/Filament cable:
