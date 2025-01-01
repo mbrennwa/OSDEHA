@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a6b6906f-8a54-45b8-8065-fa27c4eeacfd")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f293f5e-4d47-42f8-99bd-c2985607efe0")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4eeb5e3-c349-4faa-a93f-024b1ccc18ad")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a925cf56-8825-49d2-850e-7bca818075e9")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d38889-b29d-44c4-9a55-cd4d6337b0e2")
+	)
+	(text "COLEMAN DHT FILAMENT REGULATOR\n(dummy sheet for KiCad)"
+		(exclude_from_sim no)
+		(at 129.286 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "5a719a79-3419-49e9-9bb8-6b69c308df7a")
+	)
+	(hierarchical_label "FIL-"
+		(shape passive)
+		(at 147.32 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00586dda-7eee-4e79-b96e-f844201a7e2b")
+	)
+	(hierarchical_label "RAWDC+"
+		(shape passive)
+		(at 118.11 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "604e428a-58cd-464b-a281-512cd4381b14")
+	)
+	(hierarchical_label "FIL+"
+		(shape passive)
+		(at 147.32 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb7c3b61-4408-4da1-8f1f-c104b564518f")
+	)
+	(hierarchical_label "RAWDC-"
+		(shape passive)
+		(at 118.11 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4a1c7a2-186a-4b0f-8da0-91c968532f09")
+	)
+)
