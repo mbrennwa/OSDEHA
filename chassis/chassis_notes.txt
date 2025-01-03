@@ -1,7 +1,8 @@
 Concept:
-- 2 chassis (amplifier, power supply):
+- 2 chassis (1 x amplifier, 1 x power supply):
 	- allows acceptable form factor for amplifier module, while PSU can be hidden away (but PSU can also be stacked underneath the amp).
 	- Keep recitifier noise away from amplifier
+	- use same footprint (and height?) for both chassis, so they can nicely be stacked or placed next to each other
 - Amp dimensions (external, without front plate):
 	- width = 280 mm (including 2 x 40 mm width of heatsinks on the sides)
 	- height = 100 mm [height not including the power tubes sticking out from the top]
@@ -19,7 +20,7 @@ Concept:
 
 Heatsinks for amp:
 	- dimensions: 40 x 300 mm x 100 mm
-	- Fischer SK 56 100 SA
+	- Fischer SK 56 100 SA or SK 501 100 SA
 
 
 PSU inernal arrangement
