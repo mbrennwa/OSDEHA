@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg2"
-   width="816"
-   height="1056"
-   viewBox="0 0 816 1056"
+   width="154.35518"
+   height="157.49434"
+   viewBox="0 0 154.35518 157.49434"
    sodipodi:docname="PSU_CONNECTORS_PINOUTS.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -377,8 +377,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.7878788"
-     inkscape:cx="311.82203"
-     inkscape:cy="628.11865"
+     inkscape:cx="-2.2372881"
+     inkscape:cy="95.644067"
      inkscape:window-width="1470"
      inkscape:window-height="851"
      inkscape:window-x="0"
@@ -387,12 +387,12 @@
      inkscape:current-layer="g8"
      showguides="true">
     <sodipodi:guide
-       position="299.59156,513.5712"
+       position="-14.552046,147.69562"
        orientation="0,-1"
        id="guide1978"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="294.31019,447.21774"
+       position="-19.833416,81.342162"
        orientation="0,-1"
        id="guide2141"
        inkscape:locked="false" />
@@ -401,7 +401,7 @@
      id="g8"
      inkscape:groupmode="layer"
      inkscape:label="Amphenol_MIL_5015-3474748"
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1056)">
+     transform="matrix(1.3333333,0,0,-1.3333333,-314.14361,523.36992)">
     <path
        d="m 235.60771,358.00121 h 44.64 v -43.2 h -44.64 z"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
