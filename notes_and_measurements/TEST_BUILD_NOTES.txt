@@ -259,6 +259,10 @@ Checking input + driver stage after repair.
 
 *** TO DO ***
 
+- Put back labels of output/input connectors on AMP board!
+  (Also check PSU board!)
+  
+- Adjust revision number/date on next version of Gerbers
 - check HV PSU dropout / ripple again! Can't get stable output under load higher than +/-400 VDC
 	--> found AC from transformer secondaries to be lower than speced:
 	- design target B+/B- AC secondary = 340 VAC

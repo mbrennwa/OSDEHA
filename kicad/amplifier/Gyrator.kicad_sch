@@ -1307,15 +1307,15 @@
 		(dnp no)
 		(uuid "09a3b2a7-51ed-4acd-9fc0-354ceb572b83")
 		(property "Reference" "R39"
-			(at 176.53 92.71 90)
+			(at 171.45 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 173.99 92.71 90)
+		(property "Value" "470 3W"
+			(at 176.53 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,15 +3074,15 @@
 		(dnp no)
 		(uuid "fdb56d37-d872-4cb9-bdaf-eab2b33b2959")
 		(property "Reference" "R33"
-			(at 102.87 92.71 90)
+			(at 98.044 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 100.33 92.71 90)
+		(property "Value" "470 3W"
+			(at 102.87 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
