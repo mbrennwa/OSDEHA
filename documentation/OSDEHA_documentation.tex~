@@ -28,7 +28,7 @@ The OSDEHA uses DHT tubes for its output stage and implements the following desi
 \item The audio output is taken directly from the anodes of the DHT output tubes. There are no transformer or capacitors to transfer the power to the headphones.
 \item The amplifier input takes balanced input at signal levels of modern audio sources (mostly DACs these days).
 \item The design prioritizes the quality of audio reproduction and electronic design rather than on low cost.
-\item The amplifier should be reasonably compact, and all units and boards should fit in one single chassis.
+\item The amplifier should be reasonably compact. The power supply unit may be a separate unit to keep the amplifier unit reasonable compact.
 \end{itemize}
 
 There is a public discussion thread of the OSDEHA at diyAudio\cite{osdeha_p1}. 
