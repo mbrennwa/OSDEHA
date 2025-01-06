@@ -37,6 +37,7 @@
  
 \usepackage[T1]{fontenc} \usepackage[scaled=.90]{helvet} \renewcommand{\familydefault}{\sfdefault} \usepackage[helvet]{sfmath}
 
+\usepackage{booktabs}
 \usepackage{csvsimple}
 
 \newcommand{\Ohm}{\ensuremath{\Omega}}
