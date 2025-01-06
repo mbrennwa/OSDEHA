@@ -18,6 +18,7 @@ Chassis panel joints		n/a	10$\times$10\	mm aluminium rods
 Chassis feet	8	(various)	
 IEC mains inlet	1	Schurter	KM01.1205.11
 IEC mains inlet fuse holder	1	Schurter	4301.1401
+Mains fuse	2		5$\times$20\,mm
 Power supply outlet socket (HV)	1	Amphenol	MS3102E18-8S
 Amplifier power socket (HV)	1	Amphenol	MS3102E18-8P
 Umbilical connector (HV/PSU)	1	Amphenol	MS3106E18-8P
@@ -27,7 +28,10 @@ Amplifier power socket (F+H)	1	Amphenol	MS3102E18-12P
 Umbilical connector (F+H/PSU)	1	Amphenol	MS3106E18-12P
 Umbilical connector (F+H/AMP)	1	Amphenol	MS3106E18-12S
 Umbilical wires	2	Lapp	301606S
-Standoffs (PCBs)		Keystone	24400 (or similar 5\,mm / M3 full-metal part)
-Standoffs (sub chassis)		Würth	970300474 (or similar 30\,mm / M4 full metal part)
+Power indicator LED	2	Vishay	VLHW5100 (or other 5\,mm white LED)
+Power indicator LED, resistor	2	Vishay	CMF55200R (for connection to 6.3\,V heaters)
 Test sockets for DHT filaments	8	Alltech	975455700
-
+Standoffs, metal (PCBs)		Keystone	24400 (or similar 5\,mm / M3)
+Standoffs, metal (sub chassis)		Würth	970300474 (or similar 30\,mm / M4)
+Allen screws M3			For M3 standoffs and transistors on heatsinks
+Allen screws M4			For M4 panel joints (top and rear: countersunk, black)
