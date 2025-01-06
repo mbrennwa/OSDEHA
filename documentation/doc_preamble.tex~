@@ -37,8 +37,11 @@
  
 \usepackage[T1]{fontenc} \usepackage[scaled=.90]{helvet} \renewcommand{\familydefault}{\sfdefault} \usepackage[helvet]{sfmath}
 
+\usepackage{csvsimple}
+
 \newcommand{\Ohm}{\ensuremath{\Omega}}
 \sisetup{detect-all} % tell siunitx to detect font stuff
+
 
 % \setlength{\columnsep}{0.75cm} 
 
