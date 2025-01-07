@@ -1,0 +1,7 @@
+Transistors on heatsink, position measured from left edge of amplifier PCB
+Q2	12.7 mm
+Q3	67.1 mm
+Q9	83.1 mm
+Q4	101.85 mm
+Q6	136.9 mm
+Q8	166.6 mm
