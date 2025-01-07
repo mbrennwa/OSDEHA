@@ -140,6 +140,15 @@ FULL SCHEMATICS AND DESCRIPTION
 
 HEATSINKS, CHASSIS, ETC.
 
+POWER UMBILICALS BETWEEN PSU AND AMP CHASSIS
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{PSU_CONNECTORS_PINOUTS}
+\caption{Pinout of power umbilical connections between power supply and amplifier chassis.}
+\figlabel{PSU_CONNECTORS_PINOUTS}
+\end{center}
+\end{figure}
+
 
 \section{Bring-up and initial adjustments}
 
@@ -191,7 +200,6 @@ DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
 The details of most electronic parts used in the OSDEHA circuits are given in the KiCad files in the {\tt kicad/} directory (tubes, semiconductors, resistors, capacitors). The remaining parts are listed below (chassis, mounting hardware, connectors, etc.).
 
 {\footnotesize \csvautobooktabular[separator=tab]{partslist.txt}}
-
 
 \clearpage
 \section{License information} \seclabel{license}

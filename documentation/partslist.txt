@@ -40,3 +40,7 @@ Allen screws M3$\times$4\,mm	?	Hasler	83.1215.03004 / PCBs to standoffs
 Allen screws M3$\times$10\,mm	?	Hasler	83.1215.03010 / Standoffs to bottom panel
 Allen screws M3$\times$12\,mm	?	Hasler	83.1215.03012 / Transistors to heatsinks
 Headless screw M4$\times$16\,mm	?	Hasler	83.1705.04016 / Front panel to heatsink
+Cable assemblies, pre crimped	?	Molex	219664-1032
+Molex KK-396 cable housing, 2 pin	?	Molex	MPN???
+Molex KK-396 cable housing, 3 pin	?	Molex	MPN???
+Molex KK-396 cable housing, 4 pin	?	Molex	MPN???
