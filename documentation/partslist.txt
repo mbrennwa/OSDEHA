@@ -28,10 +28,15 @@ Amplifier power socket (F+H)	1	Amphenol	MS3102E18-12P
 Umbilical connector (F+H/PSU)	1	Amphenol	MS3106E18-12P
 Umbilical connector (F+H/AMP)	1	Amphenol	MS3106E18-12S
 Umbilical wires	2	Lapp	301606S
-Power indicator LED	2	Vishay	VLHW5100 (or other 5\,mm white LED)
-Power indicator LED, resistor	2	Vishay	CMF55200R (for connection to 6.3\,V heaters)
+Power indicator LEDs	2	Vishay	VLHW5100 (or other 5\,mm white LED)
+Power indicator LEDs, resistors	2	Vishay	CMF55200R (for connection to 6.3\,V heaters)
 Test sockets for DHT filaments	8	Alltech	975455700
-Standoffs, metal (PCBs)		Keystone	24400 (or similar 5\,mm / M3)
-Standoffs, metal (sub chassis)		Würth	970300474 (or similar 30\,mm / M4)
-Allen screws M3			For M3 standoffs and transistors on heatsinks
-Allen screws M4			For M4 panel joints (top and rear: countersunk, black)
+Standoffs, metal, M3$\times$5\,mm	?	Keystone	24400 / PCBs
+Standoffs, metal, M4$\times$30\,mm	6	Würth	970300474 / Subchassis
+Allen screws M4$\times$12\,mm	?	Hasler	83.1215.04012 / Panels to chassis joints
+Allen screws M4$\times$18\,mm	?	Hasler	83.1215.04018 / Chassis joints to heatsinks
+Allen screws M4$\times$12\,mm, flat head	20	Hasler	83.1270.04012 / Top and rear panel
+Allen screws M3$\times$4\,mm	?	Hasler	83.1215.03004 / PCBs to standoffs
+Allen screws M3$\times$10\,mm	?	Hasler	83.1215.03010 / Standoffs to bottom panel
+Allen screws M3$\times$12\,mm	?	Hasler	83.1215.03012 / Transistors to heatsinks
+Headless screw M4$\times$16\,mm	?	Hasler	83.1705.04016 / Front panel to heatsink

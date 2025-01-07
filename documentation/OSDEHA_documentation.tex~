@@ -190,7 +190,7 @@ DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
 
 The details of most electronic parts used in the OSDEHA circuits are given in the KiCad files in the {\tt kicad/} directory (tubes, semiconductors, resistors, capacitors). The remaining parts are listed below (chassis, mounting hardware, connectors, etc.).
 
-{\footnotesize \csvautobooktabular[separator=tab]{chassis_partslist.txt}}
+{\footnotesize \csvautobooktabular[separator=tab]{partslist.txt}}
 
 
 \clearpage
