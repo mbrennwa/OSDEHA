@@ -1,4 +1,4 @@
-Part Description	Number	Manufacturer	MPN / Details
+Part Description	Number	Manufacturer	MPN and Details
 UX4 tube sockets	4	(various)	sub-chassis mount
 Noval tube sockets	4	(various)	PCB mount
 Stepped attenuator	1	Goldpoint	 4 channels, 10\,k\Ohm\ per channel, 47 positions
