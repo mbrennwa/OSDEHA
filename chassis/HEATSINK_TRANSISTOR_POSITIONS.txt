@@ -1,7 +1,20 @@
-Transistors on heatsink, position measured from left edge of amplifier PCB
-Q2	12.7 mm
-Q3	67.1 mm
-Q9	83.1 mm
-Q4	101.85 mm
-Q6	136.9 mm
-Q8	166.6 mm
+Amplifier transistors on heatsink
+position measured from left edge of amplifier PCB (in mm)
+Q2	12.7
+Q3	67.1
+Q9	83.1
+Q4	101.85
+Q6	136.9
+Q8	166.6
+
+Amplifier PCB position relative to heatsink
+left PCB edge measured from left heatsink edge
+PCB - Heatsink offset = 83 mm
+
+==> Transistor positions measured from left edge of heatsink (in mm):
+Q2	95.7
+Q3	150.1
+Q9	166.1
+Q4	184.85
+Q6	219.9
+Q8	249.6
