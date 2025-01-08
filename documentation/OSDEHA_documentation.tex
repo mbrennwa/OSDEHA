@@ -153,14 +153,14 @@ POWER UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 
 \section{Bring-up and initial adjustments}
 
-Building, testing, and adjusting the OSDEHA is best done step by step as described below. Use a variac to slowly bring up the circuits. It's recommended to built, install and fully test one amplifier board before working on the second one. Before working on the circuits, reset the variac to zero, switch off power, and wait for all capacitors to discharge such that no (high) voltages are left anywhere in the circuits.
+Building, testing, and adjusting the OSDEHA is best done step by step as described below. Use a variac to slowly ramp up mains power while bringing up the circuits. It's recommended to build, install and fully test one amplifier board before working on the second one. Before working on the circuits, always make sure there are no dangerous voltages left anywhere (all capacitors are discharged, mains cable is disconnected, etc.).
 
 \subsection{Power supply}
 \begin{itemize}
-\item Assmemble the power-supply boards. Install the boards and transformers in the amplifier chassis. Connect the primary windings of the transformers to the mains inlet and power switch of the amplifier chassis.
-\item Connect the amplifier to mains power through a variac (set the variac to zero before plugging it to the wall outlet).
-\item Connect transformer secondaries of heater supply. Then slowly ramp up the variac and confirm the heater supply works as expected. Also confirm the function of the HV delay relay.
-\item Connect transformer secondaries of the DHT filament supply. Install dummy resistor at the filament connections and then slowly ramp up the variac to confirm if the heater supply works as expected, then remove the dummy resistors.
+\item Assemble the chassis for the power supply and the amplifier.
+\item Assmemble the power-supply boards. Install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch of the amplifier chassis.
+\item Connect transformer secondaries of the heater supply. Slowly ramp up mains power using the variac and confirm the heater supply works as expected. Also confirm the function of the HV delay relay.
+\item Connect transformer secondaries of the DHT filament supply. Install dummy resistor at the filament connections and then slowly ramp up the variac to confirm if the filament supply works as expected, then remove the dummy resistors.
 \item Connect the transformer secondaries of the high-voltage supplies and install dummy resistors at their outputs. Slowly ramp up the variac. Confirm and adjust HV output voltages. Also check the diaphragm bias voltage output (note: the internal resistance of the volt meter will load down the bias output, resulting in a low voltage reading).
 \item Remove the dummy resistors from the high-voltage supplies.
 \end{itemize}
@@ -168,7 +168,7 @@ Building, testing, and adjusting the OSDEHA is best done step by step as describ
 
 \subsection{Amplifier input stage}
 \begin{itemize}
-\item Assmemble the amplifier board, install the board in the amplifier chassis, and set up the wire connections to volume pot and the connectors on the chassis. Install the tubes of the input stage, but do \emph{not} yet install or connect the DHT tubes of the output stage.
+\item Assmemble the amplifier board and install the board in the amplifier chassis. Set up the wire connections to volume pot, the DHT subchassis, and the connectors on the chassis. Install the input-stage tubes, but do \emph{not} yet install the DHT tubes of the output stage.
 \item Connect the heater supply to the amplifier board. Slowly ramp up the variac and confirm the functioning of the heaters of the input-stage tubes.
 \item Connect the high-voltage supplies to the amplifier board. Slowly ramp up the variac and confirm the correct DC bias of input stage tubes (anode voltages, CCS tail currents) and the DC bias currents of the buffer stages. Depending on the characteristics of your specific DN2540 parts it may be necessary to adjust the bias points by using different values for the CCS sense resistors.
 \item Apply an AC test signal to the amplifier input and switch on power. Follow the signal along the circuit and confirm correct output from the buffer stage.
@@ -177,8 +177,8 @@ Building, testing, and adjusting the OSDEHA is best done step by step as describ
 
 \subsection{Amplifier output stage}
 \begin{itemize}
-\item With the output tubes still disconnected from the amplifier, adjust DC grid bias of output tubes to the most negative value.
-\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and connect the DHT output tubes to the amplifier. Slowly ramp up the variac and adjust the filament voltage to the target value.
+\item With the output tubes still not installed in the amplifier, adjust DC grid bias of output tubes to the most negative value.
+\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and install the DHT output tubes to the amplifier. Slowly ramp up the variac and adjust the filament voltage to the target value. Let the tubes warm up and readjust the filament voltage as necessary.
 \item Reconnect the high-voltage supplies to the amplifier board and slowly ramp up the variac. Monitor the DC bias current of each output tube by reading the voltage across the mu-resistors. Adjust the DC grid bias until the targeted DC bias points are achieved. Let the amplifier warm up and readjust DC bias as necessary. Also monitor the filament voltages during warmup, and readjust if necessary.
 \item Apply an AC test signal to the amplifier input and check for correct output from the amplifier.
 \end{itemize}
