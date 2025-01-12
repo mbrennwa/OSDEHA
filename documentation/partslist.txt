@@ -41,7 +41,11 @@ Allen screws M3$\times$6\,mm	?	Hasler	83.1215.03006 / PCBs to standoffs [length 
 Allen screws M3$\times$10\,mm	?	Hasler	83.1215.03010 / Standoffs to bottom panel
 Allen screws M3$\times$12\,mm	?	Hasler	83.1215.03012 / Transistors to heatsinks
 Headless screw M4$\times$16\,mm	?	Hasler	83.1705.04016 / Front panel to heatsink
-Cable assemblies, pre crimped	?	Molex	219664-1032
-Molex KK-396 cable housing, 2 pin	?	Molex	MPN???
-Molex KK-396 cable housing, 3 pin	?	Molex	MPN???
-Molex KK-396 cable housing, 4 pin	?	Molex	MPN???
+Shoulder washers, for TO-220	?	Essentra	10SC004004, insulator washer
+Shoulder washers, for TO-247	?	???	???, insulator washer
+Heat spreader, for TO-220	?	T-Global	XL25W-TO220-18.5-12-1
+Heat spreader, for TO-247	?	T-Global	XL25W-TO247-22-17-1
+Cable assemblies, pre crimped	?	Molex	79758-0015
+Molex KK-396 cable housing, 2 pin	?	Molex	09-50-8021
+Molex KK-396 cable housing, 3 pin	?	Molex	09-50-8031
+Molex KK-396 cable housing, 4 pin	?	Molex	09-50-8041
