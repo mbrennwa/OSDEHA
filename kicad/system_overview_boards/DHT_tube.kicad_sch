@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4217a151-8a21-41e6-8738-6cd396529ac5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "FIL-"
+		(shape passive)
+		(at 102.87 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84651f85-dbfd-4c2f-9861-1f30e49bfaf2")
+	)
+	(hierarchical_label "ANODE"
+		(shape passive)
+		(at 102.87 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2ab9fd5-a0d3-4aa0-94f8-138d4490862b")
+	)
+	(hierarchical_label "FIL+"
+		(shape passive)
+		(at 102.87 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4245367-3ba5-45dc-b48b-358ea6aafbf5")
+	)
+	(hierarchical_label "GRID"
+		(shape passive)
+		(at 102.87 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d480b290-8d78-4c31-b29a-f47df69c5b33")
+	)
+)

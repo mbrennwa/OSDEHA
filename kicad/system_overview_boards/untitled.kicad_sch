@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "25d5d6e6-b4d0-46fc-a885-0e5b8482f0c0")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "IN+"
+		(shape passive)
+		(at 116.84 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56cf0f87-4846-4f84-a3ef-1515651049d0")
+	)
+	(hierarchical_label "CHASSIS"
+		(shape passive)
+		(at 116.84 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbcfdff8-4089-4f40-ba86-1a351a3a1e5c")
+	)
+	(hierarchical_label "IN-"
+		(shape passive)
+		(at 116.84 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d98defa4-8dff-4861-ad8e-4eb79f47e9c7")
+	)
+)

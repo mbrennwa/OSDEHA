@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "abbfc9ca-377b-4727-a1d1-c3a959712c37")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "AC-1 (FIL-R)"
+		(shape passive)
+		(at 59.69 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cf0cfb7-d797-4794-a88c-5f88437317e9")
+	)
+	(hierarchical_label "AC-1 (H)"
+		(shape passive)
+		(at 59.69 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a62cb19-79ef-4587-9ff7-702a82b9541c")
+	)
+	(hierarchical_label "AC-2 (FIL-L)"
+		(shape passive)
+		(at 78.74 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3409c483-b115-47f5-8ffe-95fc2b93eb78")
+	)
+	(hierarchical_label "AC-2 (H)"
+		(shape passive)
+		(at 78.74 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38f2d0aa-591d-45fb-9073-c853713e12ab")
+	)
+	(hierarchical_label "AC-1 (FIL-L)"
+		(shape passive)
+		(at 59.69 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d570958-4682-4551-9621-bd13f4e7cda0")
+	)
+	(hierarchical_label "MAINS-2"
+		(shape passive)
+		(at 59.69 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dcef324-6ccc-4cea-ac3d-e69df51e3062")
+	)
+	(hierarchical_label "AC-2 (FIL-R)"
+		(shape passive)
+		(at 78.74 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e36c6704-0120-4c90-830c-10e81d0b3e2b")
+	)
+	(hierarchical_label "MAINS-1"
+		(shape passive)
+		(at 59.69 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1115007-658a-4396-a051-6b6849664c8b")
+	)
+)

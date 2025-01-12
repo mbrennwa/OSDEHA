@@ -1,0 +1,260 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bd77d180-1c9b-4248-ba7a-87106e3bbf11")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "DHT2-G"
+		(shape passive)
+		(at 127 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11925665-0520-4ad0-8b47-5fefbe906818")
+	)
+	(hierarchical_label "DHT2-F-"
+		(shape passive)
+		(at 127 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e52db82-86ad-493f-a49b-a2691309cf50")
+	)
+	(hierarchical_label "B-"
+		(shape passive)
+		(at 127 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ee42e61-76c3-4523-b538-a0fae98e4354")
+	)
+	(hierarchical_label "OUT+"
+		(shape passive)
+		(at 127 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3efec856-75d0-4543-b4a1-20596e9a1ac8")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 127 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fafb861-9457-4ea9-9285-26304912938a")
+	)
+	(hierarchical_label "DHT1-F-"
+		(shape passive)
+		(at 127 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49dafb84-a6cc-4801-96d2-66f3c4304f42")
+	)
+	(hierarchical_label "COLEMANREG1+"
+		(shape passive)
+		(at 127 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6376b5d4-282c-4f43-8ac2-5f35b64a6c0b")
+	)
+	(hierarchical_label "B2-"
+		(shape passive)
+		(at 127 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ed15f07-34f1-4ac0-b2ae-3c01db9dc105")
+	)
+	(hierarchical_label "COLEMANREG0"
+		(shape passive)
+		(at 127 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "799428d4-e0f5-40cc-b610-39332f1ee696")
+	)
+	(hierarchical_label "DHT2-A"
+		(shape passive)
+		(at 127 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80f06c8d-c141-449b-b662-02924a765ce3")
+	)
+	(hierarchical_label "HEATER-"
+		(shape passive)
+		(at 127 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "833e5cb8-bf45-4a8a-a2ed-e2d9fd2dee4b")
+	)
+	(hierarchical_label "IN-"
+		(shape passive)
+		(at 127 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "947bfd08-9560-441b-aff2-80955b3d98a4")
+	)
+	(hierarchical_label "COLEMANREG2+"
+		(shape passive)
+		(at 127 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e30547c-1fe3-431e-81f0-5ea4c5cb9b6a")
+	)
+	(hierarchical_label "DHT2-F+"
+		(shape passive)
+		(at 127 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af5627a1-b1ae-44e7-88f0-b0bdfef419a0")
+	)
+	(hierarchical_label "DHT1-A"
+		(shape passive)
+		(at 127 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be2011c8-d117-4dde-8e5c-7df293c218d2")
+	)
+	(hierarchical_label "DHT1-F+"
+		(shape passive)
+		(at 127 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1d48763-9ec4-4038-b493-b6321296d17e")
+	)
+	(hierarchical_label "DHT1-G"
+		(shape passive)
+		(at 127 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd5f12f0-6cdf-4e12-adf5-a819963a47b2")
+	)
+	(hierarchical_label "IN+"
+		(shape passive)
+		(at 127 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e92faf52-a3e5-4a23-84b3-a76febcbb62e")
+	)
+	(hierarchical_label "B+"
+		(shape passive)
+		(at 127 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e93169d7-4386-4ffe-a00c-81af0a2e457f")
+	)
+	(hierarchical_label "HEATER+"
+		(shape passive)
+		(at 127 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4820378-eb60-4e6f-a8a2-40fce424d238")
+	)
+	(hierarchical_label "OUT-"
+		(shape passive)
+		(at 127 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa398af9-e9bc-4428-8a17-be1048249bd6")
+	)
+)

@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d74e2048-99e5-477a-a827-1cbbae48c02d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "EARTH"
+		(shape passive)
+		(at 139.7 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f1246d4-2802-481b-b6df-afb60bdad598")
+	)
+	(hierarchical_label "MAINS AC-1"
+		(shape passive)
+		(at 139.7 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56fdc35c-199d-4b22-88ee-6a284d3ea13b")
+	)
+	(hierarchical_label "MAINS AC-2"
+		(shape passive)
+		(at 139.7 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d4dd7a4-c8bb-4dd1-9149-ba2adeca3aed")
+	)
+)
