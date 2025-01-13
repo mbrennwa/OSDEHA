@@ -120,18 +120,50 @@ The LTP input stage is capacitor coupled to the grids of the output DHTs. A sui
 
 \section{Power supplies}
 
-\subsection{High voltage supplies (B+, B-, B2-)}
+\subsection{High-Voltage Supplies (B+, B-, B2-)}
+Both the input and output stages of the amplifier operate on a bipolar high-voltage supply (B+ and B- rails). In addition, the DHT grids must be biased to a more negative voltage than B-, so an additonal B2- supply is required. All three high-voltage supplies use the same same circuit to achieve clean, stabilized voltage outputs (\figr{HV_PSU_simple}). The circuits were deliberatly designed to avoid any voltage regulation using feedback loops, which are often associated with sound degradation. A full-wave rectifier and smoothing capacitor (C1) yield a raw DC voltage. This raw DC supply feeds a current source that injects a small constant current into R1. Once C1 is fully charged, R1 drops a constant voltage. This voltage reference is mirrored to the  voltage output across the DC+ and DC- terminals. For the B+ supply, the DC- output is referenced to GND, while the B- and B2- supplies have their DC+ at GND.
 
-\subsection{Bias}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{HV_PSU_concept.pdf}
+\caption{Circuit of the high-voltage power supplies (simplified).}
+\figlabel{HV_PSU_simple}
+\end{center}
+\end{figure}
 
-\subsection{DHT filament supply}
+To prevent nasty audio noise during startup and to reduce stress on the tubes, the high-voltage supplies are switched on only after tubes have warmed up for a few seconds. This is achieved by a relay switch controlled by a delay timer triggered by the heater supply.
 
-\subsection{Heater supply for input stage}
+\subsubsection{Diaphragm Bias Voltage}
+Most high-performance electrostatic headphones utilize a 580\,V DC voltage to bias the diaphragm. The current output of the bias voltage supply is essentially zero. A charge pump riding on the B+ rail and its AC supply is used to charge a string of capacitors, whereby their voltage is limited to the intended bias voltage by a string of Zener diodes connected in parallel to the capacitors. Note that it is important to maintain the amount of \emph{charge} on the diaphragm, not the diaphragm voltage. to this end, and for safety reasons, a high-ohmic current-limiting resistor is inserted in the output of the bias supply.
+
+\subsection{Heater Supply for the Input-Stage Tubes}
+The heaters of the input tubes are supplied with a clean DC voltage to prevent any crosstalk of hum or noise from the heater supply into the audio signal. This DC supply is implemented using a standard three-pin voltage regulator chip.
+
+\subsection{DHT Filament Supply}
+TO DO -- RAW DC / COLEMAN DHT FILAMENT REGS (IN AMP CHASSIS)
+
+
+
+
+
+
+
+
+
 
 
 \section{Putting the pieces together}
 
-\figr{system_overview} shows an overview the OSDEHA. There various units are distributed across two chassis (power supply, amplifier).
+\figr{system_overview} shows an overview the various OSDEHA units, and how they are wired to each other. The units are distributed across two chassis for (i) the power supply and (ii) the amplifier).
+
+\begin{figure}
+\begin{center}
+\includegraphics[angle=90,height=0.9\textheight]{system_boards_overview.pdf}
+\caption{Overview of the OSDEHA units (see text).}
+\figlabel{system_overview}
+\end{center}
+\end{figure}
+
 
 Power-supply chassis:
 \begin{itemize}
@@ -151,41 +183,16 @@ Amplifier chassis:
 \item Stax headphone output socket
 \end{itemize}
 
-The two chassis are connected by two umbilical cable U1 and U2. U1 carries GND, chassis/earth, and the high-voltage/low-current supplies. U2 carries the low-voltage/high-current supplies for the heaters of the input-stage tubes and the Coleman DHT filament regulators.
-
-\begin{figure}
-\begin{center}
-\includegraphics[angle=90,height=0.9\textheight]{system_boards_overview.pdf}
-\caption{Overview of the OSDEHA units (see text).}
-\figlabel{system_overview}
-\end{center}
-\end{figure}
+The two chassis are connected by two umbilical cables U1 and U2. U1 carries the high-voltage/low-current supplies (B+, B-, B2-, GND) and provides the chassis/earth connection. U2 carries the low-voltage/high-current supplies for the heaters of the input-stage tubes and the Coleman DHT filament regulators.
 
 
-\subsection{Power Supply}
-
-\subsubsection{High-voltage supplies (B+, B-, B2-)}
-TO DO
-
-\subsubsection{Diaphragm bias voltage}
-TO DO
-
-\subsubsection{Heater supply (input-stage tubes)}
-TO DO
-
-\subsubsection{DHT filament supply}
-TO DO -- RAW DC / COLEMAN DHT FILAMENT REGS (IN AMP CHASSIS)
-
-
-\subsection{Amplifier}
-TO DO
 
 
 \section{Mechanical construction}
 
 HEATSINKS, CHASSIS, ETC.
 
-POWER UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
+UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 
 \begin{figure}
 \begin{center}
