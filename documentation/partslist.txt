@@ -13,7 +13,7 @@ Power supply front panel	1	Front Panel Express
 Power supply top panel	1	Front Panel Express	
 Power supply rear panel	1	Front Panel Express	
 Power supply bottom panel	1	Front Panel Express	
-Power supply side panels	2	Front Panel Express	
+Power supply side panels	2	Front Panel Express
 Chassis panel joints		n/a	10$\times$10\	mm aluminium rods
 Chassis feet	8	(various)	
 IEC mains inlet	1	Schurter	KM01.1205.11

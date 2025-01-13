@@ -131,9 +131,54 @@ The LTP input stage is capacitor coupled to the grids of the output DHTs. A sui
 
 \section{Putting the pieces together}
 
-FULL SCHEMATICS AND DESCRIPTION
+\figr{system_overview} shows an overview the OSDEHA. There various units are distributed across two chassis (power supply, amplifier).
+
+Power-supply chassis:
+\begin{itemize}
+\item IEC mains inlet (with power switch and mains fuses)
+\item Two mains transformers
+\item Main power-supply board that supplies stabilized DC voltages for B+, B-, B2-, diaphragm bias, and heater of the input-stage tubes
+\item Two boards for raw DC supply to the Coleman DHT filament regulators
+\end{itemize}
+
+Amplifier chassis:
+\begin{itemize}
+\item Two amplifier main boards (left and right channels)
+\item Four DHT power tubes (two per channel)
+\item Four Colemand DHT filament regulators
+\item Two XLR audio input sockets
+\item Volume control (stereo, balanced)
+\item Stax headphone output socket
+\end{itemize}
+
+The two chassis are connected by two umbilical cable U1 and U2. U1 carries GND, chassis/earth, and the high-voltage/low-current supplies. U2 carries the low-voltage/high-current supplies for the heaters of the input-stage tubes and the Coleman DHT filament regulators.
+
+\begin{figure}
+\begin{center}
+\includegraphics[angle=90,height=0.9\textheight]{system_boards_overview.pdf}
+\caption{Overview of the OSDEHA units (see text).}
+\figlabel{system_overview}
+\end{center}
+\end{figure}
 
 
+\subsection{Power Supply}
+
+\subsubsection{High-voltage supplies (B+, B-, B2-)}
+TO DO
+
+\subsubsection{Diaphragm bias voltage}
+TO DO
+
+\subsubsection{Heater supply (input-stage tubes)}
+TO DO
+
+\subsubsection{DHT filament supply}
+TO DO -- RAW DC / COLEMAN DHT FILAMENT REGS (IN AMP CHASSIS)
+
+
+\subsection{Amplifier}
+TO DO
 
 
 \section{Mechanical construction}
