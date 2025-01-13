@@ -5,19 +5,7 @@
 	(uuid "0c9cf066-8ef2-44da-a251-82a06f9a0a7c")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "HEATER- (R)"
-		(shape passive)
-		(at 142.24 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08c4d318-b90b-432e-abe8-627bc9f6b681")
-	)
-	(hierarchical_label "HEATER+ (L)"
+	(hierarchical_label "HEATER+"
 		(shape passive)
 		(at 125.73 59.69 0)
 		(fields_autoplaced yes)
@@ -28,18 +16,6 @@
 			(justify left)
 		)
 		(uuid "0a90fc92-4694-4f44-9c58-2e5243ad4cda")
-	)
-	(hierarchical_label "B2- (R)"
-		(shape passive)
-		(at 139.7 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "122ca2d9-4c37-4a61-9511-5f055531eb81")
 	)
 	(hierarchical_label "AC-1 (B-)"
 		(shape passive)
@@ -65,7 +41,7 @@
 		)
 		(uuid "2dc7b634-8708-4dac-891d-cc4ba0568d0f")
 	)
-	(hierarchical_label "B2- (L)"
+	(hierarchical_label "B2-"
 		(shape passive)
 		(at 125.73 57.15 0)
 		(fields_autoplaced yes)
@@ -77,7 +53,7 @@
 		)
 		(uuid "3a3e0684-edd0-4bfe-a3a7-e3c62448b391")
 	)
-	(hierarchical_label "B+ (L)"
+	(hierarchical_label "B+"
 		(shape passive)
 		(at 125.73 52.07 0)
 		(fields_autoplaced yes)
@@ -149,7 +125,7 @@
 		)
 		(uuid "9650b887-055d-4628-946c-41d31406cd58")
 	)
-	(hierarchical_label "HEATER- (L)"
+	(hierarchical_label "HEATER-"
 		(shape passive)
 		(at 125.73 62.23 0)
 		(fields_autoplaced yes)
@@ -197,43 +173,7 @@
 		)
 		(uuid "bb2d6d8b-eba5-48d9-869e-043b083462c9")
 	)
-	(hierarchical_label "HEATER+ (R)"
-		(shape passive)
-		(at 142.24 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c70199eb-2494-44ee-8226-49e3d47041d4")
-	)
-	(hierarchical_label "B- (R)"
-		(shape passive)
-		(at 139.7 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2c28a1d-7434-4b59-a997-e873f7cd6bd9")
-	)
-	(hierarchical_label "B+ (R)"
-		(shape passive)
-		(at 139.7 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8960b25-5dce-4dbb-b0e4-18c4a2eec4a9")
-	)
-	(hierarchical_label "B- (L)"
+	(hierarchical_label "B-"
 		(shape passive)
 		(at 125.73 54.61 0)
 		(fields_autoplaced yes)
