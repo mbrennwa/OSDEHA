@@ -125,7 +125,7 @@
 		)
 		(uuid "9650b887-055d-4628-946c-41d31406cd58")
 	)
-	(hierarchical_label "HEATER-"
+	(hierarchical_label "GND{slash}HEATER-"
 		(shape passive)
 		(at 125.73 62.23 0)
 		(fields_autoplaced yes)
