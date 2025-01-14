@@ -140,21 +140,13 @@ Most high-performance electrostatic headphones utilize a 580\,V DC voltage to b
 The heaters of the input tubes are supplied with a clean DC voltage to prevent any crosstalk of hum or noise from the heater supply into the audio signal. This DC supply is implemented using a standard three-pin voltage regulator chip.
 
 \subsection{DHT Filament Supply}
-TO DO -- RAW DC / COLEMAN DHT FILAMENT REGS (IN AMP CHASSIS)
-
-
-
-
-
-
-
-
+Lik the input-stage heaters, the DHT filaments are supplied with DC power. However, with DHTs, the filament forms the cathode and is therefore in the audio circuit. The cathode develops a small signal voltage across the filament terminals during audio playback. It is important for the DC filament supply to not interfere with this AC signal, and it's best to control the filament supply current instead of the voltage. This is implemented in the Coleman Regulator \cite{ColemanDTHFilReg}. The OSDEHA uses four Coleman Regulator boards (one for each DHT) in version~9, which allows using a single raw-DC supply for each pair of DHTs per channel.
 
 
 
 \section{Putting the pieces together}
 
-\figr{system_overview} shows an overview the various OSDEHA units, and how they are wired to each other. The units are distributed across two chassis for (i) the power supply and (ii) the amplifier).
+\figr{system_overview} shows an overview the various OSDEHA units, and how they are wired to each other. The units are distributed across two chassis for (i) the power supply and (ii) the amplifier.
 
 \begin{figure}
 \begin{center}
@@ -169,7 +161,7 @@ Power-supply chassis:
 \begin{itemize}
 \item IEC mains inlet (with power switch and mains fuses)
 \item Two mains transformers
-\item Main power-supply board that supplies stabilized DC voltages for B+, B-, B2-, diaphragm bias, and heater of the input-stage tubes
+\item Board of the main power-supply that provides stabilized DC voltages for B+, B-, B2-, diaphragm bias, and heater of the input-stage tubes
 \item Two boards for raw DC supply to the Coleman DHT filament regulators
 \end{itemize}
 
