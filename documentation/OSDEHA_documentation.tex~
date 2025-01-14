@@ -11,7 +11,13 @@
 
 \maketitle
 
-\emph{Warning: This DIY project involves high voltage. Individuals utilizing the information provided must possess expert knowledge, adhere to stringent safety precautions, and accept all risks associated with electrical work. The authors and contributors of this project expressly disclaim any liability for injuries or damages arising from the use or misuse of this information.}
+\emph{Warning: This DIY project involves high voltage. Individuals utilizing the information provided must possess expert knowledge, adhere to stringent safety precautions, and assume full responsibility for all associated risks. The authors and contributors of this project expressly disclaim any liability for injuries or damages arising from the use or misuse of this information.}
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
 
 
 \section{Overview}
@@ -28,23 +34,23 @@ The OSDEHA uses DHT tubes for its output stage and implements the following desi
 \item The amplifier should be reasonably compact. The power supply unit may be a separate unit to keep the amplifier unit reasonable compact.
 \end{itemize}
 
-There is a public discussion thread of the OSDEHA at diyAudio\cite{osdeha_p1}. 
+There is a public discussion thread of the OSDEHA at diyAudio\cite{osdeha_p1}. The design files and other supporting documents are available at the OSDEHA file repository.\cite{osdeha_github}
 
-\section{Amplifier Circuit}
 
-\subsection{Driving electrostatic headphones} \seclabel{estat_drive}
+\section{Amplifier Design}
 
-Electrostatic headphones utilize three electrodes: two fixed outer electrodes (stators) and a movable central electrode (diaphragm). The diaphragm is biased at a high voltage relative to the stators. The audio signal is applied to the stators in opposite polarities, creating an electric field that controls the movement of the charged diaphragm. For accurate sound reproduction, the electrostatic forces acting on the diaphragm must be proportional to the applied audio signal. To avoid distortion of the audio output from the headphone, the charge on the diaphragm therefore needs to be maintained constant.
+\subsection{Driving Electrostatic Headphones} \seclabel{estat_drive}
+
+Electrostatic headphones operate using three electrodes: two fixed outer electrodes (stators) and a movable central electrode (diaphragm). The diaphragm is biased at a high voltage relative to the stators. The audio signal is applied to the stators in opposite polarities, generating an electric field that controls the movement of the charged diaphragm. For accurate sound reproduction, the electrostatic forces acting on the diaphragm must be proportional to the applied audio signal. To prevent distortion of the audio output, the charge on the diaphragm must remain constant.
 
 The electrical impedance of electrostatic headphones is primarily determined by the capacitance of the two stators, which is typically around \SI{100}{pF}\cite{osdeha_p3}.
 
-The voltage swing to drive the stators depends on the headphone sensitivity and the desired sound pressure level. An experiment using various genres of well-recorded music indicated that an undistorted \SI{1.3}{kV} peak-to-peak swing of the bipolar output is desirable (i.e., \SI{650}{V} peak-to-peak at each stator)\cite{osdeha_p8}. The corresponding current swing measured in this experiment was approximately \SI{4}{mA}, but driving the \SI{100}{pF} load to full output at \SI{20}{kHz} and higher necessitates larger peak currents, around \SI{20}{mA}\cite{osdeha_p2}.
+The voltage swing required to drive the stators depends on the headphone sensitivity and the desired sound pressure level. An experiment using various genres of well-recorded music indicated that an undistorted \SI{1.3}{kV} peak-to-peak swing of the bipolar output is desirable (i.e., \SI{650}{V} peak-to-peak at each stator)\cite{osdeha_p8}. The corresponding current swing measured in this experiment was approximately \SI{4}{mA}. However, driving the \SI{100}{pF} load to full output at frequencies up to \SI{20}{kHz} and beyond necessitates larger peak currents, around \SI{20}{mA}\cite{osdeha_p2}.
 
-% With a balanced line-level input ($2\times\SI{3.5}{V}$ peak-to-peak), the required voltage gain of the amplifier is $1300/(2\times 3.5) = 185\times$, or \SI{+45}{dB}.
 
 \subsection{Output Stage}\seclabel{outputstage}
 
-\figr{OPS_concept} shows the conceptual layout of the OSDEHA. The output stage uses two DHTs in a push-pull arrangement to provide the symmetric, bipolar output needed to drive electrostatic headphones. For efficient transfer of the audio power to the headphones, the AC impedance of the anode loads must be larger than that of the headphones (several \unit{M\Ohm}). This cannot be implemented with passive anode-load resistors, so active constant-current sources (CCSs) are used in this position. The CCS loads also improve the linearity and voltage gain of the amplifier, and suppress ripple and noise from the B+ rails.
+\figr{OPS_concept} illustrates the conceptual layout of the OSDEHA. The output stage employs two DHTs in a push-pull configuration to deliver the symmetric, bipolar output required to drive electrostatic headphones. For efficient audio power transfer to the headphones, the AC impedance of the anode loads must be much larger that that of the headphones (several \unit{M\Ohm}). This cannot be achieved using passive anode-load resistors; instead, active constant-current sources (CCSs) are employed. The CCS loads not only enhance the amplifier's linearity and voltage gain but also suppress ripple and noise from the B+ rails.
 
 \begin{figure}
 \begin{center}
@@ -54,130 +60,137 @@ The voltage swing to drive the stators depends on the headphone sensitivity and 
 \end{center}
 \end{figure}
 
-The choice of the output tube type is determined by the drive requirements for the headphone, as described in \secn{estat_drive}. Since the two tubes are in series with the headphone, each tube contributes half of the total voltage swing. Each tube needs to swing \SI{\pm325}{V} at a \SI{20}{mA} bias. Additionally, to emphasize the ``DHT sound,'' the DHT output stage should contribute as much voltage gain as possible to the overall gain of the amplifier.
+The choice of output tube type is dictated by the drive requirements of the headphones, as described in \secn{estat_drive}. Since the two tubes are connected in series with the headphones, each tube is responsible for half of the total voltage swing. Thus, each tube must handle a swing of \SI{\pm325}{V} at a \SI{20}{mA} bias. Furthermore, to emphasize the characteristic ``DHT sound,'' the DHT output stage should contribute as much voltage gain as possible to the overall amplifier gain.
 
-Several DHT tube types were considered for the OSDEHA\cite{osdeha_p9,osdeha_whichDHT}. In particular:
+Several DHT tube types were evaluated for the OSDEHA\cite{osdeha_p9,osdeha_whichDHT}. Specifically:
 
 \begin{itemize}
-\item The 841/VT-51 tube has a gain of 30$\times$ and can be biased up to \SI{425}{V}. However, at the operating point required for the OSDEHA, the 841 tends to operate at a positive grid voltage, which leads to grid current draw. Moreover, these tubes are relatively scarce.
-\item The 20B tube is a modern design with a gain of 20$\times$ and can be biased up to about \SI{500}{V}. However, these tubes are quite large (approximately the size of a beer bottle) and are manufactured only in small quantities by a single producer (Emissionlabs), making their long-term availability uncertain.
+\item The 841/VT-51 tube offers a gain of 30$\times$ and can be biased up to \SI{425}{V}. However, at the operating point required for the OSDEHA, the 841 tends to operate with a positive grid voltage, leading to grid current draw. Additionally, these tubes are relatively scarce.
+\item The 20B tube is a modern design with a gain of 20$\times$ and supports biasing up to approximately \SI{500}{V}. However, these tubes are quite large (roughly the size of a beer bottle) and are produced only in small quantities by a single manufacturer (Emissionlabs), raising concerns about their long-term availability.
 \item The family of the 801/801A/VT-62 and 10Y/VT-25 types\cite{aasyl_801types} provide a gain of 8$\times$. The 801 can be biased up to \SI{500}{V}, while the 10Y should not be biased above \SI{450}{V}. These tubes are available as new-old-stock and from new production.
 \end{itemize}
 
-From a technical standpoint, the high gain of the 20B would would make this tube an interesting option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is considered a more practical choice for the OSDEHA design.
+From a technical perspective, the high gain of the 20B makes it an attractive option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is deemed a more practical choice for the OSDEHA design.
 
-\figr{801A_curves} shows the characteristic curves measured from the 801A tube (the 10Y/VT-25 are equivalent) with the load line of a \SI{20}{mA} CCS. The anode DC bias is set at \SI{420}{V}, corresponding to a grid bias of approximately \SI{-34}{V}. This bias point facilitates an anode voltage swing of \SI{\pm325}{V} within the linear operating range of the tube. The grid voltage does not exceed +\SI{10}{V}, where the grid current has been measured to stay well below \SI{1}{mA}. With the anode voltage close to GND, the B- voltage is \SI{-420}{V}, and B+ is \SI{+420}{V} for symmetry.
+
+
+\figr{801A_curves} illustrates the characteristic curves measured from the 801A tube (with the 10Y/VT-25 being equivalent) along with the load line of a \SI{20}{mA} constant-current source (CCS). The anode DC bias is set to \SI{420}{V}, corresponding to a grid bias of approximately \SI{-34}{V}. This bias point allows for an anode voltage swing of \SI{\pm325}{V} within the tube's linear operating range. The grid voltage remains below +\SI{10}{V}, where measured grid current stays well under \SI{1}{mA}. With the anode voltage approaching ground potential, the B- voltage is set to \SI{-420}{V} and the B+ voltage to \SI{+420}{V}, maintaining symmetry.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{801A_curves.pdf}
-\caption{Characteristic curves measured from an 801A DHT, with a DC bias point at \SI{420}{V} and \SI{20}{mA}, and a constant-current loadline showing \SI{\pm325}{V} anode swing (blue).}
+\caption{Characteristic curves of the 801A DHT, showing a DC bias point at \SI{420}{V} and \SI{20}{mA}, with a constant-current load line allowing an anode swing of \SI{\pm325}{V} (blue).}
 \figlabel{801A_curves}
 \end{center}
 \end{figure}
 
-\figr{activeload_concept} shows the simplified circuit of the CCSs used to load the anodes of the DHT output tubes. This circuit works as a CCS in the audio/AC domain only, while it outputs a fixed voltage in the DC domain. In both cases, the FET Q1 controls the output of the circuit to the anode, while the depletion-mode FET Q2 drops most of the voltage from B+ and decouples Q1 from any noise or ripple that may be present in the B+ supply.\par
+\figr{activeload_concept} shows the simplified circuit of the CCSs used to load the anodes of the DHT output tubes. This circuit functions as a CCS in the audio/AC domain while providing a fixed voltage in the DC domain. In both cases, the FET Q1 controls the circuit's output to the anode. The depletion-mode FET Q2 drops most of the voltage from B+ and isolates Q1 from any noise or ripple present in the B+ supply.\par
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{activeload_concept.pdf}
-\caption{Circuit of the active load (AC coupled CCS, simplified).}
+\caption{Simplified circuit of the active load (AC-coupled CCS).}
 \figlabel{activeload_concept}
 \end{center}
 \end{figure}
 
-In the audio/AC domain, the gate of Q1 is tied to the anode through capacitor C. Q1 mirrors any AC variation of the anode voltage from the gate to its source pin. This maintains a constant voltage between the Q1 source and the DHT anode, and thereby keeps the current through R2 constant. If the headphone stator is driven directly by the DHT anode (output 1 in \figr{activeload_concept}), this current is shared between the DHT and the stator. Therefore, the current flowing through the DHT will exhibit a slight variation in response to the AC current consumed by the stator. This variation is typically less than \SI{4}{mA}\cite{osdeha_p8}, which is considerably less than the DC bias current. The resulting load line seen by the DHT anode will therefore still resemble the one shown in \figr{801A_curves}, but it won't be quite as flat. However, instead of taking the audio output from the DHT anode, the stator can also be connected to the $\mu$-output (output 2 in \figr{activeload_concept}). In this $\mu$-follower configuration\cite{pimm_ccs,kimmel_mustage}, the stator draws its current directly form Q1, not through R2. This restores the constant-current operation of the DHT tube and the flat load line as shown in \figr{801A_curves}. The value of R2 is usually determined by the compromise between maximizing the impedance of the CCS load and the voltage drop (and heat dissipation) across R2.\cite{muresistorvalue}\par
+In the audio/AC domain, the gate of Q1 is connected to the anode through capacitor C. Q1 mirrors any AC variation in the anode voltage from its gate to its source pin. This configuration maintains a constant voltage between the source of Q1 and the DHT anode, thereby ensuring a constant current through R2. If the headphone stator is driven directly by the DHT anode (output 1 in \figr{activeload_concept}), this current is shared between the DHT and the stator. Consequently, the current flowing through the DHT will exhibit slight variations in response to the AC current consumed by the stator. These variations are typically less than \SI{4}{mA}\cite{osdeha_p8}, which is significantly smaller than the DC bias current. As a result, the load line seen by the DHT anode will closely resemble the one shown in \figr{801A_curves}, although it may not be perfectly flat. Alternatively, the stator can be connected to the $\mu$-output (output 2 in \figr{activeload_concept}) instead of taking the audio output directly from the DHT anode. In this $\mu$-follower configuration\cite{pimm_ccs,kimmel_mustage}, the stator draws its current directly from Q1 rather than through R2. This restores the constant-current operation of the DHT tube and produces a flat load line as shown in \figr{801A_curves}. The value of R2 is typically chosen as a compromise between maximizing the impedance of the CCS load and minimizing the voltage drop (and heat dissipation) across R2\cite{muresistorvalue}.
 
-In the DC domain, the gate pin of the FET Q1 is grounded via R1, and the source pin is therefore fixed at $-V_{\rm GS,0}$. This biases the anode at a small negative DC voltage determined by $V_{\rm GS,0}$ and the DC drop across R2. This maintains a stable DC voltage at the amplifier outputs despite any thermal drift or aging of the DHT tubes.
+In the DC domain, the gate of FET Q1 is grounded through R1, fixing the source pin at $-V_{\rm GS,0}$. This arrangement biases the anode at a slightly negative DC voltage determined by $V_{\rm GS,0}$ and the DC voltage drop across R2. As a result, the amplifier outputs maintain a stable DC voltage, effectively compensating for any thermal drift or aging of the DHT tubes.
 
 
 \subsection{Input Stage}\seclabel{inputstage}
 
-The task of the input stage is to amplify the balanced input signal ($2 \times \SI{3.5}{V}$ peak-to-peak) to drive the DHT grids ($2 \times \SI{86}{V}$ peak-to-peak). To this end, a voltage gain of $86 / 3.5 = 25\times$ is needed.\par
+The primary function of the input stage is to amplify the balanced input signal ($2 \times \SI{3.5}{V}$ peak-to-peak) to a level sufficient to drive the DHT grids ($2 \times \SI{86}{V}$ peak-to-peak). This requires a voltage gain of $86 / 3.5 = 25\times$.
 
-Following the lines of the output stage, the differential input stage is designed as long-tailed pair (LTP)\cite{valvewizard_LTP} using tubes with triode characteristics. The ``tail'' is implemented as a CCS to maximize linearity and voltage gain of the LTP (\figr{IPS_concept}).
+Following the lines of the output stage, the differential input stage is designed as long-tailed pair (LTP)\cite{valvewizard_LTP} utilizing tubes with triode characteristics. To maximize the linearity and voltage gain of the LTP, the ``tail'' is configured as a constant-current source (CCS), as illustrated in \figr{IPS_concept}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{IPS_concept.pdf}
-\caption{Input stage (simplified).}
+\caption{Simplified circuit of the input stage.}
 \figlabel{IPS_concept}
 \end{center}
 \end{figure}
 
+
+
+
+
+
+
+
 The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode unit is biased at \SI{10}{mA} and \SI{170}{V} anode-cathode voltage with a \SI{25}{k\Ohm} load resistor, which provides for more than \SI{\pm100}{V} anode AC swing. (\figr{6E5P_curves}).
 
-The LTP input stage is capacitor coupled to the grids of the output DHTs. A suitable capacitor will not have any measureable effect on the audio signal\cite{bateman_caps_distortion} as long as there is no substantial current flow across the capacitor\cite{aiken_farting_out}. The DHT grids are therefore driven by FETs configured as source followers. The DC bias voltage for the DHT output tubes is applied to the gates of the FETs to guarantee stable bias even if the DHT grids are driven into grid current.
+The E180F or 6E5P tubes, configured as triodes, provide suitable gain and exhibit very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity has been found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode is biased at \SI{10}{mA} with an anode-to-cathode voltage of \SI{170}{V} and a \SI{25}{k\Ohm} load resistor, providing more than \SI{\pm100}{V} of anode AC swing (\figr{6E5P_curves}).
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{6E5P_curves.pdf}
-\caption{Characteristic curves measured from a triode-connected 6E5P tube, with a \SI{25}{k\Ohm} load line and DC bias at \SI{170}{V} and \SI{10}{mA}.}
+\caption{Characteristic curves of a triode-connected 6E5P tube, showing a \SI{25}{k\Ohm} load line with DC bias at \SI{170}{V} and \SI{10}{mA}.}
 \figlabel{6E5P_curves}
 \end{center}
 \end{figure}
 
+The LTP input stage is capacitor-coupled to the grids of the output DHTs. A properly chosen capacitor does not introduce measurable distortion to the audio signal\cite{bateman_caps_distortion}, provided there is no significant current flow across it\cite{aiken_farting_out}. To ensure stable biasing, the DHT grids are driven by FETs configured as source followers. The DC bias voltage for the DHT output tubes is applied to the gates of these FETs, ensuring stable operation even when the DHT grids are driven into grid current.
 
-\section{Power supplies}
+
+\section{Power Supplies}
 
 \subsection{High-Voltage Supplies (B+, B-, B2-)}
-Both the input and output stages of the amplifier operate on a bipolar high-voltage supply (B+ and B- rails). In addition, the DHT grids must be biased to a more negative voltage than B-, so an additonal B2- supply is required. All three high-voltage supplies use the same same circuit to achieve clean, stabilized voltage outputs (\figr{HV_PSU_simple}). The circuits were deliberatly designed to avoid any voltage regulation using feedback loops, which are often associated with sound degradation. A full-wave rectifier and smoothing capacitor (C1) yield a raw DC voltage. This raw DC supply feeds a current source that injects a small constant current into R1. Once C1 is fully charged, R1 drops a constant voltage. This voltage reference is mirrored to the  voltage output across the DC+ and DC- terminals. For the B+ supply, the DC- output is referenced to GND, while the B- and B2- supplies have their DC+ at GND.
+The amplifier's input and output stages operate on a bipolar high-voltage supply (B+ and B- rails). Additionally, the DHT grids require a bias voltage more negative than B-, necessitating an additional B2- supply. All three high-voltage supplies utilize the same circuit design to deliver clean and stable voltage outputs (\figr{HV_PSU_simple}). The circuits are deliberately designed without feedback-based voltage regulation, as such feedback loops are often associated with sound degradation. A full-wave rectifier and smoothing capacitor (C1) generate a raw DC voltage. This raw supply feeds a current source that injects a small, constant current into R1 and C1. Once C1 is fully charged after startup, R1 develops a constant voltage drop, which serves as a reference mirrored to the voltage output across the DC+ and DC- terminals. For the B+ supply, the DC- output is referenced to GND, while the B- and B2- supplies have their DC+ terminals at GND.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{HV_PSU_concept.pdf}
-\caption{Circuit of the high-voltage power supplies (simplified).}
+\caption{Simplified circuit of the high-voltage power supplies.}
 \figlabel{HV_PSU_simple}
 \end{center}
 \end{figure}
 
-To prevent nasty audio noise during startup and to reduce stress on the tubes, the high-voltage supplies are switched on only after tubes have warmed up for a few seconds. This is achieved by a relay switch controlled by a delay timer triggered by the heater supply.
+To prevent audio noise during startup and reduce stress on the tubes, the high-voltage supplies are activated only after the tubes have warmed up for a few seconds. This delay is implemented using a relay switch controlled by a timer triggered by the heater supply.
 
 \subsubsection{Diaphragm Bias Voltage}
-Most high-performance electrostatic headphones utilize a 580\,V DC voltage to bias the diaphragm. The current output of the bias voltage supply is essentially zero. A charge pump riding on the B+ rail and its AC supply is used to charge a string of capacitors, whereby their voltage is limited to the intended bias voltage by a string of Zener diodes connected in parallel to the capacitors. Note that it is important to maintain the amount of \emph{charge} on the diaphragm, not the diaphragm voltage. to this end, and for safety reasons, a high-ohmic current-limiting resistor is inserted in the output of the bias supply.
+High-performance electrostatic headphones typically require a \SI{580}{V} DC bias voltage for the diaphragm. The current output of the bias voltage supply is negligible. A charge pump riding on the B+ rail and its AC supply is used to charge a string of capacitors, with their voltage limited to the intended bias level by a string of Zener diodes in parallel to the capacitors. It is crucial to maintain the \emph{charge} on the diaphragm, rather than the diaphragm voltage. To this end, a high-ohmic current-limiting resistor is inserted in the output of the bias supply.
 
 \subsection{Heater Supply for the Input-Stage Tubes}
-The heaters of the input tubes are supplied with a clean DC voltage to prevent any crosstalk of hum or noise from the heater supply into the audio signal. This DC supply is implemented using a standard three-pin voltage regulator chip.
+The heaters of the input-stage tubes are powered by a clean DC voltage to prevent crosstalk of hum or noise from the heater supply into the audio signal. This DC supply is implemented using a standard three-pin voltage regulator chip.
 
 \subsection{DHT Filament Supply}
-Lik the input-stage heaters, the DHT filaments are supplied with DC power. However, with DHTs, the filament forms the cathode and is therefore in the audio circuit. The cathode develops a small signal voltage across the filament terminals during audio playback. It is important for the DC filament supply to not interfere with this AC signal, and it's best to control the filament supply current instead of the voltage. This is implemented in the Coleman Regulator \cite{ColemanDTHFilReg}. The OSDEHA uses four Coleman Regulator boards (one for each DHT) in version~9, which allows using a single raw-DC supply for each pair of DHTs per channel.
+Like the input-stage heaters, the DHT filaments are powered by DC. However, in DHTs, the filament also serves as the cathode and is part of the audio circuit. During audio playback, a small signal voltage develops across the filament terminals. To prevent the DC filament supply from interfering with this AC signal, it is preferable to control the filament supply current rather than the voltage. This is accomplished using the Coleman Regulator\cite{ColemanDTHFilReg}. The OSDEHA utilizes four Coleman Regulator V9 boards (one per DHT). In each amplifier channel, a single raw DC supply can power a pair of V9 boards.
 
 
+\section{Putting the Pieces Together}
 
-\section{Putting the pieces together}
-
-\figr{system_overview} shows an overview the various OSDEHA units, and how they are wired to each other. The units are distributed across two chassis for (i) the power supply and (ii) the amplifier.
+\figr{system_overview} provides an overview of the various OSDEHA units and their interconnections. The units are distributed across two chassis: one for the power supply and another for the amplifier.
 
 \begin{figure}
 \begin{center}
 \includegraphics[angle=90,height=0.9\textheight]{system_boards_overview.pdf}
-\caption{Overview of the OSDEHA units (see text).}
+\caption{Overview of the OSDEHA units and their connections (see text).}
 \figlabel{system_overview}
 \end{center}
 \end{figure}
 
-
 Power-supply chassis:
 \begin{itemize}
-\item IEC mains inlet (with power switch and mains fuses)
+\item IEC mains inlet with a power switch and mains fuses
 \item Two mains transformers
-\item Board of the main power-supply that provides stabilized DC voltages for B+, B-, B2-, diaphragm bias, and heater of the input-stage tubes
-\item Two boards for raw DC supply to the Coleman DHT filament regulators
+\item Main power-supply board providing stabilized DC voltages for B+, B-, B2-, diaphragm bias, and the heaters of the input-stage tubes
+\item Two boards supplying raw DC to the Coleman DHT filament regulators
 \end{itemize}
 
 Amplifier chassis:
 \begin{itemize}
 \item Two amplifier main boards (left and right channels)
 \item Four DHT power tubes (two per channel)
-\item Four Colemand DHT filament regulators
+\item Four Coleman DHT filament regulators
 \item Two XLR audio input sockets
-\item Volume control (stereo, balanced)
+\item Stereo balanced volume control
 \item Stax headphone output socket
 \end{itemize}
 
-The two chassis are connected by two umbilical cables U1 and U2. U1 carries the high-voltage/low-current supplies (B+, B-, B2-, GND) and provides the chassis/earth connection. U2 carries the low-voltage/high-current supplies for the heaters of the input-stage tubes and the Coleman DHT filament regulators.
-
-
+The two chassis are interconnected by two umbilical cables, U1 and U2. U1 carries the high-voltage, low-current supplies (B+, B-, B2-, GND) and provides the chassis-to-earth connection. U2 carries the low-voltage, high-current supplies for the heaters of the input-stage tubes and the Coleman DHT filament regulators.
 
 
 \section{Mechanical construction}
@@ -189,47 +202,44 @@ UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{PSU_CONNECTORS_PINOUTS}
-\caption{Pinout of power umbilical connections between power supply and amplifier chassis.}
+\caption{Pinout of the power umbilical connections between the power supply and amplifier chassis.}
 \figlabel{power_pinouts}
 \end{center}
 \end{figure}
 
 
-\section{Bring-up and initial adjustments}
+\section{Bring-Up and Initial Adjustments}
 
-Building, testing, and adjusting the OSDEHA is best done step by step as described below. Use a variac to slowly ramp up mains power while bringing up the circuits. It's recommended to build, install and fully test one amplifier board before working on the second one. Before working on the circuits, always make sure there are no dangerous voltages left anywhere (all capacitors are discharged, mains cable is disconnected, etc.).
+The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Use a variac to gradually ramp up mains power while bringing up the circuits. It is recommended to build, install, and fully test one amplifier board before proceeding with the second. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
 
-\subsection{Power supply}
+\subsection{Power Supply}
 \begin{itemize}
-\item Assemble the chassis for the power supply and the amplifier.
-\item Assmemble the power-supply boards. Install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch of the amplifier chassis.
-\item Connect transformer secondaries of the heater supply. Slowly ramp up mains power using the variac and confirm the heater supply works as expected. Also confirm the function of the HV delay relay.
-\item Connect transformer secondaries of the DHT filament supply. Install dummy resistor at the filament connections and then slowly ramp up the variac to confirm if the filament supply works as expected, then remove the dummy resistors.
-\item Connect the transformer secondaries of the high-voltage supplies and install dummy resistors at their outputs. Slowly ramp up the variac. Confirm and adjust HV output voltages. Also check the diaphragm bias voltage output (note: the internal resistance of the volt meter will load down the bias output, resulting in a low voltage reading).
+\item Assemble the chassis for both the power supply and the amplifier.
+\item Assemble the power-supply boards, then install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch in the chassis.
+\item Connect the transformer secondaries for the heater supply. Gradually ramp up mains power using the variac and confirm that the heater supply functions as expected. Verify the operation of the high-voltage delay relay.
+\item Connect the transformer secondaries for the DHT filament supply. Install dummy resistors at the filament connections, then gradually ramp up the variac to confirm that the filament supply functions correctly. Remove the dummy resistors afterward.
+\item Connect the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Gradually ramp up the variac, confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading).
 \item Remove the dummy resistors from the high-voltage supplies.
 \end{itemize}
 
-
-\subsection{Amplifier input stage}
+\subsection{Amplifier Input Stage}
 \begin{itemize}
-\item Assmemble the amplifier board and install the board in the amplifier chassis. Set up the wire connections to volume pot, the DHT subchassis, and the connectors on the chassis. Install the input-stage tubes, but do \emph{not} yet install the DHT tubes of the output stage.
-\item Connect the heater supply to the amplifier board. Slowly ramp up the variac and confirm the functioning of the heaters of the input-stage tubes.
-\item Connect the high-voltage supplies to the amplifier board. Slowly ramp up the variac and confirm the correct DC bias of input stage tubes (anode voltages, CCS tail currents) and the DC bias currents of the buffer stages. Depending on the characteristics of your specific DN2540 parts it may be necessary to adjust the bias points by using different values for the CCS sense resistors.
-\item Apply an AC test signal to the amplifier input and switch on power. Follow the signal along the circuit and confirm correct output from the buffer stage.
+\item Assemble the amplifier board and install it in the amplifier chassis. Set up the wire connections to the volume potentiometer, the DHT subchassis, and the connectors on the chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet.
+\item Connect the heater supply to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.
+\item Connect the high-voltage supplies to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (anode voltages, CCS tail current) and the DC bias currents of the buffer stages. Depending on the specific characteristics of your DN2540 components, it may be necessary to adjust the bias points by selecting different values for the CCS sense resistors.
+\item Apply an AC test signal to the amplifier input and trace its path through the circuit, verifying correct output from the buffer stage.
+\end{itemize}
+
+\subsection{Amplifier Output Stage}
+\begin{itemize}
+\item With the output tubes still not installed in the amplifier, adjust the DC grid bias of the output tubes to the most negative value.
+\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and install the DHT output tubes. Gradually ramp up the variac and adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
+\item Reconnect the high-voltage supplies to the amplifier board and gradually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are reached. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
+\item Apply an AC test signal to the amplifier input and verify correct output from the amplifier.
 \end{itemize}
 
 
-\subsection{Amplifier output stage}
-\begin{itemize}
-\item With the output tubes still not installed in the amplifier, adjust DC grid bias of output tubes to the most negative value.
-\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and install the DHT output tubes to the amplifier. Slowly ramp up the variac and adjust the filament voltage to the target value. Let the tubes warm up and readjust the filament voltage as necessary.
-\item Reconnect the high-voltage supplies to the amplifier board and slowly ramp up the variac. Monitor the DC bias current of each output tube by reading the voltage across the mu-resistors. Adjust the DC grid bias until the targeted DC bias points are achieved. Let the amplifier warm up and readjust DC bias as necessary. Also monitor the filament voltages during warmup, and readjust if necessary.
-\item Apply an AC test signal to the amplifier input and check for correct output from the amplifier.
-\end{itemize}
-
-
-
-\section{Specifications and test results}
+\section{Specifications and Test Results}
 
 TESTS AND MEASUREMENTS
 
@@ -242,7 +252,7 @@ DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
 
 \section{Parts List}
 
-The details of most electronic parts used in the OSDEHA circuits are given in the KiCad files in the {\tt kicad/} directory (tubes, semiconductors, resistors, capacitors). The remaining parts are listed below (chassis, mounting hardware, connectors, etc.).
+The details of most electronic components used in the OSDEHA circuits (tubes, semiconductors, resistors, capacitors) are provided in the KiCad files located in the {\tt kicad/} directory.\cite{osdeha_github} Additional parts, such as chassis, mounting hardware, and connectors, are listed below.
 
 {\footnotesize \csvautobooktabular[separator=tab]{partslist.txt}}
 

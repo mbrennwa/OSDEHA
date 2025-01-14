@@ -34,7 +34,9 @@ The OSDEHA uses DHT tubes for its output stage and implements the following desi
 \item The amplifier should be reasonably compact. The power supply unit may be a separate unit to keep the amplifier unit reasonable compact.
 \end{itemize}
 
-There is a public discussion thread of the OSDEHA at diyAudio\cite{osdeha_p1}. The design files and other supporting documents are available at the OSDEHA file repository.\cite{osdeha_github}
+The OSDEHA design files, along with supporting documents and data, are available in the OSDEHA file repository\cite{osdeha_github}.
+
+There is a public discussion thread of the OSDEHA at diyAudio\cite{osdeha_p1}. 
 
 
 \section{Amplifier Design}
@@ -150,7 +152,7 @@ The amplifier's input and output stages operate on a bipolar high-voltage supply
 
 To prevent audio noise during startup and reduce stress on the tubes, the high-voltage supplies are activated only after the tubes have warmed up for a few seconds. This delay is implemented using a relay switch controlled by a timer triggered by the heater supply.
 
-\subsubsection{Diaphragm Bias Voltage}
+\subsection{Diaphragm Bias Voltage}
 High-performance electrostatic headphones typically require a \SI{580}{V} DC bias voltage for the diaphragm. The current output of the bias voltage supply is negligible. A charge pump riding on the B+ rail and its AC supply is used to charge a string of capacitors, with their voltage limited to the intended bias level by a string of Zener diodes in parallel to the capacitors. It is crucial to maintain the \emph{charge} on the diaphragm, rather than the diaphragm voltage. To this end, a high-ohmic current-limiting resistor is inserted in the output of the bias supply.
 
 \subsection{Heater Supply for the Input-Stage Tubes}
