@@ -16,6 +16,7 @@ Power supply bottom panel	1	Front Panel Express
 Power supply side panels	2	Front Panel Express
 Chassis panel joints		n/a	10$\times$10\	mm aluminium rods
 Chassis feet	8	(various)	
+XLR input socket	2	Neutrik	NC3FD-L-B-1, 3 contacts, female
 IEC mains inlet	1	Schurter	KM01.1205.11
 IEC mains inlet fuse holder	1	Schurter	4301.1401
 Mains fuse	2		5$\times$20\,mm
