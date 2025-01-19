@@ -115,13 +115,6 @@ Following the lines of the output stage, the differential input stage is designe
 \end{center}
 \end{figure}
 
-
-
-
-
-
-
-
 The E180F or 6E5P tubes connected as triodes provide suitable gain and offer very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity was found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode unit is biased at \SI{10}{mA} and \SI{170}{V} anode-cathode voltage with a \SI{25}{k\Ohm} load resistor, which provides for more than \SI{\pm100}{V} anode AC swing. (\figr{6E5P_curves}).
 
 The E180F or 6E5P tubes, configured as triodes, provide suitable gain and exhibit very linear amplification\cite{bartola_thdbenchmark,millett_pentodes,klausmobile_testerfiles}. However, the E180F tends to be microphonic\cite{osdeha_p23}, and its linearity has been found to be slightly inferior to that of the 6E5P\cite{osdeha_p32}, making the 6E5P the preferred choice for the LTP input stage. Each triode is biased at \SI{10}{mA} with an anode-to-cathode voltage of \SI{170}{V} and a \SI{25}{k\Ohm} load resistor, providing more than \SI{\pm100}{V} of anode AC swing (\figr{6E5P_curves}).
@@ -217,27 +210,29 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 \subsection{Power Supply}
 \begin{itemize}
 \item Assemble the chassis for both the power supply and the amplifier.
-\item Assemble the power-supply boards, then install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch in the chassis.
+\item Assemble the power-supply boards, then install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch in the chassis. Connect the power supply outputs to the umbilical sockets.
+\item Confirm proper connection of the power-supply chassis to mains earth.
 \item Connect the transformer secondaries for the heater supply. Gradually ramp up mains power using the variac and confirm that the heater supply functions as expected. Verify the operation of the high-voltage delay relay.
-\item Connect the transformer secondaries for the DHT filament supply. Install dummy resistors at the filament connections, then gradually ramp up the variac to confirm that the filament supply functions correctly. Remove the dummy resistors afterward.
-\item Connect the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Gradually ramp up the variac, confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading).
-\item Remove the dummy resistors from the high-voltage supplies.
+\item Connect the transformer secondaries for the DHT raw-DC filament supplies. Gradually ramp up the variac to confirm that the raw-DC supplies function correctly.
+\item Connect the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Gradually ramp up the variac, confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading). Remove the dummy resistors from the high-voltage supplies.
 \end{itemize}
 
 \subsection{Amplifier Input Stage}
 \begin{itemize}
-\item Assemble the amplifier board and install it in the amplifier chassis. Set up the wire connections to the volume potentiometer, the DHT subchassis, and the connectors on the chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet.
-\item Connect the heater supply to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.
-\item Connect the high-voltage supplies to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (anode voltages, CCS tail current) and the DC bias currents of the buffer stages. Depending on the specific characteristics of your DN2540 components, it may be necessary to adjust the bias points by selecting different values for the CCS sense resistors.
-\item Apply an AC test signal to the amplifier input and trace its path through the circuit, verifying correct output from the buffer stage.
+\item Assemble the boards of the amplifier and Coleman filament regulators. Install the boards in the amplifier chassis. Set up the wire connections between the amplfier board, the volume potentiometer, the Coleman filament regulators, the DHT subchassis, the Stax headphone socket, and the umbilical sockets. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet.
+\item Connect the umbilical cables between the power supply and the amplifier. Confirm the connection of the amplifier chassis to the power-supply chassis and mains earth.
+\item Connect the heater supply from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.
+\item Connect the high-voltage supplies and GND from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (anode voltages, CCS tail current) and the DC bias currents of the buffer stages. Depending on the specific characteristics of your DN2540 components, it may be necessary to adjust the bias points by selecting different values for the CCS sense resistors.
+\item Connect the audio inputs from the XLR sockets to the amplifier. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, verifying correct output from the buffer stage.
 \end{itemize}
 
 \subsection{Amplifier Output Stage}
 \begin{itemize}
 \item With the output tubes still not installed in the amplifier, adjust the DC grid bias of the output tubes to the most negative value.
-\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply, and install the DHT output tubes. Gradually ramp up the variac and adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
-\item Reconnect the high-voltage supplies to the amplifier board and gradually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are reached. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
+\item Disconnect the high-voltage supplies from the amplifier board, connect the DHT filament supply from the umbilical socket to the amplifier, and install the DHT output tubes. Gradually ramp up the variac and adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
+\item Reconnect the high-voltage supplies to the amplifier board and gradually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are attained. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
 \item Apply an AC test signal to the amplifier input and verify correct output from the amplifier.
+
 \end{itemize}
 
 
