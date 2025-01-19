@@ -17,7 +17,7 @@ Power supply side panels	2	Front Panel Express
 Chassis panel joints		n/a	10$\times$10\	mm aluminium rods
 Chassis feet	8	(various)	
 XLR input socket	2	Neutrik	NC3FD-L-B-1, 3 contacts, female
-IEC mains inlet	1	Schurter	KM01.1205.11
+IEC mains inlet	1	Schurter	KM00.1105.11
 IEC mains inlet fuse holder	1	Schurter	4301.1401
 Mains fuse	2		5$\times$20\,mm
 Power supply outlet socket (HV)	1	Amphenol	MS3102E18-8S
@@ -39,6 +39,7 @@ Headless screw M4$\times$16\,mm	?	Hasler	83.1705.04016 / Front panel to heatsink
 Allen screws M4$\times$18\,mm	?	Hasler	83.1215.04018 / Chassis joints to heatsinks
 Allen screws M4$\times$12\,mm, flat head	20	Hasler	83.1270.04012 / Top and rear panel
 Allen screws M3$\times$5\,mm	?	Hasler	83.1215.03005 / PCBs to standoffs
+Allen screws M3$\times$5\,mm	8	Hasler	83.1215.03005 / DHT sockets to subchassis
 Allen screws M3$\times$6\,mm	?	Hasler	83.1215.03010 / Standoffs to bottom panel
 Allen screws M3$\times$12\,mm	?	Hasler	83.1215.03012 / Transistors to heatsinks
 Shoulder washers, for TO-220	?	Essentra	10SC004004, insulator washer
