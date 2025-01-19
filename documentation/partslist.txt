@@ -40,8 +40,8 @@ Allen screws M4$\times$18\,mm	?	Hasler	83.1215.04018 / Chassis joints to heatsin
 Allen screws M4$\times$12\,mm, flat head	20	Hasler	83.1270.04012 / Top and rear panel
 Allen screws M3$\times$5\,mm	?	Hasler	83.1215.03005 / PCBs to standoffs
 Allen screws M3$\times$5\,mm	8	Hasler	83.1215.03005 / DHT sockets to subchassis
-Allen screws M3$\times$6\,mm	?	Hasler	83.1215.03010 / Standoffs to bottom panel
-Allen screws M3$\times$12\,mm	?	Hasler	83.1215.03012 / Transistors to heatsinks
+Allen screws M3$\times$6\,mm	?	Hasler	83.1215.03006 / Standoffs to bottom panel
+Allen screws M3$\times$8\,mm	14	Hasler	83.1215.03008 / Transistors to heatsinks
 Shoulder washers, for TO-220	?	Essentra	10SC004004, insulator washer
 Shoulder washers, for TO-247	?	???	???, insulator washer
 Heat spreader, for TO-220	?	T-Global	XL25W-TO220-18.5-12-1
