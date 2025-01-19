@@ -33,7 +33,7 @@ Power indicator LEDs	2	Vishay	VLHW5100 (or other 5\,mm white LED)
 Power indicator LEDs, resistors	2	Vishay	CMF55200R (for connection to 6.3\,V heaters)
 Test sockets for DHT filaments	8	Alltech	975455700
 Standoffs, metal, M3$\times$8\,mm	20	Hasler	83.2220.03008 / PCBs
-Standoffs, metal, M4$\times$30\,mm	6	Hasler	83.2220.04030 / Subchassis
+Standoffs, metal, M3$\times$30\,mm	6	Hasler	83.2220.03030 / Subchassis
 Allen screws M4$\times$12\,mm	?	Hasler	83.1215.04012 / Panels to chassis joints and heatsink
 Headless screw M4$\times$16\,mm	?	Hasler	83.1705.04016 / Front panel to heatsink
 Allen screws M4$\times$18\,mm	?	Hasler	83.1215.04018 / Chassis joints to heatsinks
