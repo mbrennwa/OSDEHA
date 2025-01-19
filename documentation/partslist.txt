@@ -46,7 +46,6 @@ Shoulder washers, for TO-220	?	Essentra	10SC004004, insulator washer
 Shoulder washers, for TO-247	?	???	???, insulator washer
 Heat spreader, for TO-220	?	T-Global	XL25W-TO220-18.5-12-1
 Heat spreader, for TO-247	?	T-Global	XL25W-TO247-22-17-1
-Cable assemblies, pre crimped	?	Molex	79758-0015
-Molex KK-396 cable housing, 2 pin	?	Molex	09-50-8021
-Molex KK-396 cable housing, 3 pin	?	Molex	09-50-8031
-Molex KK-396 cable housing, 4 pin	?	Molex	09-50-8041
+KK-396 pigtail cable, 2 pin	?	Molex	219665-1024
+KK-396 pigtail cable, 3 pin	?	Molex	219665-1034
+KK-396 pigtail cable, 4 pin	?	Molex	219665-1044
