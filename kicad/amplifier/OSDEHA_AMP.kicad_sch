@@ -5713,7 +5713,7 @@
 		)
 		(uuid "d1b58efe-76df-4c62-9a7a-d2669eb34e7a")
 	)
-	(text "OSDEHA Draft 2024-06-14, mbrennwa@diyAudio"
+	(text "OSDEHA Draft 2025-01-30, mbrennwa@diyAudio"
 		(exclude_from_sim no)
 		(at 279.4 55.88 0)
 		(effects
@@ -7420,7 +7420,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e36b25-186d-429c-9906-e520abc7d16e")
 		(property "Reference" "U3"
-			(at 283.21 133.35 0)
+			(at 283.21 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,8 +7428,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "801A"
-			(at 283.21 135.89 0)
+		(property "Value" "DHT1"
+			(at 283.21 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10670,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0458126-0ac8-4d7c-a10e-4bbdec9d81ab")
 		(property "Reference" "U4"
-			(at 330.2 133.35 0)
+			(at 330.2 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10678,8 +10678,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "801A"
-			(at 330.2 135.89 0)
+		(property "Value" "DHT2"
+			(at 330.2 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
