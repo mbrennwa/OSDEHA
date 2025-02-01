@@ -115,7 +115,7 @@ Following the lines of the output stage, the differential input stage is designe
 \end{center}
 \end{figure}
 
-A triode-connected 6E5P tube provides suitable gain and exhibits very linear amplification\cite{bartola_thdbenchmark,p33}. Each 6E5P is biased at \SI{10}{mA} with an anode-to-cathode voltage of \SI{170}{V} and a \SI{25}{k\Ohm} load resistor, providing more than \SI{\pm100}{V} of anode AC swing (\figr{6E5P_curves}).
+A triode-connected 6E5P tube provides suitable gain and exhibits very linear amplification\cite{bartola_thdbenchmark,osdeha_p33}. Each 6E5P is biased at \SI{10}{mA} with an anode-to-cathode voltage of \SI{170}{V} and a \SI{25}{k\Ohm} load resistor, providing more than \SI{\pm100}{V} of anode AC swing (\figr{6E5P_curves}).
 
 \begin{figure}
 \begin{center}
