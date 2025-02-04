@@ -201,7 +201,7 @@ UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 \end{figure}
 
 
-\section{Bring-Up and Initial Adjustments}
+\section{Build Notes, Bring-Up, and Initial Adjustments}
 
 The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Use a variac to gradually ramp up mains power while bringing up the circuits. It is recommended to build, install, and fully test one amplifier board before proceeding with the second. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
 
@@ -216,6 +216,7 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \subsection{Amplifier Input Stage}
 \begin{itemize}
+\item Determine the CCS sense-resistor values that yield the targeted bias currents using a test jig for the specific DN2540 depletion-mode FETs (input LTP tail, drivers for the DHT grids).
 \item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
 \item Connect the umbilical cables between the power supply and the amplifier. Connect the amplifier chassis to the earth pin of the umbilical socket. Verify the connection of the amplifier chassis to the power-supply chassis and mains earth.
 \item Connect the heater supply from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.

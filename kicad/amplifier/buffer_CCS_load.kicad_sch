@@ -487,7 +487,6 @@
 	(hierarchical_label "NEG"
 		(shape passive)
 		(at 137.16 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -499,7 +498,6 @@
 	(hierarchical_label "POS"
 		(shape passive)
 		(at 137.16 69.85 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -525,7 +523,7 @@
 				)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "~300"
 			(at 137.16 97.79 90)
 			(effects
 				(font
@@ -551,7 +549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Adjust value for CCS current"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -560,7 +558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMF55536R00"
+		(property "MPN" "CMF55"
 			(at 137.16 97.79 90)
 			(effects
 				(font

@@ -1228,7 +1228,6 @@
 	(hierarchical_label "VREF"
 		(shape passive)
 		(at 59.69 102.87 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1240,7 +1239,6 @@
 	(hierarchical_label "ANODE2"
 		(shape passive)
 		(at 173.99 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1250,6 @@
 	(hierarchical_label "+HV"
 		(shape passive)
 		(at 100.33 46.99 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1264,7 +1261,6 @@
 	(hierarchical_label "MU_OUT2"
 		(shape passive)
 		(at 191.77 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1272,6 @@
 	(hierarchical_label "MU_OUT1"
 		(shape passive)
 		(at 118.11 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1288,7 +1283,6 @@
 	(hierarchical_label "ANODE1"
 		(shape passive)
 		(at 100.33 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

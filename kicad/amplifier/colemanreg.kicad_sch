@@ -59,7 +59,6 @@
 	(hierarchical_label "FIL-"
 		(shape passive)
 		(at 147.32 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +70,6 @@
 	(hierarchical_label "RAWDC+"
 		(shape passive)
 		(at 118.11 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -83,7 +81,6 @@
 	(hierarchical_label "FIL+"
 		(shape passive)
 		(at 147.32 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -95,7 +92,6 @@
 	(hierarchical_label "RAWDC-"
 		(shape passive)
 		(at 118.11 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

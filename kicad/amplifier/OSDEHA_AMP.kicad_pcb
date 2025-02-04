@@ -3645,9 +3645,10 @@
 				)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "~300"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "22000784-6f75-4649-842a-e5314e69abf8")
 			(effects
 				(font
@@ -3682,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Adjust value for CCS current"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3695,7 +3696,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55536R00"
+		(property "MPN" "CMF55"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5710,9 +5711,10 @@
 				)
 			)
 		)
-		(property "Value" "82"
+		(property "Value" "~80"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ea65f741-8961-43cd-a613-003b33ef18a1")
 			(effects
 				(font
@@ -5747,7 +5749,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Adjust value for CCS current"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19964,7 +19966,7 @@
 				)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "~300"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20002,7 +20004,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Adjust value for CCS current"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20015,7 +20017,7 @@
 				)
 			)
 		)
-		(property "MPN" "CMF55536R00"
+		(property "MPN" "CMF55"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
