@@ -207,8 +207,8 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \subsection{Power Supply}
 \begin{itemize}
-\item Assemble the power-supply chassis and boards. Install the boards and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch in the chassis. Connect the power supply outputs to the umbilical sockets.
-\item Confirm proper connection of the power-supply chassis to mains earth.
+\item Assemble the power-supply chassis and boards. Install the boards, sockets, and transformers in the power-supply chassis. Connect the primary windings of the transformers to the mains inlet and power switch in the chassis. Connect the power supply outputs to the umbilical sockets.
+\item Confirm proper connection of all metal parts of the power-supply chassis to mains earth.
 \item Connect the transformer secondaries for the heater supply. Gradually ramp up mains power using the variac and confirm that the heater supply functions as expected. Verify the operation of the high-voltage delay relay.
 \item Connect the transformer secondaries for the DHT raw-DC filament supplies. Gradually ramp up the variac to confirm that the raw-DC supplies function correctly.
 \item Connect the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Gradually ramp up the variac, confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading). Remove the dummy resistors from the high-voltage supplies.
@@ -216,9 +216,9 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \subsection{Amplifier Input Stage}
 \begin{itemize}
-\item Determine the CCS sense-resistor values that yield the targeted bias currents for the CCSs with the specific DN2540 parts used in the input LTP tail and in the DHT grid drivers. The setup shown in \figr{CCS_Rsense_jig} may be useful.
-\item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
-\item Connect the umbilical cables between the power supply and the amplifier. Connect the amplifier chassis to the earth pin of the umbilical socket. Verify the connection of the amplifier chassis to the power-supply chassis and mains earth.
+\item Determine the CCS sense-resistor values that yield the targeted bias currents for the CCSs with the specific DN2540 parts used in the input LTP tail and in the DHT grid drivers (\figr{CCS_Rsense_jig}).
+\item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards and sockets in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
+\item Connect the umbilical cables between the power supply and the amplifier. Connect the amplifier chassis to the earth pin of the umbilical socket. Confirm the connection of all metal parts of the amplifier chassis to the power-supply chassis and mains earth. Make sure the XLR-1 pins are connected to the chassis.
 \item Connect the heater supply from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.
 \item Connect the high-voltage supplies and GND from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
 \item Connect the audio inputs from the XLR sockets to the amplifier. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, verifying correct output from the buffer stage.
