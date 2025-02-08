@@ -523,7 +523,7 @@
 				)
 			)
 		)
-		(property "Value" "~300"
+		(property "Value" "~200"
 			(at 137.16 97.79 90)
 			(effects
 				(font
