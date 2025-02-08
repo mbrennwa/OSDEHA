@@ -216,13 +216,22 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \subsection{Amplifier Input Stage}
 \begin{itemize}
-\item Determine the CCS sense-resistor values that yield the targeted bias currents using a test jig for the specific DN2540 depletion-mode FETs (input LTP tail, drivers for the DHT grids).
+\item Determine the CCS sense-resistor values that yield the targeted bias currents for the CCSs with the specific DN2540 parts used in the input LTP tail and in the DHT grid drivers. The setup shown in \figr{CCS_Rsense_jig} may be useful.
 \item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
 \item Connect the umbilical cables between the power supply and the amplifier. Connect the amplifier chassis to the earth pin of the umbilical socket. Verify the connection of the amplifier chassis to the power-supply chassis and mains earth.
 \item Connect the heater supply from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm proper functioning of the heaters in the input-stage tubes.
-\item Connect the high-voltage supplies and GND from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (anode voltages, CCS tail current) and the DC bias currents of the buffer stages. Depending on the specific characteristics of your DN2540 components, it may be necessary to adjust the bias points by selecting different values for the CCS sense resistors.
+\item Connect the high-voltage supplies and GND from the umbilical socket to the amplifier board. Gradually ramp up the variac and confirm the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
 \item Connect the audio inputs from the XLR sockets to the amplifier. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, verifying correct output from the buffer stage.
 \end{itemize}
+
+\begin{figure}
+\begin{center}
+\includegraphics[height=0.2\textheight]{CCS_Rsense_circuit}
+\caption{Circuit to determine the sense-resistor value $R_{\textrm s}$ that yields the desired CCS current for a given DN2540 part ($Q_{\textrm x}$). Adjust $R_{\textrm s}$ until the voltage $V_{\textrm x}$ corresponds to the desired current. The test voltage $V_{+}$ should not be less than about \SI{5}{V}.}
+\figlabel{CCS_Rsense_jig}
+\end{center}
+\end{figure}
+
 
 \subsection{Amplifier Output Stage}
 \begin{itemize}

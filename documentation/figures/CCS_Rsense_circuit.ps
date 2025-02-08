@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: CCS_Rsense_circuit.ps
 %%Creator: XCircuit v3.9 rev73
-%%CreationDate: Fri Feb  7 19:10:18 2025
+%%CreationDate: Sat Feb  8 11:38:01 2025
 %%Pages: 1
-%%BoundingBox: 68 68 179 270
+%%BoundingBox: 68 68 338 215
 %%DocumentNeededResources: font Helvetica Times-Roman Symbol 
 %%EndComments
 %%BeginProlog
@@ -184,17 +184,6 @@
 
 %%BeginSetup
 
-/generic::circle {
-% trivial
-begingate
-1 1.000 16 0 6 0.000 360.000 xcarc
-1 1.000 0 0 10 0 2 polygon
-1.000 0.000 0.000 scb
-(out) {/Times-Roman cf} 2 4 -0.000 1.000 16 0 pinlabel
-(out) {/Times-Roman cf} 2 7 -0.000 1.000 0 0 pinlabel
-endgate
-} def
-
 /analog::resistor {
 begingate
 1 1.000 0 64 0 36 2 polygon
@@ -249,6 +238,17 @@ begingate
 endgate
 } def
 
+/generic::circle {
+% trivial
+begingate
+1 1.000 16 0 6 0.000 360.000 xcarc
+1 1.000 0 0 10 0 2 polygon
+1.000 0.000 0.000 scb
+(out) {/Times-Roman cf} 2 4 -0.000 1.000 16 0 pinlabel
+(out) {/Times-Roman cf} 2 7 -0.000 1.000 0 0 pinlabel
+endgate
+} def
+
 /generic::dot {
 % trivial
 begingate
@@ -258,15 +258,23 @@ begingate
 endgate
 } def
 
-/analog::gnd {
-% trivial
+/analog::source {
+% hidden
 begingate
-1 1.000 0 0 0 -32 2 polygon
-1 1.000 -32 -32 32 -32 2 polygon
-1 1.000 -18 -46 18 -46 2 polygon
-1 1.000 -4 -60 4 -60 2 polygon
-0.933 0.604 0.000 scb
-(GND) {/Times-Roman cf} 2 1 0.000 1.000 0 0 pinglobal
+1 1.000 0 0 32 0.000 360.000 xcarc
+1 1.000 0 32 0 64 2 polygon
+1 1.000 0 -32 0 -64 2 polygon
+endgate
+} def
+
+/analog::vsource {
+begingate
+1.000 0.000 0 0 analog::source
+(+) {/Symbol cf} 2 5 0.000 1.000 0 14 label
+(-) {/Symbol cf} 2 5 0.000 1.000 0 -22 label
+1.000 0.000 0.000 scb
+(v.p) {/Times-Roman cf} 2 9 0.000 1.000 0 64 pinlabel
+(v.m) {/Times-Roman cf} 2 13 0.000 1.000 0 -64 pinlabel
 endgate
 } def
 
@@ -278,30 +286,30 @@ endgate
 /pgsave save def bop
 % 32.00 4.00 gridspace
 1.0000 inchscale
-2.6000 setlinewidth 1 -28 translate
+2.6000 setlinewidth 386 -82 translate
 
-1.000 270.000 340 672 generic::circle
-(V+) {/Helvetica cf} 2 17 0.000 1.000 344 712 label
+(9 V or higher) {/Helvetica cf} 2 17 0.000 1.000 -76 452 label
 1.000 0.000 340 344 analog::resistor
 1.000 0.000 340 448 analog::nmos2
-1 1.000 340 672 340 640 2 polygon
-1.000 0.000 340 280 generic::dot
-1.000 0.000 340 280 analog::gnd
 (Rs) {/Helvetica cf} 2 16 0.000 1.000 364 332 label
-(Qx) {/Helvetica cf} 2 17 0.000 1.000 388 432 label
+(DN2540) {/Helvetica cf} 2 17 0.000 1.000 432 436 label
 1.000 0.000 340 576 analog::resistor
-(W) {/Symbol cf} (100 ) {/Helvetica cf} 4 16 0.000 1.000 364 564 label
-1.000 180.000 272 640 generic::circle
-1 1.000 272 640 340 640 2 polygon
-1 1.000 272 512 340 512 2 polygon
-1.000 180.000 272 512 generic::circle
-1.000 0.000 340 512 generic::dot
+(W) {/Symbol cf} (100 ) {/Helvetica cf} 4 16 0.000 1.000 208 560 label
+1.000 360.000 400 640 generic::circle
+1 1.000 400 640 340 640 2 polygon
+1 1.000 400 512 340 512 2 polygon
+1.000 360.000 400 512 generic::circle
 1.000 0.000 340 640 generic::dot
+1.000 0.000 416 632 generic::arrowhead
+1.000 180.000 416 520 generic::arrowhead
+1 1.000 416 612 416 540 2 polygon
+(Vx) {/Helvetica cf} 2 17 0.000 1.000 448 564 label
+1.000 0.000 96 464 analog::vsource
+1 1.000 340 640 96 640 96 528 3 polygon
+1 1.000 96 400 96 280 256 280 3 polygon
 1 1.000 340 280 256 280 256 448 276 448 4 polygon
-1.000 0.000 256 632 generic::arrowhead
-1.000 180.000 256 520 generic::arrowhead
-1 1.000 256 612 256 540 2 polygon
-(Vx) {/Helvetica cf} 2 17 0.000 1.000 216 564 label
+1.000 0.000 340 512 generic::dot
+1.000 0.000 256 280 generic::dot
 pgsave restore showpage
 
 %%Trailer
