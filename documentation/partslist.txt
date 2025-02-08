@@ -31,6 +31,7 @@ Umbilical connector (F+H/AMP)	1	Amphenol	MS3106E18-12S
 Umbilical wires	2	Lapp	301606S
 Power indicator LEDs	2	Vishay	VLHW5100 (or other 5\,mm white LED)
 Power indicator LEDs, resistors	2	Vishay	CMF55200R (for connection to 6.3\,V heaters)
+Screw terminals	4	Phoenix Contact	1729128 (Filemant regulator boars)
 Test sockets for DHT filaments	8	Alltech	975455700
 Standoffs, metal, M3$\times$8\,mm	20	Hasler	83.2220.03008 / PCBs
 Standoffs, metal, M3$\times$30\,mm	6	Hasler	83.2220.03030 / Subchassis
