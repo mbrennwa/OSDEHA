@@ -5339,7 +5339,7 @@
 		)
 		(uuid b1ad9976-7281-4e8e-a75a-6275c7d2f0af)
 	)
-	(text "From balanced\nstepped attenuator\n(2 x 100k)"
+	(text "From balanced\nstepped attenuator\n(2 x 10k)"
 		(exclude_from_sim no)
 		(at 50.8 127 0)
 		(effects
