@@ -6319,15 +6319,15 @@
 		(dnp no)
 		(uuid "0d6272c3-c291-4ab4-bf57-e275b0090dab")
 		(property "Reference" "R6"
-			(at 113.03 160.02 90)
+			(at 115.57 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~95"
-			(at 115.57 160.02 90)
+		(property "Value" "50...200"
+			(at 113.03 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)

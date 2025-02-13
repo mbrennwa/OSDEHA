@@ -516,15 +516,15 @@
 		(dnp no)
 		(uuid "02483c5f-461b-4a19-92a6-5444ffb40f2a")
 		(property "Reference" "R44"
-			(at 134.62 97.79 90)
+			(at 137.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~200"
-			(at 137.16 97.79 90)
+		(property "Value" "100...400"
+			(at 139.7 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
