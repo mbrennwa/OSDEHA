@@ -203,15 +203,15 @@ UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 
 \section{Build Notes, Bring-Up, and Initial Adjustments}
 
-The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Use a variac to gradually ramp up mains power while bringing up the circuits. It is recommended to build, install, and fully test one amplifier board before proceeding with the second. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
+The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Turn off the power supply before each step. Use a variac to gradually ramp up mains power while bringing up the circuits. It is recommended to build, install, and fully test one amplifier board before proceeding with the second. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
 
 \subsection{Power Supply}
 \begin{itemize}
 \item Assemble the power-supply chassis and boards. Install the boards, sockets, and transformers in the power-supply chassis. Wire the primary windings of the transformers to the mains inlet and power switch in the chassis. Wire the power supply outputs to the umbilical sockets.
 \item Confirm proper connection of all metal parts of the power-supply chassis to mains earth.
-\item Wire the transformer secondaries for the heater supply. Switch on the mains supply and gradually ramp up mains power using the variac. Confirm that the heater supply functions as expected. Verify the operation of the high-voltage delay relay.
-\item Wire the transformer secondaries for the DHT raw-DC filament supplies. Switch on the mains supply and gradually ramp up the variac to confirm that the raw-DC supplies function correctly.
-\item Wire the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Switch on the mains supply and gradually ramp up the variac. Confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading). Remove the dummy resistors from the high-voltage supplies.
+\item Wire the transformer secondaries for the heater supply. Switch on the power supply and gradually ramp up mains power using the variac. Confirm that the heater supply functions as expected. Verify the operation of the high-voltage delay relay.
+\item Wire the transformer secondaries for the DHT raw-DC filament supplies. Switch on the power supply and gradually ramp up the variac to confirm that the raw-DC supplies function correctly.
+\item Wire the transformer secondaries for the high-voltage supplies and install dummy resistors at their outputs. Switch on the power supply and gradually ramp up the variac. Confirm and adjust the high-voltage output levels as needed. Verify the diaphragm bias voltage output (note: the internal resistance of the voltmeter will load the bias output, resulting in a lower voltage reading). Remove the dummy resistors from the high-voltage supplies.
 \end{itemize}
 
 \subsection{Amplifier Input Stage}
@@ -219,8 +219,8 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 \item Determine the CCS sense-resistor values that yield the targeted bias currents for the CCSs with the specific DN2540 parts used in the input LTP tail and in the DHT grid drivers (\figr{CCS_Rsense_jig}).
 \item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards and sockets in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
 \item Install the umbilical cables between the power supply and the amplifier. Wire the amplifier chassis to the earth pins of the umbilical socket. Confirm the connection of all metal parts of the amplifier chassis to the power-supply chassis and mains earth. Make sure the XLR pins~1 are connected to the chassis.
-\item Wire the heater supply from the umbilical socket to the amplifier board. Switch on the mains supply and gradually ramp up the variac. Confirm proper functioning of the heaters in the input-stage tubes.
-\item Wire the high-voltage supplies and GND from the umbilical socket to the amplifier board. Switch on the mains supply and gradually ramp up the variac. Confirm the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
+\item Wire the heater supply from the umbilical socket to the amplifier board. Switch on the power supply and gradually ramp up the variac. Confirm proper functioning of the heaters in the input-stage tubes.
+\item Wire the high-voltage supplies and GND from the umbilical socket to the amplifier board. Switch on the power supply and gradually ramp up the variac. Confirm the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
 \item Wire the audio inputs from the XLR sockets to the volume control and to the amplifier board. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, verifying correct output from the buffer stage to the grid pins on the DHT sockets.
 \end{itemize}
 
@@ -236,8 +236,8 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 \subsection{Amplifier Output Stage}
 \begin{itemize}
 \item With the output tubes still not installed in the amplifier, adjust the DC grid bias of the output tubes to the most negative value.
-\item Disconnect the high-voltage supplies from the amplifier board. Wire the DHT filament supplies from the umbilical socket to the Coleman filament regulators and to the amplifier board. Install the DHT output tubes. Switch on the mains supply and gradually ramp up the variac, paying attention to the filament voltages. Adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
-\item Reconnect the high-voltage supplies to the amplifier board, switch on the mains supply and g radually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are attained. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
+\item Disconnect the high-voltage supplies from the amplifier board. Wire the DHT filament supplies from the umbilical socket to the Coleman filament regulators and to the amplifier board. Install the DHT output tubes. Switch on the power supply and gradually ramp up the variac, paying attention to the filament voltages. Adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
+\item Reconnect the high-voltage supplies to the amplifier board, switch on the power supply and g radually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are attained. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
 \item Apply an AC test signal to the amplifier input and verify correct output from the amplifier.
 
 \end{itemize}
