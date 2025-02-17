@@ -74,8 +74,6 @@ Several DHT tube types were evaluated for the OSDEHA\cite{osdeha_p9,osdeha_which
 
 From a technical perspective, the high gain of the 20B makes it an attractive option. However, due to concerns about the long-term availability of the 20B, the 801/10Y family of tubes is deemed a more practical choice for the OSDEHA design.
 
-
-
 \figr{801A_curves} illustrates the characteristic curves measured from the 801A tube (with the 10Y/VT-25 being equivalent) along with the load line of a \SI{20}{mA} constant-current source (CCS). The anode DC bias is set to \SI{420}{V}, corresponding to a grid bias of approximately \SI{-34}{V}. This bias point allows for an anode voltage swing of \SI{\pm325}{V} within the tube's linear operating range. The grid voltage remains below +\SI{10}{V}, where measured grid current stays well under \SI{1}{mA}. With the anode voltage approaching ground potential, the B- voltage is set to \SI{-420}{V} and the B+ voltage to \SI{+420}{V}, maintaining symmetry.
 
 \begin{figure}
@@ -203,7 +201,7 @@ UMBILICALS BETWEEN PSU AND AMP CHASSIS in \figr{power_pinouts}.
 
 \section{Build Notes, Bring-Up, and Initial Adjustments}
 
-The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Use a variac to gradually ramp up mains power while bringing up the circuits. Turn off the power supply and set the variac output to zero before each step. It is recommended to build, install, and fully test one amplifier board before proceeding with the second. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
+The process of building, testing, and adjusting the OSDEHA is best carried out step by step, as outlined below. Use a variac to gradually ramp up mains power while bringing up the circuits. Turn off the power supply and set the variac output to zero before each step. Before working on the circuits, always ensure that no dangerous voltages remain present (e.g., all capacitors are discharged, and the mains cable is disconnected).
 
 \subsection{Power Supply}
 \begin{itemize}
@@ -217,11 +215,11 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 \subsection{Amplifier Input Stage}
 \begin{itemize}
 \item Determine the CCS sense-resistor values that yield the targeted bias currents for the CCSs with the specific DN2540 parts used in the input LTP tail and in the DHT grid drivers (\figr{CCS_Rsense_jig}).
-\item Assemble the amplifier chassis, boards, and Coleman filament regulators. Install the boards and sockets in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stage yet. Do \emph{not} yet wire the ubilical sockets to the boards.
-\item Install the umbilical cables between the power supply and the amplifier. Wire the amplifier chassis to the earth pins of the umbilical socket. Confirm the connection of all metal parts of the amplifier chassis to the power-supply chassis and mains earth. Make sure the XLR pins~1 are connected to the chassis.
-\item Wire the heater supply from the umbilical socket to the amplifier board. Switch on the power supply and gradually ramp up the variac. Confirm proper functioning of the heaters in the input-stage tubes.
-\item Wire the high-voltage supplies and GND from the umbilical socket to the amplifier board. Switch on the power supply and gradually ramp up the variac. Confirm the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
-\item Wire the audio inputs from the XLR sockets to the volume control and to the amplifier board. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, verifying correct output from the buffer stage to the grid pins on the DHT sockets.
+\item Assemble the amplifier chassis, amplifier boards, and Coleman filament regulators. Install the boards and sockets in the amplifier chassis. Install the input-stage tubes, but do \emph{not} install the DHT tubes of the output stages yet. Do \emph{not} yet wire the umbilical sockets to the boards.
+\item Install the umbilical cables between the power supply and the amplifier chassis. Wire the amplifier chassis to the earth pins of the umbilical socket. Verify the electrical connection of all metal parts of the amplifier chassis to the power-supply chassis and mains earth. Make sure the XLR pins~1 are connected to the chassis.
+\item Wire the heater supply from the umbilical socket to the amplifier boards. Switch on the power supply and gradually ramp up the variac. Verify functioning of the heaters in the input-stage tubes.
+\item Wire the high-voltage supplies (B+, B-, B2-) and GND from the umbilical socket to the amplifier boards. Switch on the power supply and gradually ramp up the variac. Verify the correct DC bias of the input-stage tubes (plate voltages and currents) and the DC bias currents of the buffer stages.
+\item Wire the audio inputs from the XLR sockets to the volume control and to the amplifier boards. Apply an AC test signal to the XLR sockets and trace the signal path through the circuit, and verify correct output from the buffer stage to the grid pins on the DHT sockets.
 \end{itemize}
 
 \begin{figure}
@@ -235,10 +233,10 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \subsection{Amplifier Output Stage}
 \begin{itemize}
-\item With the output tubes still not installed in the amplifier, adjust the DC grid bias of the output tubes to the most negative value.
-\item Disconnect the high-voltage supplies from the amplifier board. Wire the DHT filament supplies from the umbilical socket to the Coleman filament regulators and to the amplifier board. Install the DHT output tubes. Switch on the power supply and gradually ramp up the variac, paying attention to the filament voltages. Adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
-\item Reconnect the high-voltage supplies to the amplifier board, switch on the power supply and gradually ramp up the variac. Monitor the DC bias current of each output tube by measuring the voltage across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are attained. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
-\item Apply an AC test signal to the amplifier input and verify correct output from the amplifier.
+\item With the output tubes still not installed in the amplifier, adjust the grid bias voltage to the most negative value.
+\item Disconnect the high-voltage supplies from the amplifier boards. Wire the DHT filament supplies from the umbilical socket to the Coleman filament regulators and to the amplifier boards. Install the DHT output tubes. Switch on the power supply and gradually ramp up the variac while monitoring the DHT filament voltages and paying attention to not exceed the datasheet value. Adjust the filament voltage to the target value. Allow the tubes to warm up and readjust the filament voltage as needed.
+\item Reconnect the high-voltage supplies to the amplifier boards, switch on the power supply and gradually ramp up the variac. Monitor the DC bias currents of each output tube by measuring the voltage drop across the mu-resistors. Adjust the DC grid bias until the desired DC bias points are attained. Allow the amplifier to warm up and readjust the DC bias as necessary. Also monitor the filament voltages during warmup and adjust if needed.
+\item Apply an AC test signal to the amplifier inputs and verify correct outputs from the amplifier.
 
 \end{itemize}
 
