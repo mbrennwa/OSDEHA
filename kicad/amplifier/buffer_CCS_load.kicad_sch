@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c8afd29f-650c-4026-8c31-bed0013cb6b8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -125,10 +127,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET_Other:DN2540N5-G"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -198,18 +203,6 @@
 			(symbol "DN2540N5-G_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -222,34 +215,22 @@
 				)
 				(polyline
 					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -280,6 +261,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -302,39 +340,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -394,7 +399,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "10 mA CCS"
+		(exclude_from_sim no)
+		(at 128.27 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2387f4ab-a2b7-4abe-9ff0-c1d95d7f5bd1")
+	)
+	(text "HEATSINK"
+		(exclude_from_sim no)
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "589f15ea-f04c-4517-a66a-3f6a4c566d51")
 	)
 	(junction
 		(at 137.16 102.87)
@@ -462,28 +490,6 @@
 		)
 		(uuid "799df159-8d67-445a-b828-c7e6cea8ed74")
 	)
-	(text "10 mA CCS"
-		(exclude_from_sim no)
-		(at 128.27 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2387f4ab-a2b7-4abe-9ff0-c1d95d7f5bd1")
-	)
-	(text "HEATSINK"
-		(exclude_from_sim no)
-		(at 139.7 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "589f15ea-f04c-4517-a66a-3f6a4c566d51")
-	)
 	(hierarchical_label "NEG"
 		(shape passive)
 		(at 137.16 105.41 270)
@@ -515,7 +521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02483c5f-461b-4a19-92a6-5444ffb40f2a")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 137.16 97.79 90)
 			(effects
 				(font
@@ -595,7 +601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74bdfc90-47bf-4cad-9b92-b8c81b968e2e")
-		(property "Reference" "R43"
+		(property "Reference" "R41"
 			(at 125.73 87.63 90)
 			(effects
 				(font
@@ -675,7 +681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fad04642-fc60-4ed8-9ceb-2cd402faa290")
-		(property "Reference" "Q10"
+		(property "Reference" "Q9"
 			(at 139.7 85.09 0)
 			(effects
 				(font
