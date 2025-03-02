@@ -3336,7 +3336,7 @@
 		)
 		(uuid "8fce737b-5dfd-48fe-8918-fda464696fed")
 	)
-	(text "ca. -460 V"
+	(text "ca. -455 V"
 		(exclude_from_sim no)
 		(at 241.3 115.57 0)
 		(effects
@@ -3347,7 +3347,7 @@
 		)
 		(uuid "944a4dfe-69a6-4bb6-a6ba-2949b954f6ef")
 	)
-	(text "ca. -460 V"
+	(text "ca. -455 V"
 		(exclude_from_sim no)
 		(at 185.42 105.41 0)
 		(effects
@@ -3479,7 +3479,7 @@
 		)
 		(uuid "d1b58efe-76df-4c62-9a7a-d2669eb34e7a")
 	)
-	(text "OSDEHA Draft 2025-01-30, mbrennwa@diyAudio"
+	(text "OSDEHA Draft 2025-03-02, mbrennwa@diyAudio"
 		(exclude_from_sim no)
 		(at 279.4 55.88 0)
 		(effects
