@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c8a8b971-4edc-4010-b79d-64746f5969cf")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,9 +110,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -181,7 +188,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -193,7 +200,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -242,11 +249,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Zener"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -314,10 +326,10 @@
 			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -326,10 +338,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -387,9 +399,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -508,10 +523,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET_Other:DN2540N5-G"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -581,18 +599,6 @@
 			(symbol "DN2540N5-G_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -605,34 +611,22 @@
 				)
 				(polyline
 					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -663,6 +657,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -685,39 +736,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -777,7 +795,52 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Hybrid Mu Follower // CCS load\nhttps://www.diyaudio.com/community/attachments/the-underappreciated-hybrid-mu-follower-pdf.543695/\nhttps://www.bartola.co.uk/valves/dht-pre-amplifier/01a-preamp-gen2/\nhttp://www.valvewizard.co.uk/mufollower.html\nhttps://www.diyaudio.com/community/threads/how-calculate-the-rmu-resistor-in-an-hybrid-mu-follower.384775/\n\nDetails on choice of transistor types and Mu-resistor:\nhttps://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/page-6\n\nSee also Alan Kimmel paper on Mu stage"
+		(exclude_from_sim no)
+		(at 36.83 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08214ab6-06da-4b65-9470-8b4363808d20")
+	)
+	(text "HEATSINK"
+		(exclude_from_sim no)
+		(at 96.52 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5de701a6-fc5b-4e6f-acd3-f7cdd766657d")
+	)
+	(text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXTP3N100D2: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
+		(exclude_from_sim no)
+		(at 36.83 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc504a3e-5296-4816-8207-5a46f7545cbe")
+	)
+	(text "HEATSINK"
+		(exclude_from_sim no)
+		(at 170.18 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc1f0fb9-1b03-4b7e-8dd7-8cb305bdc459")
 	)
 	(junction
 		(at 158.75 85.09)
@@ -1180,50 +1243,6 @@
 			(type default)
 		)
 		(uuid "ff494f67-8650-4a17-827b-158e36d10e7b")
-	)
-	(text "Hybrid Mu Follower // CCS load\nhttps://www.diyaudio.com/community/attachments/the-underappreciated-hybrid-mu-follower-pdf.543695/\nhttps://www.bartola.co.uk/valves/dht-pre-amplifier/01a-preamp-gen2/\nhttp://www.valvewizard.co.uk/mufollower.html\nhttps://www.diyaudio.com/community/threads/how-calculate-the-rmu-resistor-in-an-hybrid-mu-follower.384775/\n\nDetails on choice of transistor types and Mu-resistor:\nhttps://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/page-6\n\nSee also Alan Kimmel paper on Mu stage"
-		(exclude_from_sim no)
-		(at 36.83 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08214ab6-06da-4b65-9470-8b4363808d20")
-	)
-	(text "HEATSINK"
-		(exclude_from_sim no)
-		(at 96.52 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5de701a6-fc5b-4e6f-acd3-f7cdd766657d")
-	)
-	(text "AOT1N60: high gfs, through hole, see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409805\nIXTP3N100D2: provides more Vds for lower FET (better), see https://www.diyaudio.com/community/threads/45-amp-build-direct-coupled.320418/post-5409828"
-		(exclude_from_sim no)
-		(at 36.83 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc504a3e-5296-4816-8207-5a46f7545cbe")
-	)
-	(text "HEATSINK"
-		(exclude_from_sim no)
-		(at 170.18 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc1f0fb9-1b03-4b7e-8dd7-8cb305bdc459")
 	)
 	(hierarchical_label "VREF"
 		(shape passive)

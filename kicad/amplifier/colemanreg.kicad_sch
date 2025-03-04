@@ -1,10 +1,21 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a6b6906f-8a54-45b8-8065-fa27c4eeacfd")
 	(paper "A4")
 	(lib_symbols)
+	(text "COLEMAN DHT FILAMENT REGULATOR\n(dummy sheet for KiCad)"
+		(exclude_from_sim no)
+		(at 129.286 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "5a719a79-3419-49e9-9bb8-6b69c308df7a")
+	)
 	(wire
 		(pts
 			(xy 118.11 91.44) (xy 124.46 91.44)
@@ -44,17 +55,6 @@
 			(type default)
 		)
 		(uuid "c0d38889-b29d-44c4-9a55-cd4d6337b0e2")
-	)
-	(text "COLEMAN DHT FILAMENT REGULATOR\n(dummy sheet for KiCad)"
-		(exclude_from_sim no)
-		(at 129.286 86.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "5a719a79-3419-49e9-9bb8-6b69c308df7a")
 	)
 	(hierarchical_label "FIL-"
 		(shape passive)
