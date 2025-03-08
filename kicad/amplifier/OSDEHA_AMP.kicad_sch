@@ -10856,7 +10856,7 @@
 				)
 			)
 		)
-		(property "Value" "47V"
+		(property "Value" "43V"
 			(at 200.66 171.45 0)
 			(effects
 				(font
@@ -10891,7 +10891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ZY47"
+		(property "MPN" "ZY43"
 			(at 198.12 171.45 0)
 			(effects
 				(font
