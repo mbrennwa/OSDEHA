@@ -79,8 +79,8 @@ plt.semilogx(anode_output_db["frequency"], anode_output_db["v_out"], color='red'
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Gain (dB relative to 1 kHz)")
 ### plt.title("OSDEHA Frequency Response at 100 VRMS Output")
-plt.xlim(3, 300000)  # Set x-axis range from 3 Hz to 300 kHz
-plt.ylim(-12, 3)     # Set y-axis range from -12 dB to +3 dB
+plt.xlim(10, 1E5)  # Set x-axis range from 3 Hz to 300 kHz
+plt.ylim(-10, 3)     # Set y-axis range from -12 dB to +3 dB
 
 plt.legend(frameon=False)
 
