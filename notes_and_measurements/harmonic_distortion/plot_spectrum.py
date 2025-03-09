@@ -11,9 +11,16 @@ import re
 def read_spectrum_data(filepath):
     match = re.search(r'([\d\.]+)V', os.path.basename(filepath))
     if match:
-        testvoltage = match.group(1)
+        testvoltage = match.group(1) + " V"
     else:
         testvoltage = "Unknown Voltage"
+        
+    if "MU-OUT" in filepath:
+        info = "µ output, " + testvoltage 
+    elif "A-OUT" in filepath:
+        info = "anode output, " + testvoltage
+    else:
+        info = "??? " + testvoltage
     frequencies = []
     voltages = []
     with open(filepath, "r") as file:
@@ -28,7 +35,7 @@ def read_spectrum_data(filepath):
                         voltages.append(volt)
                 except ValueError:
                     continue  # Skip malformed lines
-    return np.array(frequencies), np.array(voltages), testvoltage
+    return np.array(frequencies), np.array(voltages), info
 
 # Function to format x-axis labels in kHz
 def kHz_formatter(x, pos):
@@ -42,7 +49,7 @@ args = parser.parse_args()
 
 # Read data from the file
 if os.path.exists(args.file):
-    freqs, volts, testvoltage = read_spectrum_data(args.file)
+    freqs, volts, info = read_spectrum_data(args.file)
     
 else:
     print(f"Error: File {args.file} not found.")
@@ -60,7 +67,7 @@ plt.xticks(np.arange(0, 11000, 1000))  # Add frequency labels every 1 kHz
 plt.xlabel("Frequency (kHz)")
 plt.yscale("log")
 plt.ylabel("Voltage (V)")
-plt.title("Spectrum Analysis (" + testvoltage + " V-RMS fundamental)")
+plt.title("OSDEHA harmonic spectrum: " + info)
 
 plt.grid(True, which="both", linestyle="--", linewidth=0.5)
 
