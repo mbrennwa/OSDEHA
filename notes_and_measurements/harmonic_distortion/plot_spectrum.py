@@ -7,6 +7,13 @@ import numpy as np
 from matplotlib.ticker import FuncFormatter
 import re
 
+# Set global font to Arial
+plt.rcParams["font.family"] = "Arial"
+
+# Set global rounded capstyle and joinstyle
+plt.rcParams["lines.solid_capstyle"] = "round"  # Round line ends
+plt.rcParams["lines.solid_joinstyle"] = "round"  # Round line joints
+
 # Function to read spectrum data from a file
 def read_spectrum_data(filepath):
     match = re.search(r'([\d\.]+)V', os.path.basename(filepath))
@@ -16,9 +23,9 @@ def read_spectrum_data(filepath):
         testvoltage = "Unknown Voltage"
         
     if "MU-OUT" in filepath:
-        info = "µ output, " + testvoltage 
+        info = "µ Output, " + testvoltage 
     elif "A-OUT" in filepath:
-        info = "anode output, " + testvoltage
+        info = "Anode Output, " + testvoltage
     else:
         info = "??? " + testvoltage
     frequencies = []
@@ -47,6 +54,9 @@ parser.add_argument("file", help="Spectrum data file")
 parser.add_argument("--output", type=str, help="Save the plot as an image file (e.g., output.png)")
 args = parser.parse_args()
 
+# get common file base name:
+basename = os.path.basename(args.file)
+
 # Read data from the file
 if os.path.exists(args.file):
     freqs, volts, info = read_spectrum_data(args.file)
@@ -56,7 +66,7 @@ else:
     exit(1)
 
 # Create plot
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(7, 4))
 plt.plot(freqs, volts, label=os.path.basename(args.file))
 
 # Configure plot
@@ -67,14 +77,13 @@ plt.xticks(np.arange(0, 11000, 1000))  # Add frequency labels every 1 kHz
 plt.xlabel("Frequency (kHz)")
 plt.yscale("log")
 plt.ylabel("Voltage (V)")
-plt.title("OSDEHA harmonic spectrum: " + info)
+plt.title("OSDEHA Harmonic Spectrum (" + info + ")")
 
 plt.grid(True, which="both", linestyle="--", linewidth=0.5)
 
-# Save or show the plot
-if args.output:
-    plt.savefig(args.output, dpi=300, bbox_inches='tight')
-    print(f"Plot saved as {args.output}")
-else:
-    plt.show()
+# Save as PDF
+plt.savefig(basename + "harmonic_spectrum.pdf", format="pdf", bbox_inches="tight")
+
+
+plt.show()
 
