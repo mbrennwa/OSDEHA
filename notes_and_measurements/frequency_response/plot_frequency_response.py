@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
+from scipy.interpolate import interp1d
 
 # Function to read data from ASCII file
 def read_data(filename):
@@ -33,16 +34,9 @@ def read_data(filename):
                 except ValueError:
                     pass
     
-    if not mu_output["frequency"]:
-        print("Warning: No data found for μ-OUTPUT (or MU-OUTPUT). First few lines of the file:")
-        for l in lines[:10]:
-            print(l.strip())
-    if not anode_output["frequency"]:
-        print("Warning: No data found for ANODE-OUTPUT")
-    
     return mu_output, anode_output
 
-# read data from file:
+# Read data from file
 mu_output, anode_output = read_data("OSDEHA_FREQUENCY_RESPONSE.txt")
 
 # Convert to dB relative to 1000 Hz
@@ -67,21 +61,36 @@ def convert_to_db(data):
 mu_output_db = convert_to_db(mu_output)
 anode_output_db = convert_to_db(anode_output)
 
+# Interpolate data for smooth curves
+interp_freqs = np.logspace(np.log10(10), np.log10(1E5), 1000)
+mu_interp_func = interp1d(mu_output_db["frequency"], mu_output_db["v_out"], kind='cubic', fill_value="extrapolate")
+anode_interp_func = interp1d(anode_output_db["frequency"], anode_output_db["v_out"], kind='cubic', fill_value="extrapolate")
+mu_interp_vout = mu_interp_func(interp_freqs)
+anode_interp_vout = anode_interp_func(interp_freqs)
+
+# Find -0.5 dB points
+threshold_db = -0.5
+mu_crossings = np.where(np.diff(np.sign(mu_interp_vout - threshold_db)))[0]
+anode_crossings = np.where(np.diff(np.sign(anode_interp_vout - threshold_db)))[0]
+
+for idx in mu_crossings:
+    print(f"μ output -0.5 dB point at {interp_freqs[idx]:.2f} Hz")
+for idx in anode_crossings:
+    print(f"Anode output -0.5 dB point at {interp_freqs[idx]:.2f} Hz")
+
 # Plot the data in dB
 plt.figure(figsize=(10, 4))
 plt.rcParams["font.family"] = "Arial"
 plt.rcParams["lines.linewidth"] = 2
 plt.rcParams["lines.solid_capstyle"] = "round"
-plt.semilogx(mu_output_db["frequency"], mu_output_db["v_out"], color='blue', linestyle='-', label="μ output")
-plt.semilogx(anode_output_db["frequency"], anode_output_db["v_out"], color='red', linestyle='-', label="Anode output")
+plt.semilogx(interp_freqs, mu_interp_vout, color='blue', linestyle='-', label="μ output")
+plt.semilogx(interp_freqs, anode_interp_vout, color='red', linestyle='-', label="Anode output")
 
 # Formatting
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Gain (dB relative to 1 kHz)")
-### plt.title("OSDEHA Frequency Response at 100 VRMS Output")
-plt.xlim(10, 1E5)  # Set x-axis range from 3 Hz to 300 kHz
-plt.ylim(-10, 3)     # Set y-axis range from -12 dB to +3 dB
-
+plt.xlim(10, 1E5)
+plt.ylim(-10, 3)
 plt.legend(frameon=False)
 
 # Save the plot to a PDF
@@ -89,4 +98,3 @@ plt.savefig("frequency_response.pdf", format="pdf", bbox_inches="tight")
 
 # Show the plot
 plt.show()
-
