@@ -80,7 +80,7 @@ plt.plot(df["Voltage (V-RMS)"], df["H5 (%)"], marker='.', label="H5 (%)")
 plt.xscale("log")
 plt.yscale("log")
 plt.xlabel("Fundamental Voltage (V-RMS)")
-plt.ylabel("Harmonic Level (%)")
+plt.ylabel("Harmonic Level")
 if "MU-OUT" in basename:
     info = "µ Output"
 elif "A-OUT" in basename:
@@ -97,8 +97,14 @@ plt.xlim(0.7, 150)
 custom_ticks = [1, 3, 10, 30, 100]
 plt.xticks(custom_ticks, [str(tick) for tick in custom_ticks])  # Set non-exponential labels
 
+# Custom function to add "%" to y-axis labels
+def percentage_formatter(x, pos):
+    return f"{x:g}%"  # Removes trailing zeros and adds "%"
+
+
 plt.gca().xaxis.set_major_formatter(ticker.ScalarFormatter())  # Disable scientific notation
-plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter("%g"))  # Removes trailing zeros
+### plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter("%g"))  # Removes trailing zeros
+plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(percentage_formatter))
 
 # Save as PDF
 plt.savefig(basename + "harmonics_vs_voltage.pdf", format="pdf", bbox_inches="tight")
