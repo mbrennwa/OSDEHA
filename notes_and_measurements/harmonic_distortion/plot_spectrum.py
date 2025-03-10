@@ -9,6 +9,7 @@ import re
 
 # Set global font to Arial
 plt.rcParams["font.family"] = "Arial"
+plt.rcParams["font.size"] = 16
 
 # Set global rounded capstyle and joinstyle
 plt.rcParams["lines.solid_capstyle"] = "round"  # Round line ends

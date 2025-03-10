@@ -5,6 +5,21 @@ import numpy as np
 import sys
 from scipy.interpolate import interp1d
 
+# Unicode superscript mapping for exponents
+superscripts = {
+    "2": "²",
+    "3": "³",
+    "4": "⁴",
+    "5": "⁵"
+}
+
+# Function to format x-axis labels using Unicode superscripts
+def custom_x_labels(x, pos):
+    exponent = int(np.log10(x))
+    if exponent == 1:
+        return "10"
+    return f"10{superscripts.get(str(exponent), f'^{exponent}')}"  # Use Unicode, fallback to ^ notation if missing
+
 # Function to read data from ASCII file
 def read_data(filename):
     with open(filename, 'r', encoding='utf-8') as file:
@@ -78,23 +93,29 @@ for idx in mu_crossings:
 for idx in anode_crossings:
     print(f"Anode output -0.5 dB point at {interp_freqs[idx]:.2f} Hz")
 
-# Plot the data in dB
-plt.figure(figsize=(10, 4))
+# Set global font properties to Arial with font size 16
 plt.rcParams["font.family"] = "Arial"
+plt.rcParams["font.size"] = 16
 plt.rcParams["lines.linewidth"] = 2
 plt.rcParams["lines.solid_capstyle"] = "round"
+
+# Plot the data in dB
+plt.figure(figsize=(10, 4))
 plt.semilogx(interp_freqs, mu_interp_vout, color='blue', linestyle='-', label="μ output")
 plt.semilogx(interp_freqs, anode_interp_vout, color='red', linestyle='-', label="Anode output")
 
 # Formatting
 plt.xlabel("Frequency (Hz)")
+plt.xticks([10, 100, 1000, 10000, 100000], [custom_x_labels(x, None) for x in [10, 100, 1000, 10000, 100000]])
 plt.ylabel("Gain (dB relative to 1 kHz)")
 plt.xlim(10, 1E5)
 plt.ylim(-10, 3)
-plt.legend(frameon=False)
+plt.legend(frameon=True)
+plt.grid(True, which="both", linestyle="--", linewidth=0.5)
 
 # Save the plot to a PDF
 plt.savefig("frequency_response.pdf", format="pdf", bbox_inches="tight")
 
 # Show the plot
 plt.show()
+

@@ -47,7 +47,7 @@ Electrostatic headphones operate using three electrodes: two fixed outer electro
 
 The electrical impedance of electrostatic headphones is primarily determined by the capacitance of the two stators, which is typically around \SI{100}{pF}\cite{osdeha_p3}.
 
-The voltage swing required to drive the stators depends on the headphone sensitivity and the desired sound pressure level. An experiment using various genres of well-recorded music indicated that an undistorted \SI{1.3}{kV} peak-to-peak swing of the bipolar output is desirable (i.e., \SI{650}{V} peak-to-peak at each stator)\cite{osdeha_p8}. The corresponding current swing measured in this experiment was approximately \SI{4}{mA}. However, driving the \SI{100}{pF} load to full output at frequencies up to \SI{20}{kHz} and beyond necessitates larger peak currents, around \SI{20}{mA}\cite{osdeha_p2}.
+The voltage swing required to drive the stators depends on the headphone sensitivity and the desired sound pressure level. An experiment using various genres of well-recorded music indicated that an undistorted \SI{1.3}{kV} peak-to-peak swing of the bipolar output is desirable (i.e., \SI{650}{\unitVpp} at each stator)\cite{osdeha_p8}. The corresponding current swing measured in this experiment was approximately \SI{4}{mA}. However, driving the \SI{100}{pF} load to full output at frequencies up to \SI{20}{kHz} and beyond necessitates larger peak currents, around \SI{20}{mA}\cite{osdeha_p2}.
 
 
 \subsection{Output Stage}\seclabel{outputstage}
@@ -101,7 +101,7 @@ In the DC domain, the gate of FET Q1 is grounded through R1, fixing the source p
 
 \subsection{Input Stage}\seclabel{inputstage}
 
-The primary function of the input stage is to amplify the balanced input signal ($2 \times \SI{3.5}{V}$ peak-to-peak) to a level sufficient to drive the DHT grids ($2 \times \SI{86}{V}$ peak-to-peak). This requires a voltage gain of $86 / 3.5 = 25\times$.
+The primary function of the input stage is to amplify the balanced input signal ($2 \times \SI{3.5}{\unitVpp}$) to a level sufficient to drive the DHT grids ($2 \times \SI{86}{\unitVpp}$). This requires a voltage gain of $86 / 3.5 = 25\times$.
 
 Following the lines of the output stage, the differential input stage is designed as long-tailed pair (LTP)\cite{valvewizard_LTP} utilizing tubes with triode characteristics. To maximize the linearity and voltage gain of the LTP, the ``tail'' is configured as a constant-current source (CCS), as illustrated in \figr{IPS_concept}.
 
@@ -252,84 +252,37 @@ FREUQNECY RESPONSE
 DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
 
 \begin{itemize}
-  \item Max output: \SI{1640}{V peak-to-peak} into \SI{100}{pF}
-  
+  \item Maximum audio output: \SI{1640}{\unitVpp} into \SI{100}{pF}
+  % \item Input sensitivity for full output: \SI{XYZ}{\unitVpp}
+  \item Input impedance (balanced): $2 \times \SI{10}{k\Omega}$
+  % \item Voltage gain: $XYZ \times$
+  \item Frequency response with \SI{100}{pF} load ($-\SI{0.5}{dB}$)\\
+        $\mu$-output: \SI{28}{Hz} to \SI{33}{kHz}\\
+        Anode-output: \SI{24}{Hz} to \SI{21}{kHz}\\
+        See \figr{frequency_response}
+  % \item Signal to noise ratio: \SI{XYZ}{dB}
+  % \item Crosstalk: Measures signal leakage between channels, expressed in dB (e.g., <-90dB @ 1kHz).
+  \item Harmonic distortion: $< \SI{0.04}{\%}$ at \SI{100}{\unitVrms} / \SI{282}{\unitVpp} output\\
+        See \figr{harmonics_vs_voltage} 
+  % \item Intermodulation Distortion (IMD): see \figr{imd} (use multitone test from REW)
+  % \item Power consumption: \SI{XYZ}{W}
 \end{itemize}
 
-% . Power Output
-%
-%     RMS Power Output (Watts per Channel @ Ohms) – Continuous power an amplifier can deliver per channel (e.g., 100W RMS per channel @ 8Ω).
-%     Peak Power Output – Maximum short-term power handling capability.
-%     Total Power Output – Total RMS power across all channels.
-%
-% 2. Load Impedance
-%
-%     Specifies the supported speaker impedances (e.g., 4Ω, 8Ω).
-%     Some amplifiers support bridged mode operation with different impedances.
-%
-% 3. Frequency Response
-%
-%     The range of frequencies the amplifier can reproduce accurately, typically given in Hz – kHz (e.g., 20Hz – 20kHz ±0.5dB).
-%
-% 4. Total Harmonic Distortion (THD)
-%
-%     Measures how much the amplifier distorts the signal, usually expressed as a percentage (e.g., <0.1% @ 1kHz, full power).
-%     Lower THD means cleaner sound.
-%
-% 5. Signal-to-Noise Ratio (SNR)
-%
-%     Ratio of signal power to noise power, usually in dB (e.g., >100dB).
-%     Higher values indicate less background noise.
-%
-% 6. Damping Factor
-%
-%     The ability of the amplifier to control speaker movement, typically given as a ratio (e.g., >200 @ 8Ω).
-%     Higher values indicate better speaker control.
-%
-% 7. Input Sensitivity & Input Impedance
-%
-%     Input Sensitivity: Voltage needed to drive the amp to full power (e.g., 1.5V RMS).
-%     Input Impedance: Resistance to the input signal, usually in kΩ (e.g., 47kΩ).
-%
-% 8. Crosstalk
-%
-%     Measures signal leakage between channels, expressed in dB (e.g., <-90dB @ 1kHz).
-%     Lower values indicate better channel separation.
-%
-% 9. Intermodulation Distortion (IMD)
-%
-%     Indicates how well the amp handles multiple frequencies simultaneously (e.g., <0.05%).
-%     Lower values mean better fidelity.
-%
-% 10. Output Impedance
-%
-%     Determines compatibility with different speaker loads (usually low, e.g., <0.1Ω).
-%
-% 11. Gain
-%
-%     Amplification factor, given in dB (e.g., 26dB).
-%
-% 12. Efficiency (for Class D & Class AB)
-%
-%     Expressed as a percentage (e.g., 90% for Class D, 60% for Class AB).
-%
-% 13. Power Supply & Consumption
-%
-%     Voltage Requirements (e.g., 120V AC, 50/60Hz).
-%     Idle Power Consumption (Watts).
-%     Maximum Power Consumption (Watts).
-%
-% 14. Protection Features
-%
-%     Overload protection.
-%     Short circuit protection.
-%     Thermal shutdown.
-%
-% 15. Physical & Environmental Specs
-%
-%     Dimensions (W × H × D, mm or inches).
-%     Weight (kg or lbs).
-%     Operating Temperature (°C or °F).
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{frequency_response.pdf}
+\caption{Frequency response, measured with a \SI{100}{pF} load connected to the output.}
+\figlabel{frequency_response}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{harmonics_vs_voltage.pdf}
+\caption{Harmonic distortion vs.\ output voltage, measured with a \SI{100}{pF} load connected to the $\mu$ output (top) or the anode output (bottom).}
+\figlabel{harmonics_vs_voltage}
+\end{center}
+\end{figure}
 
 
 \section{Parts List}

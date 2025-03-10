@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 import os
-import argparse
-import numpy as np
+import glob
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,10 +9,9 @@ import matplotlib.ticker as ticker
 
 # Set global font to Arial
 plt.rcParams["font.family"] = "Arial"
-
-# Set global rounded capstyle and joinstyle
-plt.rcParams["lines.solid_capstyle"] = "round"  # Round line ends
-plt.rcParams["lines.solid_joinstyle"] = "round"  # Round line joints
+plt.rcParams["font.size"] = 16
+plt.rcParams["lines.solid_capstyle"] = "round"
+plt.rcParams["lines.solid_joinstyle"] = "round"
 
 # Function to extract harmonics from file headers
 def extract_harmonics(filepath):
@@ -35,81 +33,115 @@ def extract_harmonics(filepath):
                 harmonics[7] = float(parts[parts.index("7th") + 2])
                 harmonics[8] = float(parts[parts.index("8th") + 2])
                 harmonics[9] = float(parts[parts.index("9th") + 2])
-                THD          = float(parts[parts.index("THD:") + 1])
-                THDN         = float(parts[parts.index("THD+N:") + 1])
+                THD = float(parts[parts.index("THD:") + 1])
+                THDN = float(parts[parts.index("THD+N:") + 1])
 
     return voltage, harmonics, THD, THDN
 
-# Parse command-line arguments
-parser = argparse.ArgumentParser(description="Extract and compile harmonics from multiple files.")
-parser.add_argument("files", nargs="+", help="List of spectrum data files")
-parser.add_argument("--output", type=str, help="Save the compiled data as a CSV file")
-args = parser.parse_args()
+# Function to process all files and compile data
+def process_files(file_list):
+    compiled_data = []
 
-# get common file base name:
-basename = os.path.commonprefix([os.path.basename(file) for file in args.files])
+    for filename in file_list:
+        if os.path.exists(filename):
+            voltage, harmonics, THD, THDN = extract_harmonics(filename)
+            compiled_data.append([
+                filename, voltage, THD, THDN, 
+                harmonics.get(2, 0), harmonics.get(3, 0), harmonics.get(4, 0), harmonics.get(5, 0), 
+                harmonics.get(6, 0), harmonics.get(7, 0), harmonics.get(8, 0), harmonics.get(9, 0)
+            ])
 
-# Read data from all files
-compiled_data = []
+    # Convert to DataFrame
+    columns = ["Filename", "Voltage (V-RMS)", "THD (%)", "THD+N (%)", 
+               "H2 (%)", "H3 (%)", "H4 (%)", "H5 (%)", "H6 (%)", "H7 (%)", "H8 (%)", "H9 (%)"]
+    df = pd.DataFrame(compiled_data, columns=columns)
+    df = df.sort_values(by="Voltage (V-RMS)", ascending=True)
 
-for filename in args.files:
-    if os.path.exists(filename):
-        voltage, harmonics, THD, THDN = extract_harmonics(filename)
-        compiled_data.append([filename, voltage, THD, THDN, harmonics[2], harmonics[3], harmonics[4], harmonics[5], harmonics[6], harmonics[7], harmonics[8], harmonics[9]])
+    return df
 
-# Convert to DataFrame
-columns = ["Filename", "Voltage (V-RMS)", "THD (%)", "THD+N (%)", "H2 (%)", "H3 (%)", "H4 (%)", "H5 (%)", "H6 (%)", "H7 (%)", "H8 (%)", "H9 (%)"]
-df = pd.DataFrame(compiled_data, columns=columns)
-df = df.sort_values(by="Voltage (V-RMS)", ascending=True)
+# Function to add a plot to a subplot
+def plot_harmonics(ax, df, label_text, show_legend=False, show_xlabel=False):
+    ax.plot(df["Voltage (V-RMS)"], df["H2 (%)"], marker='.', label="H2 (%)")
+    ax.plot(df["Voltage (V-RMS)"], df["H3 (%)"], marker='.', label="H3 (%)")
+    ax.plot(df["Voltage (V-RMS)"], df["H4 (%)"], marker='.', label="H4 (%)")
+    ax.plot(df["Voltage (V-RMS)"], df["H5 (%)"], marker='.', label="H5 (%)")
 
-# Save or print results
-if args.output:
-    df.to_csv(args.output, index=False)
-    print(f"Harmonic data saved to {args.output}")
-else:
-    print(df)
+    ax.set_xscale("log")
+    ax.set_yscale("log")
 
-# Plot THD, H2, and H3 vs. Voltage
-plt.figure(figsize=(7, 4))
-plt.plot(df["Voltage (V-RMS)"], df["H2 (%)"], marker='.', label="H2 (%)")
-plt.plot(df["Voltage (V-RMS)"], df["H3 (%)"], marker='.', label="H3 (%)")
-plt.plot(df["Voltage (V-RMS)"], df["H4 (%)"], marker='.', label="H4 (%)")
-plt.plot(df["Voltage (V-RMS)"], df["H5 (%)"], marker='.', label="H5 (%)")
+    if show_xlabel:
+        ax.set_xlabel("Fundamental Voltage (V-RMS)")
+    
+    ax.set_ylabel("Harmonic Level")
+    
+    if show_legend:
+        ax.legend()
+    
+    ax.grid(True, which="both", linestyle="--", linewidth=0.5)
 
-# Configure plot
-plt.xscale("log")
-plt.yscale("log")
-plt.xlabel("Fundamental Voltage (V-RMS)")
-plt.ylabel("Harmonic Level")
-if "MU-OUT" in basename:
-    info = "µ Output"
-elif "A-OUT" in basename:
-    info = "Anode Output"
-else:
-    info = "??? Output"
-plt.title("Harmonic Levels vs. Fundamental Voltage (" + info + ")")
-plt.legend()
-plt.grid(True, which="both", linestyle="--", linewidth=0.5)
+    ax.set_ylim(0.0001, 0.1)
+    ax.set_xlim(0.7, 150)
 
-plt.ylim(0.0001, 0.1)
-plt.xlim(0.7, 150)
+    custom_ticks = [1, 3, 10, 30, 100]
+    ax.set_xticks(custom_ticks)
+    ax.set_xticklabels([str(tick) for tick in custom_ticks])
 
-custom_ticks = [1, 3, 10, 30, 100]
-plt.xticks(custom_ticks, [str(tick) for tick in custom_ticks])  # Set non-exponential labels
+    # Custom function to add "%" to y-axis labels
+    def percentage_formatter(x, pos):
+        return f"{x:g}%"
 
-# Custom function to add "%" to y-axis labels
-def percentage_formatter(x, pos):
-    return f"{x:g}%"  # Removes trailing zeros and adds "%"
+    ax.xaxis.set_major_formatter(ticker.ScalarFormatter())
+    ax.yaxis.set_major_formatter(ticker.FuncFormatter(percentage_formatter))
 
+    # Add text label at the top center of each subplot (not bold)
+    ax.text(0.5, 0.92, label_text, transform=ax.transAxes, fontsize=16, ha="center", va="top")
 
-plt.gca().xaxis.set_major_formatter(ticker.ScalarFormatter())  # Disable scientific notation
-### plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter("%g"))  # Removes trailing zeros
-plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(percentage_formatter))
+# Main function
+def main():
+    # Define file search patterns
+    file_patterns = ['OSDEHA_MU-OUT*.txt', 'OSDEHA_A-OUT*.txt']
+    dataframes = {}
+    labels = {}
 
-# Save as PDF
-plt.savefig(basename + "harmonics_vs_voltage.pdf", format="pdf", bbox_inches="tight")
+    for pattern in file_patterns:
+        # Expand wildcards to get actual file list
+        files = glob.glob(pattern)
+        
+        if not files:
+            print(f"Warning: No files found for pattern '{pattern}'")
+            continue  # Skip to next pattern if no matching files are found
 
-# Show plot
-plt.show()
+        # Get common file base name
+        basename = os.path.commonprefix([os.path.basename(file) for file in files])
 
+        # Process files and get DataFrame
+        df = process_files(files)
+        print(df)
+
+        # Store data for plotting
+        dataframes[basename] = df
+        labels[basename] = "μ output" if "MU-OUT" in basename else "Anode output"
+
+    # Create figure with two subplots
+    fig, axs = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+
+    # Plot the first dataset (upper panel)
+    first_basename, first_df = list(dataframes.items())[0]
+    plot_harmonics(axs[0], first_df, labels[first_basename], show_legend=False, show_xlabel=False)
+
+    # Plot the second dataset (lower panel)
+    second_basename, second_df = list(dataframes.items())[1]
+    plot_harmonics(axs[1], second_df, labels[second_basename], show_legend=True, show_xlabel=True)
+
+    # Adjust layout and save figure
+    plt.tight_layout()
+    plt.savefig("harmonics_vs_voltage.pdf", format="pdf", bbox_inches="tight")
+    print("Plot saved as harmonics_vs_voltage.pdf")
+
+    # Show plot
+    plt.show()
+
+# Run the script only if executed directly
+if __name__ == "__main__":
+    main()
 
