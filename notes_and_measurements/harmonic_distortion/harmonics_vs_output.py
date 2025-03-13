@@ -61,10 +61,10 @@ def process_files(file_list):
 
 # Function to add a plot to a subplot
 def plot_harmonics(ax, df, label_text, show_legend=False, show_xlabel=False):
-    ax.plot(df["Voltage (V-RMS)"], df["H2 (%)"], marker='.', label="H2 (%)")
-    ax.plot(df["Voltage (V-RMS)"], df["H3 (%)"], marker='.', label="H3 (%)")
-    ax.plot(df["Voltage (V-RMS)"], df["H4 (%)"], marker='.', label="H4 (%)")
-    ax.plot(df["Voltage (V-RMS)"], df["H5 (%)"], marker='.', label="H5 (%)")
+    ax.plot(df["Voltage (V-RMS)"], df["H2 (%)"], marker='.', label="H2")
+    ax.plot(df["Voltage (V-RMS)"], df["H3 (%)"], marker='.', label="H3")
+    ax.plot(df["Voltage (V-RMS)"], df["H4 (%)"], marker='.', label="H4")
+    ax.plot(df["Voltage (V-RMS)"], df["H5 (%)"], marker='.', label="H5")
 
     ax.set_xscale("log")
     ax.set_yscale("log")
