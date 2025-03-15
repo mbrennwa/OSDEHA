@@ -5,20 +5,11 @@ import numpy as np
 import sys
 from scipy.interpolate import interp1d
 
-# Unicode superscript mapping for exponents
-superscripts = {
-    "2": "²",
-    "3": "³",
-    "4": "⁴",
-    "5": "⁵"
-}
-
-# Function to format x-axis labels using Unicode superscripts
+# Function to format x-axis labels using Hz/kHz
 def custom_x_labels(x, pos):
-    exponent = int(np.log10(x))
-    if exponent == 1:
-        return "10"
-    return f"10{superscripts.get(str(exponent), f'^{exponent}')}"  # Use Unicode, fallback to ^ notation if missing
+    if x < 1000:
+        return f"{int(x)} Hz"
+    return f"{int(x / 1000)} kHz"
 
 # Function to read data from ASCII file
 def read_data(filename):
@@ -105,8 +96,8 @@ plt.semilogx(interp_freqs, mu_interp_vout, color='blue', linestyle='-', label="�
 plt.semilogx(interp_freqs, anode_interp_vout, color='red', linestyle='-', label="Anode output")
 
 # Formatting
-plt.xlabel("Frequency (Hz)")
-plt.xticks([10, 100, 1000, 10000, 100000], [custom_x_labels(x, None) for x in [10, 100, 1000, 10000, 100000]])
+plt.xlabel("Frequency")  # No unit in the label
+plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(custom_x_labels))  # Apply Hz/kHz formatting
 plt.ylabel("Gain (dB relative to 1 kHz)")
 plt.xlim(10, 1E5)
 plt.ylim(-10, 3)
