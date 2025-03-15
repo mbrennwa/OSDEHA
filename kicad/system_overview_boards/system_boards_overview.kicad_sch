@@ -771,7 +771,7 @@
 		)
 		(uuid "787c909d-4749-440f-a02c-5ef8d950f7b2")
 	)
-	(text "MAINS FUSE\n2 x 0.XYZ A"
+	(text "MAINS FUSES\nL+N: 2 A slow"
 		(exclude_from_sim no)
 		(at 23.368 72.898 0)
 		(effects
