@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6dec7393-88f4-4e3c-b2fb-6808c8d6e862")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -76,10 +80,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -100,7 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -112,22 +128,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -173,11 +177,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -293,12 +302,155 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH1"
+				(at 2.54 0.9526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CL60"
+				(at 2.54 -1.5874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth_Protective"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -356,17 +508,6 @@
 				)
 			)
 			(symbol "Earth_Protective_0_1"
-				(circle
-					(center 0 -3.81)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.635 -4.445) (xy 0.635 -4.445)
@@ -395,6 +536,17 @@
 					(pts
 						(xy 0 -3.81) (xy 0 0)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -436,7 +588,212 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(arc
+		(start 109.22 78.74)
+		(mid 109.9639 76.9439)
+		(end 111.76 76.2)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 091a7b08-6881-46d3-8760-c35a87a8c0ac)
+	)
+	(rectangle
+		(start 13.97 40.64)
+		(end 105.41 148.59)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d6cc9c8-8d13-4d95-9b29-d152838ae663)
+	)
+	(arc
+		(start 111.76 76.2)
+		(mid 113.5561 76.9439)
+		(end 114.3 78.74)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23d1e96d-8774-47a5-ad7e-e93b9a61b0b8)
+	)
+	(arc
+		(start 111.76 93.98)
+		(mid 109.9639 93.2361)
+		(end 109.22 91.44)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 318da3e3-b933-499c-a083-8d5ca62412c8)
+	)
+	(rectangle
+		(start 137.16 40.64)
+		(end 281.94 148.59)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3258caef-bde9-42c2-8224-828ff70465ba)
+	)
+	(arc
+		(start 114.3 91.44)
+		(mid 113.5561 93.2361)
+		(end 111.76 93.98)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 374be6ee-8a9b-4571-a2de-b23fd353f752)
+	)
+	(arc
+		(start 111.76 129.54)
+		(mid 109.9639 128.7961)
+		(end 109.22 127)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61d080eb-2a83-44c8-858d-11dd000a95a7)
+	)
+	(arc
+		(start 111.76 104.14)
+		(mid 113.5561 104.8839)
+		(end 114.3 106.68)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ccb02db0-eb7b-4f0f-a290-f3c947a71bee)
+	)
+	(arc
+		(start 109.22 106.68)
+		(mid 109.9639 104.8839)
+		(end 111.76 104.14)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2eb4972-46b3-4cbd-9753-eb89a7ad4f04)
+	)
+	(arc
+		(start 114.3 127)
+		(mid 113.5561 128.7961)
+		(end 111.76 129.54)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb666c0e-d952-4864-ab82-e09dd4d621d0)
+	)
+	(text "U2"
+		(exclude_from_sim no)
+		(at 109.22 132.842 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "06b9edd5-4ef3-4909-8f4d-72589b05b664")
+	)
+	(text "Amplifier Chassis"
+		(exclude_from_sim no)
+		(at 141.224 45.212 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "188b7f42-aed5-4ece-84aa-d9dee9f783bb")
+	)
+	(text "PSU Chassis"
+		(exclude_from_sim no)
+		(at 16.764 45.212 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "787c909d-4749-440f-a02c-5ef8d950f7b2")
+	)
+	(text "MAINS FUSE\n2 x 0.XYZ A"
+		(exclude_from_sim no)
+		(at 23.368 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "957be2bb-53b5-4781-806d-ad9d30161ed1")
+	)
+	(text "U1"
+		(exclude_from_sim no)
+		(at 109.22 74.422 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "cd7f08ac-96ba-4276-988c-506d6a84700d")
 	)
 	(junction
 		(at 182.88 113.03)
@@ -481,6 +838,12 @@
 		(uuid "6935df3a-5518-4058-91c8-f68b8d89ee5f")
 	)
 	(junction
+		(at 31.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714ec2ec-9369-4ad9-a9d2-f50fc5a1748d")
+	)
+	(junction
 		(at 139.7 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -490,7 +853,7 @@
 		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84c63656-8111-4e4f-bd78-306b4d7dbc1e")
+		(uuid "7eb78b54-0b88-47e2-9a11-9ddcc459beb1")
 	)
 	(junction
 		(at 181.61 64.77)
@@ -533,12 +896,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab954296-5dfb-4b1e-8f01-c462e44c0584")
-	)
-	(junction
-		(at 33.02 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af7da1b3-d3ff-484e-bed2-315c92bb641b")
 	)
 	(junction
 		(at 186.69 54.61)
@@ -679,16 +1036,6 @@
 			(type default)
 		)
 		(uuid "0d1d4bcb-de9e-4b9b-9427-9a64aa8c94a4")
-	)
-	(wire
-		(pts
-			(xy 35.56 66.04) (xy 35.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f05bcfa-ae1b-4d34-81cb-955dbe181dfb")
 	)
 	(wire
 		(pts
@@ -950,6 +1297,16 @@
 			(type default)
 		)
 		(uuid "2f14da3b-8ff4-4001-b6db-becd62665a49")
+	)
+	(wire
+		(pts
+			(xy 31.75 86.36) (xy 38.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30012d6b-87b9-4f47-813c-d53ef7aa19e2")
 	)
 	(wire
 		(pts
@@ -1220,16 +1577,6 @@
 			(type default)
 		)
 		(uuid "41728091-4377-4b36-9044-8a748d272950")
-	)
-	(wire
-		(pts
-			(xy 33.02 86.36) (xy 38.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c82d83-75fa-4782-9da2-24d94511a4a6")
 	)
 	(wire
 		(pts
@@ -2014,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 33.02 68.58)
+			(xy 30.48 68.58) (xy 31.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2154,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 68.58) (xy 33.02 86.36)
+			(xy 31.75 68.58) (xy 31.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2222,6 +2569,16 @@
 		)
 		(uuid "c03f0ed5-08f7-43a8-82e7-39fd817adbad")
 	)
+	(wire
+		(pts
+			(xy 35.56 66.04) (xy 35.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c046ec10-27df-4629-a6b5-2de7d66534f5")
+	)
 	(polyline
 		(pts
 			(xy 114.3 78.74) (xy 114.3 91.44)
@@ -2235,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 86.36) (xy 33.02 115.57)
+			(xy 31.75 86.36) (xy 31.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 33.02 115.57)
+			(xy 38.1 115.57) (xy 31.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2716,6 +3073,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 78.74) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e8261f-778c-4141-b03e-29b78f888b7d")
+	)
+	(wire
+		(pts
 			(xy 242.57 60.96) (xy 241.3 60.96)
 		)
 		(stroke
@@ -2813,200 +3180,6 @@
 			(type default)
 		)
 		(uuid "fde0a397-b425-4d6f-ab02-05b2a26b0ca9")
-	)
-	(arc
-		(start 109.22 78.74)
-		(mid 109.9639 76.9439)
-		(end 111.76 76.2)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 091a7b08-6881-46d3-8760-c35a87a8c0ac)
-	)
-	(rectangle
-		(start 13.97 40.64)
-		(end 105.41 148.59)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0d6cc9c8-8d13-4d95-9b29-d152838ae663)
-	)
-	(arc
-		(start 111.76 76.2)
-		(mid 113.5561 76.9439)
-		(end 114.3 78.74)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 23d1e96d-8774-47a5-ad7e-e93b9a61b0b8)
-	)
-	(arc
-		(start 111.76 93.98)
-		(mid 109.9639 93.2361)
-		(end 109.22 91.44)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 318da3e3-b933-499c-a083-8d5ca62412c8)
-	)
-	(rectangle
-		(start 137.16 40.64)
-		(end 281.94 148.59)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3258caef-bde9-42c2-8224-828ff70465ba)
-	)
-	(arc
-		(start 114.3 91.44)
-		(mid 113.5561 93.2361)
-		(end 111.76 93.98)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 374be6ee-8a9b-4571-a2de-b23fd353f752)
-	)
-	(arc
-		(start 111.76 129.54)
-		(mid 109.9639 128.7961)
-		(end 109.22 127)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 61d080eb-2a83-44c8-858d-11dd000a95a7)
-	)
-	(arc
-		(start 111.76 104.14)
-		(mid 113.5561 104.8839)
-		(end 114.3 106.68)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ccb02db0-eb7b-4f0f-a290-f3c947a71bee)
-	)
-	(arc
-		(start 109.22 106.68)
-		(mid 109.9639 104.8839)
-		(end 111.76 104.14)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d2eb4972-46b3-4cbd-9753-eb89a7ad4f04)
-	)
-	(arc
-		(start 114.3 127)
-		(mid 113.5561 128.7961)
-		(end 111.76 129.54)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid eb666c0e-d952-4864-ab82-e09dd4d621d0)
-	)
-	(text "U2"
-		(exclude_from_sim no)
-		(at 109.22 132.842 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "06b9edd5-4ef3-4909-8f4d-72589b05b664")
-	)
-	(text "Amplifier Chassis"
-		(exclude_from_sim no)
-		(at 141.224 45.212 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "188b7f42-aed5-4ece-84aa-d9dee9f783bb")
-	)
-	(text "PSU Chassis"
-		(exclude_from_sim no)
-		(at 16.764 45.212 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "787c909d-4749-440f-a02c-5ef8d950f7b2")
-	)
-	(text "U1"
-		(exclude_from_sim no)
-		(at 109.22 74.422 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cd7f08ac-96ba-4276-988c-506d6a84700d")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3422,9 +3595,83 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 35.56 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edad1ca4-60a7-4bc4-85be-a7f5c535edeb")
+		(property "Reference" "TH1"
+			(at 38.1 73.9774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL60"
+			(at 38.1 76.5174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffb5cd4d-f2a5-4a22-80f2-9f1ac3a4b24a")
+		)
+		(pin "2"
+			(uuid "32b5a2ca-52fa-49fe-b781-eaf2046e6b17")
+		)
+		(instances
+			(project ""
+				(path "/6dec7393-88f4-4e3c-b2fb-6808c8d6e862"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 146.05 123.19)
 		(size 26.67 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3455,43 +3702,43 @@
 		)
 		(pin "DC-RAW+" passive
 			(at 146.05 124.46 180)
+			(uuid "0a99ac52-dbb5-415d-82a0-37fbad88a0ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0a99ac52-dbb5-415d-82a0-37fbad88a0ae")
 		)
 		(pin "DC-RAW-" passive
 			(at 146.05 127 180)
+			(uuid "2e0c69da-e377-4d01-b441-e9cffcb1ece1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2e0c69da-e377-4d01-b441-e9cffcb1ece1")
 		)
 		(pin "FIL+" passive
 			(at 172.72 124.46 0)
+			(uuid "ae85cb46-5a35-4aa8-9cb5-2159f5088f23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae85cb46-5a35-4aa8-9cb5-2159f5088f23")
 		)
 		(pin "FIL-" passive
 			(at 172.72 127 0)
+			(uuid "71f844aa-eec1-4c0a-acba-8a0a32868fb6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "71f844aa-eec1-4c0a-acba-8a0a32868fb6")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3504,6 +3751,10 @@
 	(sheet
 		(at 242.57 135.89)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3533,43 +3784,43 @@
 		)
 		(pin "ANODE" passive
 			(at 242.57 137.16 180)
+			(uuid "7a513160-67e2-463d-a6e9-7f35e50c6cf7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7a513160-67e2-463d-a6e9-7f35e50c6cf7")
 		)
 		(pin "GRID" passive
 			(at 242.57 139.7 180)
+			(uuid "06f85db0-e485-4d1d-931c-7083ca804403")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06f85db0-e485-4d1d-931c-7083ca804403")
 		)
 		(pin "FIL+" passive
 			(at 242.57 142.24 180)
+			(uuid "6a275859-5ee9-4fd7-af49-d171e32a8f7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a275859-5ee9-4fd7-af49-d171e32a8f7e")
 		)
 		(pin "FIL-" passive
 			(at 242.57 144.78 180)
+			(uuid "8ba06a4d-f64c-42b4-abd4-432b9c1bb2f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ba06a4d-f64c-42b4-abd4-432b9c1bb2f6")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3582,6 +3833,10 @@
 	(sheet
 		(at 264.16 93.98)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3611,53 +3866,53 @@
 		)
 		(pin "BIAS" passive
 			(at 276.86 99.06 0)
+			(uuid "5a6c0121-3025-4858-a7cb-cb82a61dcbe1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5a6c0121-3025-4858-a7cb-cb82a61dcbe1")
 		)
 		(pin "L+" passive
 			(at 267.97 93.98 90)
+			(uuid "e966b3ce-b584-4d2e-898e-7573862c9b15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e966b3ce-b584-4d2e-898e-7573862c9b15")
 		)
 		(pin "L-" passive
 			(at 265.43 93.98 90)
+			(uuid "af887790-5706-471f-9c72-73c9ef711353")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "af887790-5706-471f-9c72-73c9ef711353")
 		)
 		(pin "R+" passive
 			(at 265.43 104.14 270)
+			(uuid "93fc675e-f2a4-4778-a93b-edafed84a4db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93fc675e-f2a4-4778-a93b-edafed84a4db")
 		)
 		(pin "R-" passive
 			(at 267.97 104.14 270)
+			(uuid "3ab91cf4-f71b-4c24-8e2d-42f9f49ec298")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ab91cf4-f71b-4c24-8e2d-42f9f49ec298")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3670,6 +3925,10 @@
 	(sheet
 		(at 242.57 52.07)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3699,43 +3958,43 @@
 		)
 		(pin "ANODE" passive
 			(at 242.57 53.34 180)
+			(uuid "cc453a0d-834a-40ad-b39e-81bb83979db0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc453a0d-834a-40ad-b39e-81bb83979db0")
 		)
 		(pin "GRID" passive
 			(at 242.57 55.88 180)
+			(uuid "1a983b2d-1215-4b02-827a-1c27096a2b6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1a983b2d-1215-4b02-827a-1c27096a2b6b")
 		)
 		(pin "FIL+" passive
 			(at 242.57 58.42 180)
+			(uuid "79a40c34-f92d-451f-8f9e-5829f3df3843")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79a40c34-f92d-451f-8f9e-5829f3df3843")
 		)
 		(pin "FIL-" passive
 			(at 242.57 60.96 180)
+			(uuid "e4f6aee1-a467-4d0b-85c6-357b32444483")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e4f6aee1-a467-4d0b-85c6-357b32444483")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3748,6 +4007,10 @@
 	(sheet
 		(at 242.57 90.17)
 		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3777,33 +4040,33 @@
 		)
 		(pin "IN+" passive
 			(at 242.57 91.44 180)
+			(uuid "18f83e43-ff29-4e90-80a7-5357567d9e36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18f83e43-ff29-4e90-80a7-5357567d9e36")
 		)
 		(pin "IN-" passive
 			(at 242.57 93.98 180)
+			(uuid "0563af3b-7658-4556-99aa-833479e66bd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0563af3b-7658-4556-99aa-833479e66bd5")
 		)
 		(pin "CHASSIS" passive
 			(at 242.57 96.52 180)
+			(uuid "2aeab5ad-6952-4e75-bec0-ab17d46a5fe1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2aeab5ad-6952-4e75-bec0-ab17d46a5fe1")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3816,6 +4079,10 @@
 	(sheet
 		(at 146.05 82.55)
 		(size 26.67 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3845,43 +4112,43 @@
 		)
 		(pin "DC-RAW+" passive
 			(at 146.05 83.82 180)
+			(uuid "d61ded4a-d0ae-469d-8b7a-f375c87b858e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d61ded4a-d0ae-469d-8b7a-f375c87b858e")
 		)
 		(pin "DC-RAW-" passive
 			(at 146.05 86.36 180)
+			(uuid "5bd70983-924d-4bff-8ec3-410dc9b599cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5bd70983-924d-4bff-8ec3-410dc9b599cf")
 		)
 		(pin "FIL+" passive
 			(at 172.72 83.82 0)
+			(uuid "ea16acef-91d8-4e9f-88ff-bcbe601251b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ea16acef-91d8-4e9f-88ff-bcbe601251b8")
 		)
 		(pin "FIL-" passive
 			(at 172.72 86.36 0)
+			(uuid "b9ed76af-f167-4cd1-809f-c332afdf6602")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b9ed76af-f167-4cd1-809f-c332afdf6602")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3894,6 +4161,10 @@
 	(sheet
 		(at 242.57 124.46)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3923,43 +4194,43 @@
 		)
 		(pin "ANODE" passive
 			(at 242.57 125.73 180)
+			(uuid "db67fc3e-169c-423c-858c-cc05795d10c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db67fc3e-169c-423c-858c-cc05795d10c0")
 		)
 		(pin "GRID" passive
 			(at 242.57 128.27 180)
+			(uuid "2358d3a5-6327-4545-b3f6-67d0671baa4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2358d3a5-6327-4545-b3f6-67d0671baa4e")
 		)
 		(pin "FIL+" passive
 			(at 242.57 130.81 180)
+			(uuid "5cc89820-7bfc-4088-93e5-cc8c745dd83b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5cc89820-7bfc-4088-93e5-cc8c745dd83b")
 		)
 		(pin "FIL-" passive
 			(at 242.57 133.35 180)
+			(uuid "c3d44e62-3e5a-4523-bc75-7c78e9db7641")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3d44e62-3e5a-4523-bc75-7c78e9db7641")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -3972,6 +4243,10 @@
 	(sheet
 		(at 242.57 100.33)
 		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4001,33 +4276,33 @@
 		)
 		(pin "IN+" passive
 			(at 242.57 101.6 180)
+			(uuid "81e7cb6f-8dd8-430d-a227-d1be3334c18d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81e7cb6f-8dd8-430d-a227-d1be3334c18d")
 		)
 		(pin "IN-" passive
 			(at 242.57 104.14 180)
+			(uuid "74a634de-e780-400e-b358-88418534d633")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "74a634de-e780-400e-b358-88418534d633")
 		)
 		(pin "CHASSIS" passive
 			(at 242.57 106.68 180)
+			(uuid "a2bae0ff-5e43-460f-8db8-c602c589cd62")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a2bae0ff-5e43-460f-8db8-c602c589cd62")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4040,6 +4315,10 @@
 	(sheet
 		(at 242.57 63.5)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4069,43 +4348,43 @@
 		)
 		(pin "ANODE" passive
 			(at 242.57 64.77 180)
+			(uuid "99148408-e3be-4715-907f-9bff4ac58707")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "99148408-e3be-4715-907f-9bff4ac58707")
 		)
 		(pin "GRID" passive
 			(at 242.57 67.31 180)
+			(uuid "b8d3e72d-7145-4ff3-959c-f6fd328ee1e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b8d3e72d-7145-4ff3-959c-f6fd328ee1e7")
 		)
 		(pin "FIL+" passive
 			(at 242.57 69.85 180)
+			(uuid "a2cece19-b69e-49f9-a147-7eb02b37633b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a2cece19-b69e-49f9-a147-7eb02b37633b")
 		)
 		(pin "FIL-" passive
 			(at 242.57 72.39 180)
+			(uuid "b323d352-5885-4e15-ae42-33af0a6a2a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b323d352-5885-4e15-ae42-33af0a6a2a4b")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4118,6 +4397,10 @@
 	(sheet
 		(at 38.1 82.55)
 		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4148,83 +4431,83 @@
 		)
 		(pin "AC-1 (B+)" passive
 			(at 62.23 83.82 0)
+			(uuid "420cd5a3-6afd-4e25-b8ab-7a3eb6b8719c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "420cd5a3-6afd-4e25-b8ab-7a3eb6b8719c")
 		)
 		(pin "AC-2 (B-)" passive
 			(at 62.23 91.44 0)
+			(uuid "64c7328c-f287-4850-b624-772aa277d562")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "64c7328c-f287-4850-b624-772aa277d562")
 		)
 		(pin "AC-2 (B+)" passive
 			(at 62.23 86.36 0)
+			(uuid "8f8dc8f2-fd12-4f4d-84ca-27250b88ee89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f8dc8f2-fd12-4f4d-84ca-27250b88ee89")
 		)
 		(pin "AC-2 (B2-)" passive
 			(at 62.23 96.52 0)
+			(uuid "0094c310-85fb-49de-bfee-c657adcce0ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0094c310-85fb-49de-bfee-c657adcce0ae")
 		)
 		(pin "AC-1 (B-)" passive
 			(at 62.23 88.9 0)
+			(uuid "aba1e339-88ae-41e5-b043-97a2c2cb9b81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aba1e339-88ae-41e5-b043-97a2c2cb9b81")
 		)
 		(pin "AC-1 (B2-)" passive
 			(at 62.23 93.98 0)
+			(uuid "e0914f91-c95e-4252-81ad-2c7cf1a0c2c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0914f91-c95e-4252-81ad-2c7cf1a0c2c0")
 		)
 		(pin "MAINS-1" passive
 			(at 38.1 83.82 180)
+			(uuid "822cf252-8e64-4b36-a6d3-a3d1c6a366a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "822cf252-8e64-4b36-a6d3-a3d1c6a366a7")
 		)
 		(pin "MAINS-2" passive
 			(at 38.1 86.36 180)
+			(uuid "2b3c6734-2970-4c48-9304-44aceb4fdea0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2b3c6734-2970-4c48-9304-44aceb4fdea0")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4237,6 +4520,10 @@
 	(sheet
 		(at 146.05 129.54)
 		(size 26.67 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4266,43 +4553,43 @@
 		)
 		(pin "DC-RAW+" passive
 			(at 146.05 130.81 180)
+			(uuid "2fecf600-140a-46c7-aa87-1331645d66e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2fecf600-140a-46c7-aa87-1331645d66e0")
 		)
 		(pin "DC-RAW-" passive
 			(at 146.05 133.35 180)
+			(uuid "7274798f-19db-4ef7-a75d-07b179e53cd4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7274798f-19db-4ef7-a75d-07b179e53cd4")
 		)
 		(pin "FIL+" passive
 			(at 172.72 130.81 0)
+			(uuid "84fb9b4f-a18c-449e-8d61-d240af3ae959")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "84fb9b4f-a18c-449e-8d61-d240af3ae959")
 		)
 		(pin "FIL-" passive
 			(at 172.72 133.35 0)
+			(uuid "50d6fe5f-a2eb-4cba-b9af-8310acec3636")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "50d6fe5f-a2eb-4cba-b9af-8310acec3636")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4315,6 +4602,10 @@
 	(sheet
 		(at 69.85 82.55)
 		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4345,163 +4636,163 @@
 		)
 		(pin "BIAS" passive
 			(at 92.71 82.55 90)
+			(uuid "0708b2f8-b504-4826-b932-9115c79307c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0708b2f8-b504-4826-b932-9115c79307c3")
 		)
 		(pin "GND" passive
 			(at 101.6 83.82 0)
+			(uuid "f05a8145-a83e-48cd-90b0-61d275a9df2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f05a8145-a83e-48cd-90b0-61d275a9df2f")
 		)
 		(pin "CHASSIS{slash}PE" passive
 			(at 88.9 82.55 90)
+			(uuid "c514566f-28a8-4f69-9b86-54953e3768d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c514566f-28a8-4f69-9b86-54953e3768d4")
 		)
 		(pin "AC-1 (B-)" passive
 			(at 69.85 88.9 180)
+			(uuid "e086b2ce-886e-4053-8694-5dadec376a93")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e086b2ce-886e-4053-8694-5dadec376a93")
 		)
 		(pin "AC-1 (B+)" passive
 			(at 69.85 83.82 180)
+			(uuid "4001f439-7c50-46da-b6df-6ec2f3f0cc5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4001f439-7c50-46da-b6df-6ec2f3f0cc5b")
 		)
 		(pin "AC-1 (B2-)" passive
 			(at 69.85 93.98 180)
+			(uuid "4048eb64-a835-4391-a0d0-ba11401a6f7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4048eb64-a835-4391-a0d0-ba11401a6f7b")
 		)
 		(pin "AC-2 (B2-)" passive
 			(at 69.85 96.52 180)
+			(uuid "5671fb84-ce33-42b4-bd64-281771649abb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5671fb84-ce33-42b4-bd64-281771649abb")
 		)
 		(pin "AC-2 (B+)" passive
 			(at 69.85 86.36 180)
+			(uuid "fee7fcc9-e316-42e2-aa8f-bb6412046c63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fee7fcc9-e316-42e2-aa8f-bb6412046c63")
 		)
 		(pin "AC-2 (B-)" passive
 			(at 69.85 91.44 180)
+			(uuid "6f27ad0e-16fe-4922-bdfc-c22833595e88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6f27ad0e-16fe-4922-bdfc-c22833595e88")
 		)
 		(pin "AC-1 (HEATER)" passive
 			(at 69.85 99.06 180)
+			(uuid "49b1ddea-e0b1-4072-ad13-d8500fced299")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49b1ddea-e0b1-4072-ad13-d8500fced299")
 		)
 		(pin "AC-2 (HEATER)" passive
 			(at 69.85 101.6 180)
+			(uuid "5027696b-57e7-490e-a969-c2e692a2e0b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5027696b-57e7-490e-a969-c2e692a2e0b6")
 		)
 		(pin "HEATER+" passive
 			(at 101.6 106.68 0)
+			(uuid "c375e99f-2e2b-4fc5-ab08-27b71829c7dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c375e99f-2e2b-4fc5-ab08-27b71829c7dc")
 		)
 		(pin "B+" passive
 			(at 101.6 86.36 0)
+			(uuid "41f613f2-19b7-4517-ae44-2d2d3df1c272")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "41f613f2-19b7-4517-ae44-2d2d3df1c272")
 		)
 		(pin "B-" passive
 			(at 101.6 88.9 0)
+			(uuid "e42ca04c-326e-41ef-81eb-2e5dc97a1cc6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e42ca04c-326e-41ef-81eb-2e5dc97a1cc6")
 		)
 		(pin "B2-" passive
 			(at 101.6 91.44 0)
+			(uuid "a77eabbb-9f25-4e6a-9878-0e87f0efcc57")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a77eabbb-9f25-4e6a-9878-0e87f0efcc57")
 		)
 		(pin "GND{slash}HEATER-" passive
 			(at 101.6 109.22 0)
+			(uuid "dc338be1-de5a-4c6e-baaf-43a3572653d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc338be1-de5a-4c6e-baaf-43a3572653d3")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4514,6 +4805,10 @@
 	(sheet
 		(at 199.39 92.71)
 		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4544,83 +4839,83 @@
 		)
 		(pin "IN-L-" passive
 			(at 223.52 96.52 0)
+			(uuid "fadff1d8-d126-4361-93d4-e0bce83f4a0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fadff1d8-d126-4361-93d4-e0bce83f4a0d")
 		)
 		(pin "IN-L+" passive
 			(at 223.52 93.98 0)
+			(uuid "ccd7cd4c-00b9-4eac-95f8-4c5759002b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ccd7cd4c-00b9-4eac-95f8-4c5759002b4f")
 		)
 		(pin "OUT-L+" passive
 			(at 199.39 93.98 180)
+			(uuid "011dde55-0158-4647-b6fe-df41f87c220a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "011dde55-0158-4647-b6fe-df41f87c220a")
 		)
 		(pin "OUT-L-" passive
 			(at 199.39 96.52 180)
+			(uuid "b10bfb45-f786-4af3-9693-024fee1161da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b10bfb45-f786-4af3-9693-024fee1161da")
 		)
 		(pin "IN-R+" passive
 			(at 223.52 99.06 0)
+			(uuid "bc00a0c9-2403-49f4-ba4c-dd2e398d4f9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bc00a0c9-2403-49f4-ba4c-dd2e398d4f9f")
 		)
 		(pin "IN-R-" passive
 			(at 223.52 101.6 0)
+			(uuid "376bafe3-dae2-4194-a151-8b1ffc24dc29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "376bafe3-dae2-4194-a151-8b1ffc24dc29")
 		)
 		(pin "OUT-R+" passive
 			(at 199.39 99.06 180)
+			(uuid "705b32ca-38c0-423c-9003-51d0bd23cb18")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "705b32ca-38c0-423c-9003-51d0bd23cb18")
 		)
 		(pin "OUT-R-" passive
 			(at 199.39 101.6 180)
+			(uuid "5749decc-1cd5-44e7-9efe-2cb865bbfb1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5749decc-1cd5-44e7-9efe-2cb865bbfb1e")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4633,6 +4928,10 @@
 	(sheet
 		(at 69.85 123.19)
 		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4662,43 +4961,43 @@
 		)
 		(pin "AC-1" passive
 			(at 69.85 124.46 180)
+			(uuid "559d613e-65d3-4165-bb72-9116e25e62b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "559d613e-65d3-4165-bb72-9116e25e62b3")
 		)
 		(pin "AC-2" passive
 			(at 69.85 127 180)
+			(uuid "d06296c8-d352-4256-bcbb-3f464b9e1647")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d06296c8-d352-4256-bcbb-3f464b9e1647")
 		)
 		(pin "DC+" passive
 			(at 101.6 124.46 0)
+			(uuid "067f6a59-fdf9-477b-a80c-1f2bca6d8ec1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "067f6a59-fdf9-477b-a80c-1f2bca6d8ec1")
 		)
 		(pin "DC-" passive
 			(at 101.6 127 0)
+			(uuid "b6abb33c-17a4-48bf-8e41-3c5c1e7a0e44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6abb33c-17a4-48bf-8e41-3c5c1e7a0e44")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4711,6 +5010,10 @@
 	(sheet
 		(at 146.05 76.2)
 		(size 26.67 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4741,43 +5044,43 @@
 		)
 		(pin "DC-RAW+" passive
 			(at 146.05 77.47 180)
+			(uuid "79f9236d-3bd5-44e9-ab7d-8a73b600f7c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79f9236d-3bd5-44e9-ab7d-8a73b600f7c0")
 		)
 		(pin "DC-RAW-" passive
 			(at 146.05 80.01 180)
+			(uuid "d4235673-1620-46a3-91d4-8aeb2edcb78e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d4235673-1620-46a3-91d4-8aeb2edcb78e")
 		)
 		(pin "FIL+" passive
 			(at 172.72 77.47 0)
+			(uuid "15f95c49-d752-4806-bce6-cfcb70a13545")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "15f95c49-d752-4806-bce6-cfcb70a13545")
 		)
 		(pin "FIL-" passive
 			(at 172.72 80.01 0)
+			(uuid "f523068e-7b9f-40fc-9070-ba069fc3d4fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f523068e-7b9f-40fc-9070-ba069fc3d4fb")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4790,6 +5093,10 @@
 	(sheet
 		(at 38.1 111.76)
 		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4819,83 +5126,83 @@
 		)
 		(pin "MAINS-1" passive
 			(at 38.1 113.03 180)
+			(uuid "de044395-d309-4205-8613-1b5b7bd3c949")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "de044395-d309-4205-8613-1b5b7bd3c949")
 		)
 		(pin "MAINS-2" passive
 			(at 38.1 115.57 180)
+			(uuid "cbf2db7b-e7a3-4d2b-8760-53968ee9a291")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbf2db7b-e7a3-4d2b-8760-53968ee9a291")
 		)
 		(pin "AC-2 (H)" passive
 			(at 62.23 115.57 0)
+			(uuid "ba9ae4f8-9dba-4db5-83ac-a71d6969a586")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ba9ae4f8-9dba-4db5-83ac-a71d6969a586")
 		)
 		(pin "AC-2 (FIL-L)" passive
 			(at 62.23 120.65 0)
+			(uuid "5f9a840e-3f93-41fd-8c8c-b42b5c66f854")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f9a840e-3f93-41fd-8c8c-b42b5c66f854")
 		)
 		(pin "AC-1 (FIL-R)" passive
 			(at 62.23 123.19 0)
+			(uuid "f493f957-e487-4d43-af92-4a194bd4dda5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f493f957-e487-4d43-af92-4a194bd4dda5")
 		)
 		(pin "AC-1 (FIL-L)" passive
 			(at 62.23 118.11 0)
+			(uuid "cce186ef-9252-4b64-bbac-613f7166fd43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cce186ef-9252-4b64-bbac-613f7166fd43")
 		)
 		(pin "AC-1 (H)" passive
 			(at 62.23 113.03 0)
+			(uuid "c10db0da-b1c4-4c36-bd33-b4d122e48bb5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c10db0da-b1c4-4c36-bd33-b4d122e48bb5")
 		)
 		(pin "AC-2 (FIL-R)" passive
 			(at 62.23 125.73 0)
+			(uuid "ac0903cc-abc3-4d0f-92cd-ed3772f96b2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ac0903cc-abc3-4d0f-92cd-ed3772f96b2f")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4908,6 +5215,10 @@
 	(sheet
 		(at 69.85 116.84)
 		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4938,43 +5249,43 @@
 		)
 		(pin "AC-1" passive
 			(at 69.85 118.11 180)
+			(uuid "a9ac5e4b-98c8-4d02-9712-08078dcd2a64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a9ac5e4b-98c8-4d02-9712-08078dcd2a64")
 		)
 		(pin "AC-2" passive
 			(at 69.85 120.65 180)
+			(uuid "6e485bc2-3a0c-4191-941d-b92384455186")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e485bc2-3a0c-4191-941d-b92384455186")
 		)
 		(pin "DC+" passive
 			(at 101.6 118.11 0)
+			(uuid "d24ad4e2-83c8-446a-ad3c-0f4ec2e5139e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d24ad4e2-83c8-446a-ad3c-0f4ec2e5139e")
 		)
 		(pin "DC-" passive
 			(at 101.6 120.65 0)
+			(uuid "c528bab7-74b9-4ee0-a7f1-b53162ede5fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c528bab7-74b9-4ee0-a7f1-b53162ede5fc")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -4987,6 +5298,10 @@
 	(sheet
 		(at 199.39 120.65)
 		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5017,213 +5332,213 @@
 		)
 		(pin "B+" passive
 			(at 199.39 127 180)
+			(uuid "a750361f-6053-4683-92e4-df435474addd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a750361f-6053-4683-92e4-df435474addd")
 		)
 		(pin "GND" passive
 			(at 218.44 146.05 270)
+			(uuid "bd37cd7e-4978-4d76-a49a-593288fe59bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd37cd7e-4978-4d76-a49a-593288fe59bb")
 		)
 		(pin "B-" passive
 			(at 199.39 129.54 180)
+			(uuid "6a351d69-ae18-4947-9863-9e5807023ccb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a351d69-ae18-4947-9863-9e5807023ccb")
 		)
 		(pin "B2-" passive
 			(at 199.39 132.08 180)
+			(uuid "42380cad-50f5-4e02-a72f-6a8cc1bee249")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42380cad-50f5-4e02-a72f-6a8cc1bee249")
 		)
 		(pin "HEATER+" passive
 			(at 199.39 134.62 180)
+			(uuid "144ffe54-71ba-4c8e-93a7-9c05685ac41b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "144ffe54-71ba-4c8e-93a7-9c05685ac41b")
 		)
 		(pin "HEATER-" passive
 			(at 199.39 137.16 180)
+			(uuid "1e717654-0df4-4824-bcdc-dd24b96d8484")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e717654-0df4-4824-bcdc-dd24b96d8484")
 		)
 		(pin "COLEMANREG1+" passive
 			(at 199.39 139.7 180)
+			(uuid "54a1ec2a-8a05-4d2c-a7d6-74588da17afa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "54a1ec2a-8a05-4d2c-a7d6-74588da17afa")
 		)
 		(pin "COLEMANREG2+" passive
 			(at 199.39 142.24 180)
+			(uuid "f1b7d8f7-503b-4c5e-a1e7-506e9f67e78b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f1b7d8f7-503b-4c5e-a1e7-506e9f67e78b")
 		)
 		(pin "COLEMANREG0" passive
 			(at 199.39 144.78 180)
+			(uuid "d3bb37c8-3ab0-4d9a-90e2-8611eeca507f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3bb37c8-3ab0-4d9a-90e2-8611eeca507f")
 		)
 		(pin "DHT1-A" passive
 			(at 233.68 127 0)
+			(uuid "cff97996-1e33-45ff-afeb-6987823c0fdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cff97996-1e33-45ff-afeb-6987823c0fdb")
 		)
 		(pin "DHT1-F-" passive
 			(at 233.68 134.62 0)
+			(uuid "fe1a9ba1-3c6a-411b-89ae-1a064d6935ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe1a9ba1-3c6a-411b-89ae-1a064d6935ed")
 		)
 		(pin "DHT1-F+" passive
 			(at 233.68 132.08 0)
+			(uuid "ccb7c36c-dee0-48e5-849c-bcbd95376b72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ccb7c36c-dee0-48e5-849c-bcbd95376b72")
 		)
 		(pin "DHT1-G" passive
 			(at 233.68 129.54 0)
+			(uuid "fc2b7059-ebc0-49c7-991f-9e202f56ba0f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc2b7059-ebc0-49c7-991f-9e202f56ba0f")
 		)
 		(pin "DHT2-A" passive
 			(at 233.68 137.16 0)
+			(uuid "d3a4d002-950d-45a5-9ff2-dbe3979b4d29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3a4d002-950d-45a5-9ff2-dbe3979b4d29")
 		)
 		(pin "DHT2-F+" passive
 			(at 233.68 142.24 0)
+			(uuid "ae944268-84ae-4477-a157-5db8984e86c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae944268-84ae-4477-a157-5db8984e86c8")
 		)
 		(pin "DHT2-F-" passive
 			(at 233.68 144.78 0)
+			(uuid "2c4d808e-851a-4b02-bbee-49b7f2f8e1f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c4d808e-851a-4b02-bbee-49b7f2f8e1f6")
 		)
 		(pin "DHT2-G" passive
 			(at 233.68 139.7 0)
+			(uuid "1794eb49-e457-4788-b0d0-c4ae18ffaee1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1794eb49-e457-4788-b0d0-c4ae18ffaee1")
 		)
 		(pin "OUT+" passive
 			(at 233.68 121.92 0)
+			(uuid "748edc54-2cdb-486b-888d-61925d4f77c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "748edc54-2cdb-486b-888d-61925d4f77c8")
 		)
 		(pin "OUT-" passive
 			(at 233.68 124.46 0)
+			(uuid "0183ba9f-cfb1-43d8-81a2-32911edbf661")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0183ba9f-cfb1-43d8-81a2-32911edbf661")
 		)
 		(pin "IN+" passive
 			(at 199.39 121.92 180)
+			(uuid "bbf46b6b-51c7-4908-841a-de4f81d9036c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bbf46b6b-51c7-4908-841a-de4f81d9036c")
 		)
 		(pin "IN-" passive
 			(at 199.39 124.46 180)
+			(uuid "5bafb797-7ec6-4e6d-84db-90f62a01e642")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5bafb797-7ec6-4e6d-84db-90f62a01e642")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -5236,6 +5551,10 @@
 	(sheet
 		(at 199.39 48.26)
 		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5266,213 +5585,213 @@
 		)
 		(pin "B+" passive
 			(at 199.39 54.61 180)
+			(uuid "4343f18c-61c5-4dca-bb01-121f65df5f7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4343f18c-61c5-4dca-bb01-121f65df5f7c")
 		)
 		(pin "GND" passive
 			(at 220.98 48.26 90)
+			(uuid "bcdfb58f-3268-4114-8951-1436a4f7fdc9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bcdfb58f-3268-4114-8951-1436a4f7fdc9")
 		)
 		(pin "B-" passive
 			(at 199.39 57.15 180)
+			(uuid "9c4aea1f-453a-4dcb-bfeb-f403013fe0e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c4aea1f-453a-4dcb-bfeb-f403013fe0e3")
 		)
 		(pin "B2-" passive
 			(at 199.39 59.69 180)
+			(uuid "b3527624-57dc-4d1b-828b-0391426a5f25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b3527624-57dc-4d1b-828b-0391426a5f25")
 		)
 		(pin "HEATER+" passive
 			(at 199.39 62.23 180)
+			(uuid "e1d4deda-6716-4217-bf6a-a350dcdf6467")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e1d4deda-6716-4217-bf6a-a350dcdf6467")
 		)
 		(pin "HEATER-" passive
 			(at 199.39 64.77 180)
+			(uuid "726d4528-8b79-4e70-8304-865a6695d130")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "726d4528-8b79-4e70-8304-865a6695d130")
 		)
 		(pin "COLEMANREG1+" passive
 			(at 199.39 67.31 180)
+			(uuid "405eac59-2471-4500-a4a7-27a993be6e0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "405eac59-2471-4500-a4a7-27a993be6e0d")
 		)
 		(pin "COLEMANREG2+" passive
 			(at 199.39 69.85 180)
+			(uuid "2ce0b443-695c-47e8-8a99-18c86e396900")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2ce0b443-695c-47e8-8a99-18c86e396900")
 		)
 		(pin "COLEMANREG0" passive
 			(at 199.39 72.39 180)
+			(uuid "6760e801-1ab3-4269-a406-b4b605fe018d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6760e801-1ab3-4269-a406-b4b605fe018d")
 		)
 		(pin "DHT1-A" passive
 			(at 233.68 54.61 0)
+			(uuid "ed6119eb-5e79-4ba5-828a-8b07d592f46c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed6119eb-5e79-4ba5-828a-8b07d592f46c")
 		)
 		(pin "DHT1-F-" passive
 			(at 233.68 62.23 0)
+			(uuid "5dab6289-c453-4dd1-b52e-d40f512ad488")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5dab6289-c453-4dd1-b52e-d40f512ad488")
 		)
 		(pin "DHT1-F+" passive
 			(at 233.68 59.69 0)
+			(uuid "c9cd4e76-7710-4fb6-85b9-8a4643aa057f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c9cd4e76-7710-4fb6-85b9-8a4643aa057f")
 		)
 		(pin "DHT1-G" passive
 			(at 233.68 57.15 0)
+			(uuid "edf17f4b-ca41-42ef-b350-a8e408138c7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "edf17f4b-ca41-42ef-b350-a8e408138c7b")
 		)
 		(pin "DHT2-A" passive
 			(at 233.68 64.77 0)
+			(uuid "97c59228-88f6-4944-ac5b-2e3db70402d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97c59228-88f6-4944-ac5b-2e3db70402d3")
 		)
 		(pin "DHT2-F+" passive
 			(at 233.68 69.85 0)
+			(uuid "4d1722e9-1dbf-4630-9550-4fad0965c991")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d1722e9-1dbf-4630-9550-4fad0965c991")
 		)
 		(pin "DHT2-F-" passive
 			(at 233.68 72.39 0)
+			(uuid "7021774a-1d6b-4c66-8902-fc40a4107341")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7021774a-1d6b-4c66-8902-fc40a4107341")
 		)
 		(pin "DHT2-G" passive
 			(at 233.68 67.31 0)
+			(uuid "5dd3c78b-0d7e-456a-aaeb-6668a3dc6e25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5dd3c78b-0d7e-456a-aaeb-6668a3dc6e25")
 		)
 		(pin "OUT+" passive
 			(at 233.68 49.53 0)
+			(uuid "8643aa3f-6b60-4eb4-baa0-42f3a4355624")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8643aa3f-6b60-4eb4-baa0-42f3a4355624")
 		)
 		(pin "OUT-" passive
 			(at 233.68 52.07 0)
+			(uuid "747c3f44-2cd4-4a6b-bb92-a2195107a20a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "747c3f44-2cd4-4a6b-bb92-a2195107a20a")
 		)
 		(pin "IN+" passive
 			(at 199.39 49.53 180)
+			(uuid "ea0e7c30-c1f1-4b0f-bb5f-0c7f28f39704")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ea0e7c30-c1f1-4b0f-bb5f-0c7f28f39704")
 		)
 		(pin "IN-" passive
 			(at 199.39 52.07 180)
+			(uuid "0dcae891-8ac3-4362-bd37-87a43d67c0f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0dcae891-8ac3-4362-bd37-87a43d67c0f5")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -5485,6 +5804,10 @@
 	(sheet
 		(at 16.51 62.23)
 		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5515,33 +5838,33 @@
 		)
 		(pin "MAINS AC-1" passive
 			(at 30.48 66.04 0)
+			(uuid "af77c1d8-bc6f-49c7-925d-3babada4f171")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "af77c1d8-bc6f-49c7-925d-3babada4f171")
 		)
 		(pin "MAINS AC-2" passive
 			(at 30.48 68.58 0)
+			(uuid "964a2d5c-850b-4871-9e95-8ce9282112cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "964a2d5c-850b-4871-9e95-8ce9282112cd")
 		)
 		(pin "EARTH" passive
 			(at 30.48 63.5 0)
+			(uuid "34e2a37e-51e6-4c7f-9a17-b2d7a7b46368")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "34e2a37e-51e6-4c7f-9a17-b2d7a7b46368")
 		)
 		(instances
 			(project "system_boards_overview"
@@ -5556,4 +5879,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

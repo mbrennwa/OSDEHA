@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4217a151-8a21-41e6-8738-6cd396529ac5")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "FIL-"
 		(shape passive)
 		(at 102.87 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "ANODE"
 		(shape passive)
 		(at 102.87 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "FIL+"
 		(shape passive)
 		(at 102.87 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "GRID"
 		(shape passive)
 		(at 102.87 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

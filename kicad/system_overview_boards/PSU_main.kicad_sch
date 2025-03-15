@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0c9cf066-8ef2-44da-a251-82a06f9a0a7c")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "HEATER+"
 		(shape passive)
 		(at 125.73 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "AC-1 (B-)"
 		(shape passive)
 		(at 125.73 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "AC-2 (B2-)"
 		(shape passive)
 		(at 144.78 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "B2-"
 		(shape passive)
 		(at 125.73 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +52,6 @@
 	(hierarchical_label "B+"
 		(shape passive)
 		(at 125.73 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +63,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 125.73 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -80,7 +74,6 @@
 	(hierarchical_label "AC-2 (B-)"
 		(shape passive)
 		(at 144.78 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -92,7 +85,6 @@
 	(hierarchical_label "AC-1 (B+)"
 		(shape passive)
 		(at 125.73 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,7 +96,6 @@
 	(hierarchical_label "AC-1 (HEATER)"
 		(shape passive)
 		(at 125.73 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -116,7 +107,6 @@
 	(hierarchical_label "AC-2 (HEATER)"
 		(shape passive)
 		(at 144.78 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -128,7 +118,6 @@
 	(hierarchical_label "GND{slash}HEATER-"
 		(shape passive)
 		(at 125.73 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -140,7 +129,6 @@
 	(hierarchical_label "AC-2 (B+)"
 		(shape passive)
 		(at 144.78 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -152,7 +140,6 @@
 	(hierarchical_label "AC-1 (B2-)"
 		(shape passive)
 		(at 125.73 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -164,7 +151,6 @@
 	(hierarchical_label "CHASSIS{slash}PE"
 		(shape passive)
 		(at 125.73 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -176,7 +162,6 @@
 	(hierarchical_label "B-"
 		(shape passive)
 		(at 125.73 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -188,7 +173,6 @@
 	(hierarchical_label "BIAS"
 		(shape passive)
 		(at 125.73 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

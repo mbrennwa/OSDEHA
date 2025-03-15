@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "bd77d180-1c9b-4248-ba7a-87106e3bbf11")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "DHT2-G"
 		(shape passive)
 		(at 127 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "DHT2-F-"
 		(shape passive)
 		(at 127 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "B-"
 		(shape passive)
 		(at 127 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "OUT+"
 		(shape passive)
 		(at 127 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +52,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 127 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +63,6 @@
 	(hierarchical_label "DHT1-F-"
 		(shape passive)
 		(at 127 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -80,7 +74,6 @@
 	(hierarchical_label "COLEMANREG1+"
 		(shape passive)
 		(at 127 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -92,7 +85,6 @@
 	(hierarchical_label "B2-"
 		(shape passive)
 		(at 127 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,7 +96,6 @@
 	(hierarchical_label "COLEMANREG0"
 		(shape passive)
 		(at 127 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -116,7 +107,6 @@
 	(hierarchical_label "DHT2-A"
 		(shape passive)
 		(at 127 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -128,7 +118,6 @@
 	(hierarchical_label "HEATER-"
 		(shape passive)
 		(at 127 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -140,7 +129,6 @@
 	(hierarchical_label "IN-"
 		(shape passive)
 		(at 127 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -152,7 +140,6 @@
 	(hierarchical_label "COLEMANREG2+"
 		(shape passive)
 		(at 127 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -164,7 +151,6 @@
 	(hierarchical_label "DHT2-F+"
 		(shape passive)
 		(at 127 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -176,7 +162,6 @@
 	(hierarchical_label "DHT1-A"
 		(shape passive)
 		(at 127 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -188,7 +173,6 @@
 	(hierarchical_label "DHT1-F+"
 		(shape passive)
 		(at 127 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -200,7 +184,6 @@
 	(hierarchical_label "DHT1-G"
 		(shape passive)
 		(at 127 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -212,7 +195,6 @@
 	(hierarchical_label "IN+"
 		(shape passive)
 		(at 127 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,7 +206,6 @@
 	(hierarchical_label "B+"
 		(shape passive)
 		(at 127 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -236,7 +217,6 @@
 	(hierarchical_label "HEATER+"
 		(shape passive)
 		(at 127 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -248,7 +228,6 @@
 	(hierarchical_label "OUT-"
 		(shape passive)
 		(at 127 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
