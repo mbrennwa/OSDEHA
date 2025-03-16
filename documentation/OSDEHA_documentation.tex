@@ -253,17 +253,16 @@ DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
 
 \begin{itemize}
   \item Maximum audio output: \SI{1640}{\unitVpp} into \SI{100}{pF}
-  % \item Input sensitivity for full output: \SI{XYZ}{\unitVpp}
+  \item Voltage gain: $230 \times$ (\SI{47}{dB})
+  \item Input sensitivity for full output: \SI{7}{\unitVpp} (\SI{2.5}{\unitVrms} sine)
   \item Input impedance (balanced): \SI{20}{k\Ohm}
-  % \item Voltage gain: $XYZ \times$
-  \item Frequency response with \SI{100}{pF} load ($-\SI{0.5}{dB}$)\\
-        $\mu$-output: \SI{28}{Hz} to \SI{33}{kHz}\\
-        Anode-output: \SI{24}{Hz} to \SI{21}{kHz}\\
-        See \figr{frequency_response}
+
+  \item Frequency response with \SI{100}{pF} load (\figr{frequency_response}):\\
+        $\mu$-output: \SI{28}{Hz} to \SI{33}{kHz}, $-\SI{0.5}{dB}$\\
+        Anode-output: \SI{24}{Hz} to \SI{21}{kHz}, $-\SI{0.5}{dB}$\\
   % \item Signal to noise ratio: \SI{XYZ}{dB}
   % \item Crosstalk: Measures signal leakage between channels, expressed in dB (e.g., <-90dB @ 1kHz).
-  \item Harmonic distortion: $< \SI{0.04}{\%}$ at \SI{100}{\unitVrms} / \SI{282}{\unitVpp} output\\
-        See \figr{harmonics_vs_voltage} 
+  \item Harmonic distortion (\figr{harmonics_vs_voltage}): $< \SI{0.04}{\%}$ at \SI{100}{\unitVrms} / \SI{282}{\unitVpp} output
   % \item Intermodulation Distortion (IMD): see \figr{imd} (use multitone test from REW)
   % \item Power consumption: \SI{XYZ}{W}
 \end{itemize}
