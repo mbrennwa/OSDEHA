@@ -108,6 +108,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -8868,6 +8869,18 @@
 			(layer "F.Fab")
 			(uuid "561db3bd-e069-4c1e-9437-1dbbc0fcbce4")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 8.245 0.012 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d5db0dd-47cd-4f6c-a458-cbb1d66da026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.905 2)
@@ -12398,7 +12411,7 @@
 				)
 			)
 		)
-		(property "Value" "43V"
+		(property "Value" "47V"
 			(at 9.5 1.5 0)
 			(layer "F.Fab")
 			(uuid "cbcf24a6-ecfa-4abf-8813-53f5b1864b53")
@@ -12435,7 +12448,7 @@
 				)
 			)
 		)
-		(property "MPN" "ZY43"
+		(property "MPN" "ZY47"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
