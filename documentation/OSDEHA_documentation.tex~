@@ -243,26 +243,16 @@ The process of building, testing, and adjusting the OSDEHA is best carried out s
 
 \section{Specifications and Test Results}
 
-TESTS AND MEASUREMENTS
-
-OUTPUT BEFORE CLIPPING
-
-FREUQNECY RESPONSE
-
-DISTORTION MEASUREMENTS (THD, IMD, SPECTRA)
-
 \begin{itemize}
   \item Maximum audio output: \SI{1640}{\unitVpp} into \SI{100}{pF}
   \item Voltage gain: $230 \times$ (\SI{47}{dB})
   \item Input sensitivity for full output: \SI{7}{\unitVpp} (\SI{2.5}{\unitVrms} sine)
   \item Input impedance (balanced): \SI{20}{k\Ohm}
-
   \item Frequency response with \SI{100}{pF} load (\figr{frequency_response}):\\
         $\mu$-output: \SI{28}{Hz} to \SI{33}{kHz}, $-\SI{0.5}{dB}$\\
-        Anode-output: \SI{24}{Hz} to \SI{21}{kHz}, $-\SI{0.5}{dB}$\\
-  % \item Signal to noise ratio: \SI{XYZ}{dB}
-  % \item Crosstalk: Measures signal leakage between channels, expressed in dB (e.g., <-90dB @ 1kHz).
-  \item Harmonic distortion (\figr{harmonics_vs_voltage}): $< \SI{0.04}{\%}$ at \SI{100}{\unitVrms} / \SI{282}{\unitVpp} output
+        Anode-output: \SI{24}{Hz} to \SI{21}{kHz}, $-\SI{0.5}{dB}$
+  \item Crosstalk: $\SI{90}{dB}$ (\SI{1}{kHz})
+  \item Harmonic distortion (\figr{harmonics_vs_voltage}): $< \SI{0.04}{\%}$ (\SI{1}{kHz}, \SI{100}{\unitVrms} output)
   % \item Intermodulation Distortion (IMD): see \figr{imd} (use multitone test from REW)
   % \item Power consumption: \SI{XYZ}{W}
 \end{itemize}

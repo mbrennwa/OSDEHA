@@ -20,6 +20,8 @@ XLR input socket	2	Neutrik	NC3FD-L-B-1, 3 contacts, female
 IEC mains inlet	1	Schurter	KM00.1105.11
 IEC mains inlet fuse holder	1	Schurter	4301.1401
 Mains fuse	2		5$\times$20\,mm
+Mains transformer (HV)	1	Toroidy	2$\times$350\,VAC / 200\,mA, 1$\times$420\,VAC / 70\,mA
+Mains transformer (HTR+FIL)	1	Toroidy	3$\times$9\,VAC / 4.5\,A
 Power supply outlet socket (HV)	1	Amphenol	MS3102E18-8S
 Amplifier power socket (HV)	1	Amphenol	MS3102E18-8P
 Umbilical connector (HV/PSU)	1	Amphenol	MS3106E18-8P
